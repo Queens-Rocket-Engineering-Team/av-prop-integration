@@ -1411,7 +1411,88 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "26e9fa8e-dc7a-4726-a5cd-1b2e3508006c")
+		(uuid "26e9fa8e-dc7a-4726-a5cd-1b2e3508006d")
+	)
+	(text "common-mode decoupling to reduce \nhigh-frequency interference on both lines."
+		(exclude_from_sim no)
+		(at 248.412 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "33665e00-b51d-4319-8fc4-f72fe1cf3533")
+	)
+	(text "0.1uF chosen as it is large enough to shunt unwanted\nlow-frequency noise but small enough so that it won't distort\nor slow the TC's true signal\n\nthe 0805 package chosen to avoid DC bias aging due \nto physically larger dielectric layers"
+		(exclude_from_sim no)
+		(at 248.412 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a6587809-d243-4199-b83a-9c7cc0145e95")
+	)
+	(text "decoupling for low-frequency \ndifferential-mode noise suppression. "
+		(exclude_from_sim no)
+		(at 247.65 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d11cede0-6402-4d8c-8d2d-f5335d4ce665")
+	)
+	(text "place as close as possible to thermocouple input\nto minimize inductance and prevent noise pickup"
+		(exclude_from_sim no)
+		(at 218.694 56.388 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d1d2c160-112e-46fa-9cfd-97d7483d6c71")
+	)
+	(text "resource for decoupling circuit"
+		(exclude_from_sim no)
+		(at 169.164 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d334c72a-395e-4292-bf0f-7d616319263b")
+	)
+	(text "1 nF chosen in the 0603 package due to its higher\nself-resonant-frequnecy, allowing it to filter\nHF noise coming from TC leads.\n\nthe smaller 0603 package also has a lower ESL \nwhich shifts the SRF higher"
+		(exclude_from_sim no)
+		(at 249.174 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d3eb4e66-fb67-477f-af27-8a893fbbe8cc")
+	)
+	(text "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/73/common-mode-and-differential-filter.pdf"
+		(exclude_from_sim no)
+		(at 217.932 132.842 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/73/common-mode-and-differential-filter.pdf")
+		)
+		(uuid "ef00763b-7c85-4d26-8203-df603f398a6b")
 	)
 	(hierarchical_label "TC_P"
 		(shape input)
@@ -2126,7 +2207,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d4021b4-4182-46be-8363-766275d11655")
+			(uuid "7d4021b4-4182-46be-8363-766275d11656")
 		)
 		(instances
 			(project "upper_lc_board"
@@ -2198,7 +2279,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "582d9747-2ea0-4902-884b-2a355bc05b55")
+			(uuid "582d9747-2ea0-4902-884b-2a355bc05b56")
 		)
 		(instances
 			(project "upper_lc_board"
@@ -3072,7 +3153,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "89a16036-372e-492f-b45d-aeaecfdc1a14")
+			(uuid "89a16036-372e-492f-b45d-aeaecfdc1a15")
 		)
 		(instances
 			(project "upper_lc_board"
@@ -3391,7 +3472,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed29503e-231f-4954-8dce-b74dc74e0ae5")
+			(uuid "ed29503e-231f-4954-8dce-b74dc74e0ae6")
 		)
 		(instances
 			(project "upper_lc_board"
@@ -3855,7 +3936,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "27959e5a-0c59-4e0a-94f8-e0daf658e102")
+			(uuid "27959e5a-0c59-4e0a-94f8-e0daf658e103")
 		)
 		(instances
 			(project "upper_lc_board"
@@ -3870,6 +3951,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

@@ -1226,6 +1226,50 @@
 		)
 		(uuid "cc2640a2-5f61-4831-b2e3-69ea5b45b251")
 	)
+	(text "parallel decoupling circuit at the PT connector positive\nto suppress fast and slow transients and provide effective decoupling.\n\n0.1 µF for high-frequency noise, 10 µF for bulk transient suppression."
+		(exclude_from_sim no)
+		(at 118.364 120.142 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "2c8d1d75-dd2b-4295-8256-d03c6c5ae050")
+	)
+	(text "place the 0.1uF closer to the SOL input due to faster responsiveness (HF filter)\nthe larger cap handles LF, therefore slightly less sensitive to placement\n"
+		(exclude_from_sim no)
+		(at 119.38 136.652 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "34cdc204-0f24-4c59-a373-91c1be1ce8e3")
+	)
+	(text "package choice also affected by DC Bias Effect, higher cap MLCCs \nin smaller packages lose a significant pct of their effective\ncapacitance."
+		(exclude_from_sim no)
+		(at 168.91 129.54 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "906d080f-5acc-4ab1-9344-cc4d4e81a984")
+	)
+	(text "0.1 µF in 0805 for low parasitics and fast HF response; \n10 µF in 1206 for larger bulk charge."
+		(exclude_from_sim no)
+		(at 118.364 128.778 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a201d5e0-07ed-41eb-99cf-9d82239c18eb")
+	)
 	(hierarchical_label "CLAMPED"
 		(shape input)
 		(at 154.94 95.25 0)
@@ -2244,6 +2288,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
