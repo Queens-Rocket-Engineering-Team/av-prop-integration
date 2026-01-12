@@ -3815,6 +3815,7 @@
 	)
 	(label "GPIO_11"
 		(at 203.2 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3826,6 +3827,7 @@
 	)
 	(label "USB_P"
 		(at 172.72 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3837,6 +3839,7 @@
 	)
 	(label "GPIO_09"
 		(at 77.47 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3847,6 +3850,7 @@
 	)
 	(label "GPIO_45"
 		(at 107.95 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3858,6 +3862,7 @@
 	)
 	(label "GPIO_02"
 		(at 77.47 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3868,6 +3873,7 @@
 	)
 	(label "GPIO_41"
 		(at 83.82 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3879,6 +3885,7 @@
 	)
 	(label "GPIO_01"
 		(at 77.47 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3889,6 +3896,7 @@
 	)
 	(label "GPIO_37"
 		(at 107.95 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3899,6 +3907,7 @@
 	)
 	(label "GPIO_38"
 		(at 107.95 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3909,6 +3918,7 @@
 	)
 	(label "USB_P"
 		(at 107.95 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3920,6 +3930,7 @@
 	)
 	(label "GPIO_37"
 		(at 228.6 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3930,6 +3941,7 @@
 	)
 	(label "GPIO_48"
 		(at 107.95 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3941,6 +3953,7 @@
 	)
 	(label "GPIO_35"
 		(at 228.6 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3952,6 +3965,7 @@
 	)
 	(label "GPIO_12"
 		(at 203.2 118.11 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3963,6 +3977,7 @@
 	)
 	(label "GPIO_36"
 		(at 228.6 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3974,6 +3989,7 @@
 	)
 	(label "GPIO_36"
 		(at 107.95 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3985,6 +4001,7 @@
 	)
 	(label "GPIO_03"
 		(at 77.47 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3996,6 +4013,7 @@
 	)
 	(label "GPIO_03"
 		(at 203.2 102.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4007,6 +4025,7 @@
 	)
 	(label "GPIO_39"
 		(at 107.95 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4017,6 +4036,7 @@
 	)
 	(label "GPIO_45"
 		(at 114.3 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4028,6 +4048,7 @@
 	)
 	(label "GPIO_13"
 		(at 203.2 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4039,6 +4060,7 @@
 	)
 	(label "GPIO_35"
 		(at 107.95 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4050,6 +4072,7 @@
 	)
 	(label "ESP32_EN"
 		(at 68.58 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4060,6 +4083,7 @@
 	)
 	(label "GPIO_40"
 		(at 101.6 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4070,6 +4094,7 @@
 	)
 	(label "GPIO_18"
 		(at 228.6 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4081,6 +4106,7 @@
 	)
 	(label "GPIO_14"
 		(at 77.47 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4092,6 +4118,7 @@
 	)
 	(label "ESP32_IO0"
 		(at 77.47 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4102,6 +4129,7 @@
 	)
 	(label "GPIO_38"
 		(at 205.74 57.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4112,6 +4140,7 @@
 	)
 	(label "GPIO_01"
 		(at 203.2 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4122,6 +4151,7 @@
 	)
 	(label "GPIO_42"
 		(at 107.95 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4133,6 +4163,7 @@
 	)
 	(label "GPIO_14"
 		(at 203.2 125.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4144,6 +4175,7 @@
 	)
 	(label "ESP32_IO0"
 		(at 167.64 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4154,6 +4186,7 @@
 	)
 	(label "GPIO_41"
 		(at 107.95 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4165,6 +4198,7 @@
 	)
 	(label "GPIO_42"
 		(at 64.77 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4175,6 +4209,7 @@
 	)
 	(label "GPIO_48"
 		(at 228.6 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4186,6 +4221,7 @@
 	)
 	(label "GPIO_12"
 		(at 77.47 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4197,6 +4233,7 @@
 	)
 	(label "GPIO_10"
 		(at 77.47 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4207,6 +4244,7 @@
 	)
 	(label "GPIO_11"
 		(at 77.47 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4218,6 +4256,7 @@
 	)
 	(label "GPIO_10"
 		(at 203.2 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4228,6 +4267,7 @@
 	)
 	(label "GPIO_40"
 		(at 107.95 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4238,6 +4278,7 @@
 	)
 	(label "GPIO_02"
 		(at 203.2 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4248,6 +4289,7 @@
 	)
 	(label "USB_N"
 		(at 172.72 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4259,6 +4301,7 @@
 	)
 	(label "GPIO_13"
 		(at 77.47 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4270,6 +4313,7 @@
 	)
 	(label "GPIO_39"
 		(at 205.74 54.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4280,6 +4324,7 @@
 	)
 	(label "GPIO_09"
 		(at 203.2 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4290,6 +4335,7 @@
 	)
 	(label "GPIO_18"
 		(at 107.95 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4301,6 +4347,7 @@
 	)
 	(label "ESP32_EN"
 		(at 167.64 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4311,6 +4358,7 @@
 	)
 	(label "USB_N"
 		(at 107.95 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
