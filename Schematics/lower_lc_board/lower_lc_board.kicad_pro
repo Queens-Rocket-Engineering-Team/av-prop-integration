@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sensor_module.kicad_pro",
+    "filename": "lower_lc_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -384,20 +384,44 @@
   },
   "sheets": [
     [
-      "000b68e4-ef06-4c20-b636-7369874d2a55",
+      "d63798c4-e363-437e-9012-e4aff32e6642",
       "Root"
     ],
     [
-      "053ff26d-da11-4577-8dd0-32aaebff2a7b",
+      "925ef91a-c900-4b94-a159-606c279d7192",
+      "STM32 Breakout Circuitry"
+    ],
+    [
+      "ea1dc739-d1f4-46a0-a090-2a1bf39da427",
+      "Power Circuitry"
+    ],
+    [
+      "762489dd-fdf2-4f5c-8c0c-d0a6195d3f58",
+      "Valve Control Circuitry"
+    ],
+    [
+      "c6419db7-28a9-4bfa-8244-fc88166c795c",
+      "Sensing Circuitry"
+    ],
+    [
+      "b32c9da1-3632-45cf-9fa2-2747a45f88ee",
       "PT-1"
     ],
     [
-      "3fcdaac5-2869-40f8-b925-cf310375456d",
+      "04099e68-2fb2-4ed9-b47f-64e383012a5e",
       "PT-2"
     ],
     [
-      "911e7585-9a9d-4803-9ce9-9fc1f19be4ae",
+      "0f673b05-1261-4d55-8b13-e3d5496cfefa",
       "TC Conditoning + CJC"
+    ],
+    [
+      "294431a1-b811-4a1d-b2a9-ae58ba2678b8",
+      "Valve Control 1"
+    ],
+    [
+      "ba318d50-d24b-43da-9443-1d352fb2a38b",
+      "Valve Control 2"
     ]
   ],
   "text_variables": {}
