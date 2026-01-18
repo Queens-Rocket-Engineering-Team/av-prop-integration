@@ -15734,6 +15734,17 @@
 				(xyz -90 0 180)
 			)
 		)
+		(model "C:/Users/jeeva/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/S02B-PASK-2.stp"
+			(offset
+				(xyz -2 8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -19616,6 +19627,17 @@
 				(xyz -90 0 180)
 			)
 		)
+		(model "C:/Users/jeeva/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/S02B-PASK-2.stp"
+			(offset
+				(xyz -2 8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -20396,6 +20418,17 @@
 			(uuid "5358050a-332a-4751-bf35-00bd6eeab89c")
 		)
 		(model "C:/Users/Jeevan/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/S04B-PASK-2.STEP"
+			(offset
+				(xyz 3 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "C:/Users/jeeva/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/S04B-PASK-2.STEP"
 			(offset
 				(xyz 3 2.5 0)
 			)
@@ -21896,6 +21929,17 @@
 			(uuid "4141c81e-77bd-4bc8-92ea-4df24ce05f6d")
 		)
 		(model "C:/Users/Jeevan/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/S04B-PASK-2.STEP"
+			(offset
+				(xyz 3 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "C:/Users/jeeva/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/S04B-PASK-2.STEP"
 			(offset
 				(xyz 3 2.5 0)
 			)
@@ -29521,6 +29565,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "C:/Users/jeeva/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/ISO1042BDWVR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -33257,6 +33312,17 @@
 				(xyz -90 0 0)
 			)
 		)
+		(model "C:/Users/jeeva/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/ADS131M04IPWR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -33500,7 +33566,7 @@
 	(footprint "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm"
 		(layer "F.Cu")
 		(uuid "eeb9611c-006c-45bc-aac7-c4d05f1bdd0c")
-		(at 109.07 72.54)
+		(at 159.75 88.9)
 		(descr "QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=283), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U8"
@@ -36064,6 +36130,17 @@
 				(xyz -90 0 -180)
 			)
 		)
+		(model "C:/Users/jeeva/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/S02B-PASK-2.stp"
+			(offset
+				(xyz -2 8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
 	)
 	(footprint "S02B_PASK_2:CONN2_S02B-PASK-2_JST"
 		(layer "B.Cu")
@@ -36345,6 +36422,17 @@
 		(model "C:/Users/Jeevan/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/S02B-PASK-2.stp"
 			(offset
 				(xyz -2 8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 -180)
+			)
+		)
+		(model "C:/Users/jeeva/Documents/GitHub/propulsion-integration/Schematics/upper_lc_board/models/S02B-PASK-2.stp"
+			(offset
+				(xyz -2 8.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
