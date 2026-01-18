@@ -1077,16 +1077,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 90.17 62.23 0)
+		(at 85.09 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b78ad3fa-824d-4559-b633-cf6953fa0d62")
 		(property "Reference" "J2"
-			(at 91.44 62.2299 0)
+			(at 86.36 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1094,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 91.44 64.7699 0)
+			(at 86.36 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,17 +1102,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 90.17 62.23 0)
+		(property "Footprint" "footprints:CONN_2-1445057-2_TYCO"
+			(at 89.154 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 62.23 0)
+			(at 85.09 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1120,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 90.17 62.23 0)
+			(at 85.09 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
