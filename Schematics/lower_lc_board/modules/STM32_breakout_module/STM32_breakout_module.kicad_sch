@@ -5424,10 +5424,6 @@
 		(uuid "b28ddf30-f10a-4e88-a077-cca0f180975a")
 	)
 	(no_connect
-		(at 41.91 88.9)
-		(uuid "be8bb8e4-e540-496b-8da4-6fb1483b2ac0")
-	)
-	(no_connect
 		(at 261.62 88.9)
 		(uuid "df3bb747-5225-4005-96d5-2bb5b3939dfe")
 	)
@@ -7748,6 +7744,28 @@
 		(uuid "d57a8b98-41d0-4d0b-89cb-f9ce513c1129")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.0954 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENS_LED"
+		(shape input)
+		(at 41.91 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8c28483-3848-4105-8561-e3c3817224f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.6116 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
