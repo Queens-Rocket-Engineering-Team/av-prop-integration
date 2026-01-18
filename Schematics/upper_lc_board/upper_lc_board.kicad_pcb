@@ -704,7 +704,7 @@
 			)
 		)
 		(property "Value" "100uF_50V"
-			(at 0 4.35 -90)
+			(at 0 4.35 90)
 			(layer "F.Fab")
 			(uuid "cdf0907c-5ba1-4c5d-b817-8ef2a5ae421e")
 			(effects
@@ -1103,7 +1103,7 @@
 			(uuid "a929255c-d67b-4e9a-aa86-673222236cc3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "dba6f96a-30d9-463e-8609-bce097751c3d")
 			(effects

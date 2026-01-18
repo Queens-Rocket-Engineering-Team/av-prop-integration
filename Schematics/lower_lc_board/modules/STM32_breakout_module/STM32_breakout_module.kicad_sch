@@ -6563,30 +6563,6 @@
 		)
 		(uuid "f5735de7-67d0-44b9-96fa-abb758bff66e")
 	)
-	(label "USB_N"
-		(at 134.62 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "1725eed7-7cfe-48cc-92bb-644b62dcb481")
-	)
-	(label "USB_P"
-		(at 134.62 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "4da2e007-3c87-474f-a68c-849811ff0e95")
-	)
 	(global_label "OSC_IN"
 		(shape input)
 		(at 41.91 58.42 180)
@@ -6895,6 +6871,28 @@
 			)
 		)
 	)
+	(global_label "USB_P"
+		(shape input)
+		(at 134.62 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2977b588-1719-4e39-8b72-3c608d8a0d04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.6528 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FL_CS"
 		(shape input)
 		(at 173.99 40.64 180)
@@ -6983,28 +6981,6 @@
 			)
 		)
 	)
-	(global_label "PT_LED"
-		(shape input)
-		(at 81.28 101.6 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "404cf8d4-ccc5-4f9a-a885-5bb409ccd730")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 91.9625 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 86.36 165.1 270)
@@ -7071,6 +7047,28 @@
 			)
 		)
 	)
+	(global_label "USB_N"
+		(shape input)
+		(at 134.62 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50b6458a-8781-45a9-a634-12d148a482ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.7133 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_CLKIN"
 		(shape input)
 		(at 74.93 50.8 0)
@@ -7111,28 +7109,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HALL_LED"
-		(shape input)
-		(at 86.36 102.87 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68b6e310-5220-4afe-b8ce-15b05965cee8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 90.9948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7876,28 +7852,6 @@
 		(uuid "f837ec9c-25db-4c5b-8718-1f136b2cb378")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 90.0709 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TC_LED"
-		(shape input)
-		(at 83.82 101.6 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f880b734-1062-42a9-8bfa-3f3d322561ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.82 91.9625 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +8755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 116.84 43.18 0)
 			(effects
 				(font
@@ -10162,7 +10116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 74.93 81.28 0)
 			(effects
 				(font
@@ -13608,7 +13562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 74.93 83.82 0)
 			(effects
 				(font
