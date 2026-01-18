@@ -2039,16 +2039,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 60.96) (xy 185.42 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fec4959-2cf8-4baa-943b-3cbacdeb51c7")
-	)
-	(wire
-		(pts
 			(xy 139.7 60.96) (xy 144.78 60.96)
 		)
 		(stroke
@@ -2396,7 +2386,7 @@
 		(uuid 841c0415-2cdc-4924-9c0e-05897dd80df4)
 	)
 	(rectangle
-		(start 24.892 35.814)
+		(start 24.892 33.02)
 		(end 101.092 67.31)
 		(stroke
 			(width 0)
@@ -2603,7 +2593,7 @@
 	)
 	(text "PT Conditioning (Shunt + Buffer)"
 		(exclude_from_sim no)
-		(at 24.892 34.544 0)
+		(at 24.638 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2840,7 +2830,7 @@
 			)
 		)
 	)
-	(global_label "ADC_DREADY"
+	(global_label "ADC_DRDY"
 		(shape input)
 		(at 185.42 71.12 0)
 		(fields_autoplaced yes)
@@ -2852,7 +2842,7 @@
 		)
 		(uuid "420fe841-77e6-4231-94e6-a321fdbc406b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.1376 71.12 0)
+			(at 197.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,6 +2887,28 @@
 		(uuid "886ba50a-d307-412d-9b51-be51af7f47bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.06 36.0825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_CS"
+		(shape input)
+		(at 185.42 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "976b4ac0-ab93-47a3-8066-041df3ca2f00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.4809 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,72 +3167,6 @@
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0aa67487-1b23-401b-afb0-861817b67ea9")
-		(property "Reference" "#PWR070"
-			(at 201.93 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.898 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f70c3bb-c0a5-401a-8f68-53668d74b801")
-		)
-		(instances
-			(project "lower_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "53047-0460:MOLEX_53047-0460"
+		(property "Footprint" "S04B_PASK_2:CONN4_S04B-PASK_JST"
 			(at 45.72 156.21 0)
 			(effects
 				(font
@@ -5212,7 +5158,7 @@
 		(dnp no)
 		(uuid "cbebb7ce-c599-4341-b5fd-e6d200c9214d")
 		(property "Reference" "C29"
-			(at 186.69 74.93 90)
+			(at 193.294 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "53047-0460:MOLEX_53047-0460"
+		(property "Footprint" "S04B_PASK_2:CONN4_S04B-PASK_JST"
 			(at 45.72 116.84 0)
 			(effects
 				(font

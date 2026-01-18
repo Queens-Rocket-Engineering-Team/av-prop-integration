@@ -1970,7 +1970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CONNS:CONN02_530470260_MOL"
+		(property "Footprint" "S02B_PASK_2:CONN2_S02B-PASK-2_JST"
 			(at 151.13 93.98 0)
 			(effects
 				(font
