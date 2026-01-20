@@ -1006,7 +1006,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDA"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1023,7 +1023,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDA"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1049,7 +1049,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1067,7 +1067,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDA_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -1081,7 +1081,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -1110,34 +1110,16 @@
 		(uuid "0b52dbc9-10cb-4b6c-a27c-341a1dde684e")
 	)
 	(junction
-		(at 101.6 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e811d4e-80f4-4d41-bc31-d53a7e9b56af")
-	)
-	(junction
 		(at 74.93 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eaedea1-1cf9-4e58-bf34-6fdb502b18fa")
 	)
 	(junction
-		(at 160.02 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "642acf8b-c00e-4cc7-a6a7-1b8c2ad1aff0")
-	)
-	(junction
 		(at 118.11 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e238a82-35f8-4a1f-bdfc-bfb8acdc41ce")
-	)
-	(junction
-		(at 133.35 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75ffb33f-0273-4c9f-8260-f86ec5586ddf")
 	)
 	(junction
 		(at 74.93 88.9)
@@ -1425,7 +1407,7 @@
 	)
 	(text "*fixed\n"
 		(exclude_from_sim no)
-		(at 136.144 91.694 0)
+		(at 136.398 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1435,7 +1417,7 @@
 	)
 	(text "*fixed\n"
 		(exclude_from_sim no)
-		(at 136.144 91.694 0)
+		(at 136.398 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1741,83 +1723,6 @@
 		(uuid "feffc0a3-6de8-4a7d-8eed-2c2b4306d0d4")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.02 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1067e643-80cf-4471-a5e9-67870c2a1ddf")
-		(property "Reference" "#PWR0127"
-			(at 166.37 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.354 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed29503e-231f-4954-8dce-b74dc74e0ae5")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 101.6 90.17 270)
 		(unit 1)
@@ -1890,6 +1795,72 @@
 			(project "TC_module"
 				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 133.35 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fee0d36-9a84-470a-ae5e-ece9cbe35204")
+		(property "Reference" "#PWR098"
+			(at 133.35 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c7066e8-cf65-407c-ad81-993884b48b24")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1975,16 +1946,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 106.68 270)
+		(lib_id "power:GNDA")
+		(at 125.73 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2b0e63bf-ae92-4243-9e0b-0eec12ed2b22")
-		(property "Reference" "#PWR0117"
-			(at 95.25 106.68 0)
+		(fields_autoplaced yes)
+		(uuid "359ac216-97bb-4e2f-8d0e-4c4af6ddba54")
+		(property "Reference" "#PWR097"
+			(at 132.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,8 +1964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 98.298 106.68 90)
+		(property "Value" "GNDA"
+			(at 129.54 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +1974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 106.68 0)
+			(at 125.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,8 +1982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 101.6 106.68 0)
+		(property "Datasheet" ""
+			(at 125.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,8 +1991,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hall effect sensor."
-			(at 101.6 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 125.73 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,40 +2001,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "582d9747-2ea0-4902-884b-2a355bc05b55")
+			(uuid "3d06c822-9c69-44f3-adf3-7d16944d7c4b")
 		)
 		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 82.55 0)
+		(lib_id "power:GNDA")
+		(at 160.02 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2b5e7447-1b78-44d1-a40f-30ff8dbbe175")
-		(property "Reference" "#PWR0126"
-			(at 133.35 88.9 0)
+		(fields_autoplaced yes)
+		(uuid "3a755362-ab03-4e2c-af6b-e63480744b77")
+		(property "Reference" "#PWR096"
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,16 +2031,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 137.16 85.09 0)
+		(property "Value" "GNDA"
+			(at 163.83 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 82.55 0)
+			(at 160.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,8 +2049,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 133.35 82.55 0)
+		(property "Datasheet" ""
+			(at 160.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,8 +2058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hall effect sensor."
-			(at 133.35 82.55 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 160.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,24 +2068,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d4021b4-4182-46be-8363-766275d11655")
+			(uuid "d618bb76-6102-40a9-840f-6c1f7a5d90ba")
 		)
 		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2220,161 +2170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bdac8f2-6c17-4d0e-8ce5-dbb2149a1105")
-		(property "Reference" "#PWR0112"
-			(at 133.35 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d4021b4-4182-46be-8363-766275d11656")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c9aedaf-2458-4710-8d36-25c2e12f6b6e")
-		(property "Reference" "#PWR0128"
-			(at 95.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 98.298 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "582d9747-2ea0-4902-884b-2a355bc05b56")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 110.49 86.36 180)
 		(unit 1)
@@ -2463,6 +2258,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 74.93 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bd732fa-5bc3-4cdb-a37d-8710fc8e6bb2")
+		(property "Reference" "#PWR0100"
+			(at 74.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "744b8158-be58-4715-91e0-deb6c32e5453")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 156.21 97.79 270)
 		(unit 1)
@@ -2536,83 +2397,6 @@
 			(project "TC_module"
 				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d285027-ddf1-48c5-8b9a-dc174fda56d6")
-		(property "Reference" "#PWR0116"
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.354 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a371055-1dec-4d0c-8fde-33026a7b2377")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2788,17 +2572,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 74.93 100.33 0)
+		(lib_id "power:GNDA")
+		(at 160.02 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f4a4c15-6012-43b4-94d9-6d67070aaf24")
-		(property "Reference" "#PWR0121"
-			(at 74.93 106.68 0)
+		(uuid "87605b63-6248-46d7-9465-c47bc70cad00")
+		(property "Reference" "#PWR095"
+			(at 166.37 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,16 +2590,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 74.93 105.41 0)
+		(property "Value" "GNDA"
+			(at 163.83 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 100.33 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,8 +2608,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 74.93 100.33 0)
+		(property "Datasheet" ""
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,8 +2617,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hall effect sensor."
-			(at 74.93 100.33 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,24 +2627,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d555e070-4dd3-4262-bdf1-a0c8cc98e5de")
+			(uuid "a664c469-5842-4744-af21-2ffd23085870")
 		)
 		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -3152,84 +2925,6 @@
 			(project "TC_module"
 				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
 					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a68d46d3-0bf7-42f0-a019-248bfbf1d53a")
-		(property "Reference" "#PWR0113"
-			(at 132.08 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cba13ff-ea8a-4241-ae62-7f23298ad101")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3581,83 +3276,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.02 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca5cef89-b8ef-4a16-99fb-9c59c7c5ef2d")
-		(property "Reference" "#PWR0115"
-			(at 166.37 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.354 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed29503e-231f-4954-8dce-b74dc74e0ae6")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 110.49 104.14 0)
 		(unit 1)
@@ -3817,6 +3435,73 @@
 			(project "TC_module"
 				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 101.6 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d796a21c-c7d0-401a-8a44-8a3ea72a321f")
+		(property "Reference" "#PWR099"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 97.79 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "507fc186-a56e-466c-aa55-e5fa6af8c928")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
