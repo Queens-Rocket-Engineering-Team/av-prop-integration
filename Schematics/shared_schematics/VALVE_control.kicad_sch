@@ -1190,7 +1190,7 @@
 	)
 	(text "parallel decoupling circuit at the solenoid connector positive\nto suppress fast and slow transients and provide effective decoupling.\n\n0.1 µF for high-frequency noise, 10 µF for bulk transient suppression."
 		(exclude_from_sim no)
-		(at 135.128 115.062 0)
+		(at 247.142 126.238 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1201,7 +1201,7 @@
 	)
 	(text "0.1 µF in 0603 for low parasitics and fast HF response; \n10 µF in 1206 for larger bulk charge."
 		(exclude_from_sim no)
-		(at 135.128 123.698 0)
+		(at 247.142 134.874 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1223,7 +1223,7 @@
 	)
 	(text "package choice also affected by DC Bias Effect, higher cap MLCCs \nin smaller packages lose a significant pct of their effective\ncapacitance."
 		(exclude_from_sim no)
-		(at 185.928 124.46 0)
+		(at 248.412 141.478 0)
 		(effects
 			(font
 				(size 1.016 1.016)
