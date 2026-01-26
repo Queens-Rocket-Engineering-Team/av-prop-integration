@@ -3345,6 +3345,33 @@
 		)
 		(uuid "cb1abf7a-d7fe-4414-91d3-adc249659a49")
 	)
+	(text "VPT Switching"
+		(exclude_from_sim no)
+		(at 211.836 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d788587d-0605-4298-8cc8-5ddecd389caa")
+	)
+	(text "added to avoid constant power drain"
+		(exclude_from_sim no)
+		(at 253.746 103.124 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "f652e455-14d1-42d1-a1c2-901b3a9843ba")
+	)
 	(text "PT Conditioning (Shunt + Buffer)"
 		(exclude_from_sim no)
 		(at 24.638 31.75 0)
@@ -3953,7 +3980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/NMOSFET-NDS7002A-D.PDF"
 			(at 229.87 109.22 0)
 			(effects
 				(font
