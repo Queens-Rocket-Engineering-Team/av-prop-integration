@@ -1572,7 +1572,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LD1117S33TR_SOT223"
+		(symbol "Regulator_Linear:AMS1117"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1584,7 +1584,7 @@
 					)
 				)
 			)
-			(property "Value" "LD1117S33TR_SOT223"
+			(property "Value" "AMS1117"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1602,7 +1602,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
 				(at 2.54 -6.35 0)
 				(effects
 					(font
@@ -1611,7 +1611,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+			(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1620,7 +1620,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "REGULATOR LDO 3.3V"
+			(property "ki_keywords" "linear regulator ldo adjustable positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1638,7 +1638,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LD1117S33TR_SOT223_0_1"
+			(symbol "AMS1117_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -1651,11 +1651,11 @@
 					)
 				)
 			)
-			(symbol "LD1117S33TR_SOT223_1_1"
-				(pin power_in line
+			(symbol "AMS1117_1_1"
+				(pin input line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "GND"
+					(name "ADJ"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4138,28 +4138,6 @@
 			)
 		)
 		(uuid "9033b488-4d14-45cf-bec3-80523d3b9dba")
-	)
-	(text "switched to reccomended LDO based on lower Quiescent current (Iq)and greater PSSR\na lower Iq increases efficiency.\n"
-		(exclude_from_sim no)
-		(at 156.464 147.32 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "93a6ab80-5abb-4be7-a2c2-acbfdcd8198c")
-	)
-	(text "https://www.ti.com/lit/an/slva079/slva079.pdf?ts=1768142631143"
-		(exclude_from_sim no)
-		(at 156.464 150.368 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(href "https://www.ti.com/lit/an/slva079/slva079.pdf?ts=1768142631143")
-		)
-		(uuid "9d5dcd52-23bb-46d7-b324-4fd2931c2ba1")
 	)
 	(text "Vf=2.6, R=150, I=4.7mA"
 		(exclude_from_sim no)
@@ -8480,7 +8458,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
+		(lib_id "Regulator_Linear:AMS1117")
 		(at 152.4 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8497,7 +8475,7 @@
 				)
 			)
 		)
-		(property "Value" "LD1117S33TR_SOT223"
+		(property "Value" "AMS1117"
 			(at 152.4 125.73 0)
 			(effects
 				(font
@@ -8514,7 +8492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/LDO-ld1117.pdf"
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
 			(at 154.94 135.89 0)
 			(effects
 				(font
@@ -8523,7 +8501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+		(property "Description" "1A Low Dropout regulator, positive, adjustable output, SOT-223"
 			(at 152.4 129.54 0)
 			(effects
 				(font
