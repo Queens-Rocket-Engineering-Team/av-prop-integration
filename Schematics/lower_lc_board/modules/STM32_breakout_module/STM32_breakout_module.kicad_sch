@@ -6500,16 +6500,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 85.09) (xy 194.31 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "431d1e85-873a-424a-bd50-e3537fa581d3")
-	)
-	(wire
-		(pts
 			(xy 39.37 48.26) (xy 41.91 48.26)
 		)
 		(stroke
@@ -7965,9 +7955,9 @@
 			)
 		)
 	)
-	(global_label "VALVE1_CTRL"
+	(global_label "CAN_LED"
 		(shape input)
-		(at 74.93 68.58 0)
+		(at 74.93 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7975,9 +7965,9 @@
 			)
 			(justify left)
 		)
-		(uuid "2fb872e5-406c-43e9-9b70-269e00aa4db6")
+		(uuid "2eb9fefc-f9df-4545-b7de-ff8cf988dbbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.0709 68.58 0)
+			(at 86.019 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,6 +8307,28 @@
 			)
 		)
 	)
+	(global_label "VALVE1_CTRL"
+		(shape input)
+		(at 74.93 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80ce2469-0312-422d-8a07-6b39f7db9448")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.0709 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BUZZ_IN"
 		(shape input)
 		(at 222.25 139.7 180)
@@ -8361,7 +8373,7 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "CAN_P"
 		(shape input)
 		(at 187.96 87.63 0)
 		(fields_autoplaced yes)
@@ -8373,7 +8385,7 @@
 		)
 		(uuid "9034e1e1-ae90-4c27-b70c-8f035eaf3e35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.9324 87.63 0)
+			(at 196.8719 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,28 +8637,6 @@
 			)
 		)
 	)
-	(global_label "FL_CS"
-		(shape input)
-		(at 74.93 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c35e6b53-eccf-48bf-a7ee-3257f3f42e7d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.479 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 74.93 83.82 0)
@@ -8713,28 +8703,6 @@
 			)
 		)
 	)
-	(global_label "CAN_LED"
-		(shape input)
-		(at 41.91 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c89aaa5a-a2f0-46ad-83a7-887f9dc74d56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.821 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC_MOSI"
 		(shape input)
 		(at 74.93 66.04 0)
@@ -8779,6 +8747,28 @@
 			)
 		)
 	)
+	(global_label "VALVE2_CTRL"
+		(shape input)
+		(at 74.93 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d542335f-199d-4a62-82e2-b99f6fa0c901")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.0709 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RESET_FL"
 		(shape output)
 		(at 41.91 106.68 180)
@@ -8801,7 +8791,7 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
+	(global_label "CAN_N"
 		(shape input)
 		(at 187.96 90.17 0)
 		(fields_autoplaced yes)
@@ -8813,7 +8803,7 @@
 		)
 		(uuid "dcc31508-ebff-4b1f-aa04-77a4a0e14d42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.63 90.17 0)
+			(at 196.9324 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,24 +8901,24 @@
 			)
 		)
 	)
-	(global_label "VALVE2_CTRL"
+	(global_label "FL_CS"
 		(shape input)
-		(at 74.93 73.66 0)
+		(at 41.91 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f837ec9c-25db-4c5b-8718-1f136b2cb378")
+		(uuid "fcd96e8a-f9f9-40d0-852a-a1470b5b4b41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.0709 73.66 0)
+			(at 33.361 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10015,7 +10005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SWD_Header:SWD_PinHeader_1x04_P2.54mm_Horizontal_SMD"
+		(property "Footprint" "swd-conn:SWD_PinHeader_1x04_P2.54mm_Horizontal_SMD"
 			(at 81.915 160.02 0)
 			(effects
 				(font
@@ -13143,7 +13133,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 194.31 87.63 270)
+		(at 194.31 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13152,7 +13142,7 @@
 		(fields_autoplaced yes)
 		(uuid "a49ca317-f2c8-44d4-b6c6-a3b9057d6850")
 		(property "Reference" "#PWR043"
-			(at 190.5 87.63 0)
+			(at 190.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13161,7 +13151,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 198.12 87.6299 90)
+			(at 198.12 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,7 +13160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 87.63 0)
+			(at 194.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13179,7 +13169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 87.63 0)
+			(at 194.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +13178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 194.31 87.63 0)
+			(at 194.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
