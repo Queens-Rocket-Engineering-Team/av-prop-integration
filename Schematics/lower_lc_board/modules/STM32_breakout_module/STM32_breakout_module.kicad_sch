@@ -7060,8 +7060,8 @@
 		(uuid b7a3c450-da87-40d4-88e9-07f32bd07877)
 	)
 	(rectangle
-		(start 104.14 160.02)
-		(end 151.13 185.42)
+		(start 104.14 158.75)
+		(end 144.78 184.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -7266,9 +7266,9 @@
 		)
 		(uuid "b9a78416-f589-4e44-b01a-d243f06d3f9f")
 	)
-	(text "place near PA7 to filter switching noise from adjacent MCO pin "
+	(text "place near PA7 to filter \nswitching noise from adjacent MCO pin "
 		(exclude_from_sim no)
-		(at 131.318 179.07 0)
+		(at 123.698 175.006 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -7607,7 +7607,7 @@
 	)
 	(global_label "TEMP_SENSE"
 		(shape input)
-		(at 109.22 170.18 270)
+		(at 109.22 168.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7617,7 +7617,7 @@
 		)
 		(uuid "26adf01e-d5a6-4ccd-9b76-655259a4cd75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 185.0183 90)
+			(at 109.22 183.7483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,7 +9782,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 116.84 170.18 90)
+		(at 116.84 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9791,7 +9791,7 @@
 		(fields_autoplaced yes)
 		(uuid "33fc8909-9951-4211-9e22-86d7e483c806")
 		(property "Reference" "#PWR070"
-			(at 123.19 170.18 0)
+			(at 123.19 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9800,7 +9800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 170.1799 90)
+			(at 120.65 168.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +9809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 170.18 0)
+			(at 116.84 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 170.18 0)
+			(at 116.84 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 170.18 0)
+			(at 116.84 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10752,7 +10752,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 170.18 270)
+		(at 113.03 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10760,7 +10760,7 @@
 		(dnp no)
 		(uuid "4f605be4-1f4e-43a9-a214-ec7475fec78a")
 		(property "Reference" "C45"
-			(at 113.03 164.338 90)
+			(at 113.03 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +10768,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 113.03 166.878 90)
+			(at 113.03 165.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +10776,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 109.22 171.1452 0)
+			(at 109.22 169.8752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,7 +10785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 170.18 0)
+			(at 113.03 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10794,7 +10794,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 170.18 0)
+			(at 113.03 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
