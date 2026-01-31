@@ -3244,7 +3244,7 @@
 	)
 	(text "place near sensor VCC pin"
 		(exclude_from_sim no)
-		(at 54.102 169.926 0)
+		(at 49.276 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
