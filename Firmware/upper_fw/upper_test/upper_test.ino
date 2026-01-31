@@ -1,9 +1,5 @@
 #include <Arduino.h>
 
-// initial testing code for upper control board (ESP32-S3)
-// test valve control and LED indication
-// make sure espressif board manager URL is added in preferences if uploading from arudino IDE, and make sure in CDC meode. 
-
 #define ADC_MOSI 11
 #define ADC_MISO 13
 #define ADC_CLK 12
@@ -11,12 +7,6 @@
 #define ADC_CS 0
 
 #include <ADS131M0x.h>
-#include <WiFi.h>
-
-const char* SSID = "";
-const char* PSWD = "";
-
-
 
 SPIClass SpiADC(HSPI);
 ADS131M0x adc;
@@ -29,6 +19,10 @@ void adcInit()
     adc.setInputChannelSelection(0, INPUT_CHANNEL_MUX_AIN0P_AIN0N);
     adc.setChannelPGA(0, CHANNEL_PGA_1);
 }
+
+// initial testing code for upper control board (ESP32-S3)
+// test valve control and LED indication
+// make sure espressif board manager URL is added in preferences if uploading from arudino IDE, and make sure in CDC meode. 
 
 const int valveEN1 = 9;
 const int valveEN2 = 3;
@@ -55,28 +49,8 @@ void flashLeds(int ledArray[]) {
     }
 }
 
-void wifiSetup() {
-    delay(1000);
-    WiFi.mode(WIFI_STA);
-    WiFi.begin(SSID, PSWD); 
-
-    Serial.print("Connecting to WiFi ..");
-  // we should make this non blocking, probably running on a thread
-    while (WiFi.status() != WL_CONNECTED) {
-        Serial.print('.');
-        delay(500);
-    }
-
-    Serial.println('\n');
-    Serial.println("Connection successful!");
-    Serial.print("IP address: ");
-    Serial.println(WiFi.localIP()); // Print the IP address assigned to the ESP32
-    Serial.print("Signal strength (RSSI): ");
-    Serial.println(WiFi.RSSI()); // Print the signal strength
-}
-
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
     Serial.println("start upper-launch-control-board testing");
     Serial.println("press 1 to enable solenoid 1, 2 to enable solenoid 2, and 3 to run LED flashing sequence");
 
@@ -135,5 +109,3 @@ void loop() {
         }
     }
 }
-
-

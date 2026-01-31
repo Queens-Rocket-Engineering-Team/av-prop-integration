@@ -1070,7 +1070,7 @@
 		(uuid "251ee366-1a0f-48b5-a53f-27cc415e395c")
 	)
 	(junction
-		(at 135.89 91.44)
+		(at 139.7 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e859cfe-b17c-43f7-b31d-bddb3a0d7376")
@@ -1082,14 +1082,14 @@
 		(uuid "5342399f-465e-49c0-9985-830e3a8bd55d")
 	)
 	(junction
-		(at 135.89 99.06)
+		(at 139.7 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f777a530-ab3e-4c5f-8abe-991337386553")
 	)
 	(wire
 		(pts
-			(xy 135.89 90.17) (xy 135.89 91.44)
+			(xy 139.7 99.06) (xy 139.7 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 91.44) (xy 138.43 91.44)
+			(xy 139.7 97.79) (xy 137.16 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1149,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 135.89 99.06)
+			(xy 142.24 90.17) (xy 139.7 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1159,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 91.44) (xy 135.89 91.44)
+			(xy 142.24 97.79) (xy 139.7 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1169,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 138.43 99.06)
+			(xy 139.7 90.17) (xy 137.16 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1177,60 +1177,16 @@
 		)
 		(uuid "fd78f738-a964-4bbc-a3a8-b079394480be")
 	)
-	(text "place the 0.1uF closer to the SOL input due to faster responsiveness (HF filter)\nthe larger cap handles LF, therefore slightly less sensitive to placement\n"
+	(text "place caps, FB-diode as close as possible \nto solenoid connectors."
 		(exclude_from_sim no)
-		(at 133.858 79.756 0)
+		(at 167.894 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 0 0 1)
 			)
 		)
-		(uuid "9ab147f8-fabc-49f4-b75a-c8678d672201")
-	)
-	(text "parallel decoupling circuit at the solenoid connector positive\nto suppress fast and slow transients and provide effective decoupling.\n\n0.1 µF for high-frequency noise, 10 µF for bulk transient suppression."
-		(exclude_from_sim no)
-		(at 247.142 126.238 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "cf5205e1-7906-497a-adf2-3bc57d16b0db")
-	)
-	(text "0.1 µF in 0603 for low parasitics and fast HF response; \n10 µF in 1206 for larger bulk charge."
-		(exclude_from_sim no)
-		(at 247.142 134.874 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "d26b4839-e72c-4080-b46b-06166e4b1e26")
-	)
-	(text "place caps together with flyback diode as close as \npossible to solenoid connector to minimize inductive voltage spikes and noise pickup"
-		(exclude_from_sim no)
-		(at 134.366 73.152 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "df2d4380-da93-4209-b853-2550c6938716")
-	)
-	(text "package choice also affected by DC Bias Effect, higher cap MLCCs \nin smaller packages lose a significant pct of their effective\ncapacitance."
-		(exclude_from_sim no)
-		(at 248.412 141.478 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "f565a8e0-5b91-43b5-91e9-4b2ee7623202")
+		(uuid "02ac6831-1373-4627-84c5-8f82e811eae6")
 	)
 	(hierarchical_label "TP"
 		(shape input)
@@ -1270,13 +1226,13 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 135.89 90.17 90)
+		(at 139.7 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b8d243bb-164e-4e8f-b78e-5be7eff549d6")
 	)
@@ -1403,16 +1359,6 @@
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
-					(reference "Q1")
-					(unit 1)
-				)
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1496,21 +1442,11 @@
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
-					(reference "D16")
-					(unit 1)
-				)
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
-					(reference "D15")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 99.06 0)
+		(at 139.7 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1519,7 +1455,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d550014-8eeb-452b-964e-39c43682fc91")
 		(property "Reference" "#PWR0123"
-			(at 135.89 105.41 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 104.14 0)
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 99.06 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 99.06 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 99.06 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1532,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 95.25 0)
+		(at 137.16 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1604,7 +1540,7 @@
 		(dnp no)
 		(uuid "5071e658-7e2e-4a11-8549-3733f53ea8da")
 		(property "Reference" "C16"
-			(at 120.396 96.52 0)
+			(at 132.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,8 +1548,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF_50V"
-			(at 120.396 99.06 0)
+		(property "Value" "10uF"
+			(at 132.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1558,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 139.3952 99.06 0)
+			(at 136.1948 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 95.25 0)
+			(at 137.16 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1576,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 95.25 0)
+			(at 137.16 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,16 +1698,6 @@
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
-					(reference "R42")
-					(unit 1)
-				)
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
-					(reference "R39")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1852,16 +1778,6 @@
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
-					(reference "R41")
-					(unit 1)
-				)
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
-					(reference "R36")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1928,16 +1844,6 @@
 				)
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/65115d6c-240a-4886-8e54-c37424bab0b6"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2043,7 +1949,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 95.25 0)
+		(at 142.24 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2051,7 +1957,7 @@
 		(dnp no)
 		(uuid "de34731d-42d2-4fc7-8597-6672147f9fdc")
 		(property "Reference" "C15"
-			(at 120.396 91.44 0)
+			(at 132.334 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,8 +1965,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF_50V"
-			(at 120.396 93.98 0)
+		(property "Value" "0.1uF"
+			(at 132.334 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +1975,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 134.3152 99.06 0)
+			(at 141.2748 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +1984,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 95.25 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +1993,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 95.25 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,16 +2103,6 @@
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2273,16 +2169,6 @@
 				)
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/65115d6c-240a-4886-8e54-c37424bab0b6"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
-					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
