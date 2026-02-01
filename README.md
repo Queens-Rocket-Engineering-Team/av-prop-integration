@@ -5,12 +5,10 @@
 
 ### Folder Structure
 - [`/Schematics`](./Schematics/) : PCB design files (KiCad V8)  
-- [`/Firmware`](./Firmware/) : Arduino C/C++ code (to ESP32) for sensors, CAN/TWAI, and WiFi telemetry  
-- [`/Datasheets`](./Datasheets/) : Datasheets and reference materials  
-- [`.gitignore`](./.gitignore) : Build and temporary files excluded
-
+- [`/Firmware`](./Firmware/) : Arduino C/C++ code 
+- [`/Datasheets`](./Documentation/) : Datasheets and reference materials  
 
 
 ---
 
-**Branch created by:** Jeevan Sanchez
+**Branch Created by:** Jeevan Sanchez
