@@ -1735,6 +1735,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIgiKey" "2-1445057-2"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3650c399-86c6-4dc5-8bbf-286930455411")
 		)
@@ -2004,6 +2013,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIgiKey" "2-1445057-2"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b4564d2a-9d09-4748-bc58-981c92a2212e")
 		)
@@ -2199,6 +2217,15 @@
 		)
 		(property "Description" "QRET SRAD Male Stack Edge Connector (PCIe x1 Connector). Generation 1"
 			(at 39.116 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIgiKey" ""
+			(at 39.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,6 +2538,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIgiKey" ""
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78eae3d7-572a-4b42-a06a-5c1960e4dffd")
 		)
@@ -2777,6 +2813,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIgiKey" "2-1445057-2"
+			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "645dedc6-2300-48b0-ad26-85e2f2d4880d")
 		)
@@ -2846,6 +2891,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIgiKey" ""
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71e3c2db-0a01-4291-9df4-a6c7ceed9f93")
 		)
@@ -2903,6 +2957,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 58.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIgiKey" ""
 			(at 58.42 97.79 0)
 			(effects
 				(font
@@ -3035,6 +3098,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIgiKey" ""
 			(at 31.75 97.79 0)
 			(effects
 				(font

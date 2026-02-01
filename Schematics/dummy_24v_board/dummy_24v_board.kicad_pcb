@@ -110,7 +110,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 1.5 0 180)
+			(at 1.5 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "dfaf30f9-ce0b-4bdf-8318-6f1812ffcebc")
@@ -394,7 +394,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 1.5 0 180)
+			(at 1.5 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "29f30aa7-d846-4724-998b-97b172f5de51")
@@ -1594,7 +1594,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 1.5 0 180)
+			(at 1.5 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a012b6eb-3135-449f-9cf7-939909ccbce4")
@@ -4214,7 +4214,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fd0c321e-f9b6-4d46-a9df-0b6caaf9d88e")
 	)
-	(gr_text "Moros V1.0\nQRET Feb 2026\n\nJohann Samuel Nana"
+	(gr_text "Morros V1.0\nQRET Feb 2026\n\nJohann Samuel Nana"
 		(at 56.5 44.25 0)
 		(layer "B.SilkS")
 		(uuid "ef1ee3e3-c300-4126-a24d-41e0f3cb94ff")
@@ -4227,8 +4227,8 @@
 			(justify top mirror)
 		)
 	)
-	(gr_text "A.I.M Standard (1st Gen)"
-		(at 86.649998 77.68 -90)
+	(gr_text "A.I.M Standard (2nd Gen)"
+		(at 86.649998 77.68 270)
 		(layer "F.SilkS")
 		(uuid "0c85834f-273f-4f94-886e-de69354dff62")
 		(effects
@@ -4240,7 +4240,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "MOROS"
+	(gr_text "MORROS"
 		(at 25.3 77.47 90)
 		(layer "F.SilkS" knockout)
 		(uuid "14e8683a-d11a-4f63-95ce-97cb3cb7b7a5")
@@ -4251,19 +4251,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "Mixed Module"
-		(at 89.199998 77.68 -90)
-		(layer "F.SilkS")
-		(uuid "5ccbdbb5-692b-43c5-9afe-df6dc8eb97d4")
-		(effects
-			(font
-				(size 1.4 1.4)
-				(thickness 0.25)
-				(bold yes)
-			)
-			(justify right bottom)
 		)
 	)
 	(gr_text "Power Adaptation Module"
