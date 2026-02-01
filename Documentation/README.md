@@ -15,7 +15,7 @@ This directory contains datasheets, reference documents, and technical notes for
 
   
 
->Filenames should follow the template: **`<type>_<partnumber>_<doc_type>`**, where `<doc_type>` indicates the document kind (e.g., `DS` = Datasheet, `DC` = Document, `C` = Chart).
+Filenames should follow the template: **`<type>_<partnumber>_<doc_type>`**, where **`<doc_type>`** indicates the document kind (e.g., `DS` = Datasheet, `DC` = Document, `C` = Chart).
 
   
 
