@@ -3644,6 +3644,28 @@
 			)
 		)
 	)
+	(global_label "SPI_MISO"
+		(shape input)
+		(at 182.88 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d411fcf-3ca4-48ee-9100-a80cbf5ef2e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.5133 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_DRDY"
 		(shape input)
 		(at 182.88 69.85 0)
@@ -3710,28 +3732,6 @@
 			)
 		)
 	)
-	(global_label "ADC_SCLK"
-		(shape input)
-		(at 182.88 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f11befb-f9e6-4773-9fda-f7c4450b3c60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.239 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HALL_SCL"
 		(shape input)
 		(at 58.42 154.94 0)
@@ -3776,28 +3776,6 @@
 			)
 		)
 	)
-	(global_label "ADC_MOSI"
-		(shape input)
-		(at 182.88 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9fb1291-a8f3-4f97-93c1-834a86588062")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.0576 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC_CLKIN"
 		(shape input)
 		(at 182.88 54.61 0)
@@ -3820,9 +3798,9 @@
 			)
 		)
 	)
-	(global_label "ADC_MISO"
+	(global_label "ADC_CS"
 		(shape input)
-		(at 182.88 67.31 0)
+		(at 203.2 78.74 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3830,9 +3808,31 @@
 			)
 			(justify left)
 		)
-		(uuid "b975fa6e-059e-4e12-aca3-baba4ae4bb11")
+		(uuid "c33a641b-6e85-4f23-b412-83d125ead6c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.0576 67.31 0)
+			(at 203.2 68.6791 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_SCLK"
+		(shape input)
+		(at 182.88 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5d48363-a9e1-4556-b38c-dcaf3672b402")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.6947 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,6 +3855,28 @@
 		(uuid "de9a0584-f23f-47a7-9b3b-2aae1b694414")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 70.4162 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_MOSI"
+		(shape input)
+		(at 182.88 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed69fa40-666b-4f4a-aaff-cfe0c8c9e3f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.5133 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,6 +4234,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25744"
+			(at 228.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19da34e7-4283-4338-84b2-b90c48328a1b")
 		)
@@ -4273,6 +4304,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 45.72 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C49678"
 			(at 45.72 170.18 0)
 			(effects
 				(font
@@ -4387,7 +4427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "B04B_PASK_JST:CONN_B04B-PASK_JST"
+		(property "Footprint" "S04B_PASK_2-P:CONN4_S04B-PASK_JST"
 			(at 49.53 154.94 0)
 			(effects
 				(font
@@ -4823,6 +4863,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 45.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C49678"
 			(at 45.72 130.81 0)
 			(effects
 				(font
@@ -6060,6 +6109,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 203.2 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca185e5f-56b9-444b-b7c7-b9ac4d2f8f76")
+		(property "Reference" "#PWR0132"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 203.2 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c79d8ef-0eda-4a19-89af-7a975ce4d06a")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 186.69 74.93 90)
 		(unit 1)
@@ -6449,7 +6563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "B04B_PASK_JST:CONN_B04B-PASK_JST"
+		(property "Footprint" "S04B_PASK_2-P:CONN4_S04B-PASK_JST"
 			(at 49.53 115.57 0)
 			(effects
 				(font
@@ -6633,6 +6747,84 @@
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e51aba98-7d63-41df-8115-dd32b3cae49f")
+		(property "Reference" "R49"
+			(at 200.406 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.406 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 204.978 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25744"
+			(at 203.2 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6d86692-f24a-4437-ac69-fdea00e5e17d")
+		)
+		(pin "2"
+			(uuid "14674fce-b31b-49aa-89bf-48b05231ccb8")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -6829,6 +7021,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 218.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25744"
 			(at 218.44 73.66 0)
 			(effects
 				(font
