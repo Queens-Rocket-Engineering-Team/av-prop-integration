@@ -1359,18 +1359,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "e17c87a4-8927-4f81-af2d-fc250c0d93b6")
 		)
-		(model "${KIPRJMOD}/footprints/0679L0250-05/0679L0250-05.step"
-			(offset
-				(xyz 0 -1 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/models/0679L0250-05.step"
+		(model "${PI_SHARED_MODELS}/0679L0250-05.step"
 			(offset
 				(xyz 0 -1.27 0)
 			)
@@ -2869,7 +2858,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "e8f23df5-d516-4760-861d-97238f3448b1")
 		)
-		(model "${KIPRJMOD}/models/ADS131M04IPWR.step"
+		(model "${PI_SHARED_MODELS}/ADS131M04IPWR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6457,7 +6446,7 @@
 		(descr "SC70-6")
 		(tags "SC70-6")
 		(property "Reference" "U4"
-			(at 2.31 -1.14 180)
+			(at 2.31 -1.14 0)
 			(layer "F.SilkS")
 			(uuid "fa4ca9b6-468b-47da-ae63-51c5b9f87519")
 			(effects
@@ -6468,7 +6457,7 @@
 			)
 		)
 		(property "Value" "ID_LM66100DCKR"
-			(at 0 2.05 -90)
+			(at 0 2.05 90)
 			(layer "F.Fab")
 			(uuid "2caf8df3-9410-4b91-8777-fcdfb3d35ad8")
 			(effects
@@ -6479,7 +6468,7 @@
 			)
 		)
 		(property "Footprint" "LM66100:SC-70-6"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2011718-17a9-49e5-8806-1654b4245d1a")
@@ -6491,7 +6480,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ID-lm66100.pdf"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9013b213-35d9-4416-82b9-13e678e6a173")
@@ -6503,7 +6492,7 @@
 			)
 		)
 		(property "Description" "Ideal Diode"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc8c30aa-2c7b-422d-b9e8-dfe61f5c10c5")
@@ -6707,7 +6696,7 @@
 			(pintype "output")
 			(uuid "1d61b6ab-6a26-4029-8c60-07fc2236ab8e")
 		)
-		(model "${KIPRJMOD}/models/LM66100DCKR.step"
+		(model "${PI_SHARED_MODELS}/LM66100DCKR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6715,7 +6704,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)
@@ -20707,7 +20696,7 @@
 			(pintype "power_in")
 			(uuid "dd87bf83-4622-45b0-9e12-cb835056217b")
 		)
-		(model "${KIPRJMOD}/models/ISO1042BDWVR.step"
+		(model "${PI_SHARED_MODELS}/ISO1042BDWVR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28997,7 +28986,7 @@
 		(descr "SC70-6")
 		(tags "SC70-6")
 		(property "Reference" "U5"
-			(at 2.21 -1.06 180)
+			(at 2.21 -1.06 0)
 			(layer "F.SilkS")
 			(uuid "a94fcaf2-2ad4-423b-981b-2938e561a04d")
 			(effects
@@ -29247,7 +29236,7 @@
 			(pintype "output")
 			(uuid "082763f1-80c4-41b1-a9e8-b2f42baeddab")
 		)
-		(model "${KIPRJMOD}/models/LM66100DCKR.step"
+		(model "${PI_SHARED_MODELS}/LM66100DCKR.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29255,7 +29244,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 0 -90)
 			)
 		)
 	)

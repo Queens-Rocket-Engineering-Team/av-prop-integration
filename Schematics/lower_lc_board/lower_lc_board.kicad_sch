@@ -5,7 +5,7 @@
 	(uuid "d63798c4-e363-437e-9012-e4aff32e6642")
 	(paper "A4")
 	(title_block
-		(title "Lower Control Board")
+		(title "HYDRA | Lower Control Board")
 		(rev "A")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")

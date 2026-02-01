@@ -1311,7 +1311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/MOSFET-AO3400A.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/mosfet_AO3400A_DS.pdf"
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -1359,6 +1359,16 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1398,7 +1408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/schottky_diode_SS39-D_DS.pdf"
 			(at 204.47 85.09 0)
 			(effects
 				(font
@@ -1439,6 +1449,16 @@
 				)
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/65115d6c-240a-4886-8e54-c37424bab0b6"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -1698,6 +1718,16 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
+					(reference "R42")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1778,6 +1808,16 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
+					(reference "R41")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1847,6 +1887,16 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1876,7 +1926,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "S02B_PASK_2:CONN2_S02B-PASK-2_JST"
+		(property "Footprint" "ul_B02B-PASK-1:CONN_B02B-PASK-1_JST"
 			(at 151.13 93.98 0)
 			(effects
 				(font
@@ -1885,7 +1935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/CONN-530470460.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/conn_jst_B0XB-PASK-1_DS.pdf"
 			(at 151.13 93.98 0)
 			(effects
 				(font
@@ -2103,6 +2153,16 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2169,6 +2229,16 @@
 				)
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/65115d6c-240a-4886-8e54-c37424bab0b6"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)

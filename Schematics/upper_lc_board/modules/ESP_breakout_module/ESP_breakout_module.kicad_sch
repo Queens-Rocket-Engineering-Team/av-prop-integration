@@ -5,7 +5,7 @@
 	(uuid "a3d3330c-02e4-4d3c-9ced-1a78662cd21f")
 	(paper "A4")
 	(title_block
-		(title "ULC Board ESP32-S3 Breakout Circuitry ")
+		(title "PHEONIX | ESP32-S3 Breakout Circuitry")
 		(rev "A")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")
@@ -5502,7 +5502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/USBSC-conn.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/USBconn_DS.pdf"
 			(at 154.94 113.03 0)
 			(effects
 				(font
@@ -6141,7 +6141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/MCU-esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/mcu_ESP32-S3-WROOM-1-N16_DS.pdf"
 			(at 92.71 88.9 0)
 			(effects
 				(font
@@ -6558,7 +6558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/LED-WS2812B.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/LED_WS2812B_DS.pdf"
 			(at 119.38 169.545 0)
 			(effects
 				(font
@@ -6719,7 +6719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/buttons-modeselec.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/button_C318884_DS.pdf"
 			(at 156.21 39.37 0)
 			(effects
 				(font
@@ -7237,7 +7237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/CAN-T_ISO1044.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/CANT_ISO1044_DS.pdf"
 			(at 215.9 67.31 0)
 			(effects
 				(font
@@ -7837,7 +7837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/buttons-modeselec.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/button_C318884_DS.pdf"
 			(at 156.21 57.15 0)
 			(effects
 				(font

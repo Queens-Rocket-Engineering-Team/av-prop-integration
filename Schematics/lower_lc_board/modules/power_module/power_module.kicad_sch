@@ -5,8 +5,8 @@
 	(uuid "086cfbff-4fc8-4404-b1c8-1c19cb574768")
 	(paper "A4")
 	(title_block
-		(title "Lower Board Power Module")
-		(rev "B")
+		(title "HYDRA | Power Circuitry")
+		(rev "2")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")
 	)
@@ -4462,7 +4462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ID-lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ideal_diode_lm66100_DS.pdf"
 			(at 170.18 40.64 0)
 			(effects
 				(font
@@ -5538,7 +5538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ID-lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ideal_diode_lm66100_DS.pdf"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -6476,7 +6476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ID-lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ideal_diode_lm66100_DS.pdf"
 			(at 170.18 63.5 0)
 			(effects
 				(font
@@ -6766,7 +6766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/SURGE-PROT-tvs3300.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/surgeprot_tvs3300_DS.pdf"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -7497,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM31KN121SN1L:BEADC3216X180N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 72.39 136.398 90)
 			(effects
 				(font
@@ -7506,7 +7506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/FERRITEB-A700000010386127.pdf"
+		(property "Datasheet" ""
 			(at 72.39 134.62 0)
 			(effects
 				(font
@@ -8567,7 +8567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/LDO_ds1117_DS.pdf"
 			(at 162.56 140.97 0)
 			(effects
 				(font

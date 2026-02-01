@@ -5,8 +5,8 @@
 	(uuid "ce8aec50-7d7e-486a-a9e5-36b61839c7d1")
 	(paper "A4")
 	(title_block
-		(title "Lower Board Sensing Module")
-		(rev "B")
+		(title "HYDRA | Sensing Circuitry")
+		(rev "2")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")
 	)
@@ -3989,7 +3989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/NMOSFET-NDS7002A-D.PDF"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/nmosfet_2N7002_DS.PDF"
 			(at 227.33 54.61 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "S04B_PASK_2:CONN4_S04B-PASK_JST"
+		(property "Footprint" "B04B_PASK_JST:CONN_B04B-PASK_JST"
 			(at 49.53 154.94 0)
 			(effects
 				(font
@@ -4396,7 +4396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/CONN-530470460.pdf"
+		(property "Datasheet" ""
 			(at 49.53 154.94 0)
 			(effects
 				(font
@@ -5358,7 +5358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79d668ad-550c-4931-b320-8ef3d7a1417e")
-		(property "Reference" "C30"
+		(property "Reference" "C43"
 			(at 193.294 38.354 0)
 			(effects
 				(font
@@ -5430,7 +5430,7 @@
 		(instances
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
-					(reference "C30")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?68741"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/pmosfet_si2301cd_DS.pdf"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -6449,7 +6449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "S04B_PASK_2:CONN4_S04B-PASK_JST"
+		(property "Footprint" "B04B_PASK_JST:CONN_B04B-PASK_JST"
 			(at 49.53 115.57 0)
 			(effects
 				(font
@@ -6458,7 +6458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/CONN-530470460.pdf"
+		(property "Datasheet" ""
 			(at 49.53 115.57 0)
 			(effects
 				(font
@@ -6953,7 +6953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ADC-ads131m04.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ADC_ads131m04_DS.pdf"
 			(at 162.56 64.77 0)
 			(effects
 				(font

@@ -5,6 +5,7 @@
 	(uuid "6b674dc7-d476-4509-8df6-071997c49039")
 	(paper "A4")
 	(title_block
+		(title "HYDRA | STM32 Breakout Circuitry")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")
 	)
@@ -6050,7 +6051,7 @@
 		(at 109.22 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d473ca4-bfa1-4897-89a9-55e46ea26c7e")
+		(uuid "9a0ec2c1-1d78-4a53-a6e1-8224eb4a393e")
 	)
 	(junction
 		(at 135.89 123.19)
@@ -6239,6 +6240,16 @@
 	(no_connect
 		(at 261.62 86.36)
 		(uuid "f4d5b2e6-0684-4899-83ee-a1a5cd0e3d9e")
+	)
+	(wire
+		(pts
+			(xy 167.64 163.83) (xy 167.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024e989a-7ea1-4795-aa00-890b5b404a9e")
 	)
 	(wire
 		(pts
@@ -6788,16 +6799,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 177.8) (xy 160.02 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f738da6-826b-4cf0-b014-8e7f03670b67")
-	)
-	(wire
-		(pts
 			(xy 248.92 134.62) (xy 248.92 130.81)
 		)
 		(stroke
@@ -6907,6 +6908,16 @@
 			(color 47 120 160 1)
 		)
 		(uuid "bd9980d8-cadd-4d58-9fdb-3ef89e997f00")
+	)
+	(wire
+		(pts
+			(xy 167.64 167.64) (xy 163.83 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a3b76b-9160-4813-b500-9369e09c4353")
 	)
 	(wire
 		(pts
@@ -7050,6 +7061,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 167.64) (xy 109.22 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69256c5-8aed-4e6a-9056-f24c851a4caf")
+	)
+	(wire
+		(pts
 			(xy 242.57 130.81) (xy 243.84 130.81)
 		)
 		(stroke
@@ -7186,8 +7207,8 @@
 		(uuid 32339b5e-99ee-4a38-9dbb-cf1ff04d38ef)
 	)
 	(rectangle
-		(start 147.066 160.528)
-		(end 163.576 181.61)
+		(start 152.146 160.02)
+		(end 168.656 185.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -7213,7 +7234,7 @@
 	)
 	(rectangle
 		(start 15.875 141.605)
-		(end 76.2 181.356)
+		(end 76.2 185.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -7277,8 +7298,8 @@
 		(uuid b7a3c450-da87-40d4-88e9-07f32bd07877)
 	)
 	(rectangle
-		(start 104.394 160.02)
-		(end 144.526 181.356)
+		(start 104.14 160.02)
+		(end 151.13 185.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -7317,7 +7338,7 @@
 	)
 	(rectangle
 		(start 80.518 141.986)
-		(end 101.092 181.356)
+		(end 101.092 185.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -7341,7 +7362,7 @@
 	)
 	(text "TM Filtering"
 		(exclude_from_sim no)
-		(at 147.066 160.274 0)
+		(at 151.638 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7497,9 +7518,9 @@
 		)
 		(uuid "b9a78416-f589-4e44-b01a-d243f06d3f9f")
 	)
-	(text "place near PA7 to \nfilter switching noise from \nadjacent MCO pin "
+	(text "place near PA7 to \nfilter switching noise \nfrom adjacent MCO pin "
 		(exclude_from_sim no)
-		(at 154.94 185.166 0)
+		(at 159.766 182.88 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -7852,22 +7873,22 @@
 	)
 	(global_label "TEMP_SENSE"
 		(shape input)
-		(at 149.86 177.8 90)
+		(at 167.64 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "26adf01e-d5a6-4ccd-9b76-655259a4cd75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 162.9617 90)
+			(at 152.8017 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10027,7 +10048,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 160.02 170.18 180)
+		(at 116.84 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10035,7 +10056,7 @@
 		(dnp no)
 		(uuid "33fc8909-9951-4211-9e22-86d7e483c806")
 		(property "Reference" "#PWR070"
-			(at 160.02 163.83 0)
+			(at 116.84 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10044,7 +10065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.0199 166.37 90)
+			(at 118.872 174.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10053,7 +10074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 170.18 0)
+			(at 116.84 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10062,7 +10083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 170.18 0)
+			(at 116.84 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,7 +10092,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 170.18 0)
+			(at 116.84 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,7 +10517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/button_C318884_DS.pdf"
 			(at 116.84 43.18 0)
 			(effects
 				(font
@@ -11169,7 +11190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM31KN121SN1L:BEADC3216X180N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 127 169.418 90)
 			(effects
 				(font
@@ -11178,7 +11199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/FERRITEB-A700000010386127.pdf"
+		(property "Datasheet" ""
 			(at 127 167.64 0)
 			(effects
 				(font
@@ -11222,7 +11243,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 173.99 0)
+		(at 113.03 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11230,7 +11251,7 @@
 		(dnp no)
 		(uuid "4f605be4-1f4e-43a9-a214-ec7475fec78a")
 		(property "Reference" "C45"
-			(at 154.686 164.338 0)
+			(at 116.078 162.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11238,7 +11259,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 154.686 166.878 0)
+			(at 116.078 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +11267,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 160.9852 177.8 0)
+			(at 109.22 171.1452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,7 +11276,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 173.99 0)
+			(at 113.03 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11264,16 +11285,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C49678"
-			(at 160.02 173.99 0)
+			(at 113.03 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11463,7 +11475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/CAN-T_ISO1044.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/CANT_ISO1044_DS.pdf"
 			(at 177.8 100.33 0)
 			(effects
 				(font
@@ -11996,7 +12008,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 171.45 180)
+		(at 163.83 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12004,7 +12016,7 @@
 		(dnp no)
 		(uuid "665b9c9b-46c0-4aab-9ec2-b433f38379e1")
 		(property "Reference" "C34"
-			(at 113.284 173.736 0)
+			(at 159.258 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12012,7 +12024,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 113.284 175.768 0)
+			(at 159.258 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12020,7 +12032,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 108.2548 167.64 0)
+			(at 162.8648 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12029,7 +12041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 171.45 0)
+			(at 163.83 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12038,7 +12050,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 171.45 0)
+			(at 163.83 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12047,7 +12059,7 @@
 			)
 		)
 		(property "JLCPCB" "C57112"
-			(at 109.22 171.45 0)
+			(at 163.83 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12170,7 +12182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/STMOSC-C112972.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/osc_C112972_DS.pdf"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -12319,7 +12331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/SPI-FLASH-W25128JVS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/flashmodule_W25Q128JV-DTR_DS .pdf"
 			(at 184.15 48.26 0)
 			(effects
 				(font
@@ -13010,7 +13022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/USBSC-conn.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/USBconn_DS.pdf"
 			(at 116.84 134.62 0)
 			(effects
 				(font
@@ -13177,16 +13189,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 198.12 147.32 0)
+		(at 201.93 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a9a4131-dbbb-478a-9037-4accbe3c9eef")
 		(property "Reference" "C22"
-			(at 201.93 146.0499 0)
+			(at 203.454 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13195,7 +13206,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 201.93 148.5899 0)
+			(at 204.47 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13204,7 +13215,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 199.0852 151.13 0)
+			(at 205.74 140.0048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13213,7 +13224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 147.32 0)
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13222,7 +13233,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 198.12 147.32 0)
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13531,7 +13542,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 151.13 270)
+		(at 205.74 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13539,7 +13550,7 @@
 		(dnp no)
 		(uuid "9bcab7c1-335f-4966-8a89-1b1e9e1328a2")
 		(property "Reference" "#PWR056"
-			(at 191.77 151.13 0)
+			(at 205.74 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13548,7 +13559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.072 151.13 90)
+			(at 205.74 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13557,7 +13568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 151.13 0)
+			(at 205.74 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13566,7 +13577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 151.13 0)
+			(at 205.74 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13575,7 +13586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 151.13 0)
+			(at 205.74 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13662,7 +13673,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 198.12 143.51 90)
+		(at 198.12 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13671,7 +13682,7 @@
 		(fields_autoplaced yes)
 		(uuid "9deb7601-9084-4a36-94d3-e00a2082825b")
 		(property "Reference" "#PWR053"
-			(at 201.93 143.51 0)
+			(at 198.12 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13680,7 +13691,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 194.31 143.5099 90)
+			(at 198.1199 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13689,7 +13700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 143.51 0)
+			(at 198.12 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13698,7 +13709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 143.51 0)
+			(at 198.12 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13707,7 +13718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 198.12 143.51 0)
+			(at 198.12 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14197,7 +14208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/1N4148WS_BAV16WS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/diode_BAV16WS_DS.pdf"
 			(at 246.38 130.81 0)
 			(effects
 				(font
@@ -14328,7 +14339,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 175.26 0)
+		(at 163.83 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14336,7 +14347,7 @@
 		(dnp no)
 		(uuid "b6f365df-8fd6-4eca-9660-18945e749c23")
 		(property "Reference" "#PWR0122"
-			(at 109.22 181.61 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14345,7 +14356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 179.07 0)
+			(at 160.274 177.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14353,7 +14364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 175.26 0)
+			(at 163.83 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14362,7 +14373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 175.26 0)
+			(at 163.83 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14371,7 +14382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 175.26 0)
+			(at 163.83 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14563,7 +14574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/UART-BRIDGE-cp2102nt.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/uart_usb_cp2102nt_DS.pdf"
 			(at 250.19 92.71 0)
 			(effects
 				(font
@@ -15704,7 +15715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/MCU-STM32.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/mcu_STM32F103x8_DS.pdf"
 			(at 57.15 83.82 0)
 			(effects
 				(font
@@ -15920,7 +15931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/LED-WS2812B.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/LED_WS2812B_DS.pdf"
 			(at 193.04 133.985 0)
 			(effects
 				(font
@@ -16208,7 +16219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/NMOSFET-NDS7002A-D.PDF"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/nmosfet_2N7002_DS.PDF"
 			(at 241.3 143.51 0)
 			(effects
 				(font
@@ -16279,7 +16290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/button_C318884_DS.pdf"
 			(at 116.84 29.21 0)
 			(effects
 				(font
@@ -16435,7 +16446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/piezoelectronic_buzzer_ps_en.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/buzzer_PS12_DS.pdf"
 			(at 248.92 136.525 90)
 			(effects
 				(font

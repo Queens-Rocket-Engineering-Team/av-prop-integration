@@ -1314,6 +1314,16 @@
 			(uuid "9d9ed03a-3a1d-4211-a858-dce95855b86a")
 		)
 		(instances
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/053ff26d-da11-4577-8dd0-32aaebff2a7b"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/3fcdaac5-2869-40f8-b925-cf310375456d"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
 					(reference "#PWR086")
@@ -1351,7 +1361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "S02B_PASK_2:CONN2_S02B-PASK-2_JST"
+		(property "Footprint" "ul_B02B-PASK-1:CONN_B02B-PASK-1_JST"
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -1360,7 +1370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/CONN-530470460.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/conn_jst_B0XB-PASK-1_DS.pdf"
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -1734,7 +1744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/BAV199DW-ds30417.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/diode_BAV16WS_DS.pdf"
 			(at 163.83 80.01 0)
 			(effects
 				(font
@@ -1955,6 +1965,16 @@
 			(uuid "950ab5e4-3a1d-4d44-bff5-d18c54202798")
 		)
 		(instances
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/053ff26d-da11-4577-8dd0-32aaebff2a7b"
+					(reference "#PWR090")
+					(unit 1)
+				)
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/3fcdaac5-2869-40f8-b925-cf310375456d"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
 					(reference "#PWR090")
@@ -1977,7 +1997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5778966-bb79-4a54-a189-affbbbcfdda8")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0104"
 			(at 149.86 80.01 0)
 			(effects
 				(font
@@ -2026,6 +2046,16 @@
 			(uuid "2c3bec5c-15a4-4c1d-9e86-31845f586607")
 		)
 		(instances
+			(project ""
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/053ff26d-da11-4577-8dd0-32aaebff2a7b"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/3fcdaac5-2869-40f8-b925-cf310375456d"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
 					(reference "#PWR0102")

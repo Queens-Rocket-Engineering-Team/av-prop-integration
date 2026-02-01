@@ -5,8 +5,8 @@
 	(uuid "035353f5-5a1c-4603-af0d-cd0330063b42")
 	(paper "A4")
 	(title_block
-		(title "Lower Board Actuation Module")
-		(rev "B")
+		(title "HYDRA | Actuation Circuitry")
+		(rev "2")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")
 	)

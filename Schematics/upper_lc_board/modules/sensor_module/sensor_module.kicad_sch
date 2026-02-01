@@ -5,7 +5,7 @@
 	(uuid "000b68e4-ef06-4c20-b636-7369874d2a55")
 	(paper "A4")
 	(title_block
-		(title "ULC Board Sensor Circuitry")
+		(title "PHEONIX | Sensor Circuitry")
 		(rev "A")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")
@@ -4018,7 +4018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ADC-ads131m04.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ADC_ads131m04_DS.pdf"
 			(at 170.18 69.85 0)
 			(effects
 				(font
@@ -4268,7 +4268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/CONN-530470460.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/conn_m_530470460.pdf"
 			(at 53.34 128.27 0)
 			(effects
 				(font

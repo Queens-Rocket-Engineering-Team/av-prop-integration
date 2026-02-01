@@ -5,7 +5,7 @@
 	(uuid "056a409d-68dc-4414-8eb2-1cb0ecc0d837")
 	(paper "A4")
 	(title_block
-		(title "ULC Board Power Circuitry")
+		(title "PHEONIX | Power Circuitry")
 		(rev "A")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")
@@ -4400,7 +4400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ID-lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ideal_diode_lm66100_DS.pdf"
 			(at 177.8 74.93 0)
 			(effects
 				(font
@@ -4625,7 +4625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM31KN121SN1L:BEADC3216X180N"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 78.74 149.098 90)
 			(effects
 				(font
@@ -4634,7 +4634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/FERRITEB-A700000010386127.pdf"
+		(property "Datasheet" ""
 			(at 78.74 147.32 0)
 			(effects
 				(font
@@ -5553,7 +5553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/LDO_ds1117_DS.pdf"
 			(at 170.18 128.27 0)
 			(effects
 				(font
@@ -6625,7 +6625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ID-lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ideal_diode_lm66100_DS.pdf"
 			(at 177.8 52.07 0)
 			(effects
 				(font
@@ -7232,7 +7232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/SURGE-PROT-tvs3300.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/surgeprot_tvs3300_DS.pdf"
 			(at 60.96 154.94 0)
 			(effects
 				(font

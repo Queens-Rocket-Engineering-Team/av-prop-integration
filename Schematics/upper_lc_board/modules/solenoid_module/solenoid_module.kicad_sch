@@ -5,7 +5,7 @@
 	(uuid "2e64c8ea-8dda-44ea-9fd5-362e6641668f")
 	(paper "A4")
 	(title_block
-		(title "ULC Board Solenoid Driver Circuitry")
+		(title "PHEONIX | Actuation Circuitry")
 		(rev "A")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Jeevan Sanchez")
