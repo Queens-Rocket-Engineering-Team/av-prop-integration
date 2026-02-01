@@ -6,7 +6,7 @@
 ### Folder Structure
 - [`/Schematics`](./Schematics/) : PCB design files (KiCad V8)  
 - [`/Firmware`](./Firmware/) : Arduino C/C++ code 
-- [`/Datasheets`](./Documentation/) : Datasheets and reference materials  
+- [`/Documentation`](./Documentation/) : Datasheets and reference materials  
 
 
 ---
