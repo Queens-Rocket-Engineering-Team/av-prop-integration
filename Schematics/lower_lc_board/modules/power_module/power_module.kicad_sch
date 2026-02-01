@@ -3197,12 +3197,6 @@
 		(uuid "61ca3048-efd2-47a9-b949-01434a66b3b0")
 	)
 	(junction
-		(at 168.91 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64582c73-432b-4c7a-b6b1-ffd9c78401df")
-	)
-	(junction
 		(at 198.12 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3243,6 +3237,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a9ab821-e718-4a2a-95d4-621df717c01a")
+	)
+	(junction
+		(at 168.91 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1db942c-0eea-464b-8390-7669a2a8f162")
 	)
 	(junction
 		(at 208.28 62.23)
@@ -3329,6 +3329,16 @@
 			(type default)
 		)
 		(uuid "01737e72-792b-4ad0-8baf-486cc8efda9c")
+	)
+	(wire
+		(pts
+			(xy 168.91 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e1219a-3fb0-4dbc-9b06-b2ba36329efb")
 	)
 	(wire
 		(pts
@@ -3554,7 +3564,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 134.62) (xy 167.64 134.62)
+			(xy 167.64 134.62) (xy 168.91 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3632,6 +3642,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "4e9d7828-d61d-46ba-ab72-d39f85c87ffe")
+	)
+	(wire
+		(pts
+			(xy 168.91 134.62) (xy 168.91 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559a30b5-913b-4a67-8494-4d3ba61f6d9b")
 	)
 	(wire
 		(pts
@@ -3804,16 +3824,6 @@
 			(type default)
 		)
 		(uuid "793ffd84-2080-4afa-929f-ec6d225897c6")
-	)
-	(wire
-		(pts
-			(xy 168.91 134.62) (xy 190.5 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d730b9a-925d-4f93-bdc9-d82debea1af4")
 	)
 	(wire
 		(pts
@@ -4376,6 +4386,18 @@
 			(justify left bottom)
 		)
 		(uuid "7d963661-940d-464c-b8fd-32d2f44ca595")
+	)
+	(label "3V3_USB"
+		(at 168.91 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "81f0e6d3-a44a-4c5a-a466-80585445827f")
 	)
 	(label "3V3_BP"
 		(at 106.68 38.1 180)
@@ -7759,93 +7781,6 @@
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/ea1dc739-d1f4-46a0-a090-2a1bf39da427"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 168.91 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9902d418-44d4-4cbe-bd4e-97edd280bfd7")
-		(property "Reference" "C8"
-			(at 171.45 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 171.45 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 169.8752 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C96446"
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C96446"
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69722d93-aaf5-4f7a-a3f1-b0c53d3e9f9e")
-		)
-		(pin "2"
-			(uuid "41ee4fac-27cd-419e-8bf9-901a8bec8a5d")
-		)
-		(instances
-			(project "lower_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/ea1dc739-d1f4-46a0-a090-2a1bf39da427"
-					(reference "C8")
 					(unit 1)
 				)
 			)

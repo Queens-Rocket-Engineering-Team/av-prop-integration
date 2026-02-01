@@ -13002,7 +13002,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "90fa8b28-e3ad-4a08-a8b9-c71a14afb4c4")
 		(property "Reference" "R12"
 			(at 210.058 62.3458 0)
