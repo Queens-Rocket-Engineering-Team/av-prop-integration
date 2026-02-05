@@ -927,12 +927,6 @@
 		(uuid "2d28daa9-a783-4ae1-92d2-1e31392aeb3f")
 	)
 	(junction
-		(at 135.89 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45467158-dc42-4cc6-ba56-92e9d5316e79")
-	)
-	(junction
 		(at 163.83 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -945,10 +939,10 @@
 		(uuid "6f0aa34e-3dbc-4eca-a8a5-db032f9280f0")
 	)
 	(junction
-		(at 135.89 93.98)
+		(at 133.35 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef366190-d603-48ff-960b-7d753a74e281")
+		(uuid "ccb78997-aa49-4c14-bc2a-bd66df6e6942")
 	)
 	(wire
 		(pts
@@ -962,13 +956,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 135.89 101.6)
+			(xy 133.35 90.17) (xy 134.62 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b850f4c-a031-4907-b60c-8070a72d45a1")
+		(uuid "162776a0-03bd-40da-92e0-00710f9ca17b")
 	)
 	(wire
 		(pts
@@ -992,7 +986,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 90.17) (xy 135.89 90.17)
+			(xy 132.08 90.17) (xy 133.35 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1042,26 +1036,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 90.17) (xy 135.89 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa9e5e0-ebf5-4ead-ada0-5f0973e98955")
-	)
-	(wire
-		(pts
-			(xy 133.35 93.98) (xy 135.89 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a9fcad6-21bc-4cc4-b043-a0b6a96d7dad")
-	)
-	(wire
-		(pts
 			(xy 161.29 87.63) (xy 163.83 87.63)
 		)
 		(stroke
@@ -1069,26 +1043,6 @@
 			(type default)
 		)
 		(uuid "8b06785d-4b18-4d25-a59c-b87a537bd428")
-	)
-	(wire
-		(pts
-			(xy 135.89 101.6) (xy 138.43 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9730e2a8-a610-4ee3-ad2e-01e4a6ce87d9")
-	)
-	(wire
-		(pts
-			(xy 135.89 93.98) (xy 138.43 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55e16e6-5c15-48b1-96e7-2346ee7a309e")
 	)
 	(wire
 		(pts
@@ -1126,7 +1080,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 138.43 93.98 0)
+		(at 134.62 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1251,86 +1205,6 @@
 				)
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 135.89 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dd117e3-f26b-463e-af14-0e968281b107")
-		(property "Reference" "#PWR086"
-			(at 135.89 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 135.89 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 135.89 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d9ed03a-3a1d-4211-a858-dce95855b86a")
-		)
-		(instances
-			(project ""
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/053ff26d-da11-4577-8dd0-32aaebff2a7b"
-					(reference "#PWR086")
-					(unit 1)
-				)
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/3fcdaac5-2869-40f8-b925-cf310375456d"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-			(project "lower_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
-					(reference "#PWR086")
-					(unit 1)
-				)
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -1638,7 +1512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 152.908 91.44 90)
 			(effects
 				(font
@@ -1704,6 +1578,76 @@
 				)
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 133.35 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "941b2c87-1c45-411c-947a-c9fbeaaf122d")
+		(property "Reference" "#PWR085"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd19fbcc-4805-43a7-89b0-edd45ed78a04")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -1820,15 +1764,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 97.79 0)
+		(at 133.35 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "caa03740-b01b-48f9-8062-cdffa880229e")
-		(property "Reference" "C?"
-			(at 120.396 93.98 0)
+		(uuid "cc55772b-a603-450d-b8e5-9cb6c4645f51")
+		(property "Reference" "C8"
+			(at 136.144 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1781,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 120.396 96.52 0)
+			(at 136.144 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,8 +1789,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 134.3152 101.6 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 134.3152 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 97.79 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1808,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 97.79 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1817,7 @@
 			)
 		)
 		(property "JLCPCB" "C49678"
-			(at 133.35 97.79 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,35 +1826,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "4db1def7-5030-49c9-b231-1261ef4101b8")
+			(uuid "37b0d560-b3ab-4740-add1-00bfd50006d5")
 		)
 		(pin "1"
-			(uuid "e81e7f9b-d6bd-4beb-bc6f-e840804f600f")
+			(uuid "93a00e68-4cc4-4c9b-b380-d66268a954c3")
 		)
 		(instances
-			(project "PT_module"
-				(path "/2c2a8324-b3b2-4288-b95a-2bccf1374493"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/053ff26d-da11-4577-8dd0-32aaebff2a7b"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/3fcdaac5-2869-40f8-b925-cf310375456d"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-			(project "PT_module"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
-					(reference "C37")
+					(reference "C36")
 					(unit 1)
 				)
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee"
-					(reference "C35")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2072,95 +2000,6 @@
 				)
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 138.43 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5a1a28c-399d-42a5-97cb-80d50d684606")
-		(property "Reference" "C?"
-			(at 120.396 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 120.396 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 139.3952 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.43 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "817fba46-61b2-4570-a191-1ef6158af824")
-		)
-		(pin "1"
-			(uuid "ae5ceb30-b65a-4184-a1a6-76d01346381e")
-		)
-		(instances
-			(project "PT_module"
-				(path "/2c2a8324-b3b2-4288-b95a-2bccf1374493"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/053ff26d-da11-4577-8dd0-32aaebff2a7b"
-					(reference "C27")
-					(unit 1)
-				)
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/3fcdaac5-2869-40f8-b925-cf310375456d"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-			(project "PT_module"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
-					(reference "C38")
-					(unit 1)
-				)
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee"
-					(reference "C36")
 					(unit 1)
 				)
 			)

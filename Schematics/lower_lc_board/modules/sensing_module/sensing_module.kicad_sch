@@ -2982,6 +2982,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 39.37) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a75a598-e819-4120-a53c-87190dfeb4bd")
+	)
+	(wire
+		(pts
 			(xy 223.52 116.84) (xy 223.52 118.11)
 		)
 		(stroke
@@ -3989,6 +3999,17 @@
 		)
 		(uuid "98be865a-b640-4793-9fc3-3254cead06e4")
 	)
+	(label "VPT"
+		(at 100.33 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a09178f2-a5c8-46f6-9b72-9ce57416ece4")
+	)
 	(label "PT1_CLAMPED"
 		(at 49.53 54.61 180)
 		(fields_autoplaced yes)
@@ -4941,72 +4962,6 @@
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1672be77-2f22-43e5-bca0-ad090d7d5b9b")
-		(property "Reference" "#PWR0112"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c5db847-e5e0-4bff-8081-6eb017c0f433")
-		)
-		(instances
-			(project "lower_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
-					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -6229,6 +6184,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 228.6 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "866bc6e8-e4ea-4265-b053-5321defeaaab")
+		(property "Reference" "#PWR088"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 232.41 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62e0cdc0-496f-488b-b39f-14f47cd8b0ad")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 91.44 148.59 180)
 		(unit 1)
@@ -6529,6 +6551,73 @@
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 234.95 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b5279b4-7034-42ac-b765-9cc7c991dd9f")
+		(property "Reference" "#PWR0112"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 238.76 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 234.95 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cb4bacc-ac1a-40a0-8e44-916d3effb778")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -7596,72 +7685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 228.6 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e069ca62-d4eb-458d-a485-adf0097d8e0f")
-		(property "Reference" "#PWR088"
-			(at 234.95 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "026d8b9e-2b58-4ecb-b54c-e4224e28166c")
-		)
-		(instances
-			(project ""
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 203.2 82.55 180)
 		(unit 1)
@@ -8029,6 +8052,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 100.33 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e744e13a-edff-411e-944d-bbc997549e53")
+		(property "Reference" "C35"
+			(at 92.964 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 92.964 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 101.2952 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a9e4d92-0d8c-4ed7-ab78-708dae4710fb")
+		)
+		(pin "1"
+			(uuid "1b1663ae-a58c-45b8-8f1e-b2ddcfb87166")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ADS131M04:ADS131M04IPWR")
 		(at 162.56 64.77 0)
 		(unit 1)
@@ -8340,6 +8432,72 @@
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 100.33 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe1c12a0-d92e-4d15-b838-f227906c6a5b")
+		(property "Reference" "#PWR065"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 100.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21445d60-840c-4e64-a88a-0348c5b4fe43")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
