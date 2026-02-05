@@ -1593,7 +1593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "941b2c87-1c45-411c-947a-c9fbeaaf122d")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR086"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -1771,7 +1771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc55772b-a603-450d-b8e5-9cb6c4645f51")
-		(property "Reference" "C8"
+		(property "Reference" "C36"
 			(at 136.144 92.964 0)
 			(effects
 				(font

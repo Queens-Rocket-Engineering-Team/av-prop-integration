@@ -1,47 +1,52 @@
 #include <Arduino.h>
+#include <SPI.h>
+#include <ADS131M0x.h>
 
+/* ===================== ADC PINS ===================== */
 #define ADC_MOSI 11
 #define ADC_MISO 13
-#define ADC_CLK 12
+#define ADC_CLK  12
+#define ADC_CS   0
 #define ADC_DRDY 14
-#define ADC_CS 0
-
-#include <ADS131M0x.h>
 
 SPIClass SpiADC(HSPI);
 ADS131M0x adc;
 adcOutput adc_out;
 
-void adcInit()
-{
-    adc.setClockSpeed(200000);
-    adc.begin(&SpiADC, ADC_CLK, ADC_MISO, ADC_MOSI, ADC_CS, ADC_DRDY);
-    adc.setInputChannelSelection(0, INPUT_CHANNEL_MUX_AIN0P_AIN0N);
-    adc.setChannelPGA(0, CHANNEL_PGA_1);
-}
-
-// initial testing code for upper control board (ESP32-S3)
-// test valve control and LED indication
-// make sure espressif board manager URL is added in preferences if uploading from arudino IDE, and make sure in CDC meode. 
-
+/* ===================== VALVES ===================== */
 const int valveEN1 = 9;
 const int valveEN2 = 3;
 
+/* ===================== LEDS ===================== */
 int leds[] = {35, 36, 37, 48, 40, 41, 42};
-int ledCount = 7;
+const int ledCount = 7;
 
-// enable MOSFET gate to drive solenoid
+/* ===================== ADC INIT ===================== */
+void adcInit() {
+    pinMode(ADC_DRDY, INPUT);
+
+    SpiADC.begin(ADC_CLK, ADC_MISO, ADC_MOSI, ADC_CS);
+
+    adc.setClockSpeed(200000);
+    adc.begin(&SpiADC, ADC_CLK, ADC_MISO, ADC_MOSI, ADC_CS, ADC_DRDY);
+
+    // ---- Configure CHANNEL 2 ----
+    adc.setInputChannelSelection(2, INPUT_CHANNEL_MUX_AIN0P_AIN0N);
+    adc.setChannelPGA(2, CHANNEL_PGA_1);
+}
+
+/* ===================== VALVE CONTROL ===================== */
 void valveControl(const int valvePin) {
-    digitalWrite(valvePin, HIGH); 
+    digitalWrite(valvePin, HIGH);
     Serial.println("solenoid ON");
     delay(2000);
     digitalWrite(valvePin, LOW);
 }
 
-// flash all LEDs
-void flashLeds(int ledArray[]) {
-    for (int i = 0; i < ledCount; i++) {
-        Serial.print("flashing LED connected to GPIO:  ");
+/* ===================== LED TEST ===================== */
+void flashLeds(const int ledArray[], int count) {
+    for (int i = 0; i < count; i++) {
+        Serial.print("flashing LED on GPIO ");
         Serial.println(ledArray[i]);
         digitalWrite(ledArray[i], HIGH);
         delay(800);
@@ -49,10 +54,11 @@ void flashLeds(int ledArray[]) {
     }
 }
 
+/* ===================== SETUP ===================== */
 void setup() {
-    Serial.begin(9600);
+    Serial.begin(115200);
     Serial.println("start upper-launch-control-board testing");
-    Serial.println("press 1 to enable solenoid 1, 2 to enable solenoid 2, and 3 to run LED flashing sequence");
+    Serial.println("1: solenoid 1 | 2: solenoid 2 | 3: LEDs | 4: ADC CH2");
 
     pinMode(valveEN1, OUTPUT);
     pinMode(valveEN2, OUTPUT);
@@ -67,44 +73,38 @@ void setup() {
     adcInit();
 }
 
+/* ===================== LOOP ===================== */
 void loop() {
-    if (Serial.available() > 0 ) {
+    if (Serial.available() > 0) {
         char input = Serial.read();
 
         switch (input) {
             case '1':
-                Serial.println("starting solenoid 1 test");
-                delay(200);
                 valveControl(valveEN1);
                 break;
+
             case '2':
-                Serial.println("starting solenoid 2 test");
-                delay(200);
                 valveControl(valveEN2);
                 break;
+
             case '3':
-                Serial.println("starting LED test");
-                delay(200);
-                flashLeds(leds);
+                flashLeds(leds, ledCount);
                 break;
 
             case '4':
-                Serial.println("Read ADC data");
+                Serial.println("Reading ADC channel 2");
+
+                // DRDY is active-LOW
+                while (digitalRead(ADC_DRDY));
+
                 adc_out = adc.readADC();
-                for(int i = 0; i<4; i++){
-                  if(digitalRead(ADC_DRDY)) Serial.println("ADC Ready");
-                  int32_t output = -1;
-                  if (i == 0) output = adc_out.ch0;
-                  if (i == 1) output = adc_out.ch1;
-                  if (i == 2) output = adc_out.ch2;
-                  if (i == 3) output = adc_out.ch3;
-                  delay(200);
-                  Serial.printf("ADC%d-Val: %d",i, output);
-                  Serial.println("");
-                }
+
+                Serial.print("ADC2 Value: ");
+                Serial.println(adc_out.ch2);
                 break;
+
             default:
-                Serial.println("uh");
+                Serial.println("unknown command");
                 break;
         }
     }
