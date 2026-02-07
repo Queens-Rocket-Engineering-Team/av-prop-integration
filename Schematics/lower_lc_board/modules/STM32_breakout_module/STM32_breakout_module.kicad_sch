@@ -5916,6 +5916,12 @@
 		(uuid "9a0ec2c1-1d78-4a53-a6e1-8224eb4a393e")
 	)
 	(junction
+		(at 256.54 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9efec6a5-2013-44a6-affc-cd43d885a682")
+	)
+	(junction
 		(at 135.89 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5926,12 +5932,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af0bd4f7-8f00-4740-ade6-731dc97a7b28")
-	)
-	(junction
-		(at 255.27 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba579ffd-3bb5-42a4-9474-79605a64e26d")
 	)
 	(junction
 		(at 226.06 59.69)
@@ -6099,7 +6099,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 134.62) (xy 255.27 134.62)
+			(xy 248.92 134.62) (xy 256.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6441,16 +6441,6 @@
 			(type default)
 		)
 		(uuid "81a62001-c140-4d8d-b580-af4dbbd2a0f2")
-	)
-	(wire
-		(pts
-			(xy 255.27 134.62) (xy 256.54 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "857b70e9-fa6d-48bf-bfb5-66e4c607ae93")
 	)
 	(wire
 		(pts
@@ -10975,7 +10965,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 255.27 134.62 0)
+		(at 256.54 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10983,7 +10973,7 @@
 		(dnp no)
 		(uuid "5083c467-162e-424c-b11c-068db1287613")
 		(property "Reference" "#PWR0117"
-			(at 255.27 138.43 0)
+			(at 256.54 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +10982,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 255.016 130.81 0)
+			(at 256.286 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,7 +10990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 134.62 0)
+			(at 256.54 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11009,7 +10999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 134.62 0)
+			(at 256.54 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11018,7 +11008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 255.27 134.62 0)
+			(at 256.54 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
