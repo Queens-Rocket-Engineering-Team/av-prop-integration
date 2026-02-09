@@ -36152,7 +36152,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R13"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "54d1c0e8-f473-4775-8ba8-af37905d1377")
@@ -36164,7 +36164,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "de4bf6f0-ceaa-45d4-a387-f93d3730fe3c")
 			(effects
@@ -36332,7 +36332,7 @@
 			(uuid "f443b639-9ecc-44f4-86b3-3c29b70dc025")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6849209d-a08b-46d1-a195-28d17ffd208e")
 			(effects
@@ -51880,14 +51880,6 @@
 		(uuid "62193116-36ed-41b3-9cec-8a837eebbc0a")
 	)
 	(via
-		(at 195.69 86.65)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "679d1080-7c17-48ac-89e5-0cd797359f36")
-	)
-	(via
 		(at 166.32 88.05)
 		(size 0.6)
 		(drill 0.3)
@@ -52040,14 +52032,6 @@
 		(uuid "94646e66-9c93-46fe-a477-78ea0bc5324f")
 	)
 	(via
-		(at 195.69 85.9)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "94f7113b-967b-4c05-9df0-9a07d71ddc3e")
-	)
-	(via
 		(at 166.35 86.52)
 		(size 0.6)
 		(drill 0.3)
@@ -52078,14 +52062,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "9e693b1e-6bbd-431f-abf5-87417b8fe475")
-	)
-	(via
-		(at 195.66 87.43)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "a233e518-4fa4-42c7-abcc-28b9467299f7")
 	)
 	(via
 		(at 138.79 65.4)
@@ -52182,14 +52158,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "c2fb06ad-282f-4d7c-960e-4f133fd06d80")
-	)
-	(via
-		(at 195.66 88.18)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 1)
-		(uuid "c44c1b8c-0348-426e-b467-1bbaad84b2c8")
 	)
 	(via
 		(at 128.855 54.975)
