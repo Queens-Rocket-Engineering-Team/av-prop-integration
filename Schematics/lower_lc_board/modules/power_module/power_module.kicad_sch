@@ -4911,7 +4911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.262 102.87 90)
 			(effects
 				(font
@@ -4947,7 +4947,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25104"
+		(property "JLCPCB" ""
 			(at 66.04 102.87 0)
 			(effects
 				(font

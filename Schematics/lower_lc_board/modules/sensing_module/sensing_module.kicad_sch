@@ -3786,17 +3786,6 @@
 		)
 		(uuid "06a9200c-293b-4e05-b8d0-a491c7cae79d")
 	)
-	(label "TC_N_CLAMPED_1"
-		(at 127 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b65f664-0652-42ca-8a98-f1882c00e43e")
-	)
 	(label "TC_N_2"
 		(at 218.44 113.03 180)
 		(fields_autoplaced yes)
@@ -3807,6 +3796,17 @@
 			(justify right bottom)
 		)
 		(uuid "0e060a1b-7460-45e0-9242-1bffdefd55e5")
+	)
+	(label "TC_N_CLAMPED_2"
+		(at 127 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13a3c2d6-5eb9-4eee-beb2-148cf48fa6bc")
 	)
 	(label "PT1_CLAMPED"
 		(at 124.46 50.8 180)
@@ -3866,7 +3866,7 @@
 		(uuid "5c860d9a-fc4d-497b-88df-1869b356f71f")
 	)
 	(label "TC_P_CLAMPED_2"
-		(at 127 83.82 180)
+		(at 127 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3874,7 +3874,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "73ca6134-91b2-4592-a2d6-4009634a2489")
+		(uuid "6b888a99-beee-413b-8379-d5bebc9e01d2")
 	)
 	(label "VPT"
 		(at 52.07 49.53 180)
@@ -3931,7 +3931,7 @@
 		)
 		(uuid "a85319b4-f9ca-4d62-b892-ecec86e9c8c2")
 	)
-	(label "TC_N_CLAMPED_2"
+	(label "TC_N_CLAMPED_1"
 		(at 127 77.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3940,18 +3940,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b8a1730d-0183-4c71-8a97-f69032d824c2")
-	)
-	(label "TC_P_CLAMPED_1"
-		(at 127 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd34b4f1-98a5-4198-8a90-da26b3699b05")
+		(uuid "aed9b581-fcb2-41cc-8582-bb34f5dc1c4c")
 	)
 	(label "PT1"
 		(at 49.53 44.45 180)
@@ -4009,6 +3998,17 @@
 			(justify right bottom)
 		)
 		(uuid "e6b7142e-ec7d-476c-a4cb-7ba9abad6a65")
+	)
+	(label "TC_P_CLAMPED_1"
+		(at 127 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff1bd79c-ffe5-4785-b595-58070695c88c")
 	)
 	(global_label "VPT-SW"
 		(shape input)
@@ -4565,7 +4565,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C57112"
+		(property "JLCPCB" ""
 			(at 135.89 80.01 0)
 			(effects
 				(font
@@ -5328,7 +5328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 44.958 90)
 			(effects
 				(font
@@ -5507,7 +5507,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C57112"
+		(property "JLCPCB" ""
 			(at 134.62 60.96 0)
 			(effects
 				(font
@@ -5756,7 +5756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.662 128.27 90)
 			(effects
 				(font
@@ -6050,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.27 58.928 90)
 			(effects
 				(font
@@ -6242,7 +6242,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C57112"
+		(property "JLCPCB" ""
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -6819,7 +6819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.5 73.9648 0)
 			(effects
 				(font
@@ -7150,7 +7150,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C57112"
+		(property "JLCPCB" ""
 			(at 133.35 46.99 0)
 			(effects
 				(font
@@ -7634,7 +7634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.218 144.78 90)
 			(effects
 				(font

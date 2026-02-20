@@ -1,6 +1,6 @@
 /*
 * Upper LC Board Testing Firmware
-* Authors: Jeevan Sanchez
+* Authors: Jeevan Sanchez, Tristan Alderson
 * Hardware: Upper Launch-Control Board (ESP32-S3)
 * Created: February 2026
 * Overview: Valve Ctrl, ADC, WiFi, LED testing for the upper lc board. (CAN testing not implemented yet.)
