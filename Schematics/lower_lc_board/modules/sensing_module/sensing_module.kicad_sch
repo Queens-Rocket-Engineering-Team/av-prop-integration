@@ -4814,7 +4814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 228.6 75.438 90)
 			(effects
 				(font
@@ -5117,7 +5117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 241.3 62.992 90)
 			(effects
 				(font
@@ -6897,7 +6897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 133.35 184.15 0)
 			(effects
 				(font
@@ -6924,7 +6924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "273-TX06F103F3435ERCT-ND"
+		(property "Digikey" "P60.4DBCT-ND"
 			(at 133.35 184.15 0)
 			(effects
 				(font
@@ -7489,7 +7489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 204.978 82.55 90)
 			(effects
 				(font
@@ -7712,7 +7712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 218.44 75.438 90)
 			(effects
 				(font
