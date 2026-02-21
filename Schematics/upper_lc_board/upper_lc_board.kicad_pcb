@@ -18927,7 +18927,7 @@
 			(pintype "power_in")
 			(uuid "dd87bf83-4622-45b0-9e12-cb835056217b")
 		)
-		(model "${KIPRJMOD}/models/ISO1042BDWVR.step"
+		(model "${KIPRJMOD}/models/D0008A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18935,7 +18935,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -30973,7 +30973,7 @@
 			)
 		)
 	)
-	(gr_text "PHEONIX"
+	(gr_text "PHOENIX"
 		(at 98.73 122.31 90)
 		(layer "F.SilkS" knockout)
 		(uuid "4ca60334-6ed4-442a-a4b3-082adb01db0d")
