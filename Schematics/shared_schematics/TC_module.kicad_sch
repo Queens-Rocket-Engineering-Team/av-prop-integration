@@ -1745,8 +1745,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4410"
+		(property "LCSC" "C21190"
 			(at 148.59 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21190"
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,6 +1832,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1588"
 			(at 194.31 97.79 0)
 			(effects
 				(font
@@ -2065,6 +2083,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1588"
 			(at 194.31 87.63 0)
 			(effects
 				(font
@@ -2825,8 +2852,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4410"
+		(property "LCSC" "C21190"
 			(at 156.21 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21190"
+			(at 156.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

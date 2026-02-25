@@ -870,6 +870,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14b60d10-2035-4687-b435-10f52fa80e1f")
 		)
@@ -1018,6 +1027,15 @@
 		)
 		(property "Digikey" "311-4.70KFRCT-ND"
 			(at 109.22 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
+			(at 109.22 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,6 +1256,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae7617d4-89ee-4465-9ede-236dc85ef34a")
 		)
@@ -1369,6 +1396,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de4d3443-6f04-4eef-b0b2-6388899dd373")
 		)
@@ -1435,6 +1471,15 @@
 		)
 		(property "Digikey" "311-4.70KFRCT-ND"
 			(at 109.22 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
+			(at 109.22 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,6 +1561,15 @@
 			)
 		)
 		(property "LCSC" "C2290"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 101.6 99.06 0)
 			(effects
 				(font

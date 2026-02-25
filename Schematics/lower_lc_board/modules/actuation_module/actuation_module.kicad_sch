@@ -2151,6 +2151,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "732-8419-1-ND"
+			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "865080545012"
+			(at 229.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "004b81dd-3933-4cff-b3b2-3e57db27f0cc")
 		)
@@ -2293,6 +2311,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17936"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5b5536bc-94d6-4a9d-8b83-5619bb3b1c92")
 		)
@@ -2362,7 +2389,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C25804"
 			(at 71.12 119.38 0)
 			(effects
 				(font
@@ -2541,7 +2568,7 @@
 				)
 			)
 		)
-		(property "Value" "SI2301CDS-T1-GE3"
+		(property "Value" "DMP4065S-7"
 			(at 106.426 121.666 0)
 			(effects
 				(font
@@ -2559,7 +2586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/pmosfet_si2301cd_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/pmosfet_DMP4065S-7_DS.pdf"
 			(at 82.55 125.73 0)
 			(effects
 				(font
@@ -2680,7 +2707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 83.058 119.38 90)
 			(effects
 				(font
@@ -2716,7 +2743,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25744"
+		(property "JLCPCB" "C23162"
 			(at 81.28 119.38 0)
 			(effects
 				(font
@@ -2794,6 +2821,15 @@
 		)
 		(property "Digikey" "311-4.70KFRCT-ND"
 			(at 102.87 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17936"
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,6 +2967,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8545"
 			(at 76.2 105.41 0)
 			(effects
 				(font

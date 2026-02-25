@@ -4428,6 +4428,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a9f36ef-8a7e-42d7-b4a4-05bcadcf1349")
 		)
@@ -4584,6 +4593,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 83.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "747ed14d-a387-46c8-bbd0-9747f7939809")
 		)
@@ -4644,6 +4662,15 @@
 			)
 		)
 		(property "Description" "120 Ohms @ 100 MHz 1 Power Line Ferrite Bead 1206 (3216 Metric) 6A 9mOhm"
+			(at 78.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 78.74 147.32 0)
 			(effects
 				(font
@@ -4720,6 +4747,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30c75d8e-9941-4400-ac94-7b0daa8ed700")
 		)
@@ -4781,6 +4817,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 198.12 121.92 0)
 			(effects
 				(font
@@ -4928,6 +4973,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 189.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ab13852-c912-46e2-9c6e-b5e622e63988")
 		)
@@ -4995,6 +5049,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 66.04 107.95 0)
 			(effects
 				(font
@@ -5281,6 +5344,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6deedfd-f42c-4f7e-9126-2eba0fc0e037")
 		)
@@ -5357,6 +5429,15 @@
 			)
 		)
 		(property "Digikey" "732-8419-1-ND"
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 104.14 110.49 0)
 			(effects
 				(font
@@ -5571,6 +5652,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "76d368cb-d7ef-4b13-9eea-e7e8b6400f37")
 		)
@@ -5645,6 +5735,15 @@
 		)
 		(property "LCSC" "C22808"
 			(at 185.42 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
+			(at 185.42 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,6 +5835,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 62.23 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "235099b4-6c66-48d8-ae8f-0053aaff12fb")
 		)
@@ -5818,6 +5926,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 97.79 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65ebe6fe-b2b0-48a4-983a-a071900a7ba0")
 		)
@@ -5880,6 +5997,15 @@
 		)
 		(property "Description" "QRET SRAD Male Stack Edge Connector (PCIe x1 Connector). Generation 1"
 			(at 87.376 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
+			(at 87.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,6 +6190,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 97.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2ee4da7-09af-403e-a3dd-56b5e367642f")
 		)
@@ -6122,6 +6257,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 113.03 49.53 0)
 			(effects
 				(font
@@ -6276,6 +6420,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 97.79 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "840f3d2e-44a1-447b-8b4e-fbbe4772dc5a")
 		)
@@ -6353,6 +6506,15 @@
 			)
 		)
 		(property "JLCPCB" "C14663"
+			(at 73.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 73.66 154.94 0)
 			(effects
 				(font
@@ -6503,6 +6665,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d4c35ee-c051-48f3-b4bf-c16b443f7e2b")
 		)
@@ -6645,6 +6816,15 @@
 			)
 		)
 		(property "LCSC" "C2869734"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 177.8 53.34 0)
 			(effects
 				(font
@@ -6886,6 +7066,15 @@
 			)
 		)
 		(property "JLCPCB" "C15849"
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 151.13 77.47 0)
 			(effects
 				(font
@@ -7175,6 +7364,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 72.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bba5b601-5843-4a47-ad24-956773773132")
 		)
@@ -7251,6 +7449,15 @@
 			)
 		)
 		(property "LCSC" "C2863624"
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 63.5 154.94 0)
 			(effects
 				(font
@@ -7343,6 +7550,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 63.5 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5cdae09a-7ee1-454c-bce5-c2ccc4589b9f")
 		)
@@ -7408,6 +7624,15 @@
 			)
 		)
 		(property "LCSC" "C2297"
+			(at 72.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 72.39 123.19 0)
 			(effects
 				(font
@@ -7919,6 +8144,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 176.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86b11565-18bc-4dea-8e4b-61ac52832d30")
 		)
@@ -8130,6 +8364,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ac9a4cb-5f50-4c20-8b1d-793c546cdbf2")
 		)
@@ -8217,6 +8460,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a0b1a5e-571f-425a-bee7-efa1e67b5b37")
 		)
@@ -8295,6 +8547,15 @@
 				(hide yes)
 			)
 		)
+		(property "Model" ""
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8209f6a6-5146-4814-9bd6-9e9973047233")
 		)
@@ -8356,6 +8617,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 121.92 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" ""
 			(at 121.92 138.43 0)
 			(effects
 				(font

@@ -2318,12 +2318,6 @@
 		(uuid "3dbb57ca-d542-4143-9b09-ed821e982ee1")
 	)
 	(junction
-		(at 133.35 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45495e96-53b4-49ce-9146-2883d52a2c3b")
-	)
-	(junction
 		(at 222.758 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2390,7 +2384,13 @@
 		(uuid "b6174ed3-aa98-479a-8558-9a7eefbf1425")
 	)
 	(junction
-		(at 133.35 167.64)
+		(at 123.19 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9048d49-5092-4b54-a901-e90d1e23888a")
+	)
+	(junction
+		(at 114.3 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba6c49f5-645b-43b7-8491-462bdf548927")
@@ -2582,7 +2582,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 175.26) (xy 133.35 177.8)
+			(xy 123.19 177.8) (xy 125.73 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e1b52e-5902-4928-a9c0-9b9b76072261")
+	)
+	(wire
+		(pts
+			(xy 121.92 177.8) (xy 123.19 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 177.8) (xy 137.16 177.8)
+			(xy 123.19 177.8) (xy 123.19 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2729,16 +2739,6 @@
 			(type default)
 		)
 		(uuid "4965609d-357b-41be-8a71-6f45babe670f")
-	)
-	(wire
-		(pts
-			(xy 133.35 177.8) (xy 133.35 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ac8f84b-fb4a-4b90-970f-55d3922a255b")
 	)
 	(wire
 		(pts
@@ -3541,6 +3541,19 @@
 		)
 		(uuid d776ef32-5bcf-4d9f-9968-c2950138829c)
 	)
+	(rectangle
+		(start 107.188 163.322)
+		(end 145.542 186.436)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f52c5bb3-fc6a-4a81-8c6e-fb6b98ebb027)
+	)
 	(text "Vf = 1.25v (at 100ma),\nVmax = 3.3+1.25,\n0.95v/5ma ~ 200ohms current limiter"
 		(exclude_from_sim no)
 		(at 107.95 152.4 0)
@@ -3649,14 +3662,29 @@
 	)
 	(text "place as close as possible to thermocouple input\nfor CJC measuring accuracy"
 		(exclude_from_sim no)
-		(at 133.35 163.322 0)
+		(at 120.142 165.354 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.635 0.635)
 				(color 0 0 0 1)
 			)
 		)
 		(uuid "671b5acf-51c2-43ca-b0ef-8b0f3425fd7d")
+	)
+	(text "CJC"
+		(exclude_from_sim no)
+		(at 107.188 162.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "86a9a0a4-86a0-46ca-9959-9576638a448d")
 	)
 	(text "Abbreviations"
 		(exclude_from_sim no)
@@ -4144,7 +4172,7 @@
 	)
 	(global_label "TEMP_SENSE"
 		(shape input)
-		(at 137.16 177.8 0)
+		(at 123.19 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4154,7 +4182,7 @@
 		)
 		(uuid "8dc8fc97-5f62-4304-8c6c-c3ee70ce2e6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.9983 177.8 0)
+			(at 138.0283 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,6 +4512,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C8545"
+			(at 223.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18b8a14d-e1ff-46a2-badd-51ae4b7a47c8")
 		)
@@ -4805,7 +4842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7K"
 			(at 230.378 73.66 90)
 			(effects
 				(font
@@ -4841,7 +4878,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25744"
+		(property "JLCPCB" "C23162"
 			(at 228.6 73.66 0)
 			(effects
 				(font
@@ -4995,7 +5032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "900-0530470460-ND"
+		(property "Digikey" "455-S04B-PASK-2-ND"
 			(at 49.53 154.94 90)
 			(effects
 				(font
@@ -5533,16 +5570,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 133.35 167.64 90)
+		(at 114.3 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65ce7764-0b56-4389-8317-0ea8f087360d")
 		(property "Reference" "#PWR074"
-			(at 137.16 167.64 0)
+			(at 114.3 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5587,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 129.54 167.6399 90)
+			(at 116.84 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 167.64 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 167.64 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 133.35 167.64 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6139,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 171.45 180)
+		(at 118.11 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6111,7 +6147,7 @@
 		(dnp no)
 		(uuid "8c4ef100-8779-4d15-b1f6-ce2fe28bb30e")
 		(property "Reference" "R25"
-			(at 135.89 170.1799 0)
+			(at 119.634 175.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6120,7 +6156,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 133.35 172.72 90)
+			(at 119.38 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +6165,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 135.128 171.45 90)
+			(at 118.11 176.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +6174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 171.45 0)
+			(at 118.11 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6183,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 171.45 0)
+			(at 118.11 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6192,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 133.35 171.45 0)
+			(at 118.11 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,16 +6634,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 133.35 167.64 90)
+		(at 114.3 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c362e0d3-7b44-487e-be03-6d5758844f02")
 		(property "Reference" "#PWR082"
-			(at 137.16 167.64 0)
+			(at 114.3 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +6651,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 129.54 167.6399 90)
+			(at 116.84 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +6660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 167.64 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,7 +6669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 167.64 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 133.35 167.64 0)
+			(at 114.3 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6765,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 189.23 0)
+		(at 135.89 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6739,7 +6774,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca6ae160-ce63-4e19-abd9-4bce08b08c88")
 		(property "Reference" "#PWR083"
-			(at 133.35 195.58 0)
+			(at 142.24 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 194.31 0)
+			(at 140.97 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +6791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 189.23 0)
+			(at 135.89 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +6800,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 133.35 189.23 0)
+			(at 135.89 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +6809,7 @@
 			)
 		)
 		(property "Description" "Hall effect sensor."
-			(at 133.35 189.23 0)
+			(at 135.89 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,7 +6907,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor")
-		(at 133.35 184.15 0)
+		(at 130.81 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6880,7 +6915,7 @@
 		(dnp no)
 		(uuid "d4d28de5-4088-4f69-8abb-76ee5c2e789f")
 		(property "Reference" "TH1"
-			(at 121.412 182.88 0)
+			(at 134.366 180.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +6924,7 @@
 			)
 		)
 		(property "Value" "Thermistor"
-			(at 121.412 185.42 0)
+			(at 134.366 183.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +6933,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.35 184.15 0)
+			(at 130.81 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +6942,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/../../Documentation/thermistor_tx_DS.pdf"
-			(at 133.35 184.15 0)
+			(at 130.81 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +6951,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor for CJC, *place as close to TC connector as possible. *will need conditoning in code (averaging)"
-			(at 133.35 184.15 0)
+			(at 130.81 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6925,7 +6960,7 @@
 			)
 		)
 		(property "Digikey" "P60.4DBCT-ND"
-			(at 133.35 184.15 0)
+			(at 130.81 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6934,7 +6969,7 @@
 			)
 		)
 		(property "Model" "TX06F103F3435ER"
-			(at 133.35 184.15 0)
+			(at 130.81 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +7226,7 @@
 				)
 			)
 		)
-		(property "Value" "SI2301CDS-T1-GE3"
+		(property "Value" "DMP4065S-7"
 			(at 253.746 75.946 0)
 			(effects
 				(font
@@ -7209,7 +7244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/pmosfet_si2301cd_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Documentation/pmosfet_DMP4065S-7_DS.pdf"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -7432,7 +7467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "900-0530470460-ND"
+		(property "Digikey" "455-S04B-PASK-2-ND"
 			(at 49.53 115.57 90)
 			(effects
 				(font
@@ -7739,7 +7774,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25744"
+		(property "JLCPCB" "C25804"
 			(at 218.44 73.66 0)
 			(effects
 				(font
@@ -7875,6 +7910,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C13585"
 			(at 100.33 44.45 0)
 			(effects
 				(font
