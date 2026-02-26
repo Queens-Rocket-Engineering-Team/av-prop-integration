@@ -12,6 +12,7 @@
 #include <ADS131M04.h>
 #include <SPI.h>
 #include <WiFi.h>
+#include <esp_adc_cal.h>
 
 const int8_t ADC_MOSI = 11;
 const int8_t ADC_MISO = 13;
