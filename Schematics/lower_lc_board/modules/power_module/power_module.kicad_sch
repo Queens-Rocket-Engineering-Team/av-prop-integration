@@ -818,389 +818,6 @@
 				)
 			)
 		)
-		(symbol "Power_Protection:TVS3300DRV"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TVS3300DRV"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-				(at 5.08 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tvs3300.pdf"
-				(at -2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Flat-Clamp Surge Protection Device. 33Vrwm, WSON-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "EMI, ESD, TVS protection transient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.65mm*EP1x1.6mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TVS3300DRV_0_0"
-				(rectangle
-					(start -11.43 2.54)
-					(end -5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.255 -2.54) (xy -8.255 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.255 2.54) (xy -8.255 3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Det &"
-					(at -8.255 0.635 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "Drv"
-					(at -8.255 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "TVS3300DRV_0_1"
-				(rectangle
-					(start -12.065 5.08)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -0.889 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 1.397) (xy -2.286 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 1.778) (xy -1.778 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.27) (xy -1.778 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -1.27) (xy -1.143 -1.651) (xy -1.143 -0.889) (xy -0.127 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "TVS3300DRV_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54) hide
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 2.54) hide
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "QRET_Buck_PSU:LM66100DCKR"
 			(pin_names
 				(offset 0.254)
@@ -2938,12 +2555,6 @@
 		(uuid "3d863c8f-d95b-4045-a59a-496f235fc034")
 	)
 	(junction
-		(at 67.31 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47616c44-732c-4d76-a1b9-66d4fe2a639c")
-	)
-	(junction
 		(at 198.12 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3032,12 +2643,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d41f4ffd-3fc1-4409-9fbb-c281f0819f65")
-	)
-	(junction
-		(at 57.15 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d45a5afa-4a9a-4d8e-b4db-24cc446d7e0e")
 	)
 	(junction
 		(at 59.69 99.06)
@@ -3132,16 +2737,6 @@
 			(type default)
 		)
 		(uuid "0d376c71-0489-4303-9642-1062c159f14f")
-	)
-	(wire
-		(pts
-			(xy 57.15 149.86) (xy 67.31 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12db29c3-88d3-41b7-8f2b-57e7af013fbd")
 	)
 	(wire
 		(pts
@@ -3274,16 +2869,6 @@
 			(type default)
 		)
 		(uuid "3776bcd4-080f-4b06-a527-6f12c6e375cc")
-	)
-	(wire
-		(pts
-			(xy 57.15 134.62) (xy 57.15 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37caeb32-d089-4297-8bed-23dcd4a40449")
 	)
 	(wire
 		(pts
@@ -3507,16 +3092,6 @@
 			(type default)
 		)
 		(uuid "8a3c7be4-6f83-49ff-9810-9dfed29eeb3c")
-	)
-	(wire
-		(pts
-			(xy 57.15 134.62) (xy 67.31 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3eb552-192c-450a-ac65-4023d6bfc95d")
 	)
 	(wire
 		(pts
@@ -6236,99 +5811,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:TVS3300DRV")
-		(at 57.15 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b9c1d9e-b9b2-4b20-af7e-86129cf444e1")
-		(property "Reference" "U1"
-			(at 63.5 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS3300DRV"
-			(at 54.61 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/surgeprot_tvs3300_DS.pdf"
-			(at 54.61 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Flat-Clamp Surge Protection Device. 33Vrwm, WSON-6"
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2863624"
-			(at 57.15 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "a53b9fea-c4b9-4748-822c-ba0a5b59f5e1")
-		)
-		(pin "6"
-			(uuid "645441a1-fec0-4627-b55a-8f0afcc67a06")
-		)
-		(pin "4"
-			(uuid "19978439-dd3f-4c0f-9a7b-e46da96aa25e")
-		)
-		(pin "5"
-			(uuid "c8a94602-89fa-4895-bbfb-371e02e51467")
-		)
-		(pin "1"
-			(uuid "2f2860b7-30da-4367-be95-488e8b564a2c")
-		)
-		(pin "3"
-			(uuid "08bbb72e-b78a-40f3-81c7-645f2af57e1a")
-		)
-		(pin "2"
-			(uuid "aec30a4d-6d6c-4c4a-b2d0-03307959c1ad")
-		)
-		(instances
-			(project "lower_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/ea1dc739-d1f4-46a0-a090-2a1bf39da427"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 180.34 137.16 180)
 		(unit 1)
@@ -7252,7 +6734,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 57.15 130.81 0)
+		(at 67.31 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7260,7 +6742,7 @@
 		(dnp no)
 		(uuid "c6272fdc-9f7f-47b1-8980-65288d986c94")
 		(property "Reference" "#PWR02"
-			(at 57.15 134.62 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7269,7 +6751,7 @@
 			)
 		)
 		(property "Value" "+24V_BP"
-			(at 57.15 126.492 0)
+			(at 59.182 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +6759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 130.81 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,7 +6768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 130.81 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7295,7 +6777,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 57.15 130.81 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
