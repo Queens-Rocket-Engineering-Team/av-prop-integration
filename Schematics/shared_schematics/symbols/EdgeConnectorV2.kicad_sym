@@ -1114,10 +1114,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 13.97 11.43 180)
+			(pin no_connect line
+				(at -13.97 -8.89 0)
 				(length 3.81)
-				(name "24V_A"
+				(name "Reserved"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1132,10 +1132,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -13.97 -8.89 0)
+			(pin power_in line
+				(at 13.97 11.43 180)
 				(length 3.81)
-				(name "Reserved"
+				(name "24V_A"
 					(effects
 						(font
 							(size 1.27 1.27)
