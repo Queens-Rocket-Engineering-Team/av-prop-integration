@@ -2576,7 +2576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ul_SI2301CDS-T1-GE3:TO-236_VIS"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 82.55 125.73 0)
 			(effects
 				(font
