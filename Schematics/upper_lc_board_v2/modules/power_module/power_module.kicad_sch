@@ -4988,6 +4988,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 27.94 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07b12b75-aac4-48b6-a5fd-84e059e78e1b")
+		(property "Reference" "TP11"
+			(at 29.464 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24V-TP-H"
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f01025f7-00cb-4090-bf57-95e07674af0a")
+		)
+		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/94566a7d-86bb-4a04-89fe-f21a893d6a23"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 43.18 106.68 0)
 		(mirror x)
@@ -6535,6 +6601,72 @@
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/94566a7d-86bb-4a04-89fe-f21a893d6a23"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 27.94 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f3ceb16-e499-4483-ab2c-dc3f2bdb4fec")
+		(property "Reference" "#PWR088"
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 27.94 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2a9453a-21bb-4212-9df5-a5e456d80637")
+		)
+		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/94566a7d-86bb-4a04-89fe-f21a893d6a23"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -9923,7 +10055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24V-TP"
+		(property "Value" "24V-TP-P"
 			(at 72.898 135.636 0)
 			(effects
 				(font
@@ -9932,7 +10064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 76.2 137.16 0)
 			(effects
 				(font
