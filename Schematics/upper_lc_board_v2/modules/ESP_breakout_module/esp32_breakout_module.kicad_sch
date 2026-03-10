@@ -4890,6 +4890,17 @@
 		)
 		(uuid "3d139adc-dfc0-494c-99ee-f1f481ac9677")
 	)
+	(label "GPIO_38"
+		(at 194.31 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d53c485-9963-4732-9560-7a1d56d422b9")
+	)
 	(label "ESP32_EN"
 		(at 34.29 64.77 0)
 		(fields_autoplaced yes)
@@ -4946,6 +4957,17 @@
 			(justify right bottom)
 		)
 		(uuid "587fdb12-4800-47d1-90ec-1a8183cf14c3")
+	)
+	(label "GPIO_39"
+		(at 194.31 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b365237-7f5a-4d76-9dfe-dff5b0259193")
 	)
 	(label "GPIO_42"
 		(at 73.66 100.33 0)
@@ -5052,6 +5074,17 @@
 			(justify right bottom)
 		)
 		(uuid "99afb5ee-3fa7-4a5b-a571-a6d36dc933ec")
+	)
+	(label "GPIO_40"
+		(at 194.31 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2607e91-5668-4fcd-9fb2-738bac66aff4")
 	)
 	(label "GPIO_09"
 		(at 167.64 96.52 180)
@@ -5240,6 +5273,28 @@
 		)
 		(uuid "fc3975c8-7c49-42d2-9c5c-0e932bfdc793")
 	)
+	(global_label "PT2_LED"
+		(shape input)
+		(at 194.31 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "233b8b3a-fa91-4607-baa1-8e11068f8872")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.157 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VALVE1_CTRL"
 		(shape input)
 		(at 167.64 92.71 0)
@@ -5372,6 +5427,28 @@
 			)
 		)
 	)
+	(global_label "HALL_LED"
+		(shape input)
+		(at 194.31 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59b713da-9343-4034-a72d-c28212030630")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.1852 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_N"
 		(shape input)
 		(at 191.77 55.88 0)
@@ -5495,6 +5572,28 @@
 		(uuid "b2053e73-16f6-4acf-8896-8589139df6b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 181.5109 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PT1_LED"
+		(shape input)
+		(at 194.31 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8de7830-e4c5-451e-b2a5-84c66c7efbec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.157 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
