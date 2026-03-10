@@ -1489,6 +1489,7 @@
 	)
 	(label "BATT_1"
 		(at 34.29 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1499,6 +1500,7 @@
 	)
 	(label "BATT_2"
 		(at 53.34 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1509,6 +1511,7 @@
 	)
 	(label "BATT_1"
 		(at 53.34 40.64 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1519,6 +1522,7 @@
 	)
 	(label "BATT_2"
 		(at 62.23 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1828,6 +1832,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d6b15e1-6c33-4808-a87a-4718bcb4dfca")
+		(property "Reference" "#PWR016"
+			(at 36.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 34.29 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b82d131e-5306-455c-8760-3cdad7967a2d")
+		)
+		(instances
+			(project "dummy_24v_board"
+				(path "/f0325854-a423-47be-953e-4a5cbde51c3f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EdgeConnectorV2:Stack Male Edge Connector")
 		(at 39.37 48.26 0)
 		(unit 1)
@@ -2065,6 +2136,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f53db18-f796-41a7-9f76-40a8b306ac2c")
+		(property "Reference" "TP6"
+			(at 27.178 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 27.178 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIgiKey" ""
+			(at 30.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "663c334a-9d9f-4f3c-8d8e-82577673c5c4")
+		)
+		(instances
+			(project "dummy_24v_board"
+				(path "/f0325854-a423-47be-953e-4a5cbde51c3f"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 90.17 49.53 0)
 		(unit 1)
@@ -2219,7 +2364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60efb662-7398-4d63-b6dc-a552a0834883")
-		(property "Reference" "#PWR12"
+		(property "Reference" "#PWR012"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -2270,7 +2415,7 @@
 		(instances
 			(project "dummy_24v_board"
 				(path "/f0325854-a423-47be-953e-4a5cbde51c3f"
-					(reference "#PWR12")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2427,7 +2572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "744cc01b-fc2e-47d8-a221-0e3bb341c0dd")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR01"
 			(at 49.53 36.83 0)
 			(effects
 				(font
@@ -2478,7 +2623,7 @@
 		(instances
 			(project "dummy_24v_board"
 				(path "/f0325854-a423-47be-953e-4a5cbde51c3f"
-					(reference "#PWR1")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2572,7 +2717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f099f25-5af3-41f2-a76e-1bcdc34aa54f")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR015"
 			(at 78.74 59.69 0)
 			(effects
 				(font
@@ -2623,7 +2768,7 @@
 		(instances
 			(project "dummy_24v_board"
 				(path "/f0325854-a423-47be-953e-4a5cbde51c3f"
-					(reference "#PWR15")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2714,7 +2859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97f51dd7-b612-45f0-97bd-7be570783dfd")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR014"
 			(at 64.77 105.41 0)
 			(effects
 				(font
@@ -2765,7 +2910,7 @@
 		(instances
 			(project "dummy_24v_board"
 				(path "/f0325854-a423-47be-953e-4a5cbde51c3f"
-					(reference "#PWR14")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2915,7 +3060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab639afc-ebd9-4099-b8b5-68a9571c03c9")
-		(property "Reference" "#PWR11"
+		(property "Reference" "#PWR011"
 			(at 59.69 44.45 0)
 			(effects
 				(font
@@ -2966,7 +3111,7 @@
 		(instances
 			(project "dummy_24v_board"
 				(path "/f0325854-a423-47be-953e-4a5cbde51c3f"
-					(reference "#PWR11")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3209,7 +3354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daed680b-74df-4b18-9b4e-4c69fac69839")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR06"
 			(at 49.53 33.02 0)
 			(effects
 				(font
@@ -3260,7 +3405,7 @@
 		(instances
 			(project "dummy_24v_board"
 				(path "/f0325854-a423-47be-953e-4a5cbde51c3f"
-					(reference "#PWR6")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
