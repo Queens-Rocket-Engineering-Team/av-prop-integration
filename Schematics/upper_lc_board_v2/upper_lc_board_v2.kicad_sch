@@ -11,7 +11,7 @@
 		(comment 2 "Jeevan Sanchez")
 	)
 	(lib_symbols)
-	(text "- added pwr switching for solenoids and PTs\n- removed TCs "
+	(text "- added pwr switching for PTs\n- removed TCs "
 		(exclude_from_sim no)
 		(at 218.186 55.626 0)
 		(effects
