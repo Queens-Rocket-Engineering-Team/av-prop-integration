@@ -4797,6 +4797,18 @@
 		)
 		(uuid "1eddc154-0079-4d53-95d3-7607e9748f00")
 	)
+	(label "GPIO_47"
+		(at 194.31 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ee2f9b0-716e-4c90-9de5-3623719899e4")
+	)
 	(label "GPIO_01"
 		(at 43.18 72.39 180)
 		(fields_autoplaced yes)
@@ -5594,6 +5606,28 @@
 		(uuid "d8de7830-e4c5-451e-b2a5-84c66c7efbec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 205.157 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VPT-SW"
+		(shape input)
+		(at 194.31 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da687404-a5fe-44ae-a8cc-da4446fc1dd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.8547 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
