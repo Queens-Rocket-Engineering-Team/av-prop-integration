@@ -2151,7 +2151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "732-8419-1-ND"
+		(property "Digikey" "732-8511-1-ND"
 			(at 229.87 55.88 0)
 			(effects
 				(font
@@ -2160,7 +2160,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "865080545012"
+		(property "JLCPCB" ""
 			(at 229.87 55.88 0)
 			(effects
 				(font
@@ -2302,7 +2302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4.70KFRCT-ND"
+		(property "Digikey" ""
 			(at 102.87 76.2 90)
 			(effects
 				(font
@@ -2467,6 +2467,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 87.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3948c4a6-e9d0-4c3a-a03f-46946891eddd")
 		)
@@ -2536,6 +2545,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C8218"
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5776199b-e272-493c-934d-321cbea35dff")
 		)
@@ -2597,6 +2615,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "C182476"
 			(at 82.55 125.73 0)
 			(effects
 				(font
@@ -2819,7 +2846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4.70KFRCT-ND"
+		(property "Digikey" ""
 			(at 102.87 60.96 90)
 			(effects
 				(font
@@ -3194,6 +3221,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2290"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dc42138-ac6e-4900-b734-db067cfad3bc")
 		)
@@ -3393,6 +3429,15 @@
 			)
 		)
 		(property "LCSC" "C2290"
+			(at 95.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2290"
 			(at 95.25 60.96 0)
 			(effects
 				(font

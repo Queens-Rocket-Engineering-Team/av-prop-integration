@@ -3808,6 +3808,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2869734"
+			(at 170.18 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f14e02cc-03f0-4c61-a9a8-f267dfbd4f2f")
 		)
@@ -3957,6 +3966,15 @@
 		)
 		(property "LCSC" "C22808"
 			(at 157.48 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23138"
+			(at 157.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,6 +4386,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "150080VS75000"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a26395a3-c547-43cf-bf20-ef392f7f2fe6")
 		)
@@ -4510,7 +4537,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C22962"
 			(at 59.69 102.87 0)
 			(effects
 				(font
@@ -4825,6 +4852,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2869734"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aeac2294-7558-41da-8f31-11abd69faef9")
 		)
@@ -4905,6 +4941,15 @@
 			)
 		)
 		(property "LCSC" "C23193"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C23186"
 			(at 100.33 100.33 0)
 			(effects
 				(font
@@ -5493,6 +5538,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "150080VS75000"
+			(at 161.29 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6fe7c8e-ea3a-4e58-a404-a5c71a9b2d5d")
 		)
@@ -5629,6 +5683,15 @@
 			)
 		)
 		(property "LCSC" "C2869734"
+			(at 170.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2869734"
 			(at 170.18 64.77 0)
 			(effects
 				(font
@@ -6268,7 +6331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "732-8419-1-ND"
+		(property "Digikey" "732-8511-1-ND"
 			(at 92.71 104.14 0)
 			(effects
 				(font
@@ -6496,7 +6559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-4.70KFRCT-ND"
+		(property "Digikey" ""
 			(at 91.44 139.7 90)
 			(effects
 				(font
@@ -7468,6 +7531,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "150080VS75000"
+			(at 59.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a5e6a985-e613-413f-a0da-617b8f1fee93")
 		)
@@ -7706,6 +7778,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "5399-AMS1117-3.3SOT-223TR-ND"
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "29e43da7-53f3-4aff-8d3e-077875ae8f8d")
 		)
@@ -7844,6 +7925,15 @@
 		)
 		(property "LCSC" "C2297"
 			(at 91.44 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "150080VS75000"
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)

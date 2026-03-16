@@ -9053,7 +9053,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 224.282 145.034 0)
 			(effects
 				(font
@@ -10449,7 +10449,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22808"
+		(property "JLCPCB" "C22962"
 			(at 179.07 118.11 0)
 			(effects
 				(font
@@ -10785,7 +10785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.4152 158.75 0)
 			(effects
 				(font
@@ -10812,7 +10812,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "C1525"
 			(at 44.45 154.94 0)
 			(effects
 				(font
@@ -11347,6 +11347,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "296-ISO1044BD-ND"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2d7ed70-4a6a-4191-9e51-76e64b17b40f")
 		)
@@ -11643,6 +11652,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21190"
 			(at 246.38 127 0)
 			(effects
 				(font
@@ -12769,7 +12787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.2552 158.75 0)
 			(effects
 				(font
@@ -12796,7 +12814,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
+		(property "JLCPCB" "  C1525"
 			(at 34.29 154.94 0)
 			(effects
 				(font
@@ -12876,6 +12894,15 @@
 		)
 		(property "LCSC" "C2290"
 			(at 179.07 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2290"
+			(at 179.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13046,7 +13073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 225.0948 59.69 0)
 			(effects
 				(font
@@ -13073,7 +13100,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
+		(property "JLCPCB" "C52923"
 			(at 226.06 63.5 0)
 			(effects
 				(font
@@ -13268,7 +13295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.678 63.5 90)
 			(effects
 				(font
@@ -13295,7 +13322,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25819 "
+		(property "JLCPCB" "C25792"
 			(at 215.9 63.5 0)
 			(effects
 				(font
@@ -14856,7 +14883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.678 55.88 90)
 			(effects
 				(font
@@ -14883,7 +14910,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C31850"
+		(property "JLCPCB" "C25768 "
 			(at 215.9 55.88 0)
 			(effects
 				(font
@@ -15169,7 +15196,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C21190"
+		(property "JLCPCB" "C4410"
 			(at 231.14 46.99 0)
 			(effects
 				(font
@@ -15677,6 +15704,15 @@
 		)
 		(property "LCSC" "C2286"
 			(at 160.02 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2290"
+			(at 160.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16291,7 +16327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 135.382 140.97 90)
 			(effects
 				(font
@@ -16318,7 +16354,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22843"
+		(property "JLCPCB" "C25867"
 			(at 137.16 140.97 0)
 			(effects
 				(font

@@ -5661,6 +5661,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "5399-AMS1117-3.3SOT-223TR-ND"
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "76d368cb-d7ef-4b13-9eea-e7e8b6400f37")
 		)

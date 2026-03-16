@@ -1668,6 +1668,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C22935"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84d19af9-dabe-4310-b560-1ad730456147")
 		)
@@ -1937,6 +1946,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C22935"
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d653037d-f86a-4fbd-b238-013ebe38a372")
 		)
@@ -2186,6 +2204,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C8218"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "299fa00d-c559-4387-a365-8e617e3f40d2")
 		)
@@ -2266,6 +2293,15 @@
 			)
 		)
 		(property "LCSC" "C459846"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "BAV199DW"
 			(at 163.83 97.79 0)
 			(effects
 				(font
@@ -2366,6 +2402,15 @@
 			)
 		)
 		(property "LCSC" "C459846"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "BAV199DW"
 			(at 139.7 97.79 0)
 			(effects
 				(font
@@ -2615,6 +2660,15 @@
 			)
 		)
 		(property "LCSC" "C8218"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8218"
 			(at 148.59 104.14 0)
 			(effects
 				(font

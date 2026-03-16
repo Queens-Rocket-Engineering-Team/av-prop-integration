@@ -4602,7 +4602,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C57112"
 			(at 135.89 80.01 0)
 			(effects
 				(font
@@ -4842,7 +4842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "4.7k"
 			(at 230.378 73.66 90)
 			(effects
 				(font
@@ -5181,6 +5181,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C8218"
+			(at 241.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ec319ee-2b69-4bfd-9dc9-3f0fbc46c42a")
 		)
@@ -5401,6 +5410,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C22765"
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "39c12499-bd66-4e76-bc0c-4e3b72096ada")
 		)
@@ -5544,7 +5562,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C57112"
 			(at 134.62 60.96 0)
 			(effects
 				(font
@@ -5820,6 +5838,15 @@
 			)
 		)
 		(property "LCSC" "C4190"
+			(at 91.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C4190"
 			(at 91.44 128.27 0)
 			(effects
 				(font
@@ -6122,6 +6149,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C22765"
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5610ade4-729c-46da-8717-b000431fcb54")
 		)
@@ -6192,6 +6228,15 @@
 			)
 		)
 		(property "LCSC" "C25804"
+			(at 118.11 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25804"
 			(at 118.11 177.8 0)
 			(effects
 				(font
@@ -6278,7 +6323,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C57112"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -6890,6 +6935,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C21120"
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed711557-0ef5-4803-afd7-f38fb8bced11")
 		)
@@ -7185,7 +7239,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C57112"
 			(at 133.35 46.99 0)
 			(effects
 				(font
@@ -7255,6 +7309,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "C182476"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -7551,7 +7614,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25744"
+		(property "JLCPCB" "C25804"
 			(at 203.2 82.55 0)
 			(effects
 				(font
@@ -7629,6 +7692,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 234.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "301e5874-0fde-4397-9f3c-d8f9565e3f46")
 		)
@@ -7697,6 +7769,15 @@
 			)
 		)
 		(property "LCSC" "C4190"
+			(at 91.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C4190"
 			(at 91.44 144.78 0)
 			(effects
 				(font
@@ -8250,6 +8331,15 @@
 			)
 		)
 		(property "LCSC" "C2862562"
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2862562"
 			(at 162.56 64.77 0)
 			(effects
 				(font
