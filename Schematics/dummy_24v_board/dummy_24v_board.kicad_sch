@@ -2355,7 +2355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "power:+3.3V")
 		(at 85.09 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2400,7 +2400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 85.09 57.15 0)
 			(effects
 				(font
