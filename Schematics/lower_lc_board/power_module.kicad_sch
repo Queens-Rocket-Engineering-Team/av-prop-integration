@@ -3222,7 +3222,6 @@
 	)
 	(label "3V3_BP"
 		(at 88.9 54.61 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3233,7 +3232,6 @@
 	)
 	(label "3V3_USB"
 		(at 181.61 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3245,7 +3243,6 @@
 	)
 	(label "3V3_BP"
 		(at 142.24 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3256,7 +3253,6 @@
 	)
 	(label "3V3_USB"
 		(at 143.51 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3433,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ideal_diode_lm66100_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ideal_diode_lm66100_DS.pdf"
 			(at 170.18 40.64 0)
 			(effects
 				(font
@@ -4433,7 +4429,7 @@
 			(uuid "9ffeef74-bafc-40f1-ba89-fde3f2681a05")
 		)
 		(instances
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/ea1dc739-d1f4-46a0-a090-2a1bf39da427"
 					(reference "C50")
 					(unit 1)
@@ -4476,7 +4472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ideal_diode_lm66100_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ideal_diode_lm66100_DS.pdf"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -4621,7 +4617,7 @@
 			(uuid "b004b510-8fe5-40fd-b2a6-826a06b83ab7")
 		)
 		(instances
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/ea1dc739-d1f4-46a0-a090-2a1bf39da427"
 					(reference "J1")
 					(unit 1)
@@ -5338,7 +5334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ideal_diode_lm66100_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ideal_diode_lm66100_DS.pdf"
 			(at 170.18 63.5 0)
 			(effects
 				(font
@@ -5669,7 +5665,7 @@
 			(uuid "b35698cf-efb1-4128-b820-120abc455611")
 		)
 		(instances
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/ea1dc739-d1f4-46a0-a090-2a1bf39da427"
 					(reference "TP9")
 					(unit 1)
@@ -7329,7 +7325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/LDO_ds1117_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/LDO_ds1117_DS.pdf"
 			(at 171.45 143.51 0)
 			(effects
 				(font

@@ -4041,7 +4041,6 @@
 	)
 	(label "TC_P_1"
 		(at 135.89 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4052,7 +4051,6 @@
 	)
 	(label "TC_N_CLAMPED_1"
 		(at 135.89 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4063,7 +4061,6 @@
 	)
 	(label "TC_N_2"
 		(at 218.44 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4074,7 +4071,6 @@
 	)
 	(label "TC_N_CLAMPED_2"
 		(at 127 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4085,7 +4081,6 @@
 	)
 	(label "PT1_CLAMPED"
 		(at 124.46 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4096,7 +4091,6 @@
 	)
 	(label "TC_N_1"
 		(at 135.89 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4107,7 +4101,6 @@
 	)
 	(label "TC_P_2"
 		(at 218.44 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4118,7 +4111,6 @@
 	)
 	(label "PT2"
 		(at 49.53 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4131,7 +4123,6 @@
 	)
 	(label "TC_N_CLAMPED_2"
 		(at 218.44 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4142,7 +4133,6 @@
 	)
 	(label "TC_P_CLAMPED_2"
 		(at 127 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4153,7 +4143,6 @@
 	)
 	(label "VPT"
 		(at 52.07 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4164,7 +4153,6 @@
 	)
 	(label "VPT"
 		(at 52.07 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4175,7 +4163,6 @@
 	)
 	(label "PT2_CLAMPED"
 		(at 123.19 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4186,7 +4173,6 @@
 	)
 	(label "VPT"
 		(at 100.33 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4197,7 +4183,6 @@
 	)
 	(label "PT1_CLAMPED"
 		(at 49.53 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4208,7 +4193,6 @@
 	)
 	(label "TC_N_CLAMPED_1"
 		(at 127 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4219,7 +4203,6 @@
 	)
 	(label "PT1"
 		(at 49.53 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4232,7 +4215,6 @@
 	)
 	(label "TC_P_CLAMPED_1"
 		(at 135.89 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4243,7 +4225,6 @@
 	)
 	(label "PT2_CLAMPED"
 		(at 49.53 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4254,7 +4235,6 @@
 	)
 	(label "VPT"
 		(at 270.51 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4265,7 +4245,6 @@
 	)
 	(label "TC_P_CLAMPED_2"
 		(at 218.44 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4276,7 +4255,6 @@
 	)
 	(label "TC_P_CLAMPED_1"
 		(at 127 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4740,7 +4718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/nmosfet_2N7002_DS.PDF"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/nmosfet_2N7002_DS.PDF"
 			(at 227.33 54.61 0)
 			(effects
 				(font
@@ -4778,7 +4756,7 @@
 			(uuid "a00a9768-9533-4e26-82dc-f22420a98b21")
 		)
 		(instances
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "Q3")
 					(unit 1)
@@ -5063,7 +5041,7 @@
 			(uuid "99f97d28-2e69-406c-8fb8-898e309c3369")
 		)
 		(instances
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "#PWR063")
 					(unit 1)
@@ -6916,7 +6894,7 @@
 			(uuid "3a2a434d-06ce-466b-9fdf-d8cb2a6ecc4d")
 		)
 		(instances
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "#PWR084")
 					(unit 1)
@@ -7242,7 +7220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/thermistor_tx_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/thermistor_tx_DS.pdf"
 			(at 130.81 177.8 0)
 			(effects
 				(font
@@ -7546,7 +7524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/pmosfet_DMP4065S-7_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/pmosfet_DMP4065S-7_DS.pdf"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -7584,7 +7562,7 @@
 			(uuid "3189af00-12f3-401d-96e9-c11673bcd06b")
 		)
 		(instances
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "U11")
 					(unit 1)
@@ -8119,7 +8097,7 @@
 			(uuid "dee43e29-30fd-470f-bc46-af61c43af96a")
 		)
 		(instances
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c"
 					(reference "R22")
 					(unit 1)
@@ -8506,7 +8484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ADC_ads131m04_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ADC_ads131m04_DS.pdf"
 			(at 162.56 64.77 0)
 			(effects
 				(font
@@ -8752,7 +8730,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../../shared_schematics/PT_module.kicad_sch"
+		(property "Sheetfile" "../shared_schematics/PT_module.kicad_sch"
 			(at 52.07 88.9766 0)
 			(effects
 				(font
@@ -8820,7 +8798,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../../shared_schematics/TC_module.kicad_sch"
+		(property "Sheetfile" "../shared_schematics/TC_module.kicad_sch"
 			(at 140.208 135.4586 0)
 			(effects
 				(font
@@ -8898,7 +8876,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../../shared_schematics/TC_module.kicad_sch"
+		(property "Sheetfile" "../shared_schematics/TC_module.kicad_sch"
 			(at 222.758 135.4586 0)
 			(effects
 				(font
@@ -8976,7 +8954,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../../shared_schematics/PT_module.kicad_sch"
+		(property "Sheetfile" "../shared_schematics/PT_module.kicad_sch"
 			(at 52.07 58.4966 0)
 			(effects
 				(font

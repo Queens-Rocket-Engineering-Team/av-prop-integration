@@ -1068,7 +1068,6 @@
 	(hierarchical_label "CLAMPED"
 		(shape input)
 		(at 177.8 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1080,7 +1079,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 143.51 86.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1092,7 +1090,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 134.62 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1104,7 +1101,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 143.51 86.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1116,7 +1112,6 @@
 	(hierarchical_label "CLAMPED"
 		(shape input)
 		(at 177.8 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1293,7 @@
 					(unit 1)
 				)
 			)
-			(project "PT_module"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
 					(reference "R38")
 					(unit 1)
@@ -1344,7 +1339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/conn_jst_B0XB-PASK-1_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/conn_jst_B0XB-PASK-1_DS.pdf"
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -1394,7 +1389,7 @@
 					(unit 1)
 				)
 			)
-			(project "PT_module"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
 					(reference "J8")
 					(unit 1)
@@ -1479,7 +1474,7 @@
 					(unit 1)
 				)
 			)
-			(project "PT_module"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
 					(reference "#PWR091")
 					(unit 1)
@@ -1584,7 +1579,7 @@
 					(unit 1)
 				)
 			)
-			(project "PT_module"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
 					(reference "R37")
 					(unit 1)
@@ -1680,7 +1675,7 @@
 					(unit 1)
 				)
 			)
-			(project "PT_module"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
 					(reference "R35")
 					(unit 1)
@@ -1808,7 +1803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/diode_BAV16WS_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/diode_BAV16WS_DS.pdf"
 			(at 163.83 80.01 0)
 			(effects
 				(font
@@ -1879,7 +1874,7 @@
 					(unit 2)
 				)
 			)
-			(project "PT_module"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
 					(reference "D14")
 					(unit 1)

@@ -365,7 +365,7 @@
 		(property ki_fp_filters "SOT?363*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/94ea8052-395f-441e-97ea-451c32a2d978")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 1.16)
@@ -656,7 +656,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/c24aac4f-6b21-4acc-8408-d1ef4a964248")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -896,7 +896,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/7673987b-1a0a-4853-b244-c72533f2ea06")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -1136,7 +1136,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/e7d2160b-1cdb-411a-87c8-b5297bacc115")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -1363,7 +1363,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/47b6445d-ffe4-44ea-badb-c672fc564716")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -1590,7 +1590,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/586f59dd-a782-4bb9-abea-84d7da75b852")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -1817,7 +1817,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b/5071e658-7e2e-4a11-8549-3733f53ea8da")
 		(sheetname "Valve Control 2")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -2044,7 +2044,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/e9c2f5a6-dfe5-4eb1-bc24-870c808caaa3")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.91 -3.41)
@@ -2335,7 +2335,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/4b0f7962-7d87-411a-84fd-a382a6d35ecd")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -2575,7 +2575,7 @@
 		(property ki_fp_filters "SOT?363*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/94ea8052-395f-441e-97ea-451c32a2d978")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 1.16)
@@ -2866,7 +2866,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/68c59f26-13f7-4c63-a6a5-f692ff01eab3")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -3106,7 +3106,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/43c70663-88db-4cac-ac07-ca9871d596eb")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -3334,7 +3334,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/fac68f2c-0977-4896-981b-06709ea75459")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -3612,7 +3612,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/861892a1-d4fc-40fa-a3b7-0605f59fc683")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.47 -0.67)
@@ -3780,14 +3780,24 @@
 			(at -2.89 -1.45 180)
 			(size 0.6 0.6)
 			(drill 0.6)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(uuid "87425413-f679-44c3-934a-fe7b546697e8")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -1.45 180)
 			(size 0.6 0.6)
 			(drill 0.6)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(uuid "561e19bb-0ac2-4f4c-aa23-9d0f97e47792")
 		)
 		(pad "A1" smd rect
@@ -3938,7 +3948,12 @@
 			(at -4.32 -1.93 90)
 			(size 2 0.9)
 			(drill oval 1.7 0.6)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "SHIELD")
@@ -3949,7 +3964,12 @@
 			(at -4.32 2.24 90)
 			(size 1.7 0.9)
 			(drill oval 1.4 0.6)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "SHIELD")
@@ -3960,7 +3980,12 @@
 			(at 4.32 -1.93 90)
 			(size 2 0.9)
 			(drill oval 1.7 0.6)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "SHIELD")
@@ -3971,7 +3996,12 @@
 			(at 4.32 2.24 90)
 			(size 1.7 0.9)
 			(drill oval 1.4 0.6)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "SHIELD")
@@ -4074,7 +4104,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/8a364f17-8d3b-4992-9e67-fe58336da50d")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -4288,7 +4318,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/032ea6c0-6c92-4553-86cd-70c4c01d7f66")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -4430,7 +4460,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/410a2d30-1c2e-4e50-87c7-febe657d027b")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -4657,7 +4687,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/3670584b-49d7-4204-8567-09e518efaa3d")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -4897,7 +4927,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b/6f58f704-71c7-483b-94ef-8f4ab0b22f8d")
 		(sheetname "Valve Control 2")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -5124,7 +5154,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e/cc55772b-a603-450d-b8e5-9cb6c4645f51")
 		(sheetname "PT-2")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -5352,7 +5382,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/2beb8aaa-6c1f-4d49-929c-d82779f6a105")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -5592,7 +5622,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0141645e-9bad-4ce7-95c9-3a471352359c")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -5819,7 +5849,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/01b7c83f-7d8a-4117-b8f6-50d89c021c07")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -6087,7 +6117,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/7bec365e-73c2-4de7-ac2c-c1783923556b")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -6162,7 +6192,7 @@
 			)
 		)
 		(property "Footprint" "CONN_SD-4:CONN_SD-43045-001_06_MOL"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "327d23e1-468b-40a2-8a0a-0b6ae5c61c7e")
@@ -6174,7 +6204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7d6a2769-9310-4968-91b4-0d8caea01906")
@@ -6186,7 +6216,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d78823e0-5cd9-4800-8be6-d07b2053a135")
@@ -6213,7 +6243,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/3e167ef4-d492-448f-adb8-b494a4fa35c4")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 4.594601 0)
@@ -6391,7 +6421,12 @@
 			(at 0 0 180)
 			(size 1.5748 1.5748)
 			(drill 1.0668)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "Pin_1")
@@ -6402,7 +6437,12 @@
 			(at -2.999999 0 180)
 			(size 1.5748 1.5748)
 			(drill 1.0668)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 39 "CAN_N")
 			(pinfunction "Pin_2")
@@ -6413,7 +6453,12 @@
 			(at -5.999998 0 180)
 			(size 1.5748 1.5748)
 			(drill 1.0668)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 37 "CAN_P")
 			(pinfunction "Pin_3")
@@ -6424,7 +6469,12 @@
 			(at 0 -2.999999 180)
 			(size 1.5748 1.5748)
 			(drill 1.0668)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 3 "+24V_BP")
 			(pinfunction "Pin_4")
@@ -6435,7 +6485,12 @@
 			(at -2.999999 -2.999999 180)
 			(size 1.5748 1.5748)
 			(drill 1.0668)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 5 "+5V")
 			(pinfunction "Pin_5")
@@ -6446,7 +6501,12 @@
 			(at -5.999998 -2.999999 180)
 			(size 1.5748 1.5748)
 			(drill 1.0668)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 6 "/Power Circuitry/3V3_BP")
 			(pinfunction "Pin_6")
@@ -6549,7 +6609,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/8a9a4131-dbbb-478a-9037-4accbe3c9eef")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -6789,7 +6849,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/ce663594-5550-4e85-9a99-c86479fec159")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -7029,7 +7089,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/929720b3-aa25-46e5-bb0e-2d1efcca0133")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -7269,7 +7329,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/f28deeb8-136d-44ae-87d7-e28222f683fd")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -7531,7 +7591,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/d79b4472-edd1-4112-bbb2-8da5a9e7a082")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -7758,7 +7818,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/16404975-4d02-46de-8840-a88e6c74109c")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -7998,7 +8058,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/cbebb7ce-c599-4341-b5fd-e6d200c9214d")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -8224,7 +8284,7 @@
 		)
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/fb00643e-544e-41c4-8b9c-714acb40e25b")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -8736,7 +8796,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/f0b68891-159d-4c46-b25c-5912911ce213")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -8950,7 +9010,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/4d41eb76-3455-4627-a095-64b1de45a357")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.95 -0.95)
@@ -9136,7 +9196,7 @@
 		)
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/3f905b25-776c-47b9-aebc-0f1fe73b6f52")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.75 -1)
@@ -9648,7 +9708,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8/5071e658-7e2e-4a11-8549-3733f53ea8da")
 		(sheetname "Valve Control 1")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -9875,7 +9935,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/a1c95967-9955-4167-b93c-edf8c47c2eca")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -10102,7 +10162,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/ac2851fa-b672-4d25-9674-d8614346e170")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -10245,382 +10305,6 @@
 			)
 		)
 	)
-	(footprint "NANO-V-CONN:MOLEX_1053091102"
-		(layer "F.Cu")
-		(uuid "3e8f6cc3-fde7-44e1-a2cc-943fb22a4e56")
-		(at 158.70425 124.2)
-		(property "Reference" "REF**"
-			(at 1.425 -3.885 0)
-			(layer "F.SilkS")
-			(uuid "1fe04f01-12fb-4669-8045-45759b064f7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MOLEX_1053091102"
-			(at 8.41 6.793 0)
-			(layer "F.Fab")
-			(uuid "25a4dfb3-d2d6-420a-b552-5923efefe6fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "NANO-V-CONN:MOLEX_1053091102"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6fc3bbf9-0cf6-43d5-b02b-622099b5bbc2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0004dd54-28de-43c9-bbd9-f1748736977a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18ccd37d-53c6-4ee8-8dbf-604a2fa31213")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_line
-			(start -3 -0.4)
-			(end -3 0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4a0a0cb7-bb8b-4192-a071-674fdb044bef")
-		)
-		(fp_line
-			(start -3 0.4)
-			(end -2.3 0)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "264974e9-267b-4a72-bfd5-a82f42ec96c3")
-		)
-		(fp_line
-			(start -2.3 0)
-			(end -3 -0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "80adf178-10ce-4012-9e1f-2e82d7f1dde7")
-		)
-		(fp_line
-			(start -1.72 -1.74)
-			(end 4.22 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e975c1a0-fb79-4b8b-b069-644addfee654")
-		)
-		(fp_line
-			(start -1.72 1.74)
-			(end -1.72 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "baac5f8c-fdc8-47a5-93ad-ce126b2b944b")
-		)
-		(fp_line
-			(start 0 1.74)
-			(end -1.72 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "772b0221-f10b-4c34-aa84-bbfdff411f62")
-		)
-		(fp_line
-			(start 4.22 -1.74)
-			(end 4.22 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1e90d728-f1d4-421a-9443-86ee6f20ccc0")
-		)
-		(fp_line
-			(start 4.22 1.74)
-			(end 2.5 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5804061c-4b7f-4d2f-a39b-bda1b67df497")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.4631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "48011695-ebb0-4eb2-a79d-b25a096d7222")
-		)
-		(fp_circle
-			(center 1.25 1.34)
-			(end 1.6131 1.34)
-			(stroke
-				(width 0.7262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "8c8ae6b4-d9dc-4a24-8bde-07dab4197723")
-		)
-		(fp_circle
-			(center 2.5 0)
-			(end 2.9631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "3b0b00e5-6fb8-4d0f-b869-35c268853b10")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.4631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "ff63bbc2-f85a-4a1f-8f34-b2276fd8af68")
-		)
-		(fp_circle
-			(center 1.25 1.34)
-			(end 1.6131 1.34)
-			(stroke
-				(width 0.7262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "7a652d33-87bf-4939-bece-9a87cca6d976")
-		)
-		(fp_circle
-			(center 2.5 0)
-			(end 2.9631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "89d1488f-ab6d-4194-940a-5961579a08c4")
-		)
-		(fp_line
-			(start -2.99 -3.01)
-			(end 5.49 -3.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "23d80f1a-0a20-4dc6-bc3f-76f9be482915")
-		)
-		(fp_line
-			(start -2.99 5.87)
-			(end -2.99 -3.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "44d00465-03e4-47c0-be98-0bec7be415d9")
-		)
-		(fp_line
-			(start -2.99 5.87)
-			(end 5.49 5.87)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6adfd4b3-dd61-410e-8691-b39689e514ac")
-		)
-		(fp_line
-			(start 5.49 -3.01)
-			(end 5.49 5.87)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "875f691c-58e8-41fe-b845-012649012bd9")
-		)
-		(fp_line
-			(start -3 -0.4)
-			(end -3 0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a0ed71cd-141b-4299-b793-ba498231d8a3")
-		)
-		(fp_line
-			(start -3 0.4)
-			(end -2.3 0)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "569a4743-be31-4b8e-9173-4f02e6d543d9")
-		)
-		(fp_line
-			(start -2.3 0)
-			(end -3 -0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a1bff6f2-47e7-440a-88d6-cf0f31dd3462")
-		)
-		(fp_line
-			(start -1.72 -1.74)
-			(end 4.22 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3fc7d382-112b-4a91-81ce-524e686684d9")
-		)
-		(fp_line
-			(start -1.72 4.6)
-			(end -1.72 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dc7ea92a-1df6-4ac2-90d7-32eb9b6ece20")
-		)
-		(fp_line
-			(start 4.22 -1.74)
-			(end 4.22 4.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1bab9154-e0ce-473a-949e-2269e73fb38f")
-		)
-		(fp_line
-			(start 4.22 4.6)
-			(end -1.72 4.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bd0c6b17-c1ac-453c-8c6b-b9c111fa8cb4")
-		)
-		(fp_text user "PTH D1.2 +/- 0.05"
-			(at -1.8 8.4224 0)
-			(layer "F.Fab")
-			(uuid "15e37637-2fdc-464c-b826-866c9d0aeca3")
-			(effects
-				(font
-					(size 0.393701 0.393701)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "NPTH D1.3 +/- 0.05"
-			(at -1.8 9.3724 0)
-			(layer "F.Fab")
-			(uuid "ec5d88b6-bca3-48d5-a6bb-4743cab03948")
-			(effects
-				(font
-					(size 0.393701 0.393701)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 1.25 1.34)
-			(size 1.3 1.3)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "02d08d36-1ca3-424a-ba2c-0d79c9c9cd67")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.7 1.7)
-			(drill 1.2)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(uuid "2edabdf2-2e19-480b-99b8-1aa033015081")
-		)
-		(pad "2" thru_hole circle
-			(at 2.5 0)
-			(size 1.7 1.7)
-			(drill 1.2)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(uuid "8362a929-81f6-45bf-878a-c1ecf0a0a1bf")
-		)
-		(model "${PI_SHARE_MODELS}/1053091102.step"
-			(offset
-				(xyz 1.5 0 3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3ec13076-d72a-46df-b1d0-b798acbe1c1a")
@@ -10718,7 +10402,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/dd8c53c4-a591-4e95-ae48-953d0ee6e5c2")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -10967,7 +10651,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/e668e16b-cb68-432c-abbf-fbd32d2706cf")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -11192,7 +10876,7 @@
 		(property ki_fp_filters "TO-236_VIS TO-236_VIS-M TO-236_VIS-L")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/695bb83a-38c0-49b8-b1ba-d873519dfec0")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.651 -0.8255)
@@ -11681,7 +11365,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/90fa8b28-e3ad-4a08-a8b9-c71a14afb4c4")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -11921,7 +11605,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/ccb12004-2649-4f42-a2d0-73d27b69bb56")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -12161,7 +11845,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee/8a0c5c32-ec3b-4f4b-9659-8d1831ca47de")
 		(sheetname "PT-1")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -12375,7 +12059,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/e979651d-29a5-4101-9511-34338a243d8f")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -12504,7 +12188,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/4a6d7d72-1b77-4625-8495-ed40f55ad3b8")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -12745,7 +12429,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/d9d1d6e7-7f58-4071-8b07-d9a1434eb1f5")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 -0.96)
@@ -12994,7 +12678,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/665b9c9b-46c0-4aab-9ec2-b433f38379e1")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -13234,7 +12918,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/44fde397-f3ff-4c66-930b-c799f2e0e151")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -13461,7 +13145,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/4f605be4-1f4e-43a9-a214-ec7475fec78a")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -13604,382 +13288,6 @@
 			)
 		)
 	)
-	(footprint "NANO-V-CONN:MOLEX_1053091102"
-		(layer "F.Cu")
-		(uuid "4d3f577e-ff47-468a-a102-e249b99bbe2c")
-		(at 153.93 138.15)
-		(property "Reference" "REF**"
-			(at 1.425 -3.885 360)
-			(layer "F.SilkS")
-			(uuid "1fe04f01-12fb-4669-8045-45759b064f7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MOLEX_1053091102"
-			(at 8.41 6.793 360)
-			(layer "F.Fab")
-			(uuid "25a4dfb3-d2d6-420a-b552-5923efefe6fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "NANO-V-CONN:MOLEX_1053091102"
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6fc3bbf9-0cf6-43d5-b02b-622099b5bbc2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0004dd54-28de-43c9-bbd9-f1748736977a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18ccd37d-53c6-4ee8-8dbf-604a2fa31213")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_line
-			(start -3 -0.4)
-			(end -3 0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4a0a0cb7-bb8b-4192-a071-674fdb044bef")
-		)
-		(fp_line
-			(start -3 0.4)
-			(end -2.3 0)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "264974e9-267b-4a72-bfd5-a82f42ec96c3")
-		)
-		(fp_line
-			(start -2.3 0)
-			(end -3 -0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "80adf178-10ce-4012-9e1f-2e82d7f1dde7")
-		)
-		(fp_line
-			(start -1.72 -1.74)
-			(end 4.22 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e975c1a0-fb79-4b8b-b069-644addfee654")
-		)
-		(fp_line
-			(start -1.72 1.74)
-			(end -1.72 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "baac5f8c-fdc8-47a5-93ad-ce126b2b944b")
-		)
-		(fp_line
-			(start 0 1.74)
-			(end -1.72 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "772b0221-f10b-4c34-aa84-bbfdff411f62")
-		)
-		(fp_line
-			(start 4.22 -1.74)
-			(end 4.22 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1e90d728-f1d4-421a-9443-86ee6f20ccc0")
-		)
-		(fp_line
-			(start 4.22 1.74)
-			(end 2.5 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5804061c-4b7f-4d2f-a39b-bda1b67df497")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.4631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "48011695-ebb0-4eb2-a79d-b25a096d7222")
-		)
-		(fp_circle
-			(center 1.25 1.34)
-			(end 1.6131 1.34)
-			(stroke
-				(width 0.7262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "8c8ae6b4-d9dc-4a24-8bde-07dab4197723")
-		)
-		(fp_circle
-			(center 2.5 0)
-			(end 2.9631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "3b0b00e5-6fb8-4d0f-b869-35c268853b10")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.4631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "ff63bbc2-f85a-4a1f-8f34-b2276fd8af68")
-		)
-		(fp_circle
-			(center 1.25 1.34)
-			(end 1.6131 1.34)
-			(stroke
-				(width 0.7262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "7a652d33-87bf-4939-bece-9a87cca6d976")
-		)
-		(fp_circle
-			(center 2.5 0)
-			(end 2.9631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "89d1488f-ab6d-4194-940a-5961579a08c4")
-		)
-		(fp_line
-			(start -2.99 -3.01)
-			(end 5.49 -3.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "23d80f1a-0a20-4dc6-bc3f-76f9be482915")
-		)
-		(fp_line
-			(start -2.99 5.87)
-			(end -2.99 -3.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "44d00465-03e4-47c0-be98-0bec7be415d9")
-		)
-		(fp_line
-			(start -2.99 5.87)
-			(end 5.49 5.87)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6adfd4b3-dd61-410e-8691-b39689e514ac")
-		)
-		(fp_line
-			(start 5.49 -3.01)
-			(end 5.49 5.87)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "875f691c-58e8-41fe-b845-012649012bd9")
-		)
-		(fp_line
-			(start -3 -0.4)
-			(end -3 0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a0ed71cd-141b-4299-b793-ba498231d8a3")
-		)
-		(fp_line
-			(start -3 0.4)
-			(end -2.3 0)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "569a4743-be31-4b8e-9173-4f02e6d543d9")
-		)
-		(fp_line
-			(start -2.3 0)
-			(end -3 -0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a1bff6f2-47e7-440a-88d6-cf0f31dd3462")
-		)
-		(fp_line
-			(start -1.72 -1.74)
-			(end 4.22 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3fc7d382-112b-4a91-81ce-524e686684d9")
-		)
-		(fp_line
-			(start -1.72 4.6)
-			(end -1.72 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dc7ea92a-1df6-4ac2-90d7-32eb9b6ece20")
-		)
-		(fp_line
-			(start 4.22 -1.74)
-			(end 4.22 4.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1bab9154-e0ce-473a-949e-2269e73fb38f")
-		)
-		(fp_line
-			(start 4.22 4.6)
-			(end -1.72 4.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bd0c6b17-c1ac-453c-8c6b-b9c111fa8cb4")
-		)
-		(fp_text user "PTH D1.2 +/- 0.05"
-			(at -1.8 8.4224 360)
-			(layer "F.Fab")
-			(uuid "15e37637-2fdc-464c-b826-866c9d0aeca3")
-			(effects
-				(font
-					(size 0.393701 0.393701)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "NPTH D1.3 +/- 0.05"
-			(at -1.8 9.3724 360)
-			(layer "F.Fab")
-			(uuid "ec5d88b6-bca3-48d5-a6bb-4743cab03948")
-			(effects
-				(font
-					(size 0.393701 0.393701)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 1.25 1.34)
-			(size 1.3 1.3)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "02d08d36-1ca3-424a-ba2c-0d79c9c9cd67")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.7 1.7)
-			(drill 1.2)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(uuid "2edabdf2-2e19-480b-99b8-1aa033015081")
-		)
-		(pad "2" thru_hole circle
-			(at 2.5 0)
-			(size 1.7 1.7)
-			(drill 1.2)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(uuid "8362a929-81f6-45bf-878a-c1ecf0a0a1bf")
-		)
-		(model "${PI_SHARE_MODELS}/1053091102.step"
-			(offset
-				(xyz 1.5 0 3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -180)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4d5df327-0b52-48f9-8fa5-4236144d7c99")
@@ -14064,7 +13372,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/6de1a0c6-f208-4e15-bb98-0d304fd34a6a")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -14291,7 +13599,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/8409dc64-6626-4a76-be48-d58be3670db2")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -14518,7 +13826,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/ee5ce91a-e9c0-4a0a-ba4a-21db91b6d421")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -14758,7 +14066,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/609de17f-b37d-44ba-b564-9135ec3f2988")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -15788,7 +15096,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/6a81a186-8238-4939-8efd-91506e71f6d6")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -15930,7 +15238,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/8918a298-4c03-4e65-84b6-6957870b2fba")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -16170,7 +15478,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8/6f58f704-71c7-483b-94ef-8f4ab0b22f8d")
 		(sheetname "Valve Control 1")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -16410,7 +15718,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/8ba752c4-af30-4170-bcd7-ff7c954a2fb4")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -16637,7 +15945,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee/cc55772b-a603-450d-b8e5-9cb6c4645f51")
 		(sheetname "PT-1")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -16874,7 +16182,7 @@
 		(property ki_fp_filters "DCK6_TEX DCK6_TEX-M DCK6_TEX-L")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/0064d833-cd51-4a60-aa85-4fec68be1678")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.675 1.16)
@@ -17134,7 +16442,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/ce54534d-c08c-4545-8d45-aded2f924f6c")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -17177,6 +16485,398 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "f2d697bf-5900-4e5e-9cd1-d3726e2454b7")
+		)
+	)
+	(footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "5e3e2d26-2710-4479-b8e1-010dc8e55f90")
+		(at 163.17 127.7)
+		(descr "Terminal Block TE 282834-2, 2 pins, pitch 2.54mm, size 5.54x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity")
+		(tags "THT Terminal Block TE 282834-2 pitch 2.54mm size 5.54x6.5mm^2 drill 1.1mm pad 2.1mm")
+		(property "Reference" "J7"
+			(at 1.27 -4.37 0)
+			(layer "F.SilkS")
+			(uuid "7cff066a-d2d7-40c4-9b88-eef7c45bd13e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 1.27 4.37 0)
+			(layer "F.Fab")
+			(uuid "5cecba10-3b99-43b3-8c5a-ee017a77aa16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8cca1fa-d4b3-4c54-91af-25e1b17d5543")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0af10174-e0f2-4e8e-a050-22d7e160a498")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a72c0beb-6a3a-4afb-8358-78e72113675a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "ED10561-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c25b6ae1-b7a9-4c3c-8d30-d5bcc7a57d79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TerminalBlock*:*")
+		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/f2ab04a9-83e1-4804-8a7d-f4462ef88f39")
+		(sheetname "TC Conditoning + CJC")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.86 2.97)
+			(end -1.86 3.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "15e07145-acba-450a-b349-f9d30f50b6af")
+		)
+		(fp_line
+			(start -1.86 3.61)
+			(end -1.46 3.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c3574e9-8eae-42bd-aa8c-74f3c5acda79")
+		)
+		(fp_line
+			(start -1.62 -3.37)
+			(end -1.62 3.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7d4fe9d1-47fb-42e9-838a-f2a351ac47c1")
+		)
+		(fp_line
+			(start -1.62 -3.37)
+			(end 4.16 -3.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e2367e98-2601-4e03-9f50-2a563731094a")
+		)
+		(fp_line
+			(start -1.62 -2.25)
+			(end 4.16 -2.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7256d261-9de8-4556-85a8-9faf6f1c61ef")
+		)
+		(fp_line
+			(start -1.62 2.85)
+			(end 4.16 2.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4927c401-9310-45c8-9bfc-db2a480f7000")
+		)
+		(fp_line
+			(start -1.62 3.37)
+			(end 4.16 3.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8c518d10-5306-4002-837e-133a1b09a2b4")
+		)
+		(fp_line
+			(start 4.16 -3.37)
+			(end 4.16 3.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1e4b870d-a86c-4595-983c-ee4c7127b889")
+		)
+		(fp_line
+			(start -2 -3.75)
+			(end -2 3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e160fe0a-829d-4f37-83a4-e10544bf0991")
+		)
+		(fp_line
+			(start -2 3.75)
+			(end 4.54 3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ba1d9b2f-cde8-463a-9030-2690ad594b42")
+		)
+		(fp_line
+			(start 4.54 -3.75)
+			(end -2 -3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a6776859-9edf-4b65-b75c-f8d0a916cd24")
+		)
+		(fp_line
+			(start 4.54 3.75)
+			(end 4.54 -3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "16cf3110-3102-4a49-b999-a13b000465f4")
+		)
+		(fp_line
+			(start -1.5 -3.25)
+			(end 4.04 -3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc67d2b8-7b2e-440a-b3a4-595149051517")
+		)
+		(fp_line
+			(start -1.5 -2.25)
+			(end 4.04 -2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ad0d6ea1-f0b3-4d09-8ac4-c2de3e15550f")
+		)
+		(fp_line
+			(start -1.5 2.85)
+			(end -1.5 -3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4961c6a3-1702-474c-b047-3824963b5f7f")
+		)
+		(fp_line
+			(start -1.5 2.85)
+			(end 4.04 2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cfa60493-2d8b-4cb3-8b22-eeada6e3946a")
+		)
+		(fp_line
+			(start -1.1 3.25)
+			(end -1.5 2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "27182c94-75dd-491e-bf04-256bc90564c9")
+		)
+		(fp_line
+			(start 0.701 -0.835)
+			(end -0.835 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "97c64293-e3eb-4fa9-85e2-28e6197a48d9")
+		)
+		(fp_line
+			(start 0.835 -0.7)
+			(end -0.701 0.835)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7e6ef3cb-fffe-4d75-9072-70846e931d92")
+		)
+		(fp_line
+			(start 3.241 -0.835)
+			(end 1.706 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b3bed148-e1d2-4453-b352-38aa4ae15276")
+		)
+		(fp_line
+			(start 3.375 -0.7)
+			(end 1.84 0.835)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c83c209-c158-4df2-a9ab-d0c39d50a189")
+		)
+		(fp_line
+			(start 4.04 -3.25)
+			(end 4.04 3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2e4ee97f-3db9-4149-8161-ab2b53d1a0ee")
+		)
+		(fp_line
+			(start 4.04 3.25)
+			(end -1.1 3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "69b01572-10fa-4821-aa42-9086c62ddcb1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "2b945cbf-6f7e-4d81-ac21-327f33aaaf29")
+		)
+		(fp_circle
+			(center 2.54 0)
+			(end 3.64 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "fe5753e5-9c98-4f4d-b352-3de529c50fc3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 2 0)
+			(layer "F.Fab")
+			(uuid "ed57921e-2c53-4e82-982f-b66b2be6b87a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.1 2.1)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
+			(remove_unused_layers no)
+			(net 114 "/Sensing Circuitry/TC_P_1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "44272d44-e401-4fd3-8edd-08ec92433748")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 2.1 2.1)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
+			(remove_unused_layers no)
+			(net 115 "/Sensing Circuitry/TC_N_1")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "c70e600b-bd02-4d45-b963-faa837d3f090")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_TE-Connectivity.3dshapes/TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -17276,7 +16976,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/49bd9829-e6aa-4c5c-ac58-4a2132f3986a")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -17516,7 +17216,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/79d668ad-550c-4931-b320-8ef3d7a1417e")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -17743,7 +17443,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/6c53daf6-7483-461f-86e2-d1d7a620ca6e")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -17984,7 +17684,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/27bc28ea-942c-4f81-ba9f-e31cb1ac3a8f")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 -0.96)
@@ -18233,7 +17933,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b/2014aa4f-40ef-4e39-a1e9-7855b7f78b6b")
 		(sheetname "Valve Control 2")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 1.65)
@@ -18545,7 +18245,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/e0e4059c-3fff-4be0-8262-f576c57187c7")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -18794,7 +18494,7 @@
 		(property ki_fp_filters "D*SMA*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8/2014aa4f-40ef-4e39-a1e9-7855b7f78b6b")
 		(sheetname "Valve Control 1")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.51 -1.65)
@@ -19094,7 +18794,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee/cc55772b-a603-450d-b8e5-9cb6c4645f51")
 		(sheetname "PT-1")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -19308,7 +19008,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/37a38e9e-ccb3-40ad-ac28-fa65b3c847d8")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -19450,7 +19150,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/8c2d52ec-7f22-4dbc-8957-dbae4b495927")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -19690,7 +19390,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/7673987b-1a0a-4853-b244-c72533f2ea06")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -19930,7 +19630,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/a972f84d-f302-4f54-a7fc-514cd38e7ae5")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -20156,7 +19856,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/492f7fe4-90f1-4772-95ff-a1a7c72ac7c1")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -20396,7 +20096,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/8c4ef100-8779-4d15-b1f6-ce2fe28bb30e")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -20623,7 +20323,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/11474140-56fe-4528-a447-d84244d58cfb")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -20863,7 +20563,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/6faecbdc-14bc-4e61-8f30-df843d48b1ad")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -21103,7 +20803,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/4099567d-78d0-4964-a81b-9dc8c60a6a5b")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -21343,7 +21043,7 @@
 		(property ki_fp_filters "SOT?363*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee/9bf9e319-4e65-471c-957f-4e740a52f82b")
 		(sheetname "PT-1")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 1.16)
@@ -21638,7 +21338,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/93f4ee0b-7bf4-41e9-aac1-db374a1f56f4")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -21865,7 +21565,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/40606c2f-606f-46f4-9fb6-fdbb6a3ef8fe")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -22106,7 +21806,7 @@
 		(property ki_fp_filters "SOT?363*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e/9bf9e319-4e65-471c-957f-4e740a52f82b")
 		(sheetname "PT-2")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.7 1.16)
@@ -22375,7 +22075,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/f1e348d8-8918-4d29-b6e9-ab00fa022c45")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -22504,7 +22204,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/5336cdc2-7fde-4cdd-8e2a-0d317ef2b728")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -22647,6 +22347,398 @@
 			)
 		)
 	)
+	(footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "7d87b70a-c290-4c0b-81a5-ff67e2c89c82")
+		(at 172.76 127.7)
+		(descr "Terminal Block TE 282834-2, 2 pins, pitch 2.54mm, size 5.54x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity")
+		(tags "THT Terminal Block TE 282834-2 pitch 2.54mm size 5.54x6.5mm^2 drill 1.1mm pad 2.1mm")
+		(property "Reference" "J11"
+			(at 1.27 -4.37 0)
+			(layer "F.SilkS")
+			(uuid "f3e597c5-cef2-4b9b-95a2-ac3f7404f70a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 1.27 4.37 0)
+			(layer "F.Fab")
+			(uuid "6de7f33d-7e38-4bef-a4f7-fdd6918f34d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "421b6989-2668-493d-a74f-edc0155e2543")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22a53f52-140f-4b3f-ad35-e62ac23a4172")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72523472-f2bd-4b3a-9e04-14fc72aff2ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey" "ED10561-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fac1080a-d796-4534-ba6a-3683299c4014")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TerminalBlock*:*")
+		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/f2ab04a9-83e1-4804-8a7d-f4462ef88f39")
+		(sheetname "TC Conditoning + CJC1")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.86 2.97)
+			(end -1.86 3.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "622ebf24-f411-4c86-8e91-99443d8ac935")
+		)
+		(fp_line
+			(start -1.86 3.61)
+			(end -1.46 3.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2055ab0d-6097-4790-b4be-c9e990d8ab31")
+		)
+		(fp_line
+			(start -1.62 -3.37)
+			(end -1.62 3.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9c77126e-1380-4d07-a105-b68a487456ff")
+		)
+		(fp_line
+			(start -1.62 -3.37)
+			(end 4.16 -3.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bf22eb14-1035-4cfd-89eb-e82a6f72e97b")
+		)
+		(fp_line
+			(start -1.62 -2.25)
+			(end 4.16 -2.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ebaa3fde-da90-4b1f-a0d3-e6de3ececd01")
+		)
+		(fp_line
+			(start -1.62 2.85)
+			(end 4.16 2.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d522b0cf-3ad8-4ec5-8eb8-48d1ed7e399e")
+		)
+		(fp_line
+			(start -1.62 3.37)
+			(end 4.16 3.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9518417d-874f-43a7-a824-03049e46904b")
+		)
+		(fp_line
+			(start 4.16 -3.37)
+			(end 4.16 3.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "60b50f5a-ae9c-4c62-a8a1-d006d0ab773b")
+		)
+		(fp_line
+			(start -2 -3.75)
+			(end -2 3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b5121231-f7db-4541-bb87-754c5c0184ca")
+		)
+		(fp_line
+			(start -2 3.75)
+			(end 4.54 3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eba1c875-dd80-4cb3-bac6-7fc2d5d21aad")
+		)
+		(fp_line
+			(start 4.54 -3.75)
+			(end -2 -3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7a3017d3-ae22-4a2b-8056-f61d385b35c6")
+		)
+		(fp_line
+			(start 4.54 3.75)
+			(end 4.54 -3.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "11f0386e-c1f8-45ed-b390-9a9bd7c0340f")
+		)
+		(fp_line
+			(start -1.5 -3.25)
+			(end 4.04 -3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86dc85d4-dbc9-463a-936a-742f71c6f247")
+		)
+		(fp_line
+			(start -1.5 -2.25)
+			(end 4.04 -2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "03665df9-c849-4d4e-9f44-a9bf909d81a8")
+		)
+		(fp_line
+			(start -1.5 2.85)
+			(end -1.5 -3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "347ad573-79ac-4a25-97a3-5f8d141c53db")
+		)
+		(fp_line
+			(start -1.5 2.85)
+			(end 4.04 2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0fe2d454-6556-4e3d-9a01-2145f9326e0e")
+		)
+		(fp_line
+			(start -1.1 3.25)
+			(end -1.5 2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86c11afd-27de-4172-b03e-93193713f922")
+		)
+		(fp_line
+			(start 0.701 -0.835)
+			(end -0.835 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5dfad38e-c0a5-4b20-ae52-b24c8367af60")
+		)
+		(fp_line
+			(start 0.835 -0.7)
+			(end -0.701 0.835)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6453cbad-7d45-4510-b472-505696aa2d7d")
+		)
+		(fp_line
+			(start 3.241 -0.835)
+			(end 1.706 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "43e1438a-4b6c-4233-9d59-0ec651d34139")
+		)
+		(fp_line
+			(start 3.375 -0.7)
+			(end 1.84 0.835)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "980b2e71-5073-4e08-b895-f4e21d31b982")
+		)
+		(fp_line
+			(start 4.04 -3.25)
+			(end 4.04 3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b63b276c-92e0-446a-aae2-aefc7e09918e")
+		)
+		(fp_line
+			(start 4.04 3.25)
+			(end -1.1 3.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39883adf-cd60-407d-b4b0-f76d318e67e9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "c55e6fa1-23e1-4dbf-9f82-6211fb4472c8")
+		)
+		(fp_circle
+			(center 2.54 0)
+			(end 3.64 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "2e08c506-a2ba-4739-9a91-c829d4485fa2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 2 0)
+			(layer "F.Fab")
+			(uuid "6b164664-47cc-4b88-adf2-be7d3a43e3e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.1 2.1)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
+			(remove_unused_layers no)
+			(net 116 "/Sensing Circuitry/TC_P_2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "07959422-4652-43c7-9833-0b8217a3195d")
+		)
+		(pad "2" thru_hole circle
+			(at 2.54 0)
+			(size 2.1 2.1)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
+			(remove_unused_layers no)
+			(net 117 "/Sensing Circuitry/TC_N_2")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "4a923b34-8bc7-44c8-9354-52e0cdd33234")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_TE-Connectivity.3dshapes/TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "80d668eb-c951-40cf-bc73-4c4a8d82996c")
@@ -22731,7 +22823,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/7349ef9a-5b5f-4815-967f-d6d5f7f0c8cc")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -22971,7 +23063,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8/0d0df00b-1eda-4c4a-ab49-7178a7c56d6c")
 		(sheetname "Valve Control 1")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -23265,7 +23357,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e/2a16aca2-3a0c-4266-9546-9a05bcab6b32")
 		(sheetname "PT-2")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -23492,7 +23584,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/4ef5910e-342e-44ae-8333-00edb9625069")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -23729,7 +23821,7 @@
 		(property ki_fp_filters "DCK6_TEX DCK6_TEX-M DCK6_TEX-L")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/6b6c8b3e-b6a0-4526-a6c8-741ff81d0a53")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.675 1.16)
@@ -23999,7 +24091,7 @@
 		(property ki_fp_filters "SOIC*5.23x5.23mm*P1.27mm*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/72ddf840-7e66-4300-8b07-693f1548ebb2")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.725 -2.725)
@@ -24371,7 +24463,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/589bb434-ccba-4541-a797-d6fbd4c6dfc9")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -24598,7 +24690,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8/509ca88e-2560-46ae-9b20-b6973ce44972")
 		(sheetname "Valve Control 1")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -24838,7 +24930,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/895ace45-1481-4f03-90d7-eea7d29b4d53")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -25091,7 +25183,7 @@
 		(property ki_fp_filters "D*SOD?323*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/aacc3c40-f606-4f77-ac09-d6f599e9313f")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.61 -0.85)
@@ -25390,7 +25482,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/8305fe57-f00c-42c0-91cb-a1a665ff79d8")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -25617,7 +25709,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/be1dd8bd-0e4c-4c40-bde3-6dee4fccd8db")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -25857,7 +25949,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/44fde397-f3ff-4c66-930b-c799f2e0e151")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -26007,7 +26099,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Panasonic A5 / Nichicon, 4.0x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C1"
-			(at 0 -3.2 360)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c91e4c71-fafc-43b5-85cb-c6e2c96da6f9")
@@ -26019,7 +26111,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 3.2 360)
+			(at 0 3.2 0)
 			(layer "F.Fab")
 			(uuid "d0c1855c-9847-44c9-b024-41ec42078f82")
 			(effects
@@ -26084,7 +26176,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/f4484467-d66a-4c65-89de-e9c566b498c2")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.26 2.26)
@@ -26418,7 +26510,7 @@
 			(uuid "60a8ff49-b6f0-442c-932a-cd34582ef826")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c6b81438-0ff4-45c4-ab58-016bbfe9223e")
 			(effects
@@ -26529,7 +26621,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/ff1cfdb1-57b1-4909-8944-bd0183386610")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -26581,7 +26673,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D2"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "dfc87b51-74f1-4d1c-8750-f643daa47fab")
@@ -26593,7 +26685,7 @@
 			)
 		)
 		(property "Value" "PWR_24V_LED (GRN)"
-			(at 2.65 1.55 360)
+			(at 2.65 1.55 0)
 			(layer "F.Fab")
 			(uuid "3d54c9bc-0bf3-4e67-9c0d-059626144f2b")
 			(effects
@@ -26671,7 +26763,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/f2520716-70e0-4486-ba78-e351b30b24c8")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1 -0.96)
@@ -26794,7 +26886,7 @@
 			(uuid "3309f9ce-c740-4cff-9f89-930ba6966238")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "996736dc-19ab-4671-96b6-cfb453b30608")
 			(effects
@@ -26921,7 +27013,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/e51aba98-7d63-41df-8115-dd32b3cae49f")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -27145,7 +27237,7 @@
 		(property ki_fp_filters "TO-236_VIS TO-236_VIS-M TO-236_VIS-L")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/d9d2d650-6c05-460b-9051-60cee3576b09")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.651 0.8255)
@@ -27634,7 +27726,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/6c53daf6-7483-461f-86e2-d1d7a620ca6e")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -27777,358 +27869,6 @@
 			)
 		)
 	)
-	(footprint "NANO-V-4-CONN:CONN_SD-105309-100_04_MOL"
-		(layer "F.Cu")
-		(uuid "a221b296-8f93-4cf5-b0de-68fed8e1a47f")
-		(at 123.06 102.81 90)
-		(tags "1053091104 ")
-		(property "Reference" "REF**"
-			(at 3.75 0 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "2181296a-6d13-4c5f-b694-dc4b520e6ca4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "CONN_SD-105309-100_04_MOL"
-			(at 3.75 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "1ebf20a5-16ce-4ff5-976e-433bb235edcc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "NANO-V-4-CONN:CONN_SD-105309-100_04_MOL"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9188b394-c87c-4a13-9aa1-d8ec30887e48")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4279e32-5be9-4a95-ac95-35e7dd077aa2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9eb97628-b505-41aa-a1af-64cda66c612e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_circle
-			(center -3.6287 0)
-			(end -3.2477 0)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.SilkS")
-			(uuid "5a3a20a0-f3a9-4800-ba1b-1cea10f9279a")
-		)
-		(fp_line
-			(start 9.3507 -1.8669)
-			(end -1.8507 -1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "77d5d9fe-8095-4a02-b544-b98f4fca00b2")
-		)
-		(fp_line
-			(start -1.8507 -1.8669)
-			(end -1.8507 1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "87a8953d-db8f-4f8b-a1be-b901bc3d79fb")
-		)
-		(fp_line
-			(start 9.3507 1.8669)
-			(end 9.3507 -1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1b4e8104-8e47-437d-a7a7-f7b7a09f21ed")
-		)
-		(fp_line
-			(start 6.4805 1.8669)
-			(end 9.3507 1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ebdd761d-da2b-435f-805e-b9ba9bab5cc9")
-		)
-		(fp_line
-			(start 1.0195 1.8669)
-			(end 1.0195 4.7371)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fb7d5699-9fda-49d9-8e64-6c96d418c08b")
-		)
-		(fp_line
-			(start -1.8507 1.8669)
-			(end 1.0195 1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fb73bdab-1e32-4613-9121-1eee87a9bde2")
-		)
-		(fp_line
-			(start 6.4805 4.7371)
-			(end 6.4805 1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3b9d1fb9-423f-4d7a-8d46-9ca1e8a35b23")
-		)
-		(fp_line
-			(start 1.0195 4.7371)
-			(end 6.4805 4.7371)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fbbdeeeb-1135-414c-b9e7-e4c4c70220e7")
-		)
-		(fp_circle
-			(center -3.6287 0)
-			(end -3.2477 0)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "48b3d3e3-9ea5-4610-a01c-c1e957742f7b")
-		)
-		(fp_line
-			(start 9.4777 -1.9939)
-			(end -1.9777 -1.9939)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f5363d1a-432e-4947-b1ab-8a0046416355")
-		)
-		(fp_line
-			(start -1.9777 -1.9939)
-			(end -1.9777 4.8641)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a6860171-d978-4f7b-b0b3-d1ca364f7fae")
-		)
-		(fp_line
-			(start 9.4777 4.8641)
-			(end 9.4777 -1.9939)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e79e64f3-f498-4f33-8659-132021bcffee")
-		)
-		(fp_line
-			(start -1.9777 4.8641)
-			(end 9.4777 4.8641)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8fc3a1ef-663d-4d96-8aa9-48ea89be3b49")
-		)
-		(fp_line
-			(start 9.2237 -1.7399)
-			(end -1.7237 -1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "62fc03fe-0ebb-4efe-b00f-d876e45dd162")
-		)
-		(fp_line
-			(start -1.7237 -1.7399)
-			(end -1.7237 1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ef0a7ec4-500d-4efd-8116-c64a52748aae")
-		)
-		(fp_line
-			(start 9.2237 1.7399)
-			(end 9.2237 -1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3961ce7a-a27e-4b13-abe8-52394a52f924")
-		)
-		(fp_line
-			(start -1.7237 1.7399)
-			(end 9.2237 1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b6e473e7-2a9d-46d6-a5b3-42f69a3f48a9")
-		)
-		(fp_line
-			(start 6.3535 4.6101)
-			(end 6.3535 1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6fb4442f-30ee-432b-92df-b4c52d629128")
-		)
-		(fp_line
-			(start 1.1465 4.6101)
-			(end 1.1465 1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7090b133-eec4-4d76-9fc4-5f3ab7f59ac3")
-		)
-		(fp_line
-			(start 1.1465 4.6101)
-			(end 6.3535 4.6101)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a7e4093f-e475-48e6-8dcc-c6c4f99e9542")
-		)
-		(fp_circle
-			(center 0 -1.905)
-			(end 0.381 -1.905)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "4b60cc10-5e98-4521-9578-3d89d00108c1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.75 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "5fd5fa60-4df6-4050-91ae-4c68dec80671")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 3.75 1.34 90)
-			(size 1.3462 1.3462)
-			(drill 1.3462)
-			(layers "*.Cu" "*.Mask")
-			(uuid "54f1941e-4e66-41c6-a46a-525b1d4f6dd1")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 1.7526 1.7526)
-			(drill 1.2446)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "72f1af82-4b5d-4db8-9616-1f58a060e3ed")
-		)
-		(pad "2" thru_hole circle
-			(at 2.5 0 90)
-			(size 1.7526 1.7526)
-			(drill 1.2446)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "2da317e7-9803-4026-9586-8b4bda3536ba")
-		)
-		(pad "3" thru_hole circle
-			(at 5 0 90)
-			(size 1.7526 1.7526)
-			(drill 1.2446)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "568befac-b54b-4708-93a5-1a22f5e4af08")
-		)
-		(pad "4" thru_hole circle
-			(at 7.5 0 90)
-			(size 1.7526 1.7526)
-			(drill 1.2446)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "1467aa83-99e7-4109-a2f3-dc374a248f99")
-		)
-		(model "${PI_SHARE_MODELS}/1053091104.stp"
-			(offset
-				(xyz 3.5 0 3.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -180)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:CP_Elec_6.3x5.9"
 		(layer "F.Cu")
 		(uuid "a256e8a8-b72e-4c39-8060-999ee7883db4")
@@ -28214,7 +27954,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/86bc220c-cbeb-4928-abd8-bbfeb1ce95af")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.41 -3.41)
@@ -28685,7 +28425,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/96b1ff30-a14a-497b-8e7f-bacdb1af8a60")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -28925,7 +28665,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/10af0d39-30e0-40b7-bd78-9cd8c508ee34")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -29165,7 +28905,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0517a9a1-2fea-4ac2-a56e-b654d12d9714")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -29392,7 +29132,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/c64cce79-ffbd-4f24-b8c2-351846c670cd")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -29619,7 +29359,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/5a3d30b9-00e7-4d3b-bd9e-c79ff433b55a")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -29841,7 +29581,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/ff3d01f1-7c1f-4da0-bd5e-dfb7ff49bc7b")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1 -1.27)
@@ -30070,7 +29810,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/689e6240-1597-4431-ad9b-7239942a9dc4")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -30310,7 +30050,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e/8a0c5c32-ec3b-4f4b-9659-8d1831ca47de")
 		(sheetname "PT-2")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -30537,7 +30277,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/2eba27c1-919b-478a-b7cd-af69cd872dc9")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -30777,7 +30517,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/2a15512e-caf2-405e-8782-b8940a36cde9")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -31004,7 +30744,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/3862b632-1a8e-40ef-a9bc-e1133888e731")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -31231,7 +30971,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/53008429-6a9f-414b-a04f-fa7ef9daeef1")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -31456,7 +31196,7 @@
 		(property ki_fp_filters "LQFP*7x7mm*P0.5mm*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/ed9f194b-e44b-4dcf-baf1-be9b57d018e2")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.61 -3.61)
@@ -32427,7 +32167,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee/93c1c6d0-6022-41da-9662-3b6cdb225ad4")
 		(sheetname "PT-1")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -32654,7 +32394,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/3b8bb839-92ee-4bef-b181-4a11b649352f")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -32894,7 +32634,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/290dc2f7-b43c-42c9-b82f-c285a7df6b8f")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -33121,7 +32861,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b/509ca88e-2560-46ae-9b20-b6973ce44972")
 		(sheetname "Valve Control 2")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -33348,7 +33088,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/d89171a9-7801-42e0-8ec5-5f3e8e29e53e")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -33589,7 +33329,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/4ec95d61-def5-43ca-a3c5-0b84d04e1d49")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -33816,7 +33556,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8/de34731d-42d2-4fc7-8597-6672147f9fdc")
 		(sheetname "Valve Control 1")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -34056,7 +33796,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/d5188f95-74a1-43a7-b0d6-bc584e24569e")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -34283,7 +34023,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/1532887f-3c8d-4ff1-9a20-3125f291bc41")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -34510,7 +34250,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/70d582f2-f20d-49d7-88b6-0649b4b15798")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2 1.65)
@@ -34778,7 +34518,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/e57e02c9-2616-4c93-88d5-43db38addae9")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -35005,7 +34745,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/aa43572a-8352-49e6-a39b-7ff4356472dc")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -35245,7 +34985,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b/0d0df00b-1eda-4c4a-ab49-7178a7c56d6c")
 		(sheetname "Valve Control 2")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -35526,7 +35266,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e/93c1c6d0-6022-41da-9662-3b6cdb225ad4")
 		(sheetname "PT-2")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -35753,7 +35493,7 @@
 		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/ee0d41c3-e951-46cf-aa9e-d2fff6a1cd1b")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd exclude_from_bom)
 		(fp_line
 			(start 3.5 2.3)
@@ -36001,358 +35741,6 @@
 			)
 		)
 	)
-	(footprint "NANO-V-4-CONN:CONN_SD-105309-100_04_MOL"
-		(layer "F.Cu")
-		(uuid "ccd1bc56-e116-4f6d-aa22-60af440c5648")
-		(at 130.23 102.81 90)
-		(tags "1053091104 ")
-		(property "Reference" "REF**"
-			(at 3.75 0 90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "2181296a-6d13-4c5f-b694-dc4b520e6ca4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "CONN_SD-105309-100_04_MOL"
-			(at 3.75 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "1ebf20a5-16ce-4ff5-976e-433bb235edcc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "NANO-V-4-CONN:CONN_SD-105309-100_04_MOL"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9188b394-c87c-4a13-9aa1-d8ec30887e48")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4279e32-5be9-4a95-ac95-35e7dd077aa2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9eb97628-b505-41aa-a1af-64cda66c612e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_circle
-			(center -3.6287 0)
-			(end -3.2477 0)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.SilkS")
-			(uuid "5a3a20a0-f3a9-4800-ba1b-1cea10f9279a")
-		)
-		(fp_line
-			(start 9.3507 -1.8669)
-			(end -1.8507 -1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "77d5d9fe-8095-4a02-b544-b98f4fca00b2")
-		)
-		(fp_line
-			(start -1.8507 -1.8669)
-			(end -1.8507 1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "87a8953d-db8f-4f8b-a1be-b901bc3d79fb")
-		)
-		(fp_line
-			(start 9.3507 1.8669)
-			(end 9.3507 -1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1b4e8104-8e47-437d-a7a7-f7b7a09f21ed")
-		)
-		(fp_line
-			(start 6.4805 1.8669)
-			(end 9.3507 1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ebdd761d-da2b-435f-805e-b9ba9bab5cc9")
-		)
-		(fp_line
-			(start 1.0195 1.8669)
-			(end 1.0195 4.7371)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fb7d5699-9fda-49d9-8e64-6c96d418c08b")
-		)
-		(fp_line
-			(start -1.8507 1.8669)
-			(end 1.0195 1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fb73bdab-1e32-4613-9121-1eee87a9bde2")
-		)
-		(fp_line
-			(start 6.4805 4.7371)
-			(end 6.4805 1.8669)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3b9d1fb9-423f-4d7a-8d46-9ca1e8a35b23")
-		)
-		(fp_line
-			(start 1.0195 4.7371)
-			(end 6.4805 4.7371)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fbbdeeeb-1135-414c-b9e7-e4c4c70220e7")
-		)
-		(fp_circle
-			(center -3.6287 0)
-			(end -3.2477 0)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "48b3d3e3-9ea5-4610-a01c-c1e957742f7b")
-		)
-		(fp_line
-			(start 9.4777 -1.9939)
-			(end -1.9777 -1.9939)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f5363d1a-432e-4947-b1ab-8a0046416355")
-		)
-		(fp_line
-			(start -1.9777 -1.9939)
-			(end -1.9777 4.8641)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a6860171-d978-4f7b-b0b3-d1ca364f7fae")
-		)
-		(fp_line
-			(start 9.4777 4.8641)
-			(end 9.4777 -1.9939)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e79e64f3-f498-4f33-8659-132021bcffee")
-		)
-		(fp_line
-			(start -1.9777 4.8641)
-			(end 9.4777 4.8641)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8fc3a1ef-663d-4d96-8aa9-48ea89be3b49")
-		)
-		(fp_line
-			(start 9.2237 -1.7399)
-			(end -1.7237 -1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "62fc03fe-0ebb-4efe-b00f-d876e45dd162")
-		)
-		(fp_line
-			(start -1.7237 -1.7399)
-			(end -1.7237 1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ef0a7ec4-500d-4efd-8116-c64a52748aae")
-		)
-		(fp_line
-			(start 9.2237 1.7399)
-			(end 9.2237 -1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3961ce7a-a27e-4b13-abe8-52394a52f924")
-		)
-		(fp_line
-			(start -1.7237 1.7399)
-			(end 9.2237 1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b6e473e7-2a9d-46d6-a5b3-42f69a3f48a9")
-		)
-		(fp_line
-			(start 6.3535 4.6101)
-			(end 6.3535 1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6fb4442f-30ee-432b-92df-b4c52d629128")
-		)
-		(fp_line
-			(start 1.1465 4.6101)
-			(end 1.1465 1.7399)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7090b133-eec4-4d76-9fc4-5f3ab7f59ac3")
-		)
-		(fp_line
-			(start 1.1465 4.6101)
-			(end 6.3535 4.6101)
-			(stroke
-				(width 0.0254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a7e4093f-e475-48e6-8dcc-c6c4f99e9542")
-		)
-		(fp_circle
-			(center 0 -1.905)
-			(end 0.381 -1.905)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "4b60cc10-5e98-4521-9578-3d89d00108c1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.75 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "5fd5fa60-4df6-4050-91ae-4c68dec80671")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 3.75 1.34 90)
-			(size 1.3462 1.3462)
-			(drill 1.3462)
-			(layers "*.Cu" "*.Mask")
-			(uuid "54f1941e-4e66-41c6-a46a-525b1d4f6dd1")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 1.7526 1.7526)
-			(drill 1.2446)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "72f1af82-4b5d-4db8-9616-1f58a060e3ed")
-		)
-		(pad "2" thru_hole circle
-			(at 2.5 0 90)
-			(size 1.7526 1.7526)
-			(drill 1.2446)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "2da317e7-9803-4026-9586-8b4bda3536ba")
-		)
-		(pad "3" thru_hole circle
-			(at 5 0 90)
-			(size 1.7526 1.7526)
-			(drill 1.2446)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "568befac-b54b-4708-93a5-1a22f5e4af08")
-		)
-		(pad "4" thru_hole circle
-			(at 7.5 0 90)
-			(size 1.7526 1.7526)
-			(drill 1.2446)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "1467aa83-99e7-4109-a2f3-dc374a248f99")
-		)
-		(model "${PI_SHARE_MODELS}/1053091104.stp"
-			(offset
-				(xyz 3.5 0 3.5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -180)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cdf80a34-61b8-4014-b769-bd9355173543")
@@ -36437,7 +35825,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/e560ff5b-5300-4833-988f-32fcc2e66b0c")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -36661,7 +36049,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b/caaf06f3-d28c-4df6-90aa-148f19caba6f")
 		(sheetname "Valve Control 2")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 2.7592 0)
@@ -36832,7 +36220,12 @@
 			(at 0 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 38 "/Valve Control Circuitry/VSOL")
 			(pinfunction "Pin_1")
@@ -36843,7 +36236,12 @@
 			(at -2.000001 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 29 "SOL2_RET")
 			(pinfunction "Pin_2")
@@ -36854,7 +36252,12 @@
 			(at 1.5 -1.7)
 			(size 1.7018 1.7018)
 			(drill 1.1938)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(uuid "ee9f09cd-ddf2-4055-bf77-b83fddc095bc")
 		)
@@ -36964,7 +36367,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/5149dcbe-7821-493c-bd0b-45e6c7634390")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.1209 2.6416)
@@ -37714,7 +37117,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/fb89e343-66b9-4cea-af2d-5dd33f036efb")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -37928,7 +37331,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/61a2fe9c-fd4c-4baf-b8cc-0556e69a0c40")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -37967,7 +37370,12 @@
 			(at 0 0)
 			(size 1 1)
 			(drill 0.5)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "1")
@@ -38059,7 +37467,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/c6d3856e-3ddc-4f39-ba59-82418859a165")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -38299,7 +37707,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/689e6240-1597-4431-ad9b-7239942a9dc4")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -38539,7 +37947,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/85a1f0a9-4e03-44d1-8be5-f62ea8c25ec3")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -38788,7 +38196,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/4b5b16f6-aa0b-43d4-924a-b00b397df6ad")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -39015,7 +38423,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/f8fadeff-d8df-419e-b3e5-a88fe8105995")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.4375 -1.8475)
@@ -39389,382 +38797,6 @@
 			)
 		)
 	)
-	(footprint "NANO-V-CONN:MOLEX_1053091102"
-		(layer "F.Cu")
-		(uuid "e4b2bd85-75a6-46a6-b346-37107e8f5b97")
-		(at 153.88 145.98)
-		(property "Reference" "REF**"
-			(at 1.425 -3.885 360)
-			(layer "F.SilkS")
-			(uuid "1fe04f01-12fb-4669-8045-45759b064f7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MOLEX_1053091102"
-			(at 8.41 6.793 360)
-			(layer "F.Fab")
-			(uuid "25a4dfb3-d2d6-420a-b552-5923efefe6fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "NANO-V-CONN:MOLEX_1053091102"
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6fc3bbf9-0cf6-43d5-b02b-622099b5bbc2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0004dd54-28de-43c9-bbd9-f1748736977a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18ccd37d-53c6-4ee8-8dbf-604a2fa31213")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_line
-			(start -3 -0.4)
-			(end -3 0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4a0a0cb7-bb8b-4192-a071-674fdb044bef")
-		)
-		(fp_line
-			(start -3 0.4)
-			(end -2.3 0)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "264974e9-267b-4a72-bfd5-a82f42ec96c3")
-		)
-		(fp_line
-			(start -2.3 0)
-			(end -3 -0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "80adf178-10ce-4012-9e1f-2e82d7f1dde7")
-		)
-		(fp_line
-			(start -1.72 -1.74)
-			(end 4.22 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e975c1a0-fb79-4b8b-b069-644addfee654")
-		)
-		(fp_line
-			(start -1.72 1.74)
-			(end -1.72 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "baac5f8c-fdc8-47a5-93ad-ce126b2b944b")
-		)
-		(fp_line
-			(start 0 1.74)
-			(end -1.72 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "772b0221-f10b-4c34-aa84-bbfdff411f62")
-		)
-		(fp_line
-			(start 4.22 -1.74)
-			(end 4.22 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1e90d728-f1d4-421a-9443-86ee6f20ccc0")
-		)
-		(fp_line
-			(start 4.22 1.74)
-			(end 2.5 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5804061c-4b7f-4d2f-a39b-bda1b67df497")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.4631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "48011695-ebb0-4eb2-a79d-b25a096d7222")
-		)
-		(fp_circle
-			(center 1.25 1.34)
-			(end 1.6131 1.34)
-			(stroke
-				(width 0.7262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "8c8ae6b4-d9dc-4a24-8bde-07dab4197723")
-		)
-		(fp_circle
-			(center 2.5 0)
-			(end 2.9631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "3b0b00e5-6fb8-4d0f-b869-35c268853b10")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.4631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "ff63bbc2-f85a-4a1f-8f34-b2276fd8af68")
-		)
-		(fp_circle
-			(center 1.25 1.34)
-			(end 1.6131 1.34)
-			(stroke
-				(width 0.7262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "7a652d33-87bf-4939-bece-9a87cca6d976")
-		)
-		(fp_circle
-			(center 2.5 0)
-			(end 2.9631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "89d1488f-ab6d-4194-940a-5961579a08c4")
-		)
-		(fp_line
-			(start -2.99 -3.01)
-			(end 5.49 -3.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "23d80f1a-0a20-4dc6-bc3f-76f9be482915")
-		)
-		(fp_line
-			(start -2.99 5.87)
-			(end -2.99 -3.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "44d00465-03e4-47c0-be98-0bec7be415d9")
-		)
-		(fp_line
-			(start -2.99 5.87)
-			(end 5.49 5.87)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6adfd4b3-dd61-410e-8691-b39689e514ac")
-		)
-		(fp_line
-			(start 5.49 -3.01)
-			(end 5.49 5.87)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "875f691c-58e8-41fe-b845-012649012bd9")
-		)
-		(fp_line
-			(start -3 -0.4)
-			(end -3 0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a0ed71cd-141b-4299-b793-ba498231d8a3")
-		)
-		(fp_line
-			(start -3 0.4)
-			(end -2.3 0)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "569a4743-be31-4b8e-9173-4f02e6d543d9")
-		)
-		(fp_line
-			(start -2.3 0)
-			(end -3 -0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a1bff6f2-47e7-440a-88d6-cf0f31dd3462")
-		)
-		(fp_line
-			(start -1.72 -1.74)
-			(end 4.22 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3fc7d382-112b-4a91-81ce-524e686684d9")
-		)
-		(fp_line
-			(start -1.72 4.6)
-			(end -1.72 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dc7ea92a-1df6-4ac2-90d7-32eb9b6ece20")
-		)
-		(fp_line
-			(start 4.22 -1.74)
-			(end 4.22 4.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1bab9154-e0ce-473a-949e-2269e73fb38f")
-		)
-		(fp_line
-			(start 4.22 4.6)
-			(end -1.72 4.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bd0c6b17-c1ac-453c-8c6b-b9c111fa8cb4")
-		)
-		(fp_text user "PTH D1.2 +/- 0.05"
-			(at -1.8 8.4224 360)
-			(layer "F.Fab")
-			(uuid "15e37637-2fdc-464c-b826-866c9d0aeca3")
-			(effects
-				(font
-					(size 0.393701 0.393701)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "NPTH D1.3 +/- 0.05"
-			(at -1.8 9.3724 360)
-			(layer "F.Fab")
-			(uuid "ec5d88b6-bca3-48d5-a6bb-4743cab03948")
-			(effects
-				(font
-					(size 0.393701 0.393701)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 1.25 1.34)
-			(size 1.3 1.3)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "02d08d36-1ca3-424a-ba2c-0d79c9c9cd67")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.7 1.7)
-			(drill 1.2)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(uuid "2edabdf2-2e19-480b-99b8-1aa033015081")
-		)
-		(pad "2" thru_hole circle
-			(at 2.5 0)
-			(size 1.7 1.7)
-			(drill 1.2)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(uuid "8362a929-81f6-45bf-878a-c1ecf0a0a1bf")
-		)
-		(model "${PI_SHARE_MODELS}/1053091102.step"
-			(offset
-				(xyz 1.5 0 3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 -180)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:CP_Elec_6.3x5.9"
 		(layer "F.Cu")
 		(uuid "e6d8a698-de29-4692-ab05-4e6787406a9f")
@@ -39862,7 +38894,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/17a6b7e0-4873-4746-8f33-859fbdd2d72d")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.41 -3.41)
@@ -40320,7 +39352,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/e744e13a-edff-411e-944d-bbc997549e53")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -40547,7 +39579,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/805ab04e-770d-4cf8-b8f2-0392d7018b61")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -40787,7 +39819,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/5943d9e5-bbe9-45c1-a3e1-20a1c8f65607")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.685 0.96)
@@ -41023,7 +40055,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/7b5b6f43-94ad-4593-b090-eff8a50eca0d")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -41152,7 +40184,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/ba318d50-d24b-43da-9443-1d352fb2a38b/de34731d-42d2-4fc7-8597-6672147f9fdc")
 		(sheetname "Valve Control 2")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -41392,7 +40424,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/7bc20b06-cb34-4827-8f6a-f07c5831a973")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -41619,7 +40651,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/ee5ce91a-e9c0-4a0a-ba4a-21db91b6d421")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -41833,7 +40865,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/9dba8219-e5bd-4c1c-bd40-5653d5d9d6c5")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -42060,7 +41092,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa/8409dc64-6626-4a76-be48-d58be3670db2")
 		(sheetname "TC Conditoning + CJC")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -42451,7 +41483,7 @@
 		)
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/f6b156f0-72d4-4a63-9e11-e12e46894a5f")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.2 -3.45)
@@ -42900,7 +41932,7 @@
 		(property ki_fp_filters "SiliconLabs*QFN*3x3mm*P0.5mm*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/a4ef3666-8b52-49e1-a965-b76a266802fe")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -44134,7 +43166,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/cd5ed1fd-34fc-4885-8892-744a6a344cc4")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -44273,7 +43305,7 @@
 		(property ki_fp_filters "DCK6_TEX DCK6_TEX-M DCK6_TEX-L")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/3b44a679-b0e6-451e-80ae-f2d4a382b0ad")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.675 1.16)
@@ -44559,7 +43591,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/56c0d8ab-7f41-494e-a99a-ce2f870c7dff")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -44799,7 +43831,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/ce663594-5550-4e85-9a99-c86479fec159")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -45039,7 +44071,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/929720b3-aa25-46e5-bb0e-2d1efcca0133")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -45263,7 +44295,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8/caaf06f3-d28c-4df6-90aa-148f19caba6f")
 		(sheetname "Valve Control 1")
-		(sheetfile "../../../shared_schematics/VALVE_control.kicad_sch")
+		(sheetfile "../shared_schematics/VALVE_control.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 2.7592 0)
@@ -45434,7 +44466,12 @@
 			(at 0 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 38 "/Valve Control Circuitry/VSOL")
 			(pinfunction "Pin_1")
@@ -45445,7 +44482,12 @@
 			(at -2.000001 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 31 "SOL1_RET")
 			(pinfunction "Pin_2")
@@ -45456,7 +44498,12 @@
 			(at 1.5 -1.7)
 			(size 1.7018 1.7018)
 			(drill 1.1938)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(uuid "23dd42a4-01d1-416f-bc3e-9fa1528c8575")
 		)
@@ -45469,382 +44516,6 @@
 			)
 			(rotate
 				(xyz -90 0 0)
-			)
-		)
-	)
-	(footprint "NANO-V-CONN:MOLEX_1053091102"
-		(layer "F.Cu")
-		(uuid "fc4fdb59-a5e6-42ad-891f-8c3743de7655")
-		(at 165.79425 122.32)
-		(property "Reference" "REF**"
-			(at 1.425 -3.885 360)
-			(layer "F.SilkS")
-			(uuid "1fe04f01-12fb-4669-8045-45759b064f7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MOLEX_1053091102"
-			(at 8.41 6.793 360)
-			(layer "F.Fab")
-			(uuid "25a4dfb3-d2d6-420a-b552-5923efefe6fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "NANO-V-CONN:MOLEX_1053091102"
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6fc3bbf9-0cf6-43d5-b02b-622099b5bbc2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0004dd54-28de-43c9-bbd9-f1748736977a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18ccd37d-53c6-4ee8-8dbf-604a2fa31213")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr through_hole)
-		(fp_line
-			(start -3 -0.4)
-			(end -3 0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4a0a0cb7-bb8b-4192-a071-674fdb044bef")
-		)
-		(fp_line
-			(start -3 0.4)
-			(end -2.3 0)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "264974e9-267b-4a72-bfd5-a82f42ec96c3")
-		)
-		(fp_line
-			(start -2.3 0)
-			(end -3 -0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "80adf178-10ce-4012-9e1f-2e82d7f1dde7")
-		)
-		(fp_line
-			(start -1.72 -1.74)
-			(end 4.22 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e975c1a0-fb79-4b8b-b069-644addfee654")
-		)
-		(fp_line
-			(start -1.72 1.74)
-			(end -1.72 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "baac5f8c-fdc8-47a5-93ad-ce126b2b944b")
-		)
-		(fp_line
-			(start 0 1.74)
-			(end -1.72 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "772b0221-f10b-4c34-aa84-bbfdff411f62")
-		)
-		(fp_line
-			(start 4.22 -1.74)
-			(end 4.22 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1e90d728-f1d4-421a-9443-86ee6f20ccc0")
-		)
-		(fp_line
-			(start 4.22 1.74)
-			(end 2.5 1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5804061c-4b7f-4d2f-a39b-bda1b67df497")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.4631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "48011695-ebb0-4eb2-a79d-b25a096d7222")
-		)
-		(fp_circle
-			(center 1.25 1.34)
-			(end 1.6131 1.34)
-			(stroke
-				(width 0.7262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "8c8ae6b4-d9dc-4a24-8bde-07dab4197723")
-		)
-		(fp_circle
-			(center 2.5 0)
-			(end 2.9631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.Mask")
-			(uuid "3b0b00e5-6fb8-4d0f-b869-35c268853b10")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.4631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "ff63bbc2-f85a-4a1f-8f34-b2276fd8af68")
-		)
-		(fp_circle
-			(center 1.25 1.34)
-			(end 1.6131 1.34)
-			(stroke
-				(width 0.7262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "7a652d33-87bf-4939-bece-9a87cca6d976")
-		)
-		(fp_circle
-			(center 2.5 0)
-			(end 2.9631 0)
-			(stroke
-				(width 0.9262)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Mask")
-			(uuid "89d1488f-ab6d-4194-940a-5961579a08c4")
-		)
-		(fp_line
-			(start -2.99 -3.01)
-			(end 5.49 -3.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "23d80f1a-0a20-4dc6-bc3f-76f9be482915")
-		)
-		(fp_line
-			(start -2.99 5.87)
-			(end -2.99 -3.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "44d00465-03e4-47c0-be98-0bec7be415d9")
-		)
-		(fp_line
-			(start -2.99 5.87)
-			(end 5.49 5.87)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6adfd4b3-dd61-410e-8691-b39689e514ac")
-		)
-		(fp_line
-			(start 5.49 -3.01)
-			(end 5.49 5.87)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "875f691c-58e8-41fe-b845-012649012bd9")
-		)
-		(fp_line
-			(start -3 -0.4)
-			(end -3 0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a0ed71cd-141b-4299-b793-ba498231d8a3")
-		)
-		(fp_line
-			(start -3 0.4)
-			(end -2.3 0)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "569a4743-be31-4b8e-9173-4f02e6d543d9")
-		)
-		(fp_line
-			(start -2.3 0)
-			(end -3 -0.4)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a1bff6f2-47e7-440a-88d6-cf0f31dd3462")
-		)
-		(fp_line
-			(start -1.72 -1.74)
-			(end 4.22 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3fc7d382-112b-4a91-81ce-524e686684d9")
-		)
-		(fp_line
-			(start -1.72 4.6)
-			(end -1.72 -1.74)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dc7ea92a-1df6-4ac2-90d7-32eb9b6ece20")
-		)
-		(fp_line
-			(start 4.22 -1.74)
-			(end 4.22 4.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1bab9154-e0ce-473a-949e-2269e73fb38f")
-		)
-		(fp_line
-			(start 4.22 4.6)
-			(end -1.72 4.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bd0c6b17-c1ac-453c-8c6b-b9c111fa8cb4")
-		)
-		(fp_text user "PTH D1.2 +/- 0.05"
-			(at -1.8 8.4224 360)
-			(layer "F.Fab")
-			(uuid "15e37637-2fdc-464c-b826-866c9d0aeca3")
-			(effects
-				(font
-					(size 0.393701 0.393701)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "NPTH D1.3 +/- 0.05"
-			(at -1.8 9.3724 360)
-			(layer "F.Fab")
-			(uuid "ec5d88b6-bca3-48d5-a6bb-4743cab03948")
-			(effects
-				(font
-					(size 0.393701 0.393701)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 1.25 1.34)
-			(size 1.3 1.3)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(uuid "02d08d36-1ca3-424a-ba2c-0d79c9c9cd67")
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.7 1.7)
-			(drill 1.2)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(uuid "2edabdf2-2e19-480b-99b8-1aa033015081")
-		)
-		(pad "2" thru_hole circle
-			(at 2.5 0)
-			(size 1.7 1.7)
-			(drill 1.2)
-			(layers "*.Cu")
-			(remove_unused_layers no)
-			(uuid "8362a929-81f6-45bf-878a-c1ecf0a0a1bf")
-		)
-		(model "${PI_SHARE_MODELS}/1053091102.step"
-			(offset
-				(xyz 1.5 0 3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -45919,7 +44590,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/d12882f3-e296-4b5f-851c-cdc169e270f4")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -46048,7 +44719,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/2b3f84d5-c4c1-4847-9c54-684fcc4176d2")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -46275,7 +44946,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ea1dc739-d1f4-46a0-a090-2a1bf39da427/8384dc87-521f-4b91-8598-c5b60d28a9aa")
 		(sheetname "Power Circuitry")
-		(sheetfile "modules/power_module/power_module.kicad_sch")
+		(sheetfile "power_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -46515,7 +45186,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/399c5572-aebf-4c36-9caf-d79ce472477b")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -46755,7 +45426,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee/2a16aca2-3a0c-4266-9546-9a05bcab6b32")
 		(sheetname "PT-1")
-		(sheetfile "../../../shared_schematics/PT_module.kicad_sch")
+		(sheetfile "../shared_schematics/PT_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -46995,7 +45666,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16/e7d2160b-1cdb-411a-87c8-b5297bacc115")
 		(sheetname "TC Conditoning + CJC1")
-		(sheetfile "../../../shared_schematics/TC_module.kicad_sch")
+		(sheetfile "../shared_schematics/TC_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -47222,7 +45893,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/b459a165-f542-4185-af3f-b45f0e2c57d6")
 		(sheetname "Valve Control Circuitry")
-		(sheetfile "modules/actuation_module/actuation_module.kicad_sch")
+		(sheetfile "actuation_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -47505,7 +46176,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/3ba997f3-8962-4ccf-a127-15d733f9615d")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.845 1.33)
@@ -48262,7 +46933,7 @@
 		(property ki_fp_filters "*Buzzer*")
 		(path "/925ef91a-c900-4b94-a159-606c279d7192/fd312144-818c-4f9b-8587-5d74438cca83")
 		(sheetname "STM32 Breakout Circuitry")
-		(sheetfile "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch")
+		(sheetfile "STM32_breakout_module.kicad_sch")
 		(attr through_hole)
 		(fp_arc
 			(start -3.9 1.5)
@@ -48345,7 +47016,12 @@
 			(at 0 0 90)
 			(size 2 2)
 			(drill 1)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 2 "+3V3")
 			(pinfunction "+")
@@ -48356,7 +47032,12 @@
 			(at 5 0 90)
 			(size 2 2)
 			(drill 1)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 12 "Net-(BZ1--)")
 			(pinfunction "-")
@@ -48462,7 +47143,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/1f0155ae-c751-4833-b025-2bc5182e8931")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.130801 -3.636399)
@@ -48654,21 +47335,36 @@
 			(at -1.5 2.100001)
 			(size 1.1938 1.1938)
 			(drill 1.1938)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(uuid "f8232d9e-fc1a-4d0a-8ed3-2e8e7636c276")
 		)
 		(pad "" np_thru_hole circle
 			(at 7.499998 2.100001)
 			(size 1.1938 1.1938)
 			(drill 1.1938)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(uuid "22ac133d-020b-4289-9f90-3f65f605c517")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 2 "+3V3")
 			(pinfunction "Pin_1")
@@ -48679,7 +47375,12 @@
 			(at 1.999999 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 56 "HALL_SCL")
 			(pinfunction "Pin_2")
@@ -48690,7 +47391,12 @@
 			(at 4 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 55 "HALL_SDA")
 			(pinfunction "Pin_3")
@@ -48701,7 +47407,12 @@
 			(at 5.999998 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "Pin_4")
@@ -48807,7 +47518,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/dcb39e1d-5791-4004-a7a9-72ec073f565f")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.130801 -3.636399)
@@ -48999,21 +47710,36 @@
 			(at -1.5 2.100001)
 			(size 1.1938 1.1938)
 			(drill 1.1938)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(uuid "bd00e319-3148-4f85-af5e-b23d0d95b051")
 		)
 		(pad "" np_thru_hole circle
 			(at 7.499998 2.100001)
 			(size 1.1938 1.1938)
 			(drill 1.1938)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(uuid "bbb74a64-66c3-4c57-80da-1594efe2fd3a")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 2 "+3V3")
 			(pinfunction "Pin_1")
@@ -49024,7 +47750,12 @@
 			(at 1.999999 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 56 "HALL_SCL")
 			(pinfunction "Pin_2")
@@ -49035,7 +47766,12 @@
 			(at 4 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 55 "HALL_SDA")
 			(pinfunction "Pin_3")
@@ -49046,7 +47782,12 @@
 			(at 5.999998 0)
 			(size 1.3208 1.3208)
 			(drill 0.8128)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+				"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+				"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+				"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+				"In30.Cu"
+			)
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "Pin_4")
@@ -49170,7 +47911,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6419db7-28a9-4bfa-8244-fc88166c795c/d4d28de5-4088-4f69-8abb-76ee5c2e789f")
 		(sheetname "Sensing Circuitry")
-		(sheetfile "modules/sensing_module/sensing_module.kicad_sch")
+		(sheetfile "sensing_module.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)

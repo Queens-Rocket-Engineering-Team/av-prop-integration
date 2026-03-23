@@ -1071,7 +1071,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 204.47 81.28 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1083,7 +1082,6 @@
 	(hierarchical_label "TP"
 		(shape input)
 		(at 201.93 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1095,7 +1093,6 @@
 	(hierarchical_label "CONTROL"
 		(shape input)
 		(at 180.34 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1107,7 +1104,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 151.13 99.06 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1119,7 +1115,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 139.7 99.06 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1131,7 +1126,6 @@
 	(hierarchical_label "RETURN"
 		(shape input)
 		(at 153.67 99.06 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1143,7 +1137,6 @@
 	(hierarchical_label "RETURN"
 		(shape input)
 		(at 207.01 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1155,7 +1148,6 @@
 	(hierarchical_label "CONTROL"
 		(shape input)
 		(at 180.34 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1203,7 +1195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/mosfet_AO3400A_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/mosfet_AO3400A_DS.pdf"
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -1260,7 +1252,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "Q1")
 					(unit 1)
@@ -1309,7 +1301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/schottky_diode_SS39-D_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/schottky_diode_SS39-D_DS.pdf"
 			(at 204.47 85.09 0)
 			(effects
 				(font
@@ -1353,7 +1345,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "D16")
 					(unit 1)
@@ -1439,7 +1431,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "#PWR0123")
 					(unit 1)
@@ -1537,7 +1529,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "C40")
 					(unit 1)
@@ -1628,7 +1620,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "R39")
 					(unit 1)
@@ -1727,7 +1719,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "R36")
 					(unit 1)
@@ -1806,7 +1798,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "#PWR0125")
 					(unit 1)
@@ -1854,7 +1846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/conn_jst_B0XB-PASK-1_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/conn_jst_B0XB-PASK-1_DS.pdf"
 			(at 151.13 93.98 0)
 			(effects
 				(font
@@ -1904,7 +1896,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "J10")
 					(unit 1)
@@ -2002,7 +1994,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "C39")
 					(unit 1)
@@ -2081,7 +2073,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/762489dd-fdf2-4f5c-8c0c-d0a6195d3f58/294431a1-b811-4a1d-b2a9-ae58ba2678b8"
 					(reference "#PWR0124")
 					(unit 1)
