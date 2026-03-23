@@ -455,140 +455,6 @@
 				)
 			)
 		)
-		(symbol "Device:Thermistor"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TH"
-				(at 2.54 1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermistor"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature dependent resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res thermistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermistor_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 3.175) (xy -1.905 1.905) (xy 1.905 -1.905) (xy 1.905 -3.175) (xy 1.905 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Thermistor_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:BAV199DW"
 			(pin_names
 				(offset 0.0254) hide)
@@ -1104,68 +970,38 @@
 		)
 	)
 	(junction
-		(at 101.6 90.17)
+		(at 139.7 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b52dbc9-10cb-4b6c-a27c-341a1dde684e")
 	)
 	(junction
-		(at 101.6 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e811d4e-80f4-4d41-bc31-d53a7e9b56af")
-	)
-	(junction
-		(at 74.93 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eaedea1-1cf9-4e58-bf34-6fdb502b18fa")
-	)
-	(junction
-		(at 160.02 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "642acf8b-c00e-4cc7-a6a7-1b8c2ad1aff0")
-	)
-	(junction
-		(at 118.11 81.28)
+		(at 156.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e238a82-35f8-4a1f-bdfc-bfb8acdc41ce")
 	)
 	(junction
-		(at 133.35 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75ffb33f-0273-4c9f-8260-f86ec5586ddf")
-	)
-	(junction
-		(at 74.93 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f758a89-727e-4c58-a995-169846084a33")
-	)
-	(junction
-		(at 110.49 81.28)
+		(at 148.59 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "859a31f0-5e7c-4f6a-adbb-ae9063a2874b")
 	)
 	(junction
-		(at 110.49 97.79)
+		(at 148.59 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9686bee0-8938-4684-91a9-f16af17a1fda")
 	)
 	(junction
-		(at 118.11 97.79)
+		(at 156.21 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3e73ed7-5e9e-4c38-8d58-2690cdf065f2")
 	)
 	(wire
 		(pts
-			(xy 115.57 80.01) (xy 118.11 80.01)
+			(xy 153.67 80.01) (xy 156.21 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1175,17 +1011,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 86.36) (xy 74.93 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0833d43e-3adc-423b-9abd-3e59e1e22522")
-	)
-	(wire
-		(pts
-			(xy 110.49 107.95) (xy 110.49 114.3)
+			(xy 148.59 107.95) (xy 148.59 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 97.79) (xy 110.49 100.33)
+			(xy 148.59 97.79) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 101.6 105.41)
+			(xy 139.7 106.68) (xy 139.7 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1215,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 97.79) (xy 110.49 97.79)
+			(xy 144.78 97.79) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1225,7 +1051,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 81.28) (xy 118.11 82.55)
+			(xy 156.21 81.28) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1061,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 97.79) (xy 118.11 100.33)
+			(xy 156.21 97.79) (xy 156.21 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1245,27 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 80.01) (xy 115.57 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60abe16e-522f-4589-ad4a-c69a8da9201c")
-	)
-	(wire
-		(pts
-			(xy 113.03 80.01) (xy 113.03 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e4633e-d5ba-47d4-8d96-690dad923f1e")
-	)
-	(wire
-		(pts
-			(xy 133.35 81.28) (xy 132.08 81.28)
+			(xy 171.45 81.28) (xy 170.18 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1275,7 +1081,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 81.28) (xy 97.79 81.28)
+			(xy 134.62 81.28) (xy 135.89 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1285,7 +1091,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 81.28) (xy 110.49 82.55)
+			(xy 148.59 81.28) (xy 148.59 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1295,7 +1101,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 90.17) (xy 118.11 97.79)
+			(xy 156.21 90.17) (xy 156.21 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1305,7 +1111,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 80.01) (xy 118.11 81.28)
+			(xy 156.21 80.01) (xy 156.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1121,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 118.11 97.79)
+			(xy 158.75 97.79) (xy 156.21 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +1131,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 80.01) (xy 110.49 81.28)
+			(xy 148.59 80.01) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1335,7 +1141,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 81.28) (xy 96.52 80.01)
+			(xy 134.62 81.28) (xy 134.62 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1151,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 80.01) (xy 113.03 80.01)
+			(xy 148.59 80.01) (xy 151.13 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1161,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 133.35 82.55)
+			(xy 171.45 81.28) (xy 171.45 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1365,17 +1171,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 88.9) (xy 74.93 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b78379d3-155c-419b-a07d-f586c984be89")
-	)
-	(wire
-		(pts
-			(xy 124.46 81.28) (xy 118.11 81.28)
+			(xy 162.56 81.28) (xy 156.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1181,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 90.17) (xy 110.49 97.79)
+			(xy 148.59 90.17) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1395,17 +1191,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 88.9) (xy 78.74 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d086ead1-8f67-44c5-a9a4-cdde1e3e4e4d")
-	)
-	(wire
-		(pts
-			(xy 105.41 81.28) (xy 110.49 81.28)
+			(xy 143.51 81.28) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1201,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 107.95) (xy 118.11 114.3)
+			(xy 156.21 107.95) (xy 156.21 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1425,7 +1211,7 @@
 	)
 	(text "*fixed\n"
 		(exclude_from_sim no)
-		(at 136.144 91.694 0)
+		(at 174.498 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1435,7 +1221,7 @@
 	)
 	(text "*fixed\n"
 		(exclude_from_sim no)
-		(at 136.144 91.694 0)
+		(at 174.498 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1443,91 +1229,20 @@
 		)
 		(uuid "26e9fa8e-dc7a-4726-a5cd-1b2e3508006d")
 	)
-	(text "common-mode decoupling to reduce \nhigh-frequency interference on both lines."
-		(exclude_from_sim no)
-		(at 201.422 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "33665e00-b51d-4319-8fc4-f72fe1cf3533")
-	)
-	(text "0.1uF chosen as it is large enough to shunt unwanted\nlow-frequency noise but small enough so that it won't distort\nor slow the TC's true signal\n\nthe 0805 package chosen to avoid DC bias aging due \nto physically larger dielectric layers"
-		(exclude_from_sim no)
-		(at 201.422 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "a6587809-d243-4199-b83a-9c7cc0145e95")
-	)
-	(text "decoupling for low-frequency \ndifferential-mode noise suppression. "
-		(exclude_from_sim no)
-		(at 200.66 70.104 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "d11cede0-6402-4d8c-8d2d-f5335d4ce665")
-	)
 	(text "place as close as possible to thermocouple input\nto minimize inductance and prevent noise pickup"
 		(exclude_from_sim no)
-		(at 171.704 56.388 0)
+		(at 198.12 65.786 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 0 0 0 1)
 			)
 		)
-		(uuid "d1d2c160-112e-46fa-9cfd-97d7483d6c71")
-	)
-	(text "resource for decoupling circuit"
-		(exclude_from_sim no)
-		(at 122.174 129.794 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "d334c72a-395e-4292-bf0f-7d616319263b")
-	)
-	(text "1 nF chosen in the 0603 package due to its higher\nself-resonant-frequnecy, allowing it to filter\nHF noise coming from TC leads.\n\nthe smaller 0603 package also has a lower ESL \nwhich shifts the SRF higher"
-		(exclude_from_sim no)
-		(at 202.184 103.378 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "d3eb4e66-fb67-477f-af27-8a893fbbe8cc")
-	)
-	(text "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/73/common-mode-and-differential-filter.pdf"
-		(exclude_from_sim no)
-		(at 170.942 132.842 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/73/common-mode-and-differential-filter.pdf")
-		)
-		(uuid "ef00763b-7c85-4d26-8203-df603f398a6b")
+		(uuid "c9e629fd-9369-4a50-83e8-0e208d58b3a2")
 	)
 	(hierarchical_label "TC_P"
 		(shape input)
-		(at 110.49 80.01 180)
-		(fields_autoplaced yes)
+		(at 148.59 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1538,8 +1253,7 @@
 	)
 	(hierarchical_label "TC_P"
 		(shape input)
-		(at 152.4 77.47 180)
-		(fields_autoplaced yes)
+		(at 190.5 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1550,8 +1264,7 @@
 	)
 	(hierarchical_label "TC_P"
 		(shape input)
-		(at 152.4 77.47 180)
-		(fields_autoplaced yes)
+		(at 190.5 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1562,8 +1275,7 @@
 	)
 	(hierarchical_label "TC_P_CLAMPED"
 		(shape input)
-		(at 110.49 114.3 180)
-		(fields_autoplaced yes)
+		(at 148.59 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1572,22 +1284,9 @@
 		)
 		(uuid "2e1c4c50-a8ae-4e23-8a84-46bcdc7bd01d")
 	)
-	(hierarchical_label "TMP-OUT"
-		(shape input)
-		(at 78.74 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "345abaf4-665a-4d2e-ac59-0ba16a3cb480")
-	)
 	(hierarchical_label "TC_N"
 		(shape input)
-		(at 160.02 77.47 0)
-		(fields_autoplaced yes)
+		(at 198.12 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1598,8 +1297,7 @@
 	)
 	(hierarchical_label "TC_P"
 		(shape input)
-		(at 152.4 87.63 180)
-		(fields_autoplaced yes)
+		(at 190.5 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1610,8 +1308,7 @@
 	)
 	(hierarchical_label "TC_P_CLAMPED"
 		(shape input)
-		(at 110.49 114.3 180)
-		(fields_autoplaced yes)
+		(at 148.59 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1622,8 +1319,7 @@
 	)
 	(hierarchical_label "TC_N"
 		(shape input)
-		(at 152.4 97.79 180)
-		(fields_autoplaced yes)
+		(at 190.5 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1634,8 +1330,7 @@
 	)
 	(hierarchical_label "TC_P"
 		(shape input)
-		(at 152.4 87.63 180)
-		(fields_autoplaced yes)
+		(at 190.5 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1646,8 +1341,7 @@
 	)
 	(hierarchical_label "TC_P"
 		(shape input)
-		(at 110.49 80.01 180)
-		(fields_autoplaced yes)
+		(at 148.59 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1658,8 +1352,7 @@
 	)
 	(hierarchical_label "TC_N"
 		(shape input)
-		(at 160.02 77.47 0)
-		(fields_autoplaced yes)
+		(at 198.12 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1670,8 +1363,7 @@
 	)
 	(hierarchical_label "TC_N"
 		(shape input)
-		(at 118.11 80.01 0)
-		(fields_autoplaced yes)
+		(at 156.21 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1682,8 +1374,7 @@
 	)
 	(hierarchical_label "TC_N_CLAMPED"
 		(shape input)
-		(at 118.11 114.3 0)
-		(fields_autoplaced yes)
+		(at 156.21 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1692,22 +1383,9 @@
 		)
 		(uuid "b14cbe26-8656-43a2-b77a-e6d9512ffe41")
 	)
-	(hierarchical_label "TMP-OUT"
-		(shape input)
-		(at 78.74 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d68d4841-ce04-4502-b4c3-98d27a3d9ec1")
-	)
 	(hierarchical_label "TC_N"
 		(shape input)
-		(at 152.4 97.79 180)
-		(fields_autoplaced yes)
+		(at 190.5 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,8 +1396,7 @@
 	)
 	(hierarchical_label "TC_N"
 		(shape input)
-		(at 118.11 80.01 0)
-		(fields_autoplaced yes)
+		(at 156.21 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1730,8 +1407,7 @@
 	)
 	(hierarchical_label "TC_N_CLAMPED"
 		(shape input)
-		(at 118.11 114.3 0)
-		(fields_autoplaced yes)
+		(at 156.21 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1741,93 +1417,16 @@
 		(uuid "feffc0a3-6de8-4a7d-8eed-2c2b4306d0d4")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.02 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1067e643-80cf-4471-a5e9-67870c2a1ddf")
-		(property "Reference" "#PWR0127"
-			(at 166.37 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.354 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 160.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed29503e-231f-4954-8dce-b74dc74e0ae5")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 101.6 90.17 270)
+		(at 139.7 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1e89f793-32d4-4448-83fd-9ddbf3e2c826")
-		(property "Reference" "#PWR0118"
-			(at 97.79 90.17 0)
+		(property "Reference" "#PWR0117"
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1435,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 100.076 88.9 90)
+			(at 138.176 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +1444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +1453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1462,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 101.6 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,103 +1471,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "27959e5a-0c59-4e0a-94f8-e0daf658e102")
+			(uuid "42a91032-010d-414c-94eb-a1decfdeef27")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0118")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "#PWR0118")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 74.93 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2259ee40-d878-43fd-b800-f7c89d70afba")
-		(property "Reference" "#PWR0119"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 71.12 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89a16036-372e-492f-b45d-aeaecfdc1a14")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -1976,15 +1494,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 106.68 270)
+		(at 139.7 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2b0e63bf-ae92-4243-9e0b-0eec12ed2b22")
-		(property "Reference" "#PWR0117"
-			(at 95.25 106.68 0)
+		(fields_autoplaced yes)
+		(uuid "248c5346-f06e-490c-a792-22025f0f8149")
+		(property "Reference" "#PWR0116"
+			(at 133.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +1512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 98.298 106.68 90)
+			(at 136.3696 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +1521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 106.68 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +1530,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 101.6 106.68 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +1539,7 @@
 			)
 		)
 		(property "Description" "Hall effect sensor."
-			(at 101.6 106.68 0)
+			(at 139.7 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,101 +1548,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "582d9747-2ea0-4902-884b-2a355bc05b55")
+			(uuid "209472b7-a80d-47bf-95ad-90ca63219527")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0117")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0117")
+					(reference "#PWR099")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b5e7447-1b78-44d1-a40f-30ff8dbbe175")
-		(property "Reference" "#PWR0126"
-			(at 133.35 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d4021b4-4182-46be-8363-766275d11655")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2131,15 +1571,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 81.28 90)
+		(at 139.7 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "44fde397-f3ff-4c66-930b-c799f2e0e151")
-		(property "Reference" "R26"
-			(at 102.87 83.82 90)
+		(property "Reference" "R19"
+			(at 140.97 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +1588,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 102.87 81.28 90)
+			(at 140.97 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +1597,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 101.6 83.058 90)
+			(at 139.7 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +1606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 81.28 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +1615,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 81.28 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +1624,16 @@
 			)
 		)
 		(property "LCSC" "C22935"
-			(at 101.6 81.28 0)
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22935"
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,182 +1642,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "93b16beb-3ba0-44b3-a7fb-814fc4fa5a11")
+			(uuid "84d19af9-dabe-4310-b560-1ad730456147")
 		)
 		(pin "2"
-			(uuid "cf7a6889-9b73-49e6-bca3-df7591eae637")
+			(uuid "d7fb4349-ddaa-4326-b531-2ffdb532f133")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "R26")
+					(reference "R19")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "R26")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bdac8f2-6c17-4d0e-8ce5-dbb2149a1105")
-		(property "Reference" "#PWR0112"
-			(at 133.35 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d4021b4-4182-46be-8363-766275d11656")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c9aedaf-2458-4710-8d36-25c2e12f6b6e")
-		(property "Reference" "#PWR0128"
-			(at 95.25 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 98.298 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "582d9747-2ea0-4902-884b-2a355bc05b56")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -2376,15 +1668,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 86.36 180)
+		(at 148.59 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "689e6240-1597-4431-ad9b-7239942a9dc4")
-		(property "Reference" "R24"
-			(at 107.95 86.36 90)
+		(property "Reference" "R20"
+			(at 146.05 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,15 +1684,15 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 110.49 86.36 90)
+			(at 148.59 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 112.268 86.36 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 150.368 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +1701,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 86.36 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +1710,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 86.36 0)
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,8 +1718,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4410"
-			(at 110.49 86.36 90)
+		(property "LCSC" "C21190"
+			(at 148.59 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21190"
+			(at 148.59 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,27 +1737,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "80c94dba-f5e6-40cc-ae32-91058f21f5a3")
+			(uuid "4ae00c0f-23b9-4901-8745-bf3382c649ac")
 		)
 		(pin "1"
-			(uuid "6291b4b8-a3c3-4d11-9e68-d9024e0fcac9")
+			(uuid "c6f68f1b-2280-4549-8f24-4086d34b383a")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "R24")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "R?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -2464,15 +1763,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 97.79 270)
+		(at 194.31 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6c53daf6-7483-461f-86e2-d1d7a620ca6e")
-		(property "Reference" "C32"
-			(at 156.21 91.948 90)
+		(property "Reference" "C30"
+			(at 194.31 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +1779,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 156.21 94.488 90)
+			(at 194.31 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +1787,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 152.4 98.7552 0)
+			(at 190.5 98.7552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +1796,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 97.79 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +1805,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 97.79 0)
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1588"
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,104 +1823,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "b64bac7c-b6bf-4e37-8b4e-227bca7367f6")
+			(uuid "82e517bf-e7f1-4b32-a4b3-3bc162e759e6")
 		)
 		(pin "1"
-			(uuid "64333827-38de-4d53-8d82-3a594a00218a")
+			(uuid "c867dd1a-518b-46ff-a05b-0cad1e7cd4e9")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "C32")
+					(reference "C30")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "C32")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d285027-ddf1-48c5-8b9a-dc174fda56d6")
-		(property "Reference" "#PWR0116"
-			(at 166.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.354 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a371055-1dec-4d0c-8fde-33026a7b2377")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -2620,7 +1849,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 81.28 90)
+		(at 166.37 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2628,7 +1857,7 @@
 		(dnp no)
 		(uuid "7673987b-1a0a-4853-b244-c72533f2ea06")
 		(property "Reference" "R27"
-			(at 129.54 83.82 90)
+			(at 167.64 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +1866,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 129.54 81.28 90)
+			(at 167.64 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +1875,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.27 83.058 90)
+			(at 166.37 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +1884,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 81.28 0)
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +1893,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 81.28 0)
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +1902,16 @@
 			)
 		)
 		(property "LCSC" "C22935"
-			(at 128.27 81.28 0)
+			(at 166.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22935"
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,10 +1920,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d1c1534-299a-4d2b-bb01-a83b23dec538")
+			(uuid "d653037d-f86a-4fbd-b238-013ebe38a372")
 		)
 		(pin "2"
-			(uuid "dcb8e400-fd2d-48c3-b689-6b39a7aac0f4")
+			(uuid "53a5a1d4-6404-4d71-8ec2-a98d85819370")
 		)
 		(instances
 			(project "upper_lc_board"
@@ -2694,94 +1932,13 @@
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "R27")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 156.21 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8409dc64-6626-4a76-be48-d58be3670db2")
-		(property "Reference" "C31"
-			(at 156.21 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 156.21 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 152.4 88.5952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d21c33b3-14c0-4301-9e5e-4f092133aca5")
-		)
-		(pin "1"
-			(uuid "c9d623b9-8ea4-4c6f-b9fa-652e652424d6")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "C?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -2789,16 +1946,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 100.33 0)
+		(at 198.12 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f4a4c15-6012-43b4-94d9-6d67070aaf24")
-		(property "Reference" "#PWR0121"
-			(at 74.93 106.68 0)
+		(uuid "784c1c04-fc28-4269-b9ac-63f2062d11cb")
+		(property "Reference" "#PWR0112"
+			(at 204.47 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,15 +1964,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 105.41 0)
+			(at 201.93 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 100.33 0)
+			(at 198.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +1982,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 74.93 100.33 0)
+			(at 198.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +1991,7 @@
 			)
 		)
 		(property "Description" "Hall effect sensor."
-			(at 74.93 100.33 0)
+			(at 198.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,56 +2000,54 @@
 			)
 		)
 		(pin "1"
-			(uuid "d555e070-4dd3-4262-bdf1-a0c8cc98e5de")
+			(uuid "88623b2d-a17b-42ec-accf-c7a8485ece59")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0121")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0121")
+					(reference "#PWR0112")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 118.11 104.14 0)
+		(lib_id "Device:C")
+		(at 194.31 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "929720b3-aa25-46e5-bb0e-2d1efcca0133")
-		(property "Reference" "R40"
-			(at 115.57 104.14 90)
+		(uuid "8409dc64-6626-4a76-be48-d58be3670db2")
+		(property "Reference" "C29"
+			(at 194.31 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "200"
-			(at 118.11 104.14 90)
+		(property "Value" "1nF"
+			(at 194.31 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 116.332 104.14 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 190.5 88.5952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +2056,93 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 104.14 0)
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1588"
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4aa40511-3122-4479-9259-a95c6099b672")
+		)
+		(pin "1"
+			(uuid "30d2db12-2343-47ff-8516-70586c187fb9")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "929720b3-aa25-46e5-bb0e-2d1efcca0133")
+		(property "Reference" "R26"
+			(at 153.67 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 156.21 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 154.432 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +2151,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 104.14 0)
+			(at 156.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2160,16 @@
 			)
 		)
 		(property "LCSC" "C8218"
-			(at 118.11 104.14 0)
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8218"
+			(at 156.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,27 +2178,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "3434b4d9-45bb-4b9c-b526-a120e0ac9b37")
+			(uuid "299fa00d-c559-4387-a365-8e617e3f40d2")
 		)
 		(pin "2"
-			(uuid "4bb37c2e-cc7d-4bc3-b823-ae61b7240308")
+			(uuid "bd252560-adb5-4f83-b302-61a982f9ea1e")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "R40")
+					(reference "R26")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "R40")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "R?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -2955,15 +2204,15 @@
 	)
 	(symbol
 		(lib_id "Diode:BAV199DW")
-		(at 125.73 97.79 270)
-		(unit 2)
+		(at 163.83 97.79 270)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "944818ae-9827-4465-9644-dbd704106016")
-		(property "Reference" "D18"
-			(at 131.318 95.25 0)
+		(property "Reference" "D19"
+			(at 169.418 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2221,7 @@
 			)
 		)
 		(property "Value" "BAV199DW"
-			(at 129.032 92.71 0)
+			(at 167.132 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +2230,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 113.03 97.79 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,8 +2238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/BAV199DW-ds30417.pdf"
-			(at 125.73 97.79 0)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/diode_BAV16WS_DS.pdf"
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +2248,7 @@
 			)
 		)
 		(property "Description" "Quad Surface Mount Low Leakage Diode, SOT-363"
-			(at 125.73 97.79 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +2257,16 @@
 			)
 		)
 		(property "LCSC" "C459846"
-			(at 125.73 97.79 0)
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "BAV199DW"
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,33 +2281,31 @@
 			(uuid "61ad8c03-c8b2-45e2-9ee5-8ccd04bec279")
 		)
 		(pin "3"
-			(uuid "92edcb08-b112-4014-a306-35f4df906298")
+			(uuid "1fd389c7-d307-40c4-b3cb-16374af47093")
 		)
 		(pin "2"
 			(uuid "13cc27e4-0d89-4428-b907-f24ac34cf643")
 		)
 		(pin "4"
-			(uuid "84727078-7dea-4bd0-a790-24a04ed5cff4")
+			(uuid "3b1a8a2e-d616-4c98-b0b5-824b242faae4")
 		)
 		(pin "5"
-			(uuid "b6f575f6-9113-4f06-b5fd-1bc3bc2b4ec1")
+			(uuid "53282176-aa26-45fb-8efe-b3c134baae47")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "D18")
-					(unit 2)
+					(reference "D19")
+					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "D18")
 					(unit 2)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "D?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "D9")
 					(unit 2)
 				)
 			)
@@ -3057,7 +2313,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BAV199DW")
-		(at 101.6 97.79 90)
+		(at 139.7 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3065,7 +2321,7 @@
 		(dnp no)
 		(uuid "94ea8052-395f-441e-97ea-451c32a2d978")
 		(property "Reference" "D18"
-			(at 96.52 100.33 0)
+			(at 134.62 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +2330,7 @@
 			)
 		)
 		(property "Value" "BAV199DW"
-			(at 99.06 102.87 0)
+			(at 137.16 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +2339,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 114.3 97.79 0)
+			(at 152.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,8 +2347,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/BAV199DW-ds30417.pdf"
-			(at 101.6 97.79 0)
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/diode_BAV16WS_DS.pdf"
+			(at 139.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +2357,7 @@
 			)
 		)
 		(property "Description" "Quad Surface Mount Low Leakage Diode, SOT-363"
-			(at 101.6 97.79 0)
+			(at 139.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +2366,16 @@
 			)
 		)
 		(property "LCSC" "C459846"
-			(at 101.6 97.79 0)
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "BAV199DW"
+			(at 139.7 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,16 +2384,16 @@
 			)
 		)
 		(pin "6"
-			(uuid "4a34b6f0-39dc-4b40-80dd-7e4f3bc9fc60")
+			(uuid "852068e9-8b47-493d-82eb-e7808cfd5e5e")
 		)
 		(pin "1"
-			(uuid "62de17ef-f59b-4932-a71f-6bf3b14b215a")
+			(uuid "3519be90-91a7-479c-953e-85150e2659fb")
 		)
 		(pin "3"
 			(uuid "8034ec61-ebaa-4b2d-bf16-843ebb40cc2d")
 		)
 		(pin "2"
-			(uuid "4b6a503e-3889-4c9c-957c-fd082a429e1a")
+			(uuid "cb975a2e-f472-45d6-9671-1af3fe13bfdf")
 		)
 		(pin "4"
 			(uuid "0836a7ab-d733-427e-94d3-a6b607aba856")
@@ -3143,15 +2408,13 @@
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "D18")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "D?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3159,438 +2422,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a68d46d3-0bf7-42f0-a019-248bfbf1d53a")
-		(property "Reference" "#PWR0113"
-			(at 132.08 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cba13ff-ea8a-4241-ae62-7f23298ad101")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 74.93 78.74 90)
+		(at 171.45 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab1382d7-f47e-4e86-836d-f68599c4ec01")
-		(property "Reference" "#PWR0130"
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 71.12 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89a16036-372e-492f-b45d-aeaecfdc1a15")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 125.73 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "adc1a5a9-be58-43fd-a862-8856e0db36de")
-		(property "Reference" "#PWR0114"
-			(at 129.54 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 124.206 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 125.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d16ef25-70c7-4cd1-9700-8cdba6c1ac1b")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2b70cdb-5d16-4048-8557-e66a72d6a262")
-		(property "Reference" "R25"
-			(at 77.47 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 74.93 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.708 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a0ed7284-a615-40c7-a988-890b0aa17439")
-		)
-		(pin "1"
-			(uuid "a6d887a4-1d15-4385-8e23-a952e2b299ee")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor")
-		(at 74.93 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3287f28-6662-4e77-a79f-2e4b760f463b")
-		(property "Reference" "TH1"
-			(at 62.992 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Thermistor"
-			(at 62.992 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 74.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/Thermistor-tx.pdf"
-			(at 74.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor for CJC, *place as close to TC connector as possible. *will need conditoning in code (averaging)"
-			(at 74.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "273-TX06F103F3435ERCT-ND"
-			(at 74.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "TX06F103F3435ER"
-			(at 74.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "55bfd83e-1d89-4971-a4ca-4cf2210a73b6")
-		)
-		(pin "1"
-			(uuid "df44ce8f-c9fa-4d61-b0f1-72ae8346bf1b")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "TH?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca5cef89-b8ef-4a16-99fb-9c59c7c5ef2d")
-		(property "Reference" "#PWR0115"
-			(at 166.37 87.63 0)
+		(uuid "9dde29cc-3cbd-4384-928c-2f5c2e7f9ace")
+		(property "Reference" "#PWR0110"
+			(at 171.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +2440,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.354 87.63 90)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +2448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 87.63 0)
+			(at 171.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +2457,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 160.02 87.63 0)
+			(at 171.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +2466,7 @@
 			)
 		)
 		(property "Description" "Hall effect sensor."
-			(at 160.02 87.63 0)
+			(at 171.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,24 +2475,97 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed29503e-231f-4954-8dce-b74dc74e0ae6")
+			(uuid "2af85386-446c-41ab-975b-f007202e75e4")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0115")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0115")
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adc1a5a9-be58-43fd-a862-8856e0db36de")
+		(property "Reference" "#PWR0119"
+			(at 167.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 162.306 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fb8b3d6-b519-4393-9641-ef059a792f47")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -3659,15 +2573,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 104.14 0)
+		(at 148.59 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ce663594-5550-4e85-9a99-c86479fec159")
-		(property "Reference" "R29"
-			(at 113.03 104.14 90)
+		(property "Reference" "R24"
+			(at 151.13 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +2589,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 110.49 104.14 90)
+			(at 148.59 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +2597,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 108.712 104.14 90)
+			(at 146.812 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +2606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 104.14 0)
+			(at 148.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +2615,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 104.14 0)
+			(at 148.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +2624,16 @@
 			)
 		)
 		(property "LCSC" "C8218"
-			(at 110.49 104.14 0)
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8218"
+			(at 148.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,27 +2642,25 @@
 			)
 		)
 		(pin "1"
-			(uuid "470306ad-156c-4b94-a2e2-4b692f6c829e")
+			(uuid "f867c03b-0bfa-4245-9cb6-f11feefc22c2")
 		)
 		(pin "2"
-			(uuid "75e8e21d-0a88-4465-99ce-14efa26b89df")
+			(uuid "32fe74fb-4ffc-4121-b21d-fd62e9acb6dd")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "R29")
+					(reference "R24")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "R29")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "R?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -3747,15 +2668,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 80.01 0)
+		(at 134.62 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d262b696-1b1d-449d-90be-a9e678d6d1f2")
-		(property "Reference" "#PWR0120"
-			(at 96.52 83.82 0)
+		(property "Reference" "#PWR0115"
+			(at 134.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +2685,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 74.93 0)
+			(at 134.62 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +2693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 80.01 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +2702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 80.01 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +2711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 80.01 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,24 +2720,99 @@
 			)
 		)
 		(pin "1"
-			(uuid "03b11f11-de0e-4e6c-89a5-c5ae3bd000bc")
+			(uuid "986e7d85-15a3-4f91-a0ef-d7a9d52ae2dc")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0120")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "#PWR0120")
 					(unit 1)
 				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "#PWR0100")
+					(unit 1)
+				)
 			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4cc0c33-30e8-4334-86df-1aad9ffd7b53")
+		(property "Reference" "#PWR0114"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 163.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 163.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "330e9c84-f57b-453c-89d4-246dfe21ea78")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
+					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -3824,15 +2820,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 86.36 180)
+		(at 156.21 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e7d2160b-1cdb-411a-87c8-b5297bacc115")
-		(property "Reference" "R28"
-			(at 115.57 86.36 90)
+		(property "Reference" "R25"
+			(at 153.67 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,15 +2836,15 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 118.11 86.36 90)
+			(at 156.21 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 119.888 86.36 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.988 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +2853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 86.36 0)
+			(at 156.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +2862,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 86.36 0)
+			(at 156.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,8 +2870,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4410"
-			(at 118.11 86.36 90)
+		(property "LCSC" "C21190"
+			(at 156.21 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21190"
+			(at 156.21 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,27 +2889,102 @@
 			)
 		)
 		(pin "2"
-			(uuid "c13eebd1-8b37-4081-99c2-52290030a343")
+			(uuid "cb4015c4-5697-4b15-b2f2-2939239b18bf")
 		)
 		(pin "1"
-			(uuid "0def6b42-4d0e-43e3-940c-be1822548086")
+			(uuid "8d4f65dd-3050-421c-a3ef-461c3568d7dd")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "R28")
+					(reference "R25")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "R28")
 					(unit 1)
 				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "R57")
+					(unit 1)
+				)
 			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "R?")
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9e1475b-0efa-4273-b8b0-10f8877ac851")
+		(property "Reference" "#PWR0113"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 198.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b86ce6f-fb13-4ea7-b916-7cf292d50558")
+		)
+		(instances
+			(project "upper_lc_board"
+				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -3912,15 +2992,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 77.47 270)
+		(at 194.31 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ee5ce91a-e9c0-4a0a-ba4a-21db91b6d421")
-		(property "Reference" "C30"
-			(at 156.21 71.628 90)
+		(property "Reference" "C28"
+			(at 194.31 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +3008,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 156.21 74.168 90)
+			(at 194.31 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3016,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 152.4 78.4352 0)
+			(at 190.5 78.4352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 77.47 0)
+			(at 194.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3034,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 77.47 0)
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C49678"
+			(at 194.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,27 +3052,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "8ee60f68-8769-4d90-af56-c9aaf8515f4d")
+			(uuid "cc8648b6-e96e-4631-ab87-53481c4a1ae5")
 		)
 		(pin "1"
-			(uuid "8d92eea8-0234-4516-9c06-b9c7a68033b5")
+			(uuid "08a17115-dfdc-434f-8c63-160988805506")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "C30")
 					(unit 1)
 				)
-			)
-			(project "upper_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "C?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -3991,7 +3078,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 113.03 76.2 90)
+		(at 151.13 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3999,7 +3086,7 @@
 		(dnp no)
 		(uuid "f2ab04a9-83e1-4804-8a7d-f4462ef88f39")
 		(property "Reference" "J7"
-			(at 111.76 70.866 90)
+			(at 149.86 69.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +3095,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 111.76 73.406 90)
+			(at 149.86 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +3104,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
-			(at 113.03 76.2 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +3113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 76.2 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +3122,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 113.03 76.2 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +3131,7 @@
 			)
 		)
 		(property "Digikey" "ED10561-ND"
-			(at 113.03 76.2 90)
+			(at 151.13 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,10 +3140,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a18bf71e-8965-4194-879a-d14deed9bd07")
+			(uuid "ad0303da-a675-4d39-9dd9-64267d2bb42b")
 		)
 		(pin "1"
-			(uuid "29abde8a-fb37-4ef8-90a9-96c6164448e1")
+			(uuid "c26a6cab-5a2d-4f18-baaa-983ed36fc678")
 		)
 		(instances
 			(project "upper_lc_board"
@@ -4065,15 +3152,13 @@
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "J7")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "J?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4081,15 +3166,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 101.6 90.17 270)
+		(at 139.7 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f3791028-83a0-4034-ae71-b7dfdb6f5f43")
-		(property "Reference" "#PWR0129"
-			(at 97.79 90.17 0)
+		(property "Reference" "#PWR0118"
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +3183,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 100.076 88.9 90)
+			(at 138.176 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +3192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +3201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +3210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 101.6 90.17 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,24 +3219,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "27959e5a-0c59-4e0a-94f8-e0daf658e103")
+			(uuid "20698916-5aed-4a73-8b7a-1c8fb7673076")
 		)
 		(instances
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0129")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
-			(project "upper_lc_board"
+			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
 					(reference "#PWR0129")
 					(unit 1)
 				)
-			)
-			(project "TC_module"
-				(path "/e654d60c-e2c4-41ba-8888-4ad8a9b663ed"
-					(reference "#PWR?")
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/a028da42-e7da-423c-a83c-32336e9b7a16"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)

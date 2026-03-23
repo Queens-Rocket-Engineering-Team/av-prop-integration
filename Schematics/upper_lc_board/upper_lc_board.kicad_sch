@@ -5,9 +5,10 @@
 	(uuid "9b1a1d2a-fad7-4f10-83f3-1f83e9656c75")
 	(paper "A4")
 	(title_block
-		(title "Upper Launch Control Board")
+		(title "PHEONIX | Upper Control Board")
 		(rev "A")
 		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Jeevan Sanchez")
 	)
 	(lib_symbols)
 	(sheet
