@@ -32,7 +32,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules/actuation_module/actuation_module.kicad_sch"
+		(property "Sheetfile" "actuation_module.kicad_sch"
 			(at 159.258 139.0146 0)
 			(effects
 				(font
@@ -70,7 +70,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules/STM32_breakout_module/STM32_breakout_module.kicad_sch"
+		(property "Sheetfile" "STM32_breakout_module.kicad_sch"
 			(at 72.136 81.8646 0)
 			(effects
 				(font
@@ -108,7 +108,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules/sensing_module/sensing_module.kicad_sch"
+		(property "Sheetfile" "sensing_module.kicad_sch"
 			(at 71.12 139.2686 0)
 			(effects
 				(font
@@ -146,7 +146,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "modules/power_module/power_module.kicad_sch"
+		(property "Sheetfile" "power_module.kicad_sch"
 			(at 159.766 81.6106 0)
 			(effects
 				(font

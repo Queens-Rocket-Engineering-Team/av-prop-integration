@@ -500,7 +500,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Downloads/lower_lc_board.step",
       "svg": "",
       "vrml": ""
     },
