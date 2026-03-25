@@ -1031,10 +1031,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 13.97 11.43 180)
+				(pin no_connect line
+					(at -13.97 -8.89 0)
 					(length 3.81)
-					(name "24V_A"
+					(name "Reserved"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1049,10 +1049,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -13.97 -8.89 0)
+				(pin power_in line
+					(at 13.97 11.43 180)
 					(length 3.81)
-					(name "Reserved"
+					(name "24V_A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3339,12 +3339,6 @@
 		(uuid "5e8c145a-5c51-46fe-a52f-1abd766d3762")
 	)
 	(junction
-		(at 80.01 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "644f1ca4-c26d-4b0c-b816-054d817e8a50")
-	)
-	(junction
 		(at 179.07 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3434,9 +3428,19 @@
 		(color 0 0 0 0)
 		(uuid "e739377b-621c-42f2-b39c-b06ebee612b2")
 	)
+	(junction
+		(at 80.01 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed5e6424-2364-40ea-94e6-21022bdbfc5c")
+	)
 	(no_connect
 		(at 52.07 43.18)
 		(uuid "492e6e7a-be5b-41f6-b89c-c5fc072200d2")
+	)
+	(no_connect
+		(at 80.01 80.01)
+		(uuid "5fe05b54-07c0-4e6b-8238-81324b51827e")
 	)
 	(no_connect
 		(at 80.01 76.2)
@@ -4612,73 +4616,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 80.01 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02ef0829-b5cb-480b-a426-75b007e532ad")
-		(property "Reference" "#PWR029"
-			(at 86.36 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb1ac57e-28c6-4ced-9371-abf2970fbdca")
-		)
-		(instances
-			(project "upper_lc_board_v2"
-				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/94566a7d-86bb-4a04-89fe-f21a893d6a23"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 228.6 45.72 270)
 		(unit 1)
@@ -5671,176 +5608,6 @@
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/94566a7d-86bb-4a04-89fe-f21a893d6a23"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EdgeConnectorV2:Stack Male Edge Connector")
-		(at 66.04 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23e7ca3e-f58b-4ea4-89cd-17ba9cf24fbd")
-		(property "Reference" "J2"
-			(at 66.04 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Stack Male Edge Connector"
-			(at 66.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x1"
-			(at 66.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.706 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "QRET SRAD Male Stack Edge Connector (PCIe x1 Connector). Generation 2"
-			(at 62.23 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B3"
-			(uuid "5baa42c1-d526-43c7-8901-909a28d9eaaf")
-		)
-		(pin "A10"
-			(uuid "68b792cc-7d35-43a2-b817-5c55708f6cf6")
-		)
-		(pin "A3"
-			(uuid "dcff2829-c528-407b-9a72-8ff486662614")
-		)
-		(pin "B4"
-			(uuid "7ac4a1a2-d54f-4258-b0cc-906dc94847cb")
-		)
-		(pin "B10"
-			(uuid "757e0c53-b7f1-4a1c-902f-fcbefa35c3f4")
-		)
-		(pin "A17"
-			(uuid "48aa4c3c-18ed-4a9f-9aef-d779da65da9f")
-		)
-		(pin "B13"
-			(uuid "f124b7f9-185d-42c0-9cd6-8f9822b7e194")
-		)
-		(pin "A1"
-			(uuid "26bab330-e493-4e7a-8213-84a3cf88bac6")
-		)
-		(pin "A11"
-			(uuid "8a6fcf82-8013-4ebb-b2d2-eb5d83f93565")
-		)
-		(pin "A14"
-			(uuid "72f271d9-31c3-4ce9-8e9c-9a582fb76d3b")
-		)
-		(pin "A15"
-			(uuid "68ef206e-9ceb-48f2-98a9-795432ee6b5f")
-		)
-		(pin "A7"
-			(uuid "20fe2d27-91aa-4ec0-9c0a-f80859b5e400")
-		)
-		(pin "B12"
-			(uuid "a7b85c61-eabe-4394-bd0e-f319727a42c9")
-		)
-		(pin "B16"
-			(uuid "0c6239e0-52ac-4022-90a8-fea7dd9fdfe9")
-		)
-		(pin "B14"
-			(uuid "07ed5fed-a148-4604-8094-74fa0c640c57")
-		)
-		(pin "A13"
-			(uuid "d853c1b4-6098-4930-8d92-8e39f2dde0d7")
-		)
-		(pin "A16"
-			(uuid "ea23c6c3-25f8-4d71-81b5-56fddc72b531")
-		)
-		(pin "B11"
-			(uuid "b0c1e08e-ed62-47c9-9f32-b70ea2f17ed9")
-		)
-		(pin "A18"
-			(uuid "7b311091-5b9b-46f3-b55e-e36c8ea0ad9c")
-		)
-		(pin "A2"
-			(uuid "0edc96c2-fda3-4a2a-9789-b00bee25db3c")
-		)
-		(pin "B15"
-			(uuid "56c041bf-a532-4b5b-9b72-77b6be5861e5")
-		)
-		(pin "B1"
-			(uuid "d50bec94-e2f9-444f-8c34-b320827f7799")
-		)
-		(pin "A6"
-			(uuid "c76cfd9e-2aa1-452d-adf4-fe908b57dc5e")
-		)
-		(pin "B17"
-			(uuid "f6e462fb-934b-4eb1-97f9-3f82821c5922")
-		)
-		(pin "B18"
-			(uuid "0225ce27-15ce-4e82-82a2-d7af7020e8c5")
-		)
-		(pin "B5"
-			(uuid "c9247be8-14d3-475a-a5e9-f64d54e5060f")
-		)
-		(pin "A9"
-			(uuid "76aac617-7bc8-4a74-b3c1-757a8519e4a7")
-		)
-		(pin "B6"
-			(uuid "e4d1f9fc-0241-4f2b-a1c4-d96b0aaba0eb")
-		)
-		(pin "A5"
-			(uuid "996f6fae-0999-4878-beec-540c8312bb19")
-		)
-		(pin "B2"
-			(uuid "f013f82b-9b1e-40a1-95e1-ba108c863fe9")
-		)
-		(pin "A4"
-			(uuid "12f052e6-674b-4449-a348-82aa607e0e57")
-		)
-		(pin "B7"
-			(uuid "7e2ecac0-2df8-4c55-aafd-85f9e761f477")
-		)
-		(pin "B8"
-			(uuid "6519b7b6-6562-4fe9-abf8-63769a43c67e")
-		)
-		(pin "B9"
-			(uuid "e46773b5-e29c-4058-a121-bfc27ca9f872")
-		)
-		(pin "A8"
-			(uuid "8af4b5f0-9f26-44ff-b14f-e897231255d6")
-		)
-		(pin "A12"
-			(uuid "aa7a10bc-e1d9-415e-b267-2891e8b1f861")
-		)
-		(instances
-			(project "upper_lc_board_v2"
-				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/94566a7d-86bb-4a04-89fe-f21a893d6a23"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8284,6 +8051,176 @@
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/94566a7d-86bb-4a04-89fe-f21a893d6a23"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EdgeConnectorV2:Stack Male Edge Connector")
+		(at 66.04 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2d85727-cf01-4436-a80f-834fa4c741c6")
+		(property "Reference" "J2"
+			(at 66.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Stack Male Edge Connector"
+			(at 66.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x1"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.706 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "QRET SRAD Male Stack Edge Connector (PCIe x1 Connector). Generation 2"
+			(at 62.23 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A13"
+			(uuid "9f4a1db6-4076-4f64-a4f6-7d37d64f1003")
+		)
+		(pin "A7"
+			(uuid "0362baa6-d96e-4f17-9cfa-1f1f10dfc209")
+		)
+		(pin "A11"
+			(uuid "bc8843b6-2dc2-40a9-a137-d552dc8ff1e4")
+		)
+		(pin "A15"
+			(uuid "260ff97d-d089-4e1a-858d-43ed6d9bc100")
+		)
+		(pin "A16"
+			(uuid "a83aa872-4d99-40c5-afde-900712ae576d")
+		)
+		(pin "A2"
+			(uuid "c57ccd2b-9ca8-457d-87ba-354fbe18a925")
+		)
+		(pin "A4"
+			(uuid "87eb891a-fe6f-4215-99c7-2867bb41d46b")
+		)
+		(pin "A12"
+			(uuid "315cff95-4858-43ff-af0c-eb263a317eeb")
+		)
+		(pin "A14"
+			(uuid "0e6ce1e1-7008-4913-9e1d-bf8b5e78cd8f")
+		)
+		(pin "A1"
+			(uuid "892e4dce-e85d-4de6-b75c-ac36f840b90c")
+		)
+		(pin "A17"
+			(uuid "151d03e9-ac1b-4eca-8bb4-c4017d0a0706")
+		)
+		(pin "A10"
+			(uuid "eed65e33-5710-4b87-b48f-ecc74eb561a0")
+		)
+		(pin "A5"
+			(uuid "29afea7b-1942-4f13-88af-6c6989b2c621")
+		)
+		(pin "A6"
+			(uuid "86a4786b-aebc-4882-8a37-8875a0408f0d")
+		)
+		(pin "A3"
+			(uuid "9e38a0ce-f7e6-4bca-929c-95df423a688d")
+		)
+		(pin "A18"
+			(uuid "c0d16fd1-ac01-4e37-a20b-f4bca7f78abf")
+		)
+		(pin "A8"
+			(uuid "aaa97689-be1e-44bb-b0ef-a31015f472cd")
+		)
+		(pin "A9"
+			(uuid "5c29febb-67d0-4933-a26f-2c1a49f22067")
+		)
+		(pin "B10"
+			(uuid "96052107-ba28-4c42-ada3-26a09b26e58b")
+		)
+		(pin "B11"
+			(uuid "3a35974f-1a4d-41dc-bf6d-479b6c1a72fd")
+		)
+		(pin "B13"
+			(uuid "b3b62a8a-804a-4d90-a58a-809ec298ae41")
+		)
+		(pin "B12"
+			(uuid "1743dca3-d7eb-490b-9f4f-a674d38d9b18")
+		)
+		(pin "B14"
+			(uuid "aa734432-c36b-4c56-a668-e24a527bde2d")
+		)
+		(pin "B16"
+			(uuid "9d462413-e715-4bd2-bd2b-878fd8c752e4")
+		)
+		(pin "B17"
+			(uuid "5be0bc31-bc73-49d6-8f3a-db9501cb70f7")
+		)
+		(pin "B15"
+			(uuid "a9b09c60-0305-46dc-a386-9090ba14b179")
+		)
+		(pin "B18"
+			(uuid "404265a0-45bd-4002-ba81-3af8caa04bb2")
+		)
+		(pin "B1"
+			(uuid "ccb4a69a-84ff-4ddd-9a6c-1adb96af2fc7")
+		)
+		(pin "B2"
+			(uuid "cfcfbc15-3dba-414a-a872-1608f6fc01ac")
+		)
+		(pin "B7"
+			(uuid "fca1978b-c1f7-4293-9d70-676f7075ce44")
+		)
+		(pin "B9"
+			(uuid "bb03d1a7-8849-4ac0-8ed6-d7b4c5ac225d")
+		)
+		(pin "B3"
+			(uuid "fe973139-80f1-4b90-9bb9-9531987fcc08")
+		)
+		(pin "B5"
+			(uuid "aad6d7f7-f829-4873-888b-c70f7799577d")
+		)
+		(pin "B4"
+			(uuid "90f77fa0-2572-4405-afd2-70b0f27d2c01")
+		)
+		(pin "B8"
+			(uuid "15f765ee-8ba7-48f0-a3fe-f083488e9078")
+		)
+		(pin "B6"
+			(uuid "ab06157b-cd91-4a53-a618-5e130702eb89")
+		)
+		(instances
+			(project ""
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/94566a7d-86bb-4a04-89fe-f21a893d6a23"
+					(reference "J2")
 					(unit 1)
 				)
 			)

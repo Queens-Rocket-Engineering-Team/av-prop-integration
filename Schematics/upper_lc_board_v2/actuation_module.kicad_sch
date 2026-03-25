@@ -2050,7 +2050,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../../shared_schematics/VALVE_control.kicad_sch"
+		(property "Sheetfile" "../shared_schematics/VALVE_control.kicad_sch"
 			(at 168.91 86.1826 0)
 			(effects
 				(font
@@ -2128,7 +2128,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../../../shared_schematics/VALVE_control.kicad_sch"
+		(property "Sheetfile" "../shared_schematics/VALVE_control.kicad_sch"
 			(at 165.1 132.9186 0)
 			(effects
 				(font

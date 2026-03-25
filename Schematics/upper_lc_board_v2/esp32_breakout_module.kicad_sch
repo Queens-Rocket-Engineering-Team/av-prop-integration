@@ -5064,7 +5064,7 @@
 		(uuid "d784a970-3007-43b1-a54b-fc56c5abf024")
 	)
 	(label "GPIO_42"
-		(at 80.01 151.13 90)
+		(at 95.25 153.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8101,84 +8101,6 @@
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/fb03bfcd-cf55-42d7-9f53-690866bb15a9"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 80.01 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "853e37b0-b487-4d83-8c05-4540bc9d2b44")
-		(property "Reference" "R30"
-			(at 74.676 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470"
-			(at 74.676 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 78.232 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C23179"
-			(at 80.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "178e0db9-d3cb-4283-a6d4-f9ae422c7690")
-		)
-		(pin "2"
-			(uuid "7ba673b3-16b7-4e8d-ad4f-0614ce448521")
-		)
-		(instances
-			(project "upper_lc_board_v2"
-				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/fb03bfcd-cf55-42d7-9f53-690866bb15a9"
-					(reference "R30")
 					(unit 1)
 				)
 			)
