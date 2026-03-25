@@ -4028,7 +4028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "S04B_PASK_2-P:CONN4_S04B-PASK_JST"
+		(property "Footprint" "NANO-H-4-CONN:CONN_SD-105313-100_04_MOL"
 			(at 73.66 125.73 0)
 			(effects
 				(font
