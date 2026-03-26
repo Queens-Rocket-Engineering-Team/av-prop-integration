@@ -2038,28 +2038,6 @@
 			)
 		)
 	)
-	(global_label "HALL_SDA"
-		(shape input)
-		(at 83.82 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "86582226-51d6-4352-91d4-04ec74f1d482")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.8162 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VPT"
 		(shape input)
 		(at 76.2 92.71 180)
@@ -2126,7 +2104,7 @@
 			)
 		)
 	)
-	(global_label "HALL_SCL"
+	(global_label "HALL_SDA"
 		(shape input)
 		(at 83.82 125.73 0)
 		(fields_autoplaced yes)
@@ -2136,9 +2114,31 @@
 			)
 			(justify left)
 		)
-		(uuid "d2b6b5e4-8647-4a72-8b6e-f3fe0f12aab7")
+		(uuid "cb3ce4e1-6e41-4330-9056-c202d99910ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 125.73 0)
+			(at 95.8162 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALL_SCL"
+		(shape input)
+		(at 83.82 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfaf6676-5d55-46a8-abfb-47f87a14c5af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.7557 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "455-S04B-PASK-2-ND"
+		(property "Digikey" "WM16895-ND"
 			(at 73.66 125.73 90)
 			(effects
 				(font

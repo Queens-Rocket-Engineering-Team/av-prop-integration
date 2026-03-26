@@ -1942,7 +1942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "455-B02B-PASK-1-ND"
+		(property "Digikey" "WM14965-ND"
 			(at 151.13 93.98 90)
 			(effects
 				(font

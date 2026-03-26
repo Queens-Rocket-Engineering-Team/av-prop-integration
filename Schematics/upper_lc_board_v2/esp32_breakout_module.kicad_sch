@@ -5290,6 +5290,28 @@
 	)
 	(global_label "HALL_SDA"
 		(shape input)
+		(at 194.31 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68ff14ac-d6b2-457a-a5ff-e7ef963ed990")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3062 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALL_SCL"
+		(shape input)
 		(at 194.31 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5298,9 +5320,9 @@
 			)
 			(justify left)
 		)
-		(uuid "59a11641-464f-4529-9c1e-36a7367b0712")
+		(uuid "87fc8183-1463-4ab7-be60-be51fb16e562")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.3062 93.98 0)
+			(at 206.2457 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,28 +5477,6 @@
 		(uuid "dcef231d-2345-403d-b528-cba2173f2319")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.2733 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HALL_SCL"
-		(shape input)
-		(at 194.31 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eff9c0ee-733a-4edb-b7d4-f90e38cb640a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.2457 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,6 +8083,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 138.43 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C21190"
 			(at 138.43 147.32 0)
 			(effects
 				(font
