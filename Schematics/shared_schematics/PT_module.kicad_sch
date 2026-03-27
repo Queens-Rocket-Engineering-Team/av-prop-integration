@@ -1653,7 +1653,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "62"
 			(at 153.162 82.55 90)
 			(effects
 				(font
