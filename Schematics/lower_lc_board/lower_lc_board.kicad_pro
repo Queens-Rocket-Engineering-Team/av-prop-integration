@@ -123,7 +123,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -765,10 +765,6 @@
     [
       "ba318d50-d24b-43da-9443-1d352fb2a38b",
       "Valve Control 2"
-    ],
-    [
-      "a028da42-e7da-423c-a83c-32336e9b7a16",
-      "TC Conditoning + CJC1"
     ]
   ],
   "text_variables": {}
