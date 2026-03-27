@@ -3222,6 +3222,7 @@
 	)
 	(label "3V3_BP"
 		(at 88.9 54.61 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3232,6 +3233,7 @@
 	)
 	(label "3V3_USB"
 		(at 181.61 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3243,6 +3245,7 @@
 	)
 	(label "3V3_BP"
 		(at 142.24 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3253,6 +3256,7 @@
 	)
 	(label "3V3_USB"
 		(at 143.51 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

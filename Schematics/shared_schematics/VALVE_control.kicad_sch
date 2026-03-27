@@ -1071,6 +1071,7 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 204.47 81.28 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1082,6 +1083,7 @@
 	(hierarchical_label "TP"
 		(shape input)
 		(at 201.93 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1093,6 +1095,7 @@
 	(hierarchical_label "CONTROL"
 		(shape input)
 		(at 180.34 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1104,6 +1107,7 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 151.13 99.06 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1115,6 +1119,7 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 139.7 99.06 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1126,6 +1131,7 @@
 	(hierarchical_label "RETURN"
 		(shape input)
 		(at 153.67 99.06 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1137,6 +1143,7 @@
 	(hierarchical_label "RETURN"
 		(shape input)
 		(at 207.01 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1148,6 +1155,7 @@
 	(hierarchical_label "CONTROL"
 		(shape input)
 		(at 180.34 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1837,7 +1845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ul_B02B-PASK-1:CONN_B02B-PASK-1_JST"
+		(property "Footprint" "NANO-V-2-CONN:MOLEX_1053091102"
 			(at 151.13 93.98 0)
 			(effects
 				(font
@@ -1846,7 +1854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/conn_jst_B0XB-PASK-1_DS.pdf"
+		(property "Datasheet" ""
 			(at 151.13 93.98 0)
 			(effects
 				(font
@@ -1864,7 +1872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "455-B02B-PASK-1-ND"
+		(property "Digikey" "  WM14965-ND"
 			(at 151.13 93.98 90)
 			(effects
 				(font

@@ -1068,6 +1068,7 @@
 	(hierarchical_label "CLAMPED"
 		(shape input)
 		(at 177.8 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1079,6 +1080,7 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 143.51 86.36 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1090,6 +1092,7 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 134.62 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1101,6 +1104,7 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 143.51 86.36 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1112,6 +1116,7 @@
 	(hierarchical_label "CLAMPED"
 		(shape input)
 		(at 177.8 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1330,7 +1335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ul_B02B-PASK-1:CONN_B02B-PASK-1_JST"
+		(property "Footprint" "NANO-V-2-CONN:MOLEX_1053091102"
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -1357,7 +1362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "455-B02B-PASK-1-ND"
+		(property "Digikey" "  WM14965-ND"
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -1511,7 +1516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 157.48 89.408 90)
 			(effects
 				(font
@@ -1608,7 +1613,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "62"
 			(at 151.13 91.44 90)
 			(effects
 				(font
@@ -1876,8 +1881,8 @@
 			)
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
-					(reference "D14")
-					(unit 1)
+					(reference "D13")
+					(unit 2)
 				)
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee"
 					(reference "D13")
