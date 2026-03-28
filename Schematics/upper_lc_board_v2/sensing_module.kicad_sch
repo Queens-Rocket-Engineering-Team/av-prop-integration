@@ -564,7 +564,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
+			(property "Reference" "J5"
 				(at 9.906 -1.016 90)
 				(effects
 					(font
@@ -572,7 +572,7 @@
 					)
 				)
 			)
-			(property "Value" "HALL"
+			(property "Value" "HALL-1"
 				(at 8.128 -1.27 90)
 				(effects
 					(font
@@ -580,7 +580,7 @@
 					)
 				)
 			)
-			(property "Footprint" "53047-0460:MOLEX_53047-0460"
+			(property "Footprint" "NANO-H-4-CONN:CONN_SD-105313-100_04_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -589,7 +589,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0530480410/242866"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -600,6 +600,15 @@
 			)
 			(property "Description" "HALL Sensor 4-pin Connector"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "WM16895-ND"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -681,23 +690,15 @@
 						(type background)
 					)
 				)
-				(text "GND"
-					(at 2.286 2.54 0)
+				(text "GND\n"
+					(at 2.54 -5.08 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "SCL\n"
-					(at 2.286 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "SDA\n"
+				(text "SCL"
 					(at 2.286 -2.54 0)
 					(effects
 						(font
@@ -705,8 +706,16 @@
 						)
 					)
 				)
-				(text "VCC\n"
-					(at 2.54 -5.08 0)
+				(text "SDA"
+					(at 2.286 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "VCC"
+					(at 2.286 2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1398,7 +1407,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 99.06) (xy 76.2 99.06)
+			(xy 73.66 93.98) (xy 76.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1415,26 +1424,6 @@
 			(type default)
 		)
 		(uuid "47e4f086-6206-4c98-bac2-f8cf996831cc")
-	)
-	(wire
-		(pts
-			(xy 73.66 57.15) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc5238d-717b-4afb-9fdd-757101568031")
-	)
-	(wire
-		(pts
-			(xy 124.46 52.07) (xy 124.46 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5360eacf-ea6c-4888-b91d-671cdc49d0ff")
 	)
 	(wire
 		(pts
@@ -1475,16 +1464,6 @@
 			(type default)
 		)
 		(uuid "6b7fa0fa-ae7c-4b9c-aefb-ac0f49d4ad4e")
-	)
-	(wire
-		(pts
-			(xy 73.66 87.63) (xy 76.2 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fc18028-48ed-4a60-8aaa-533b3cc05b77")
 	)
 	(wire
 		(pts
@@ -1588,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 67.31) (xy 76.2 67.31)
+			(xy 73.66 60.96) (xy 76.2 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1711,27 +1690,17 @@
 		)
 		(uuid dc47875d-9b31-4c63-a841-14a14a478139)
 	)
-	(text "4-20ma input current:\n3.3v = 20ma*165ohms\n0.66v = 4ma*165ohms"
+	(text "4-20ma input current:\n1.24v = 20ma*62ohms\n0.248v = 4ma*165ohms"
 		(exclude_from_sim no)
-		(at 60.706 75.946 0)
+		(at 53.848 75.438 0)
 		(effects
 			(font
 				(size 0.762 0.762)
 				(color 0 0 0 1)
 			)
-		)
-		(uuid "1f4e7553-5ea1-4e2d-888b-44284d944b57")
-	)
-	(text "Vf = 1.25v (at 100ma),\nVmax = 3.3+1.25,\n0.95v/5ma ~ 200ohms current limiter"
-		(exclude_from_sim no)
-		(at 138.43 126.238 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
 			(justify left)
 		)
-		(uuid "4b33e2a3-74d9-4bc7-a957-e0ff7aa70bc4")
+		(uuid "1f4e7553-5ea1-4e2d-888b-44284d944b57")
 	)
 	(text "HALL -> Magnetic / Hall-Effect Sensor\nPT -> Pressure Transducer\n"
 		(exclude_from_sim no)
@@ -1817,18 +1786,6 @@
 		)
 		(uuid "9a14ce24-cc56-44de-b2b7-dab1b745cfeb")
 	)
-	(text "assuming LVCMOS output \nimpedance of 25ohms so \n33+25=58ohms"
-		(exclude_from_sim no)
-		(at 217.17 62.738 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "c9f0d9a6-12d1-41c7-b012-942603ae6ba0")
-	)
 	(text "PT Conditioning (Shunt + Buffer)"
 		(exclude_from_sim no)
 		(at 52.578 43.18 0)
@@ -1857,44 +1814,6 @@
 		)
 		(uuid "ef0d70ce-b917-4cbf-b075-c1a5db8c24b8")
 	)
-	(text "Incase of Voltage Spike"
-		(exclude_from_sim no)
-		(at 147.32 122.428 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "f926beb9-aa2d-43ee-a183-81f6a7bf5bb3")
-	)
-	(label "PT1"
-		(at 73.66 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c0a9474-0a76-4de6-ae05-dd87415e5f1f")
-	)
-	(label "PT2"
-		(at 73.66 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "34d80f73-f3bd-442c-89b7-eb0e8d8c7b50")
-	)
 	(label "PT1_CLAMPED"
 		(at 154.94 63.5 180)
 		(fields_autoplaced yes)
@@ -1906,19 +1825,8 @@
 		)
 		(uuid "536e862f-a102-429c-90d2-6e7ec1eec4d0")
 	)
-	(label "VPT"
-		(at 124.46 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b76523f-62d9-419d-9d05-f640347e5177")
-	)
 	(label "PT2_CLAMPED"
-		(at 73.66 99.06 180)
+		(at 73.66 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1929,7 +1837,7 @@
 		(uuid "95f949de-b519-4500-84cc-350012a1a1db")
 	)
 	(label "PT1_CLAMPED"
-		(at 73.66 67.31 180)
+		(at 73.66 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1950,9 +1858,31 @@
 		)
 		(uuid "d4898e3b-7f86-41d6-8e9a-98b2c3ea6171")
 	)
+	(global_label "HALL_SDA"
+		(shape input)
+		(at 83.82 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a341b5d-a906-40a4-9968-f37464499717")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.8162 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VPT"
 		(shape input)
-		(at 76.2 62.23 180)
+		(at 76.2 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1962,7 +1892,7 @@
 		)
 		(uuid "31cbd70c-3a0a-4041-8d9b-34234bed006c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.8886 62.23 0)
+			(at 69.8886 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +1970,7 @@
 	)
 	(global_label "VPT"
 		(shape input)
-		(at 76.2 92.71 180)
+		(at 76.2 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2050,7 +1980,7 @@
 		)
 		(uuid "87c4381f-f85f-4a05-a350-6794f9ebcfb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.8886 92.71 0)
+			(at 69.8886 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,50 +2034,6 @@
 			)
 		)
 	)
-	(global_label "HALL_SDA"
-		(shape input)
-		(at 83.82 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb3ce4e1-6e41-4330-9056-c202d99910ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.8162 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HALL_SCL"
-		(shape input)
-		(at 83.82 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cfaf6676-5d55-46a8-abfb-47f87a14c5af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7557 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI_SCLK"
 		(shape input)
 		(at 213.36 74.93 0)
@@ -2188,6 +2074,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALL_SCL"
+		(shape input)
+		(at 83.82 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3b1259e-b2e3-48e3-a609-f1e2e5cf21b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.7557 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2253,72 +2161,6 @@
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b8826e1-b288-49de-8942-8ea82140cf05")
-		(property "Reference" "#PWR058"
-			(at 78.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hall effect sensor."
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fa38446-4720-49b7-84f5-8a6a033eb8b4")
-		)
-		(instances
-			(project "upper_lc_board_v2"
-				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2599,34 +2441,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 124.46 57.15 0)
+		(lib_id "power:+3V3")
+		(at 78.74 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "41910748-273d-42fe-b943-5bf790be9929")
-		(property "Reference" "C24"
-			(at 117.094 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 117.094 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 125.4252 60.96 0)
+		(uuid "2f6b457b-7498-4c8e-85c7-47ca8b0ad40e")
+		(property "Reference" "#PWR047"
+			(at 74.93 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,8 +2458,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 124.46 57.15 0)
+		(property "Value" "+3V3"
+			(at 82.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,8 +2475,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 57.15 0)
+		(property "Datasheet" ""
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,25 +2484,22 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C13585"
-			(at 124.46 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 78.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "415cbc58-3fbb-40b5-932e-3b5dc3ebdb3e")
 		)
 		(pin "1"
-			(uuid "b951214d-efe4-464d-9bd4-e7695ba2d963")
+			(uuid "684bcf00-70e2-4344-b5aa-135531079521")
 		)
 		(instances
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
-					(reference "C24")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2728,7 +2557,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5378"
+		(property "LCSC" "C21120"
 			(at 217.17 87.63 90)
 			(effects
 				(font
@@ -2747,72 +2576,6 @@
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49c9007c-40f0-4af9-8dca-e089e560a744")
-		(property "Reference" "#PWR063"
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ace2921c-66c8-495d-84fc-096cbed4b5f4")
-		)
-		(instances
-			(project "upper_lc_board_v2"
-				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2880,6 +2643,73 @@
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6eba320d-a678-4505-aced-ca5219e65a7e")
+		(property "Reference" "#PWR057"
+			(at 85.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall effect sensor."
+			(at 78.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19621594-e91d-4cc7-86db-bf1026c7ad4c")
+		)
+		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3156,15 +2986,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
-			(at 213.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "863d2f14-018a-42b0-ad70-33e11b8b394e")
 		)
@@ -3300,7 +3121,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C49678"
+		(property "LCSC" "C49678"
 			(at 69.85 140.97 0)
 			(effects
 				(font
@@ -3491,7 +3312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Documentation/ADC_ads131m04_DS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ADC_ads131m04_DS.pdf"
 			(at 193.04 77.47 0)
 			(effects
 				(font
@@ -3539,16 +3360,6 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 193.04 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ADS131M04IPWR/Texas+Instruments/view-part/?ref=eda"
 			(at 193.04 77.47 0)
 			(effects
@@ -3570,16 +3381,6 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 193.04 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADS131M04IPWR/Texas+Instruments/view-part/?ref=snap"
 			(at 193.04 77.47 0)
 			(effects
 				(font
@@ -3752,7 +3553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0G Unpolarized capacitor"
+		(property "Description" "X7R Unpolarized capacitor"
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -3761,16 +3562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C76599"
-			(at 165.1 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
+		(property "LCSC" "C57112"
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -4206,7 +3998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0G Unpolarized capacitor"
+		(property "Description" "X7R Unpolarized capacitor"
 			(at 163.83 59.69 0)
 			(effects
 				(font
@@ -4215,16 +4007,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C76599"
-			(at 163.83 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
+		(property "LCSC" "C57112"
 			(at 163.83 59.69 0)
 			(effects
 				(font
@@ -4377,15 +4160,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15849"
-			(at 231.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f5240d5a-f884-4181-b83d-c695bd044539")
 		)
@@ -4396,71 +4170,6 @@
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 78.74 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb7444f7-50ca-4cf4-8e60-d024f3d5e9f8")
-		(property "Reference" "#PWR057"
-			(at 78.74 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 77.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 78.74 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e82c1bc-0650-4342-821f-be56859185f7")
-		)
-		(instances
-			(project "upper_lc_board_v2"
-				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4534,8 +4243,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 54.61)
-		(size 39.624 16.002)
+		(at 76.2 53.34)
+		(size 39.624 10.922)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4546,7 +4255,7 @@
 		)
 		(uuid "109a8a0a-c437-459f-9af6-d5e34f50799c")
 		(property "Sheetname" "PT-1"
-			(at 76.2 53.8984 0)
+			(at 76.2 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4264,7 @@
 			)
 		)
 		(property "Sheetfile" "../shared_schematics/PT_module.kicad_sch"
-			(at 76.2 71.1966 0)
+			(at 76.2 64.8466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4273,7 @@
 			)
 		)
 		(pin "CLAMPED" input
-			(at 76.2 67.31 180)
+			(at 76.2 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,18 +4282,8 @@
 			)
 			(uuid "0142e80b-a94a-4bdc-b354-c17af2a0b012")
 		)
-		(pin "IN" input
-			(at 76.2 57.15 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "43541b3c-1128-4e89-9bf2-2362cc730c15")
-		)
 		(pin "VIN" input
-			(at 76.2 62.23 180)
+			(at 76.2 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4302,7 @@
 	)
 	(sheet
 		(at 76.2 85.09)
-		(size 39.624 16.002)
+		(size 39.624 10.922)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4623,7 +4322,7 @@
 			)
 		)
 		(property "Sheetfile" "../shared_schematics/PT_module.kicad_sch"
-			(at 76.2 101.6766 0)
+			(at 76.2 96.5966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4331,7 @@
 			)
 		)
 		(pin "CLAMPED" input
-			(at 76.2 99.06 180)
+			(at 76.2 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,18 +4340,8 @@
 			)
 			(uuid "d922f5f5-19b0-4540-8689-e6505824b4ce")
 		)
-		(pin "IN" input
-			(at 76.2 87.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b113eef0-ebf8-44d8-a769-2f5207161a9c")
-		)
 		(pin "VIN" input
-			(at 76.2 92.71 180)
+			(at 76.2 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
