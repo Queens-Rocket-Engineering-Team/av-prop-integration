@@ -933,12 +933,6 @@
 		(uuid "6e24bf01-1857-44f7-90a0-ca1c5d496b4d")
 	)
 	(junction
-		(at 143.51 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f0aa34e-3dbc-4eca-a8a5-db032f9280f0")
-	)
-	(junction
 		(at 133.35 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -976,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 87.63) (xy 151.13 87.63)
+			(xy 132.08 87.63) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1016,16 +1010,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 86.36) (xy 143.51 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64a05d66-6497-482c-8b16-a330fc025d8d")
-	)
-	(wire
-		(pts
 			(xy 173.99 80.01) (xy 171.45 80.01)
 		)
 		(stroke
@@ -1043,16 +1027,6 @@
 			(type default)
 		)
 		(uuid "8b06785d-4b18-4d25-a59c-b87a537bd428")
-	)
-	(wire
-		(pts
-			(xy 132.08 87.63) (xy 143.51 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc2640a2-5f61-4831-b2e3-69ea5b45b251")
 	)
 	(text "Vref / Imax\n1.2 / 0.02 = 60 "
 		(exclude_from_sim no)
@@ -1077,18 +1051,6 @@
 		)
 		(uuid "1da536a2-4904-4c85-a8b2-0fd72749869e")
 	)
-	(hierarchical_label "IN"
-		(shape input)
-		(at 143.51 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c8a5849-c8b7-4425-874d-91bb5678c179")
-	)
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 134.62 90.17 0)
@@ -1100,18 +1062,6 @@
 			(justify left)
 		)
 		(uuid "819a0bc6-2e6d-4d72-aed5-6aa93eff9a06")
-	)
-	(hierarchical_label "IN"
-		(shape input)
-		(at 143.51 86.36 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb1a3e23-ecbf-4349-8a63-953ddc9c4555")
 	)
 	(hierarchical_label "CLAMPED"
 		(shape input)
@@ -1275,6 +1225,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16926e34-6854-45ae-921c-45c38c58ea9e")
 		)
@@ -1363,6 +1331,24 @@
 			)
 		)
 		(property "Digikey" "  WM14965-ND"
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 90.17 0)
 			(effects
 				(font
@@ -1561,6 +1547,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4eebfca4-d469-4ccd-a27e-7462644837f4")
 		)
@@ -1649,6 +1653,24 @@
 			)
 		)
 		(property "Digikey" "311-165CRCT-ND "
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 151.13 91.44 0)
 			(effects
 				(font
@@ -1844,6 +1866,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2c5b455-8d40-45a9-944e-d6425308212f")
 		)
@@ -1946,6 +1986,24 @@
 			)
 		)
 		(property "JLCPCB" "C14663"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 133.35 93.98 0)
 			(effects
 				(font
