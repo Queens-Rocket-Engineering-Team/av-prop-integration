@@ -1231,33 +1231,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C20917"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "f194f0c6-6337-4b21-8aba-c464fc409118")
 		)
@@ -1268,6 +1241,16 @@
 			(uuid "1033e10f-46e4-4f97-a58a-cc17ad2b5733")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "Q1")
@@ -1300,7 +1283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2014aa4f-40ef-4e39-a1e9-7855b7f78b6b")
-		(property "Reference" "D16"
+		(property "Reference" "D13"
 			(at 207.01 83.5024 90)
 			(effects
 				(font
@@ -1379,6 +1362,16 @@
 			(uuid "218e3e78-81d4-48a0-a637-c81b95575474")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "D14")
+					(unit 1)
+				)
+			)
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "D16")
@@ -1459,6 +1452,16 @@
 			(uuid "0866d824-7a7e-4b92-81ae-9854d7369c66")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "#PWR0123")
@@ -1496,7 +1499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5071e658-7e2e-4a11-8549-3733f53ea8da")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 132.08 90.17 0)
 			(effects
 				(font
@@ -1541,25 +1544,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C13585"
-			(at 137.16 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 137.16 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "LCSC" "C13585"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -1575,6 +1560,16 @@
 			(uuid "5c7f0b26-df0e-42e0-9244-00bb25038758")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "C16")
@@ -1612,7 +1607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "509ca88e-2560-46ae-9b20-b6973ce44972")
-		(property "Reference" "R39"
+		(property "Reference" "R20"
 			(at 189.23 97.79 0)
 			(effects
 				(font
@@ -1626,7 +1621,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -1690,6 +1684,16 @@
 			(uuid "fed0b49b-27de-4d46-9923-ae1d455af7ab")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "R39")
@@ -1721,7 +1725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f58f704-71c7-483b-94ef-8f4ab0b22f8d")
-		(property "Reference" "R36"
+		(property "Reference" "R19"
 			(at 184.15 96.52 90)
 			(effects
 				(font
@@ -1773,33 +1777,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C8218"
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 184.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "00472e6e-3707-4e21-b2ed-69a9f8ff7d5a")
 		)
@@ -1807,6 +1784,16 @@
 			(uuid "2589519e-f606-48f9-b9c4-04d50f423739")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "R36")
@@ -1886,6 +1873,16 @@
 			(uuid "9b1716ab-cd7c-4e4d-8492-240d2869f0c7")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "#PWR0125")
@@ -1917,7 +1914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caaf06f3-d28c-4df6-90aa-148f19caba6f")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 156.21 92.7099 90)
 			(effects
 				(font
@@ -1962,7 +1959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "  WM14965-ND"
+		(property "Digikey" "WM14965-ND"
 			(at 151.13 93.98 90)
 			(effects
 				(font
@@ -1996,6 +1993,16 @@
 			(uuid "af592509-573c-430f-9df6-7d4ca2adde05")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "J2")
@@ -2033,7 +2040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de34731d-42d2-4fc7-8597-6672147f9fdc")
-		(property "Reference" "C15"
+		(property "Reference" "C19"
 			(at 132.334 94.996 0)
 			(effects
 				(font
@@ -2078,25 +2085,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
+		(property "LCSC" "C14663"
 			(at 142.24 93.98 0)
 			(effects
 				(font
@@ -2112,6 +2101,16 @@
 			(uuid "4c756dc1-1e28-445b-bba8-55921441671d")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "C15")
@@ -2197,6 +2196,16 @@
 			(uuid "7d0869f8-3a89-4de0-88c7-4fd4b23cac84")
 		)
 		(instances
+			(project "upper_lc_board_v2"
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/94e68ee1-e1f2-4047-b299-1f0f2281affb"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d/cf6cc7ca-f6f8-4955-86eb-3247d55d8f2c"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
 			(project "upper_lc_board"
 				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/f003a3ad-0ca0-4253-bb6a-1aee93b0e37f/1bd8ce37-8ddd-4ff8-9ae8-5224bdd9bb9e"
 					(reference "#PWR0124")
