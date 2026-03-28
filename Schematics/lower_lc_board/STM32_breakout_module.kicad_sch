@@ -5201,10 +5201,6 @@
 		(uuid "7886a7ed-2da3-490e-aad1-79c17dbb1bbe")
 	)
 	(no_connect
-		(at 74.93 71.12)
-		(uuid "8852f5c4-7987-40ea-a4b8-757d98ee6597")
-	)
-	(no_connect
 		(at 260.35 52.07)
 		(uuid "904c5ead-dd40-4768-aef2-6514be877cdd")
 	)
@@ -6192,7 +6188,7 @@
 	)
 	(text "* needs software remap"
 		(exclude_from_sim no)
-		(at 24.638 98.806 0)
+		(at 25.654 101.6 90)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -6214,17 +6210,6 @@
 			(justify left bottom)
 		)
 		(uuid "17c93653-1b1a-4a07-81a1-a35a807be2d6")
-	)
-	(text "usart3\n"
-		(exclude_from_sim no)
-		(at 26.924 102.87 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "1ad42e72-12ef-4ff4-8a9a-a3579341e45a")
 	)
 	(text "100nF \"high-quality ceramic\" for VDD and VBAT\n10uF electrolytic for bulk. \nplace as close as possible to IC."
 		(exclude_from_sim no)
@@ -6250,17 +6235,6 @@
 			)
 		)
 		(uuid "676922c2-3f42-48de-ae82-6dfa5b9a6eb5")
-	)
-	(text "usb DM/DP\n"
-		(exclude_from_sim no)
-		(at 84.836 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "687f6f79-c42e-4b51-9c0d-f389ebeb36a9")
 	)
 	(text "USB-UART Bridge"
 		(exclude_from_sim no)
@@ -6479,6 +6453,28 @@
 		)
 		(uuid "f5735de7-67d0-44b9-96fa-abb758bff66e")
 	)
+	(global_label "USART_RX"
+		(shape input)
+		(at 74.93 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00b8e839-05cc-4db8-96dd-cc34c7eaa5a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.2285 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OSC_IN"
 		(shape input)
 		(at 41.91 58.42 180)
@@ -6567,24 +6563,24 @@
 			)
 		)
 	)
-	(global_label "USART_RX"
+	(global_label "VSOL-SW"
 		(shape input)
-		(at 41.91 104.14 180)
+		(at 74.93 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "0f026304-d1f5-448d-a11a-ad12dd6f892f")
+		(uuid "13a2ae3c-ad63-48ba-88ee-418f999a19ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.6115 104.14 0)
+			(at 86.8052 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6624,6 +6620,50 @@
 		(uuid "1c10961c-33d7-4981-aa25-6c6f470feb4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.1536 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART_TX"
+		(shape output)
+		(at 74.93 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cacb0eb-8a82-4abd-a5a8-84e0e9952920")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.9261 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALL_SDA2"
+		(shape input)
+		(at 41.91 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e37108e-7035-4eaf-9a7f-567c0b6665e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.7043 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +6805,7 @@
 			)
 		)
 	)
-	(global_label "FAULT_LED"
+	(global_label "DB_LED"
 		(shape input)
 		(at 74.93 68.58 0)
 		(fields_autoplaced yes)
@@ -6777,7 +6817,7 @@
 		)
 		(uuid "34aeba14-0561-4f79-98c4-3313d521a268")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.8333 68.58 0)
+			(at 84.8699 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,28 +6893,6 @@
 			)
 		)
 	)
-	(global_label "USART_TX"
-		(shape output)
-		(at 41.91 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d0f5e39-be31-415a-bdc4-82b8beeaea9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9139 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC_CS"
 		(shape input)
 		(at 74.93 55.88 0)
@@ -6941,24 +6959,24 @@
 			)
 		)
 	)
-	(global_label "VSOL-SW"
+	(global_label "HALL_SCL2"
 		(shape input)
-		(at 74.93 73.66 0)
+		(at 41.91 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "669c095d-4273-44f5-b8d9-720c137ebcd4")
+		(uuid "62cefe99-442d-4028-be7f-5a879252cac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.8052 73.66 0)
+			(at 28.7648 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7249,7 +7267,29 @@
 			)
 		)
 	)
-	(global_label "HALL_SCL"
+	(global_label "DB_LED"
+		(shape input)
+		(at 74.93 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "977900a2-ddf3-4997-85fd-f67ea350d607")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.8699 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALL_SCL1"
 		(shape input)
 		(at 41.91 91.44 180)
 		(fields_autoplaced yes)
@@ -7261,7 +7301,7 @@
 		)
 		(uuid "991bf7b1-a542-48be-ad28-17eeb7414ca2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9743 91.44 0)
+			(at 28.7648 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,6 +7641,28 @@
 			)
 		)
 	)
+	(global_label "DB_LED"
+		(shape input)
+		(at 160.02 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d882649e-bffe-4308-bf7f-deb2466cedb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.0801 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_N"
 		(shape input)
 		(at 187.96 90.17 0)
@@ -7645,7 +7707,7 @@
 			)
 		)
 	)
-	(global_label "HALL_SDA"
+	(global_label "HALL_SDA1"
 		(shape input)
 		(at 41.91 93.98 180)
 		(fields_autoplaced yes)
@@ -7657,7 +7719,7 @@
 		)
 		(uuid "e0f54d97-444f-4f4f-9424-40bd8a4457ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.9138 93.98 0)
+			(at 28.7043 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,28 +7764,6 @@
 		(uuid "eaae0b3b-0794-465b-a080-dcf2c50bcdd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.3567 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FAULT_LED"
-		(shape input)
-		(at 160.02 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb4a02ea-c9c3-4e41-a78b-5c0968c94448")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.1167 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,15 +8265,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
-			(at 39.37 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 39.37 44.45 0)
 			(effects
@@ -8463,15 +8494,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 27.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 27.94 57.15 0)
 			(effects
@@ -8482,6 +8504,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 27.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 27.94 57.15 0)
 			(effects
 				(font
@@ -8559,15 +8590,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 171.45 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 171.45 36.83 0)
 			(effects
@@ -8578,6 +8600,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 171.45 36.83 0)
 			(effects
 				(font
@@ -8886,15 +8917,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C318884"
-			(at 116.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 116.84 48.26 0)
 			(effects
@@ -8905,6 +8927,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318884"
 			(at 116.84 48.26 0)
 			(effects
 				(font
@@ -8981,15 +9012,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 137.16 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 137.16 40.64 0)
 			(effects
@@ -9000,6 +9022,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 137.16 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 137.16 40.64 0)
 			(effects
 				(font
@@ -9041,7 +9072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "270"
 			(at 179.07 120.65 90)
 			(effects
 				(font
@@ -9077,16 +9108,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22808"
-			(at 179.07 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C22962"
+		(property "LCSC" "C22966"
 			(at 179.07 118.11 0)
 			(effects
 				(font
@@ -9174,15 +9196,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C14663"
 			(at 64.77 156.21 0)
 			(effects
 				(font
@@ -9343,15 +9356,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C15849"
 			(at 121.92 171.45 0)
 			(effects
 				(font
@@ -9521,15 +9525,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
-			(at 44.45 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 44.45 154.94 0)
 			(effects
@@ -9618,15 +9613,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C14663"
 			(at 54.61 154.94 0)
 			(effects
 				(font
@@ -9740,15 +9726,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
-			(at 165.1 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 165.1 81.28 0)
 			(effects
@@ -9826,15 +9803,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "1002"
 			(at 127 167.64 0)
 			(effects
 				(font
@@ -9937,15 +9905,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
-			(at 113.03 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 113.03 170.18 0)
 			(effects
@@ -9956,6 +9915,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 113.03 170.18 0)
 			(effects
 				(font
@@ -10069,15 +10037,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2878225"
-			(at 177.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c2d7ed70-4a6a-4191-9e51-76e64b17b40f")
 		)
@@ -10156,15 +10115,6 @@
 		)
 		(property "Description" ""
 			(at 187.96 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C14663"
-			(at 187.96 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,15 +10210,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C96446"
 			(at 251.46 39.37 0)
 			(effects
 				(font
@@ -10699,15 +10640,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C57112"
-			(at 163.83 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 163.83 171.45 0)
 			(effects
@@ -10745,90 +10677,6 @@
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/925ef91a-c900-4b94-a159-606c279d7192"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 74.93 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a81a186-8238-4939-8efd-91506e71f6d6")
-		(property "Reference" "TP7"
-			(at 90.678 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB-DM"
-			(at 90.678 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 74.93 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 74.93 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 74.93 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 74.93 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d28b001-d5de-4c78-8d1a-6fa3903c525a")
-		)
-		(instances
-			(project "lower_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/925ef91a-c900-4b94-a159-606c279d7192"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -10878,15 +10726,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C13738"
 			(at 127 74.93 0)
 			(effects
 				(font
@@ -11062,15 +10901,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C97521"
-			(at 184.15 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 184.15 48.26 0)
 			(effects
@@ -11175,15 +11005,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C15849"
 			(at 132.08 171.45 0)
 			(effects
 				(font
@@ -11429,15 +11250,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
-			(at 190.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 190.5 81.28 0)
 			(effects
@@ -11658,15 +11470,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "  C1525"
-			(at 34.29 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 34.29 154.94 0)
 			(effects
@@ -11719,7 +11522,7 @@
 		(dnp no)
 		(uuid "85a1f0a9-4e03-44d1-8be5-f62ea8c25ec3")
 		(property "Reference" "D6"
-			(at 167.894 123.952 90)
+			(at 169.926 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,8 +11530,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CAN_LED"
-			(at 167.894 126.492 90)
+		(property "Value" "CAN_LED (WHT)"
+			(at 173.736 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,15 +11568,6 @@
 		)
 		(property "LCSC" "C2290"
 			(at 179.07 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2290"
-			(at 179.07 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,15 +11660,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C5178541"
-			(at 113.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 113.03 134.62 0)
 			(effects
@@ -11885,6 +11670,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 113.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5178541"
 			(at 113.03 134.62 0)
 			(effects
 				(font
@@ -12007,15 +11801,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C52923"
-			(at 226.06 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 226.06 63.5 0)
 			(effects
@@ -12112,15 +11897,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C14663"
-			(at 184.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 187.96 139.7 0)
 			(effects
@@ -12131,6 +11907,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 187.96 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 187.96 139.7 0)
 			(effects
 				(font
@@ -12274,15 +12059,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25792"
-			(at 215.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 215.9 63.5 0)
 			(effects
@@ -12293,6 +12069,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 215.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25792"
 			(at 215.9 63.5 0)
 			(effects
 				(font
@@ -12372,15 +12157,6 @@
 		)
 		(property "LCSC" "C23186"
 			(at 132.08 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C23186"
-			(at 132.08 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12738,15 +12514,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 157.48 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 157.48 46.99 0)
 			(effects
@@ -12757,6 +12524,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -12894,15 +12670,6 @@
 			)
 		)
 		(property "Description" "USB to UART master bridge, QFN-20"
-			(at 247.65 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C969913"
 			(at 247.65 69.85 0)
 			(effects
 				(font
@@ -13139,15 +12906,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C23186"
-			(at 132.08 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 132.08 124.46 0)
 			(effects
@@ -13236,15 +12994,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 149.86 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 149.86 46.99 0)
 			(effects
@@ -13255,6 +13004,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 149.86 46.99 0)
 			(effects
 				(font
@@ -13332,15 +13090,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 33.02 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 33.02 44.45 0)
 			(effects
@@ -13351,6 +13100,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 33.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 33.02 44.45 0)
 			(effects
 				(font
@@ -13626,15 +13384,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C23179"
-			(at 203.2 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 203.2 128.27 0)
 			(effects
@@ -13645,6 +13394,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 203.2 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23179"
 			(at 203.2 128.27 0)
 			(effects
 				(font
@@ -13854,15 +13612,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25768 "
-			(at 215.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 215.9 55.88 0)
 			(effects
@@ -13873,6 +13622,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25768 "
 			(at 215.9 55.88 0)
 			(effects
 				(font
@@ -14080,15 +13838,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1634"
-			(at 119.38 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 119.38 78.74 0)
 			(effects
@@ -14185,15 +13934,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C11702"
-			(at 231.14 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 231.14 46.99 0)
 			(effects
@@ -14204,6 +13944,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 231.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 231.14 46.99 0)
 			(effects
 				(font
@@ -14311,8 +14060,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
-			(at 160.02 120.65 90)
+		(property "Value" "680"
+			(at 160.02 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14347,16 +14096,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22962"
-			(at 160.02 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C22962"
+		(property "LCSC" "C23228"
 			(at 160.02 118.11 0)
 			(effects
 				(font
@@ -14623,7 +14363,7 @@
 		(dnp no)
 		(uuid "dd8c53c4-a591-4e95-ae48-953d0ee6e5c2")
 		(property "Reference" "D5"
-			(at 147.828 123.952 90)
+			(at 149.86 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14631,8 +14371,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FAULT_LED"
-			(at 147.828 126.492 90)
+		(property "Value" "DB_LED (YLW)"
+			(at 153.924 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14667,17 +14407,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C72038"
 			(at 160.02 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2290"
-			(at 160.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14962,15 +14693,6 @@
 			)
 		)
 		(property "Description" "STM32 MCU"
-			(at 57.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C8304"
 			(at 57.15 83.82 0)
 			(effects
 				(font
@@ -15329,90 +15051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 74.93 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1e348d8-8918-4d29-b6e9-ab00fa022c45")
-		(property "Reference" "TP8"
-			(at 91.186 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB-DP"
-			(at 91.186 82.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 74.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b98ca98-06ac-40c8-ac2c-99ac8d42b3cf")
-		)
-		(instances
-			(project "lower_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/925ef91a-c900-4b94-a159-606c279d7192"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 227.33 46.99 90)
 		(unit 1)
@@ -15531,15 +15169,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C318884"
-			(at 116.84 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 116.84 34.29 0)
 			(effects
@@ -15550,6 +15179,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 116.84 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318884"
 			(at 116.84 34.29 0)
 			(effects
 				(font
@@ -15619,15 +15257,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C1634"
 			(at 134.62 78.74 0)
 			(effects
 				(font

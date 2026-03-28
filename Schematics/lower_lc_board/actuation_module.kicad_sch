@@ -2160,15 +2160,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 229.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 229.87 55.88 0)
 			(effects
@@ -2303,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "12k"
 			(at 102.87 76.2 90)
 			(effects
 				(font
@@ -2347,15 +2338,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17936"
-			(at 102.87 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 102.87 76.2 0)
 			(effects
@@ -2366,6 +2348,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17912"
 			(at 102.87 76.2 0)
 			(effects
 				(font
@@ -2443,15 +2434,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 71.12 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 71.12 119.38 0)
 			(effects
@@ -2462,6 +2444,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 71.12 119.38 0)
 			(effects
 				(font
@@ -2539,15 +2530,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25804"
-			(at 87.63 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 87.63 114.3 0)
 			(effects
@@ -2558,6 +2540,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 87.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 87.63 114.3 0)
 			(effects
 				(font
@@ -2635,15 +2626,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C8218"
-			(at 93.98 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 93.98 110.49 0)
 			(effects
@@ -2654,6 +2636,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 93.98 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8218"
 			(at 93.98 110.49 0)
 			(effects
 				(font
@@ -2750,15 +2741,6 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 82.55 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C182476"
 			(at 82.55 125.73 0)
 			(effects
 				(font
@@ -2878,7 +2860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "6.2K"
 			(at 83.058 119.38 90)
 			(effects
 				(font
@@ -2914,15 +2896,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C23162"
-			(at 81.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 81.28 119.38 0)
 			(effects
@@ -2933,6 +2906,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4260"
 			(at 81.28 119.38 0)
 			(effects
 				(font
@@ -2973,7 +2955,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "12k"
 			(at 102.87 60.96 90)
 			(effects
 				(font
@@ -3017,15 +2999,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17936"
-			(at 102.87 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 102.87 60.96 0)
 			(effects
@@ -3036,6 +3009,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 102.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17912"
 			(at 102.87 60.96 0)
 			(effects
 				(font
@@ -3174,15 +3156,6 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 76.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C8545"
 			(at 76.2 105.41 0)
 			(effects
 				(font
@@ -3428,15 +3401,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2290"
-			(at 95.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Device" ""
 			(at 95.25 76.2 0)
 			(effects
@@ -3672,15 +3636,6 @@
 			)
 		)
 		(property "LCSC" "C2290"
-			(at 95.25 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C2290"
 			(at 95.25 60.96 0)
 			(effects
 				(font
