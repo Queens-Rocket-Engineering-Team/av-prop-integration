@@ -1119,11 +1119,11 @@
 			)
 			(project "upper_lc_board_v2"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6/109a8a0a-c437-459f-9af6-d5e34f50799c"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6/b149431a-f253-4ff6-90dc-e615cf93c3d3"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
