@@ -31676,6 +31676,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "PEGASUS"
+		(at 160.08 84.35 0)
+		(layer "F.SilkS")
+		(uuid "6f14661e-7249-4925-a5ff-15c5fabf1a0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "S2"
 		(at 158.89 94.45 0)
 		(layer "F.SilkS" knockout)
@@ -31817,6 +31830,18 @@
 				(bold yes)
 			)
 			(justify right bottom)
+		)
+	)
+	(gr_text "propulsion \nintegration"
+		(at 160 87.46 0)
+		(layer "F.SilkS")
+		(uuid "a71b8b54-fbea-437e-aefb-6d32b0555b1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "2"
@@ -32014,8 +32039,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PEGASUS | v2 \npropulsion \nintegration"
-		(at 159.91 87.59 0)
+	(gr_text "       | v2 \n"
+		(at 161.69 84.27 0)
 		(layer "F.SilkS")
 		(uuid "f8a73bb7-e6ba-4a5f-88df-cabb233597bf")
 		(effects
