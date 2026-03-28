@@ -2921,6 +2921,19 @@
 		)
 		(uuid fe8ac9b1-ff0b-48ca-b5e9-0fb24bee5a80)
 	)
+	(text "CANbus termination"
+		(exclude_from_sim no)
+		(at 109.5622 76.5995 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "417cfdb6-4504-4ee9-bc2a-46056ddf150f")
+	)
 	(text "24V-LED: Vf=2.6, R=4.7k, I=4.5mA"
 		(exclude_from_sim no)
 		(at 232.664 35.306 0)
@@ -3108,6 +3121,28 @@
 	)
 	(global_label "CAN_N"
 		(shape input)
+		(at 106.0062 65.1695 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bb8f7b6-d5f6-467d-bfae-9292f3e66bc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.0062 74.1419 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_N"
+		(shape input)
 		(at 77.47 54.61 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3185,6 +3220,28 @@
 		(uuid "a1fe84ac-0f3f-4ff3-b6cb-35d74e9ebb0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.5877 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_P"
+		(shape input)
+		(at 113.6262 65.1695 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8634297-3311-4128-a9be-b59c0cd51f23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.6262 74.0814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,6 +6181,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 109.8162 65.1695 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87959114-fc5a-434c-8d9b-6a5418ffd70d")
+		(property "Reference" "R46"
+			(at 109.8162 58.8195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 109.8162 61.3595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.8162 66.9475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.8162 65.1695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAN Termination Resistor"
+			(at 109.8162 65.1695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22787"
+			(at 109.8162 65.1695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1225d6a5-a30f-401d-83fd-0203b7290801")
+		)
+		(pin "1"
+			(uuid "5433bd0b-0fcb-41ee-a628-dd2ab8dd3988")
+		)
+		(instances
+			(project "lower_lc_board"
+				(path "/d63798c4-e363-437e-9012-e4aff32e6642/ea1dc739-d1f4-46a0-a090-2a1bf39da427"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 66.04 0)
 		(unit 1)
@@ -6301,7 +6435,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "12k"
 			(at 80.01 138.43 90)
 			(effects
 				(font
@@ -6309,7 +6443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.788 138.43 90)
 			(effects
 				(font
@@ -6363,7 +6497,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17936"
+		(property "LCSC" "C22790"
 			(at 80.01 138.43 0)
 			(effects
 				(font

@@ -1801,18 +1801,6 @@
 		)
 		(uuid a933075c-f34c-4f38-948f-dcdff14e157a)
 	)
-	(text "added to avoid constant power drain"
-		(exclude_from_sim no)
-		(at 103.886 94.234 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "1a630728-5747-46c2-8603-02a4bf133ec0")
-	)
 	(text "Bulk Decoupling"
 		(exclude_from_sim no)
 		(at 228.6 45.72 0)
@@ -2302,7 +2290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 77.978 90)
 			(effects
 				(font
@@ -2356,7 +2344,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17912"
+		(property "LCSC" "C22790"
 			(at 102.87 76.2 0)
 			(effects
 				(font
@@ -2861,7 +2849,7 @@
 			)
 		)
 		(property "Value" "6.2K"
-			(at 83.058 119.38 90)
+			(at 83.566 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +2951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 62.738 90)
 			(effects
 				(font
@@ -3017,7 +3005,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17912"
+		(property "LCSC" "C22790"
 			(at 102.87 60.96 0)
 			(effects
 				(font
