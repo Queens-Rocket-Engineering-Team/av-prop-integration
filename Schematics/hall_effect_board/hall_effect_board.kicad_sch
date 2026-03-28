@@ -145,16 +145,16 @@
 						)
 					)
 				)
-				(text "SDA"
-					(at 2.286 0 0)
+				(text "SCL\n"
+					(at 2.286 -2.54 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "SLC"
-					(at 2.286 -2.54 0)
+				(text "SDA"
+					(at 2.286 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -987,7 +987,7 @@
 		)
 		(uuid "fc3988f0-791b-4b7a-b755-4336ef7cefb8")
 	)
-	(global_label "SCA"
+	(global_label "SDA"
 		(shape input)
 		(at 168.91 106.68 180)
 		(fields_autoplaced yes)
@@ -1009,7 +1009,7 @@
 			)
 		)
 	)
-	(global_label "SCA"
+	(global_label "SDA"
 		(shape input)
 		(at 144.78 110.49 0)
 		(fields_autoplaced yes)
