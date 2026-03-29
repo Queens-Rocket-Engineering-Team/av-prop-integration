@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.2,
-          "width": 0.7
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,16 +48,10 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -123,7 +117,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -177,15 +171,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.15,
-        0.2,
-        0.3,
-        0.5,
-        1.0,
-        1.5
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -212,24 +198,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.4
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.5
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -462,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lower_lc_board.kicad_pro",
+    "filename": "hall_effect_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -500,7 +469,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/lower_lc_board2.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -539,7 +508,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -551,132 +520,18 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Digikey",
-          "name": "Digikey",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Model",
-          "name": "Model",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
-      "group_symbols": false,
-      "name": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -721,44 +576,8 @@
   },
   "sheets": [
     [
-      "d63798c4-e363-437e-9012-e4aff32e6642",
+      "cea352d5-1e3c-4af0-8669-14f849063771",
       "Root"
-    ],
-    [
-      "925ef91a-c900-4b94-a159-606c279d7192",
-      "STM32 Breakout Circuitry"
-    ],
-    [
-      "ea1dc739-d1f4-46a0-a090-2a1bf39da427",
-      "Power Circuitry"
-    ],
-    [
-      "762489dd-fdf2-4f5c-8c0c-d0a6195d3f58",
-      "Valve Control Circuitry"
-    ],
-    [
-      "c6419db7-28a9-4bfa-8244-fc88166c795c",
-      "Sensing Circuitry"
-    ],
-    [
-      "b32c9da1-3632-45cf-9fa2-2747a45f88ee",
-      "PT-1"
-    ],
-    [
-      "04099e68-2fb2-4ed9-b47f-64e383012a5e",
-      "PT-2"
-    ],
-    [
-      "0f673b05-1261-4d55-8b13-e3d5496cfefa",
-      "TC Conditoning + CJC"
-    ],
-    [
-      "294431a1-b811-4a1d-b2a9-ae58ba2678b8",
-      "Valve Control 1"
-    ],
-    [
-      "ba318d50-d24b-43da-9443-1d352fb2a38b",
-      "Valve Control 2"
     ]
   ],
   "text_variables": {}

@@ -1660,8 +1660,8 @@
 			)
 			(project "lower_lc_board"
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/04099e68-2fb2-4ed9-b47f-64e383012a5e"
-					(reference "D14")
-					(unit 1)
+					(reference "D13")
+					(unit 2)
 				)
 				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/b32c9da1-3632-45cf-9fa2-2747a45f88ee"
 					(reference "D13")
