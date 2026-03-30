@@ -8,10 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Pegasus")
+		(title "QRET 25-26 SRAD Hybrid Upper Control Module")
+		(rev "V0.2.0")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Upper Control Board V2")
-		(comment 2 "Jeevan Sanchez")
+		(comment 1 "Contributors: Jeevan Sanchez, Tristan Alderson")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -31040,7 +31040,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Pegasus\nQRET March 2026\n\nJeevan Sanchez\n"
+	(gr_text "Pegasus\nQRET March 2026\n\nJeevan Sanchez\nTristan Alderson\n"
 		(at 142 72.195 0)
 		(layer "B.SilkS")
 		(uuid "51f89c65-403b-4886-8875-75e3617c4731")
