@@ -67,7 +67,7 @@
 			)
 		)
 		(instances
-			(project "upper_lc_board_v2"
+			(project "upper_lc_board"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc"
 					(page "5")
 				)
@@ -105,7 +105,7 @@
 			)
 		)
 		(instances
-			(project "upper_lc_board_v2"
+			(project "upper_lc_board"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc"
 					(page "3")
 				)
@@ -143,7 +143,7 @@
 			)
 		)
 		(instances
-			(project "upper_lc_board_v2"
+			(project "upper_lc_board"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc"
 					(page "4")
 				)
@@ -181,7 +181,7 @@
 			)
 		)
 		(instances
-			(project "upper_lc_board_v2"
+			(project "upper_lc_board"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc"
 					(page "2")
 				)

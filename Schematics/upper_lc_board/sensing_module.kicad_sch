@@ -4449,7 +4449,7 @@
 			(uuid "10b351cc-076d-4150-ba05-da918308e0c3")
 		)
 		(instances
-			(project "upper_lc_board_v2"
+			(project "upper_lc_board"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
 					(page "8")
 				)
@@ -4507,7 +4507,7 @@
 			(uuid "5df3ab9a-d392-4df2-954e-243248d51d5c")
 		)
 		(instances
-			(project "upper_lc_board_v2"
+			(project "upper_lc_board"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/32a8ecec-3c56-4fc7-b1a3-95683e41c1c6"
 					(page "9")
 				)

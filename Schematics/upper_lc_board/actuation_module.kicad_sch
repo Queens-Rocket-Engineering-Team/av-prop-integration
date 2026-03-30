@@ -834,7 +834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 80.518 90)
 			(effects
 				(font
@@ -861,7 +861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-12.1KFRCT-ND"
+		(property "Digikey" ""
 			(at 107.95 78.74 90)
 			(effects
 				(font
@@ -870,7 +870,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17912"
+		(property "LCSC" "C22790"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -919,7 +919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 65.278 90)
 			(effects
 				(font
@@ -946,7 +946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "311-12.1KFRCT-ND"
+		(property "Digikey" ""
 			(at 107.95 63.5 90)
 			(effects
 				(font
@@ -955,7 +955,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17912"
+		(property "LCSC" "C22790"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -1602,7 +1602,7 @@
 			(uuid "cd58d36c-e99b-4218-8c3f-e35956df0909")
 		)
 		(instances
-			(project "upper_lc_board_v2"
+			(project "upper_lc_board"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d"
 					(page "6")
 				)
@@ -1680,7 +1680,7 @@
 			(uuid "f8cfd0a2-8097-4e51-9206-00fe4ea25670")
 		)
 		(instances
-			(project "upper_lc_board_v2"
+			(project "upper_lc_board"
 				(path "/8de962ac-ee95-4233-a205-efbcd04063bc/bb8d84b9-ecb3-4da4-948c-d0cf2dc1ed2d"
 					(page "7")
 				)
