@@ -970,12 +970,6 @@
 		)
 	)
 	(junction
-		(at 139.7 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b52dbc9-10cb-4b6c-a27c-341a1dde684e")
-	)
-	(junction
 		(at 156.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1028,16 +1022,6 @@
 			(type default)
 		)
 		(uuid "2bf42749-c144-44a3-9cb5-f0c6d56414b3")
-	)
-	(wire
-		(pts
-			(xy 139.7 106.68) (xy 139.7 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "323ad077-ac01-4c67-a307-b8ead78e666b")
 	)
 	(wire
 		(pts
@@ -1396,80 +1380,8 @@
 		(uuid "feffc0a3-6de8-4a7d-8eed-2c2b4306d0d4")
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 139.7 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e89f793-32d4-4448-83fd-9ddbf3e2c826")
-		(property "Reference" "#PWR0117"
-			(at 135.89 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 138.176 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 139.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42a91032-010d-414c-94eb-a1decfdeef27")
-		)
-		(instances
-			(project "upper_lc_board"
-				(path "/9b1a1d2a-fad7-4f10-83f3-1f83e9656c75/03f1622b-3dda-4e29-911f-7cc762ec6c20/911e7585-9a9d-4803-9ce9-9fc1f19be4ae"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-			(project "lower_lc_board"
-				(path "/d63798c4-e363-437e-9012-e4aff32e6642/c6419db7-28a9-4bfa-8244-fc88166c795c/0f673b05-1261-4d55-8b13-e3d5496cfefa"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 139.7 106.68 270)
+		(at 139.7 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1478,7 +1390,7 @@
 		(fields_autoplaced yes)
 		(uuid "248c5346-f06e-490c-a792-22025f0f8149")
 		(property "Reference" "#PWR0116"
-			(at 133.35 106.68 0)
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 136.3696 106.6799 90)
+			(at 136.3696 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1408,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 106.68 0)
+			(at 139.7 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1417,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5055.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1641231273160"
-			(at 139.7 106.68 0)
+			(at 139.7 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1426,7 @@
 			)
 		)
 		(property "Description" "Hall effect sensor."
-			(at 139.7 106.68 0)
+			(at 139.7 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

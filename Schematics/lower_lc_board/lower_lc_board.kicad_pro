@@ -58,7 +58,22 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|129829999|88290001|760ee0fe-b9c7-4a0a-a25f-c9f8743df5be|e8d6b246-ba1c-4479-9937-7aac34bf98f1",
+        "courtyards_overlap|135240533|95861596|7271b175-d0ec-4ef5-8104-cb74fe9c7ae5|e8d6b246-ba1c-4479-9937-7aac34bf98f1",
+        "courtyards_overlap|135344999|88290001|b2fc7e30-ab64-4512-8777-1e26663995fc|e8d6b246-ba1c-4479-9937-7aac34bf98f1",
+        "courtyards_overlap|135970001|94895001|0c69fa8d-d827-4d4f-8746-8fe03c29349a|e8d6b246-ba1c-4479-9937-7aac34bf98f1",
+        "courtyards_overlap|136420001|88290001|ee3635e7-22e4-4b21-801a-24b3171ab613|e8d6b246-ba1c-4479-9937-7aac34bf98f1",
+        "courtyards_overlap|136510001|94895001|0c69fa8d-d827-4d4f-8746-8fe03c29349a|a14e5e44-14f2-474f-94f5-009f0fdcb245",
+        "courtyards_overlap|139379999|88290001|ee3635e7-22e4-4b21-801a-24b3171ab613|a14e5e44-14f2-474f-94f5-009f0fdcb245",
+        "courtyards_overlap|144679999|88290001|a14e5e44-14f2-474f-94f5-009f0fdcb245|c8742589-26b1-48fd-a940-0647a7ea737b",
+        "courtyards_overlap|144970001|88290001|6b780e2b-e3fd-42a4-b073-fa49a1adfb1c|a14e5e44-14f2-474f-94f5-009f0fdcb245",
+        "courtyards_overlap|144970001|91140001|4ba7d6ee-7208-4003-8774-2364528265b8|a14e5e44-14f2-474f-94f5-009f0fdcb245",
+        "courtyards_overlap|144989999|95889700|4a7c8717-91d5-4c43-af3b-1732706dcbc3|a14e5e44-14f2-474f-94f5-009f0fdcb245",
+        "courtyards_overlap|175789999|100290001|678c518c-4c5b-40a9-a831-a0954b3d9b59|fa7e89bb-91a5-431d-9b87-7c0c2af6c095",
+        "courtyards_overlap|176300001|100290001|63935e42-7e2c-4d9e-917a-9bb5c0e1b061|fa7e89bb-91a5-431d-9b87-7c0c2af6c095",
+        "courtyards_overlap|183299999|100290001|63935e42-7e2c-4d9e-917a-9bb5c0e1b061|cffbb9a6-c5f8-4191-a5e5-a9c74f982266"
+      ],
       "meta": {
         "version": 2
       },
@@ -131,7 +146,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -179,12 +194,9 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
-        0.2,
         0.3,
         0.5,
-        1.0,
-        1.5
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -500,7 +512,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/lower_lc_board2.step",
+      "step": "../../../../../Downloads/lower_lc_board.step",
       "svg": "",
       "vrml": ""
     },
@@ -554,12 +566,6 @@
           "show": false
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
-        },
-        {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
@@ -594,6 +600,12 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         },
         {
           "group_by": false,
@@ -666,19 +678,13 @@
           "label": "SnapEDA_Link",
           "name": "SnapEDA_Link",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
