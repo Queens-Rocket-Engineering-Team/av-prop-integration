@@ -1193,37 +1193,6 @@
 		)
 		(uuid "d785aabd-5bd3-4940-bb5c-54522a4a6b04")
 	)
-	(text "2026-03-27\n- removed common mode TC filtering\nto accomodate for space with larger conn"
-		(exclude_from_sim no)
-		(at 208.28 74.676 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0032e34f-39f8-4f6d-9509-1b76f3213baf")
-	)
-	(text "*fixed\n"
-		(exclude_from_sim no)
-		(at 174.498 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "26e9fa8e-dc7a-4726-a5cd-1b2e3508006c")
-	)
-	(text "*fixed\n"
-		(exclude_from_sim no)
-		(at 174.498 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "26e9fa8e-dc7a-4726-a5cd-1b2e3508006d")
-	)
 	(text "place as close as possible to thermocouple input\nto minimize inductance and prevent noise pickup"
 		(exclude_from_sim no)
 		(at 198.12 65.786 0)
@@ -2725,7 +2694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "277-1734-ND"
+		(property "Digikey" "A98333-ND"
 			(at 151.13 74.93 90)
 			(effects
 				(font
