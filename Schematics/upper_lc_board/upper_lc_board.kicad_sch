@@ -5,10 +5,10 @@
 	(uuid "8de962ac-ee95-4233-a205-efbcd04063bc")
 	(paper "A4")
 	(title_block
-		(title "Pegasus")
+		(title "QRET 25-26 SRAD Hybrid Upper Control Module")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Upper Control Board V2")
-		(comment 2 "Jeevan Sanchez")
+		(comment 2 "Jeevan Sanchez, Tristan Alderson")
 	)
 	(lib_symbols)
 	(text "- added pwr switching for PTs\n- removed TCs "

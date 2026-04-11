@@ -5,10 +5,10 @@
 	(uuid "2686ecd1-0c8e-4e59-b53e-5794a0f0a4b6")
 	(paper "A4")
 	(title_block
-		(title "Pegasus Solenoid Driver Circuitry")
+		(title "Solenoid Driver Circuitry")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Upper Control Board V2")
-		(comment 2 "Jeevan Sanchez")
+		(comment 1 "Contributors: Jeevan Sanchez, Tristan Alderson")
+		(comment 2 "PEGASUS - Upper Control Board")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

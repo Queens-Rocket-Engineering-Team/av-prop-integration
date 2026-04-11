@@ -5,10 +5,10 @@
 	(uuid "29fd4d8c-a611-4ce3-8e15-a304730097d7")
 	(paper "A4")
 	(title_block
-		(title "Pegasus Power Circuitry")
+		(title "Power Management Circuitry")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Upper Control Board V2")
-		(comment 2 "Jeevan Sanchez")
+		(comment 1 "Contributors: Jeevan Sanchez, Tristan Alderson")
+		(comment 2 "PEGASUS - Upper Control Board")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -4211,7 +4211,7 @@
 	)
 	(rectangle
 		(start 196.85 27.94)
-		(end 266.7 77.47)
+		(end 271.78 77.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -8536,7 +8536,7 @@
 		(dnp no)
 		(uuid "bd3242d9-a10c-4102-9ffa-952c994a1d27")
 		(property "Reference" "C24"
-			(at 259.842 65.532 0)
+			(at 266.446 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +8544,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 264.668 65.278 0)
+			(at 266.954 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)

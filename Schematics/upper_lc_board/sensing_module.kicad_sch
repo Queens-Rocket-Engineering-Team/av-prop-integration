@@ -3,12 +3,12 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "df0293cb-d56c-437e-ab78-28fbcaf951bc")
-	(paper "A4")
+	(paper "A3")
 	(title_block
-		(title "Pegasus Sensing Circuitry")
+		(title "Sensing Circuitry")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Upper Control Board V2")
-		(comment 2 "Jeevan Sanchez")
+		(comment 1 "Contributors: Jeevan Sanchez, Tristan Alderson")
+		(comment 2 "PEGASUS - Upper Control Board")
 	)
 	(lib_symbols
 		(symbol "ADS131M04:ADS131M04IPWR"
@@ -1642,7 +1642,7 @@
 		(uuid "fb29f2a5-81bb-4f97-9cef-a6b48d4bfdcb")
 	)
 	(rectangle
-		(start 52.832 110.998)
+		(start 48.514 110.998)
 		(end 129.794 154.432)
 		(stroke
 			(width 0)
@@ -1681,7 +1681,7 @@
 		(uuid 5d598185-cd29-48a8-849e-977d512ac118)
 	)
 	(rectangle
-		(start 52.832 44.45)
+		(start 48.26 44.45)
 		(end 129.032 78.74)
 		(stroke
 			(width 0)
@@ -1694,7 +1694,7 @@
 		(uuid 67a1c532-91ad-4bad-b8a5-c9fce33a1f7d)
 	)
 	(rectangle
-		(start 52.832 78.74)
+		(start 48.26 78.74)
 		(end 129.032 105.41)
 		(stroke
 			(width 0)
@@ -1789,7 +1789,7 @@
 	)
 	(text "HALL Input"
 		(exclude_from_sim no)
-		(at 52.578 109.728 0)
+		(at 48.514 109.982 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3752,7 +3752,7 @@
 		(dnp no)
 		(uuid "cf310011-e3ee-4b0e-9bfb-485cd0533349")
 		(property "Reference" "C13"
-			(at 57.912 57.912 0)
+			(at 55.118 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)

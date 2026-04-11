@@ -5,11 +5,10 @@
 	(uuid "2dca5c01-dddb-4a3e-b889-e7c2c927111f")
 	(paper "A4")
 	(title_block
-		(title "ESP32-S3 Breakout Module")
-		(rev "B")
+		(title "ESP32-S3 Breakout Circuitry")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Upper Control Board V2")
-		(comment 2 "Jeevan Sanchez")
+		(comment 1 "Contributors: Jeevan Sanchez, Tristan Alderson")
+		(comment 2 "PEGASUS - Upper Control Board")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -3637,7 +3636,7 @@
 		(uuid "9102c325-0452-4520-8573-8601efe2043b")
 	)
 	(junction
-		(at 187.96 64.77)
+		(at 182.88 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d5cbcc4-d124-46ff-9d67-0316ee97b540")
@@ -3655,7 +3654,7 @@
 		(uuid "d48354e1-1284-4cd1-9488-3be9c60c68f3")
 	)
 	(junction
-		(at 187.96 44.45)
+		(at 182.88 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6401516-070d-4a15-8a24-b01459a294af")
@@ -3693,7 +3692,7 @@
 		(uuid "60929b18-b7fe-4c50-bc52-f5d2194af412")
 	)
 	(no_connect
-		(at 175.26 57.15)
+		(at 170.18 53.34)
 		(uuid "653a0eb9-bdc5-4ed2-8967-8915426d69ae")
 	)
 	(no_connect
@@ -3713,7 +3712,7 @@
 		(uuid "8ba5a0e8-642e-4451-b0c7-8c3c9811cde6")
 	)
 	(no_connect
-		(at 175.26 59.69)
+		(at 170.18 55.88)
 		(uuid "8e703c14-33a2-49f6-8802-f36ec07ec568")
 	)
 	(no_connect
@@ -3740,19 +3739,9 @@
 		(at 43.18 82.55)
 		(uuid "db7c0659-4810-4161-b29d-70bbcaad6f8e")
 	)
-	(polyline
-		(pts
-			(xy 156.21 33.02) (xy 156.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ce2007-d421-47f1-bc85-1631f78c1579")
-	)
 	(wire
 		(pts
-			(xy 162.56 64.77) (xy 187.96 64.77)
+			(xy 157.48 60.96) (xy 182.88 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3894,16 +3883,6 @@
 		)
 		(uuid "473aaf26-1a74-4abb-b085-58c6dc9b3652")
 	)
-	(polyline
-		(pts
-			(xy 209.55 72.39) (xy 209.55 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c07bcb-2cd4-4151-b6ed-9016e0d09b29")
-	)
 	(wire
 		(pts
 			(xy 71.12 50.8) (xy 77.47 50.8)
@@ -3966,16 +3945,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "6bf09f98-92a4-4cb5-9556-345d8bc78f01")
-	)
-	(polyline
-		(pts
-			(xy 209.55 72.39) (xy 156.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c0cac6f-f310-450e-852d-6995abc027b2")
 	)
 	(wire
 		(pts
@@ -4061,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 55.88) (xy 162.56 64.77)
+			(xy 157.48 52.07) (xy 157.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4078,16 +4047,6 @@
 			(type default)
 		)
 		(uuid "9d54c8e9-4df8-4264-b403-c62a8cb51eb8")
-	)
-	(polyline
-		(pts
-			(xy 156.21 33.02) (xy 209.55 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0582027-b4d8-4bdb-b125-bfd1cfc875d1")
 	)
 	(wire
 		(pts
@@ -4111,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 44.45) (xy 187.96 44.45)
+			(xy 157.48 40.64) (xy 182.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4162,7 +4121,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 48.26) (xy 162.56 44.45)
+			(xy 157.48 44.45) (xy 157.48 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4224,6 +4183,19 @@
 			(type none)
 		)
 		(uuid 0f9c1356-162b-4290-b124-6972ed74f6fe)
+	)
+	(rectangle
+		(start 152.146 29.21)
+		(end 205.486 74.93)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 25bb1023-bc63-4be6-b01e-78f22e32de99)
 	)
 	(rectangle
 		(start 17.018 28.448)
@@ -4292,12 +4264,13 @@
 	)
 	(text "CANBUS Interface"
 		(exclude_from_sim no)
-		(at 158.75 36.83 0)
+		(at 152.146 28.702 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -4344,7 +4317,7 @@
 	)
 	(text "NOTE: Not typtical CANT used, \nISO1044BDR was out of stock"
 		(exclude_from_sim no)
-		(at 172.72 69.596 0)
+		(at 168.402 72.136 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4474,7 +4447,7 @@
 		(uuid "1442db98-891e-47ab-9a85-3154df2f2e5e")
 	)
 	(label "CAN_RX"
-		(at 175.26 52.07 180)
+		(at 170.18 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4600,7 +4573,7 @@
 		(uuid "9c2d1995-a1d8-4b0e-a3d1-3e4adcc12b24")
 	)
 	(label "CAN_TX"
-		(at 175.26 49.53 180)
+		(at 170.18 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4857,7 +4830,7 @@
 	)
 	(global_label "CAN_P"
 		(shape input)
-		(at 200.66 52.07 0)
+		(at 195.58 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4867,7 +4840,7 @@
 		)
 		(uuid "8e8f704e-6028-4fcf-80da-abca3cd455d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.5719 52.07 0)
+			(at 204.4919 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +4940,7 @@
 	)
 	(global_label "CAN_N"
 		(shape input)
-		(at 200.66 57.15 0)
+		(at 195.58 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4977,7 +4950,7 @@
 		)
 		(uuid "fe2c8f7d-e87f-46a3-a39c-4968fa46d441")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.6324 57.15 0)
+			(at 204.5524 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,7 +6469,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 52.07 180)
+		(at 157.48 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6504,7 +6477,7 @@
 		(dnp no)
 		(uuid "77db45f9-3189-400e-abc9-0da0e5178c4b")
 		(property "Reference" "C6"
-			(at 161.798 49.53 0)
+			(at 156.718 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6486,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 162.306 56.134 0)
+			(at 164.592 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6495,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 161.5948 48.26 0)
+			(at 156.5148 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 52.07 0)
+			(at 157.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6513,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 52.07 0)
+			(at 157.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,7 +6522,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 162.56 52.07 0)
+			(at 157.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +6668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 64.77 0)
+		(at 182.88 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6703,7 +6676,7 @@
 		(dnp no)
 		(uuid "82dbc276-40cd-4bc2-95b2-fd3260523e32")
 		(property "Reference" "#PWR015"
-			(at 187.96 71.12 0)
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 67.818 90)
+			(at 182.88 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 64.77 0)
+			(at 182.88 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 64.77 0)
+			(at 182.88 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 64.77 0)
+			(at 182.88 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,7 +7441,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 187.96 44.45 0)
+		(at 182.88 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7477,7 +7450,7 @@
 		(fields_autoplaced yes)
 		(uuid "be7f3d97-4426-4397-819b-234bf53c427f")
 		(property "Reference" "#PWR016"
-			(at 187.96 48.26 0)
+			(at 182.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +7459,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 187.96 39.37 0)
+			(at 182.88 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +7467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 44.45 0)
+			(at 182.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,7 +7476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 44.45 0)
+			(at 182.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 44.45 0)
+			(at 182.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +7961,7 @@
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:TCAN330")
-		(at 187.96 54.61 0)
+		(at 182.88 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7996,7 +7969,7 @@
 		(dnp no)
 		(uuid "db8af8a8-560c-4b42-b0dd-52f04fb9aee4")
 		(property "Reference" "U2"
-			(at 176.53 40.132 0)
+			(at 171.45 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8005,7 +7978,7 @@
 			)
 		)
 		(property "Value" "TCAN1051HGVDR"
-			(at 169.672 43.434 0)
+			(at 164.592 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,7 +7987,7 @@
 			)
 		)
 		(property "Footprint" "ul_ISO1044BDR:SOIC_1044BDR_TEX"
-			(at 187.96 67.31 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +7997,7 @@
 			)
 		)
 		(property "Datasheet" "{KIPRJMOD}/../../Datasheets/tcan1051h.pdf"
-			(at 187.96 54.61 0)
+			(at 182.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +8006,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 54.61 0)
+			(at 182.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8015,7 @@
 			)
 		)
 		(property "Digikey" "296-44225-1-ND"
-			(at 187.96 54.61 0)
+			(at 182.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -7,7 +7,8 @@
 	(title_block
 		(title "Sensing Circuitry")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Jeevan Sanchez")
+		(comment 1 "Contributors: Jeevan Sanchez, Tristan Alderson")
+		(comment 2 "HYDRA - Lower Control Board")
 	)
 	(lib_symbols
 		(symbol "ADS131M04:ADS131M04IPWR"
@@ -3032,7 +3033,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 114.3) (xy 143.51 114.3)
+			(xy 144.78 114.3) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3112,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 118.11) (xy 143.51 118.11)
+			(xy 144.78 118.11) (xy 152.4 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3242,7 +3243,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 125.73) (xy 143.51 125.73)
+			(xy 144.78 125.73) (xy 152.4 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3392,7 +3393,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 121.92) (xy 143.51 121.92)
+			(xy 144.78 121.92) (xy 152.4 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3581,7 +3582,7 @@
 	)
 	(rectangle
 		(start 108.204 100.076)
-		(end 199.644 158.75)
+		(end 207.264 158.75)
 		(stroke
 			(width 0)
 			(type default)
@@ -3702,7 +3703,7 @@
 	)
 	(text "place near sensor VCC pin"
 		(exclude_from_sim no)
-		(at 49.276 170.18 0)
+		(at 49.784 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3836,7 +3837,7 @@
 		(uuid "fc2b66cd-e924-4e86-a123-6a2dfc928148")
 	)
 	(label "TC_P_1"
-		(at 135.89 118.11 180)
+		(at 144.78 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3847,7 +3848,7 @@
 		(uuid "0201c451-c941-4b5e-afee-5d29e845b956")
 	)
 	(label "TC_N_CLAMPED_1"
-		(at 135.89 121.92 180)
+		(at 144.78 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3869,7 +3870,7 @@
 		(uuid "1a28513a-0a6f-4351-853e-6b97f3489372")
 	)
 	(label "TC_N_1"
-		(at 135.89 114.3 180)
+		(at 144.78 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3948,7 +3949,7 @@
 		(uuid "aed9b581-fcb2-41cc-8582-bb34f5dc1c4c")
 	)
 	(label "TC_P_CLAMPED_1"
-		(at 135.89 125.73 180)
+		(at 144.78 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4202,22 +4203,22 @@
 	)
 	(global_label "ADC_CS"
 		(shape input)
-		(at 201.93 59.69 0)
+		(at 201.93 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "976b4ac0-ab93-47a3-8066-041df3ca2f00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.9909 59.69 0)
+			(at 191.8691 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4981,7 +4982,7 @@
 		(dnp no)
 		(uuid "16404975-4d02-46de-8840-a88e6c74109c")
 		(property "Reference" "C33"
-			(at 58.674 166.37 0)
+			(at 41.91 169.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4991,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 58.674 168.91 0)
+			(at 41.91 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +9537,7 @@
 		)
 	)
 	(sheet
-		(at 143.51 111.252)
+		(at 152.4 111.252)
 		(size 24.13 17.018)
 		(fields_autoplaced yes)
 		(stroke
@@ -9548,7 +9549,7 @@
 		)
 		(uuid "0f673b05-1261-4d55-8b13-e3d5496cfefa")
 		(property "Sheetname" "TC Conditoning + CJC"
-			(at 143.51 110.5404 0)
+			(at 152.4 110.5404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,7 +9558,7 @@
 			)
 		)
 		(property "Sheetfile" "../shared_schematics/TC_module.kicad_sch"
-			(at 143.51 128.8546 0)
+			(at 152.4 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +9567,7 @@
 			)
 		)
 		(pin "TC_N_CLAMPED" input
-			(at 143.51 121.92 180)
+			(at 152.4 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +9577,7 @@
 			(uuid "2820bb35-6e8c-4708-982b-3c906ec72def")
 		)
 		(pin "TC_N" input
-			(at 143.51 114.3 180)
+			(at 152.4 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9587,7 @@
 			(uuid "2d017fd0-a89d-44dd-b848-c6e0314038aa")
 		)
 		(pin "TC_P" input
-			(at 143.51 118.11 180)
+			(at 152.4 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9596,7 +9597,7 @@
 			(uuid "201332b8-0142-4649-8ae9-1547e1a4c0b7")
 		)
 		(pin "TC_P_CLAMPED" input
-			(at 143.51 125.73 180)
+			(at 152.4 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)

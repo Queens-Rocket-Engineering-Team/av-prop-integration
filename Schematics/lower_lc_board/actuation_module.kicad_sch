@@ -5,10 +5,11 @@
 	(uuid "035353f5-5a1c-4603-af0d-cd0330063b42")
 	(paper "A4")
 	(title_block
-		(title "QRET 25-26 SRAD Hyrbid Lower Control Module")
+		(title "Solenoid Driver Circuitry")
 		(rev "V1.0")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Contributors: Jeevan Sanchez, Tristan Alderson")
+		(comment 2 "HYDRA - Lower Control Board")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
