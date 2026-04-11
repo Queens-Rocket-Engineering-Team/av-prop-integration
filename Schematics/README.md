@@ -23,8 +23,8 @@ Including:
 - Solenoid control, pressure transducer and thermocouple entry circuitry. 
 
 
-Usage:
-> To create a new board
+## Usage:
+> ### To create a new board
 1. Launch KiCad v8. 
 2. Navigate to the **File** menu and select **New Project...** or use the command `Ctrl+N`. 
 3. This will open the file explorer. Ensure you are in the `/Schematics` directory. 
@@ -37,7 +37,7 @@ Usage:
 7. In the folder created by KiCad, it wil be helpful to create folders for component symbols, footprints, and models. 
    - You're all done -- it's also always smart to look at existing projects for additional guidance.
   
-> To add symbols, footprints, and models
+> ### To add symbols, footprints, and models
 1. Download and unzip resources from a provider like [SnapMagic](https://www.snapeda.com/home/) , [UltraLibrarian](https://www.ultralibrarian.com/), etc.
 2. Move your downloaded resources.
     - For **symbols** move the raw `kicad_sym` file into your `symbols` folder.
