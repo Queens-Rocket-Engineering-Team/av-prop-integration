@@ -81,7 +81,7 @@ void wifiTest(const char* ssid, const char* pswd) {
         timeout_idx++;
         if (timeout_idx=10)
           break;
-    }c:\Users\jeeva\Documents\dev\homectrl-sys\firmware\test\test.ino
+    }
 
     if (WiFi.status() == WL_CONNECTED) {
         Serial.printf("\connected to: %s\n", ssid);
