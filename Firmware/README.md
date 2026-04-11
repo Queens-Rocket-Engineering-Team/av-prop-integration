@@ -13,21 +13,22 @@ Including:
 ### Board-Specific Testing Code
 - Testing code for different propulsion boards.
 
-Usage:
+## Usage:
 
-> To Setup PlatformIO (VSCode)
+> ### To Setup PlatformIO (VSCode)
 1. Install the [**PlatformIO IDE**](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide) extension from the VSCode marketplace. 
 2. Ensure you are in the `Firmware` folder -- PlatformIO will automatically detect the `platform.ini` config file for setup. 
 
-> To Flash with PlatformIO
+> ### To Flash with PlatformIO
 1. Plug in your board (USB for ESP, ST-Link for STM). 
-2. Select environment through the **Project Environment Switcher** in the blue bottom status bar to select your MCU. (this will be config'd in platform.ini to allow switching between flash envs)
-3. Build & Upload
+2. Select environment through the **Project Environment Switcher** in the blue bottom status bar to select your MCU.
+   - *(this will be config'd in platform.ini to allow switching between flash envs)*
+4. Build & Upload
    - Click the **checkmark** to **compile** code.
    - Click the **arrow** to **flash** the firmware to the board.
-4. Click the **plug** icon to open the **Serial Monitor**.
+5. Click the **plug** icon to open the **Serial Monitor**.
 
-> To Configure Arduino IDE Environment for ESP32-S3-based Boards
+> ### To Configure Arduino IDE Environment for ESP32-S3-based Boards
   1. Ensure your [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) is up-to-date.   
   2.  Open the *Preferences* menu (Ctrl+Comma), and add the link below into the *Additional Boards Manager* field. 
 https://espressif.github.io/arduino-esp32/package_esp32_index.json 
