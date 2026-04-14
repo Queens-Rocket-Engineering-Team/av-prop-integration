@@ -14,6 +14,8 @@
     - [MCU Breakout](#mcu-breakout)
     - [Valve Control](#valve-control)
     - [Sensing](#sensing)
+      - [Data Aquisition](#data-aquisition)
+      - [Pressure Transducers](#pressure-transducers)
   - [Board Design](#board-design)
   - [Revision History](#revision-history)
   - [Contributors](#contributors)
@@ -165,6 +167,41 @@ The circuits consist of an N-channel MOSFET for low-side switching, flyback (Sch
   - When the solenoid is driven and the negative terminal is pulled low, the LED is connected on both sides and emits. 
 
 ### Sensing
+The board interfaces with several external sensors, including analog pressure transducers and a digital hall-effect sensor.
+- Pressure transducers are used for analog telemetry measurements.
+- Hall-effect sensors are used for solenoid state detection and feedback.
+
+
+#### Data Aquisition
+- Analog sensor data is acquried via an external **ADC** (Analog-Digital-Converter) through the SPI protocol.
+- Digital signals (from hall-effect sensors) are acquired through the I2C protocol.
+
+- The ADC used in our circuit is the [ADS131M04](https://www.ti.com/lit/ds/symlink/ads131m04.pdf), it has 8-input channels, 24-bit resolution, 32 ksPs programmable sampling rate.
+    - Each input channel receives a voltage or differential voltage from a sensor (V<sub>ref</sub> = 1.2 V).
+    - A [**delta-sigma**](https://e2e.ti.com/blogs_/archives/b/precisionhub/posts/delta-sigma-adc-basics-understanding-the-delta-sigma-modulator) modulator converts the voltage into a high-frequency bitstream that represents the input analog signal.
+        - This modulator is driven by an external clock (CRYSTAL OSCILLATOR, 8.319 mHz)
+    - The bitstream is then filtered to produce a clean, high resolution digital value.
+    - The ADC then sends a 24-bit number representing the measured voltage to the MCU via **SPI**. 
+
+- A **RC-Filter** is used at the ADC inputs as a low-pass filter to smooth out high-frequency noise.
+    - The capacitor charges and discharges through the resistor, smoothing fast transients so the ADC sees a stable voltage.
+
+**Brief Overview on Analog Signals**
+  - Analog signals vary continuously, taking any value within a given range, unlike digital signals which have discrete levels.
+  - Changes in a sensor’s physical quantity are represented proportionally as a voltage or current signal.
+  
+#### Pressure Transducers
+- The basis of the Pressure Transducer (PT) circuits lie in signal conditioning & protection before the ADC.
+    - The PT used is a 4-20 mA [Setra 209H](https://www.setra.com/hubfs/Setra_Product_Data_Sheets/Model_209H_Spec_Sheet_2016_PRELIMINARY_WATERMARK.pdf) connected via Molex Nano-Fit. 
+    - The signal line is initially referenced to GND through a 62 Ω shunt resistor to produce a voltage drop proportionate to the signal (current). 
+   $$R_{shunt} = \frac{V_{ref}}{I_{max}} = \frac{1.2 V}{0.02 A} = 60  Ω$$
+   <p style="font-size: 12px; color:gray;">
+<em>** A 62 Ω resistor was chosen for availability.</em>
+</p>
+
+- The signal is then clamped to 3.3V and GND using low-leakage diodes.
+- A 1 kΩ resistor is placed in series between the signal and diode to limit current into the diodes during overvoltage conditions, protecting the input from excessive current.
+- The clamped signal then passes through a 200 Ω resistor connected to a 10 nF capacitor, forming the RC low-pass filter before being sampled by the ADC.
 
 ## Board Design
 
