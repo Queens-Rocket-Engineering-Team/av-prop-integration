@@ -21,6 +21,9 @@
       - [Data Aquisition](#data-aquisition)
       - [Pressure Transducers](#pressure-transducers)
   - [Board Design](#board-design)
+      - [Physical Design Notes](#physical-design-notes)
+      - [Electrical Characteristics](#electrical-characteristics)
+      - [System Partitioning](#system-partitioning)
   - [Revision History](#revision-history)
   - [Contributors](#contributors)
 </details>
@@ -247,6 +250,32 @@ This board interfaces with several external sensors, including analog pressure t
 - The clamped signal then passes through a 200 Ω resistor connected to a 10 nF capacitor, forming the RC low-pass filter before being sampled by the ADC.
 
 ## Board Design
+#### Physical Design Notes
+- The board measures 69.5 mm × 60 mm.
+- Connectors are placed at the board edge for accessibility.
+
+#### Electrical Characteristics
+- The board is a 4-layer PCB with dedicated ground planes for noise reduction and signal integrity.
+
+| Layer | Net            | Purpose                        |
+|------|----------------|---------------------------------|
+| 1    | Signals + Power | Top-level routing              |
+| 2    | GND             | Inner ground plane             |
+| 3    | GND             | Inner ground plane             |
+| 4    | Signals + Power | Bottom-level routing           |
+
+Inner ground planes are used to minimize impedance in return paths and reduce EMI.
+
+- Decoupling capacitors are placed close to IC power pins to reduce loop inductance.
+- Valve control circuits use local ground pours to support high-current return paths (MOSFET source).
+- The ESP32-S3 module requires a large local ground pour for stable grounding and RF performance.
+  
+#### System Partitioning
+- The board is partitioned into distinct analog, digital, and power domains to reduce noise coupling and improve signal integrity.
+- Analog sensing circuitry is physically isolated from high-current valve control circuits.
+- Power distribution is routed from the top of the board and propagates downward through regulated domains.
+- High-current switching paths are separated from sensitive signal routing to minimize interference.
+
 
 ## Revision History
 | Revision | Date       | Description |
