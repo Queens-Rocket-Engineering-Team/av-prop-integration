@@ -12,6 +12,10 @@
       - [**Power MUX**](#power-mux)
       - [**Power Switching**](#power-switching)
     - [MCU Breakout](#mcu-breakout)
+      - [Mode Selection](#mode-selection)
+      - [CANBUS Interface](#canbus-interface)
+      - [USB Interface](#usb-interface)
+      - [System Feedback](#system-feedback)
     - [Valve Control](#valve-control)
     - [Sensing](#sensing)
       - [Data Aquisition](#data-aquisition)
@@ -31,7 +35,7 @@ The **Upper LC/Pegasus** board is a control board designed for integration with 
 <br>
 It operates in the **upper valve bay**, and drives solenoids to control the rocket's vent valve.
 <br>
-The board supports analog pressure sensing, a digital hall-effect sensor for solenoid-status reading, and communication with the rest of the stack through CANbus. It is also **WiFi-capable**. 
+This board supports analog pressure sensing, a digital hall-effect sensor for solenoid-status reading, and communication with the rest of the stack through CANbus. It is also **WiFi-capable**. 
 
 - Interfaces with:
   - ESP32-S3 Module
@@ -51,7 +55,7 @@ The board supports analog pressure sensing, a digital hall-effect sensor for sol
 ## Circuit Deisgn 
 
 ### Power Management
-The board receives power from the Hybrid Power Module through the Backplane. 
+This board receives power from the Hybrid Power Module through the Backplane. 
   - For more information on power delivery, check out [this repository](https://github.com/Queens-Rocket-Engineering-Team/av-power). 
 <br>
 The supply delivers **three** levels of voltage to the board. 
@@ -134,7 +138,46 @@ The circuit uses a **CMOS** (dual-MOSFET) setup: one N-channel at the input to d
     - Pull-Down Resistor: Connects signal to GND to define a default logic state when nothing is actively driving the gate.
   
 ### MCU Breakout
+The [ESP32-S3]("https://documentation.espressif.com/esp32-s3_datasheet_en.pdf") module was selected for this board's MCU. 
+<br>
+Key features include:
+- Integrated 2.4 GHz WiFi
+- Native USB Serial/JTAG controller 
+- Internal CAN controller (TWAI)
+- Flexible GPIO matrix
+  
+#### Mode Selection
+The S3 can be put into **BOOT** mode and **RESET** with onboard buttons. 
+- **BOOT** mode determines whether the chip runs existing code from flash memory or waits to download new firmware. 
+  - The ESP32 reads the state of the BOOT pin (IO0) during reset to select the appropriate boot mode.
+  - It is **active-low**: when pulled to GND, it will wait for new code over serial/USB.
+  - The circuit consists of a momentary push-button and a 0.1 µF capacitor to filter out button noise (debouncing). 
 
+- **RESET** controls the Enable (EN) pin which is the ON/OFF (reset) switch for the ESP32. 
+  - It is **active-low**: when pulled to GND it turns off the chip, and when released, it restarts. 
+  - The circuit consists of a momentary push-button, a pull-up resistor to ensure the chip is enabled by default, and a 0.1 µF capacitor to filter out button noise (debouncing). 
+  
+| Level |Boot Mode |
+|----------|------------|
+| Boot HIGH  | Programming Mode |
+| Boot LOW | Memory Mode | 
+
+#### CANBUS Interface
+The S3 includes an internal CAN controller but requires a CAN transceiver to interface with the Stack's CANBUS. 
+- Differential pairs from the backplane edge connector are routed to the CAN transceiver, which converts them into TX and RX signals for the S3.
+- The CAN transceiver selected is a high-speed [TCAN1051](https://www.ti.com/lit/ds/symlink/tcan1051h.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1776143114328&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftcan1051h). 
+
+#### USB Interface
+The S3 includes an internal USB controller, eliminating any intermediate circuitry between the USB connector and S3. 
+- Differential pairs from the USB connecter are routed directly to the S3. 
+  - The S3 has an internal pull-up resistor on the positive USB data line. 
+
+#### System Feedback
+This board incorporates visual and auditory feedback through LEDs and a buzzer.
+
+- Visual indicators include WiFi status, CAN status, and a general DEBUG indicator.
+  - These consist of standard current-driven LEDs and an ARGB LED.
+- The buzzer provides general-purpose feedback when visual indication isn't available (in the stack). 
 ### Valve Control 
 Valves are actuated via solenoids using MOSFET-based switching circuits driven by the MCU.
 - The system uses a Festo 205292 solenoid to control the rocket vent valve.
@@ -167,7 +210,7 @@ The circuits consist of an N-channel MOSFET for low-side switching, flyback (Sch
   - When the solenoid is driven and the negative terminal is pulled low, the LED is connected on both sides and emits. 
 
 ### Sensing
-The board interfaces with several external sensors, including analog pressure transducers and a digital hall-effect sensor.
+This board interfaces with several external sensors, including analog pressure transducers and a digital hall-effect sensor.
 - Pressure transducers are used for analog telemetry measurements.
 - Hall-effect sensors are used for solenoid state detection and feedback.
 

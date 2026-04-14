@@ -12,7 +12,15 @@
       - [**Power MUX**](#power-mux)
       - [**Power Switching**](#power-switching)
     - [MCU Breakout](#mcu-breakout)
+      - [Mode Selection](#mode-selection)
+      - [Flash Storage Module](#flash-storage-module)
+      - [CANBUS Interface](#canbus-interface)
+      - [Serial Wire Debug](#serial-wire-debug)
+      - [USB Interface](#usb-interface)
+      - [Serial Wire Debug](#serial-wire-debug-1)
+      - [System Feedback](#system-feedback)
     - [Valve Control](#valve-control)
+    - [Valve Control](#valve-control-1)
     - [Sensing](#sensing)
       - [Data Aquisition](#data-aquisition)
       - [Pressure Transducers](#pressure-transducers)
@@ -32,7 +40,7 @@ The **Lower LC/Hydra** board is a control board designed for integration with th
 <br>
 It operates in the **lower valve bay**, and drives solenoids to control the **dump** and **fill** valves.
 <br>
-The board supports analog pressure and temperature sensing, two digital hall-effect sensors for solenoid-status reading, and communication with the rest of the stack through CANbus. 
+This board supports analog pressure and temperature sensing, two digital hall-effect sensors for solenoid-status reading, and communication with the rest of the stack through CANbus. 
 
 - Interfaces with:
   - STM32F1 MCU
@@ -51,14 +59,14 @@ The board supports analog pressure and temperature sensing, two digital hall-eff
 - Protection and filtering components across board
 
 ## Circuit Deisgn  
-The board is primarily composed of four circuit modules representing its critical systems. 
+This board is primarily composed of four circuit modules representing its critical systems. 
 <br>
 These include [Power Management](#power-management), [STM32 Breakout](#mcu-breakout), [Valve Control](#valve-control), and [Sensing](#sensing).
 <br>
 All schematics are available as `kicad_sch` files in this directory.
 
 ### **Power Management**
-The board receives power from the Hybrid Power Module through the Backplane. 
+This board receives power from the Hybrid Power Module through the Backplane. 
   - For more information on power delivery, check out [this repository](https://github.com/Queens-Rocket-Engineering-Team/av-power). 
 <br>
 The supply delivers **three** levels of voltage to the board. 
@@ -143,6 +151,70 @@ The circuit uses a **CMOS** (dual-MOSFET) setup: one N-channel at the input to d
     - Pull-Down Resistor: Connects signal to GND to define a default logic state when nothing is actively driving the gate.
 
 ### MCU Breakout
+The [STM32F103]("https://www.st.com/resource/en/datasheet/stm32f103cb.pdf") was selected for this board's MCU. 
+<br>
+Key features include:
+- 72 MHz ARM Cortex-M3 core
+- Internal CAN controller 
+- Compact LQFP48 package
+  
+#### Mode Selection
+The STM32 can be put into **BOOT** mode and **RESET** with onboard buttons. 
+- **BOOT** mode determines whether the chip runs existing code from flash memory or waits to download new firmware. 
+  - The STM32 reads the state of the BOOT pin (BOOT0) during reset to select the appropriate boot mode.
+  - It is **active-high**: when pulled HIGH (3V3), it will wait for new code over serial/USB.
+  - The circuit consists of a momentary push-button and a pull-down resistor to ensure the chip is disabled by default button noise. 
+  - It also includes another BOOT pin (BOOT1) that is pulled low to prevent entering SRAM mode. 
+
+- **RESET** controls the Reset (NRST) pin which is the ON/OFF (reset) switch for the STM32. 
+  - It is **active-low**: when pulled to GND it turns off the chip, and when released, it restarts. 
+  - The circuit consists of a momentary push-button, a pull-up resistor to ensure the chip is enabled by default, and a 0.1 µF capacitor to filter out button noise (debouncing). 
+
+| Level |Boot Mode |
+|----------|------------|
+| Boot HIGH  | Programming Mode |
+| Boot LOW | Memory Mode | 
+
+#### Flash Storage Module
+This board includes a BY25Q12BE5 SPI flash memory module providing 16 MB of external non-volatile storage.
+- Its connected to the MCU via an SPI interface (SCLK, MOSI, MISO, CS).
+
+#### CANBUS Interface
+The STM32 includes an internal CAN controller but requires a CAN transceiver to interface with the Stack's CANBUS. 
+- Differential pairs from the backplane edge connector are routed to the CAN transceiver, which converts them into TX and RX signals for the STM32.
+- The CAN transceiver selected is a high-speed [TCAN1051](https://www.ti.com/lit/ds/symlink/tcan1051h.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1776143114328&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Ftcan1051h).
+
+#### Serial Wire Debug
+This board supports Serial Wire Debug (SWD) for programming and debugging the MCU using an ST-Link debugger.
+
+- The SWD interface uses dedicated SWDIO and SWCLK lines routed to a debug header.
+- This enables flashing and debugging via an ST-Link programmer. 
+
+
+#### USB Interface
+The STM32 interfaces with USB via a CP2102N USB-to-UART bridge.
+- USB differential pairs are routed directly to the CP2102N, which converts them to UART signals for the STM32.
+- The STM32 communicates with the bridge using standard TX and RX lines.
+
+#### Serial Wire Debug
+This board supports Serial Wire Debug (SWD) for programming and debugging the MCU using an ST-Link debugger.
+
+- The SWD interface uses dedicated SWDIO and SWCLK lines routed to a debug header.
+- This enables flashing and debugging via an ST-Link programmer.
+
+#### System Feedback
+This board incorporates feedback through LEDs.
+
+- Visual indicators include a DEBUG indicator, CAN status, and a general STATUS indicator.
+  - These consist of standard current-driven LEDs and an ARGB LED.
+  
+
+### Valve Control 
+Valves are actuated via solenoids using MOSFET-based switching circuits driven by the MCU.
+- The system uses a Festo 205292 solenoid to control the rocket vent valve.
+  - Operates at 24V and is active-low.
+  - Controlled via low-side switching (active when pulled to ground).
+  - Interfaces through a MOLEX Nano-Fit connector.
 
 ### Valve Control 
 Valves are actuated via solenoids using MOSFET-based switching circuits driven by the MCU.
@@ -176,7 +248,7 @@ The circuits consist of an N-channel MOSFET for low-side switching, flyback (Sch
   - When the solenoid is driven and the negative terminal is pulled low, the LED is connected on both sides and emits. 
 
 ### Sensing
-The board interfaces with several external sensors, including analog pressure transducers and thermocouples, and digital hall-effect sensors.
+This board interfaces with several external sensors, including analog pressure transducers and thermocouples, and digital hall-effect sensors.
 - Pressure transducers are used for analog telemetry measurements.
 - Hall-effect sensors are used for solenoid state detection and feedback.
 
