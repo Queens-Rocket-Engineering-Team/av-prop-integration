@@ -31,7 +31,7 @@ void readAllADC(ADS131M04& adc, int32_t* outputBuffer) {
 // returns and optionally logs PSI reading from converted ADC reading voltage
 // optional DEBUG mode (single ADC read) or writes to a buffer
 // uses pressure linear scaling
-float readPT(int8_t channelPT, int32_t* buffer, bool LOG_MODE=true, bool DEBUG_MODE=false) {
+float readPT(int8_t channelPT, int32_t* buffer, bool SERIAL_LOG_MODE=true, bool DEBUG_MODE=false) {
     if (channelPT < 0 || channelPT > 3) return -1.0; // guarded bounds for adc channels (4)
     if (buffer == nullptr && !DEBUG_MODE) return -1.0; // buffer does not exist
 
@@ -47,7 +47,7 @@ float readPT(int8_t channelPT, int32_t* buffer, bool LOG_MODE=true, bool DEBUG_M
     float current = (voltagePT / shuntResistance) *  1000.0; // current in mA
     float PSI = (current - 4.0) * (maxPSI / (16.0)); // P = (I - I_min) * (P_max / (I_max - I_min)) | for 4-20 mA PT (16 = 20 - 4)
 
-    if (LOG_MODE) {
+    if (SERIAL_LOG_MODE) {
         Serial.printf("PT on CH%d: %.4f V | %7.2f PSI\n", channelPT, voltagePT, PSI);
     }
 
@@ -82,7 +82,7 @@ float readDeltaTemp(float voltage) {
 
 // returns and optionally logs temp reading from converted ADC reading voltage
 // optional DEBUG mode (single ADC read) or writes to a buffer
-float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool LOG_MODE=true, bool DEBUG_MODE=false) {
+float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool SERIAL_LOG_MODE=true, bool DEBUG_MODE=false) {
     if (channelTC < 0 || channelTC > 3) return -1.0; // guarded bounds for adc channels
     if (buffer == nullptr && !DEBUG_MODE) return -1.0; // buffer does not exist
 
@@ -100,7 +100,7 @@ float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool LO
 
     float compensatedTemp = coldJunctionTemp + deltaTemp;
 
-    if (LOG_MODE) {
+    if (SERIAL_LOG_MODE) {
         Serial.printf("TC on CH%d: %.6f V | %7.2f °C (K-type TC, CJC: %.2f °C)", channelTC, voltageTC, compensatedTemp, coldJunctionTemp);
     }
 
@@ -109,15 +109,15 @@ float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool LO
 
 // ANALOG SENSOR BULK READ ===================
 // use for full tests to eliminate seperate ADC calls. 
-void readAnalogSensors(ADS131M04& adc, int8_t channelPT1, int8_t channelPT2, int8_t channelTC, const int thermistorPin, bool LOG_MODE=true) {
+void readAnalogSensors(ADS131M04& adc, int8_t channelPT1, int8_t channelPT2, int8_t channelTC, const int thermistorPin, bool SERIAL_LOG_MODE=true) {
     int32_t readingBuffer[4] = {0}; // 4 channel ADC
 
     readAllADC(adc, readingBuffer);
 
     // in the future can store p1,p2,t1 in a AnalogResults struct or something
-    float p1 = readPT(channelPT1, readingBuffer, LOG_MODE, false); // call with DEBUG mode false to write to the buffer
-    float p2 = readPT(channelPT2, readingBuffer, LOG_MODE, false);
-    float t1 = readTC(channelTC, readingBuffer, thermistorPin, LOG_MODE, false);
+    float p1 = readPT(channelPT1, readingBuffer, SERIAL_LOG_MODE, false); // call with DEBUG mode false to write to the buffer
+    float p2 = readPT(channelPT2, readingBuffer, SERIAL_LOG_MODE, false);
+    float t1 = readTC(channelTC, readingBuffer, thermistorPin, SERIAL_LOG_MODE, false);
 
 }
 
