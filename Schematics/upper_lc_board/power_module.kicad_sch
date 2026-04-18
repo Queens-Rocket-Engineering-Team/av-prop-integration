@@ -4543,7 +4543,7 @@
 			)
 		)
 	)
-	(global_label "VPT-SW"
+	(global_label "VPT_EN"
 		(shape input)
 		(at 232.41 45.72 0)
 		(fields_autoplaced yes)
@@ -4555,7 +4555,7 @@
 		)
 		(uuid "a4dd241f-6721-49fb-a9fa-32562b6d2e1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.9547 45.72 0)
+			(at 242.1685 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

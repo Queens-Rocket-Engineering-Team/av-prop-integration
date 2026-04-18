@@ -39,7 +39,7 @@
 <em>Fig. 1: 3D-rendered view of the upper control board.</em>
 
 The **Upper LC/Pegasus** board is a control board designed for integration with the rocket's propulsion system.
-It operates in the **upper valve bay**, and drives solenoids to control the rocket's vent valve.
+It operates in the **upper valve bay**, and drives a solenoid to control the rocket's vent valve.
 This board supports analog pressure sensing, a digital hall-effect sensor for solenoid-status reading, and communication with the rest of the stack through CANbus. It is also **WiFi-capable**.
 
 Interfaces with:

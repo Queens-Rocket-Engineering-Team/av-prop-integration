@@ -5040,6 +5040,10 @@
 		(uuid "2e8726b7-a159-4cad-a299-14f1c107b11f")
 	)
 	(no_connect
+		(at 41.91 83.82)
+		(uuid "49a5ff91-d4d2-4a3b-a66e-8b966023c829")
+	)
+	(no_connect
 		(at 266.7 105.41)
 		(uuid "600aaf39-79e8-4a8e-b422-c99fc49092e4")
 	)
@@ -6600,7 +6604,7 @@
 			)
 		)
 	)
-	(global_label "TEMP_SENSE"
+	(global_label "CJC_SENSE"
 		(shape input)
 		(at 167.64 163.83 180)
 		(fields_autoplaced yes)
@@ -6612,7 +6616,7 @@
 		)
 		(uuid "26adf01e-d5a6-4ccd-9b76-655259a4cd75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.8017 163.83 0)
+			(at 154.1321 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6714,7 @@
 			)
 		)
 	)
-	(global_label "VSOL-SW"
+	(global_label "VSOL_EN"
 		(shape input)
 		(at 74.93 76.2 0)
 		(fields_autoplaced yes)
@@ -6722,7 +6726,7 @@
 		)
 		(uuid "31ba3c74-78da-4c7a-bf8e-9732f3721e56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.8052 76.2 0)
+			(at 86.019 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +6978,7 @@
 			)
 		)
 	)
-	(global_label "TEMP_SENSE"
+	(global_label "CJC_SENSE"
 		(shape input)
 		(at 74.93 58.42 0)
 		(fields_autoplaced yes)
@@ -6986,7 +6990,7 @@
 		)
 		(uuid "6ff787ab-4509-4b4a-8c0d-13ad86e422aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.7683 58.42 0)
+			(at 88.4379 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +7242,7 @@
 			)
 		)
 	)
-	(global_label "VPT-SW"
+	(global_label "VPT_EN"
 		(shape input)
 		(at 74.93 53.34 0)
 		(fields_autoplaced yes)
@@ -7250,7 +7254,7 @@
 		)
 		(uuid "9c4a3abf-d4d0-4ace-a715-3626c24b46fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.4747 53.34 0)
+			(at 84.6885 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7308,7 @@
 			)
 		)
 	)
-	(global_label "VALVE2_CTRL"
+	(global_label "SOL2_EN"
 		(shape input)
 		(at 41.91 111.76 180)
 		(fields_autoplaced yes)
@@ -7316,7 +7320,7 @@
 		)
 		(uuid "bb0177b1-324f-49b8-9216-19c3ea0b633f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7691 111.76 0)
+			(at 30.7001 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,28 +7638,6 @@
 			)
 		)
 	)
-	(global_label "BUZZ_IN"
-		(shape input)
-		(at 41.91 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dea78c35-5730-4e7b-a763-16984e003964")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0024 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HALL_SDA1"
 		(shape input)
 		(at 41.91 93.98 180)
@@ -7744,7 +7726,7 @@
 			)
 		)
 	)
-	(global_label "VALVE1_CTRL"
+	(global_label "SOL1_EN"
 		(shape input)
 		(at 41.91 109.22 180)
 		(fields_autoplaced yes)
@@ -7756,7 +7738,7 @@
 		)
 		(uuid "feac9ca1-31da-4806-b1d9-d56bf91428bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7691 109.22 0)
+			(at 30.7001 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

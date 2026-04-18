@@ -14,7 +14,7 @@
 
 // ADC ===================
 // configure an ADS131M04 ADC with SPI
-void adcSetup(ADS131M04& adc, const int ADC_MOSI, const int ADC_MISO, const int ADC_SCLK, const int ADC_CS = 0) {
+void adcSetup(ADS131M0 4& adc, const int ADC_MOSI, const int ADC_MISO, const int ADC_SCLK, const int ADC_CS = 0) {
     SPI.begin(ADC_SCLK, ADC_MISO, ADC_MOSI, ADC_CS); 
     adc.begin();
     delay(100);

@@ -3981,7 +3981,7 @@
 		)
 		(uuid "ff1bd79c-ffe5-4785-b595-58070695c88c")
 	)
-	(global_label "VPT-SW"
+	(global_label "VPT_EN"
 		(shape input)
 		(at 245.11 64.77 0)
 		(fields_autoplaced yes)
@@ -3993,7 +3993,7 @@
 		)
 		(uuid "04b4518f-c671-4500-84ab-3f02f39f0d73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.6547 64.77 0)
+			(at 254.8685 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4157,7 @@
 			)
 		)
 	)
-	(global_label "TEMP_SENSE"
+	(global_label "CJC_SENSE"
 		(shape input)
 		(at 125.73 140.97 0)
 		(fields_autoplaced yes)
@@ -4169,7 +4169,7 @@
 		)
 		(uuid "8dc8fc97-5f62-4304-8c6c-c3ee70ce2e6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.5683 140.97 0)
+			(at 139.2379 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -677,7 +677,7 @@
 		)
 		(uuid "8d983fb3-b439-4b75-89c8-38a6280c968b")
 	)
-	(global_label "VALVE1_CTRL"
+	(global_label "SOL1_EN"
 		(shape input)
 		(at 165.1 77.47 180)
 		(fields_autoplaced yes)
@@ -689,7 +689,7 @@
 		)
 		(uuid "1f2aa3a2-22cf-4fe7-9c05-81abcd2db6d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.9591 77.47 0)
+			(at 153.8901 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +765,7 @@
 			)
 		)
 	)
-	(global_label "VALVE2_CTRL"
+	(global_label "SOL2_EN"
 		(shape input)
 		(at 162.56 123.19 180)
 		(fields_autoplaced yes)
@@ -777,7 +777,7 @@
 		)
 		(uuid "c8bf8c34-b90f-4172-84a5-3c6f9c37aebd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4191 123.19 0)
+			(at 151.3501 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
