@@ -43,21 +43,19 @@ const float K_TYPE_SEEBECK_UV_PER_C = 41.276; // µV / °C
 // ADC
 void adcSetup(ADS131M04& adc, const int ADC_MOSI, const int ADC_MISO, const int ADC_SCLK, const int ADC_CS = 0);
 void readAllADC(ADS131M04& adc, int32_t* outputBuffer);
-int32_t readSingleADC(int8_t channel);
 
 // PT
-float readPT(int8_t channelPT, int32_t* buffer, bool SERIAL_LOG_MODE=true, bool DEBUG_MODE=false);
+float readPT(int8_t channelPT, int32_t* buffer, bool SERIAL_LOG_MODE=true);
 
 // TC
 float readColdJunction(const int TEMP_SENSE);
 float readDeltaTemp(float voltage);
-float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool SERIAL_LOG_MODE=true, bool DEBUG_MODE=false);
+float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool SERIAL_LOG_MODE=true);
 
 // ANOLOG SENSOR BULK READ
-void readAnalogSensors(ADS131M04& adc, int8_t channelPT1, int8_t channelPT2, int8_t channelTC, const int thermistorPin, bool SERIAL_LOG_MODE=true); 
-
+void readAnalogSensors(ADS131M04& adc, int8_t channelPT1, int8_t channelPT2, int8_t channelTC, const int thermistorPin, bool SERIAL_LOG_MODE=true);
 // VALVE CONTROL
-void valveControl(const int valvePin, const int solID = 1, const int duration = 2000);
+void valveControl(const int solENPin, const int solID = 1, const int duration = 2000);
 
 // UTILS
 float rawToVoltage(int32_t raw);

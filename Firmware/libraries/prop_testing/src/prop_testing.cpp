@@ -14,7 +14,7 @@
 
 // ADC ===================
 // configure an ADS131M04 ADC with SPI
-void adcSetup(ADS131M0 4& adc, const int ADC_MOSI, const int ADC_MISO, const int ADC_SCLK, const int ADC_CS = 0) {
+void adcSetup(ADS131M04& adc, const int ADC_MOSI, const int ADC_MISO, const int ADC_SCLK, const int ADC_CS = 0) {
     SPI.begin(ADC_SCLK, ADC_MISO, ADC_MOSI, ADC_CS); 
     adc.begin();
     delay(100);
@@ -31,18 +31,12 @@ void readAllADC(ADS131M04& adc, int32_t* outputBuffer) {
 // returns and optionally logs PSI reading from converted ADC reading voltage
 // optional DEBUG mode (single ADC read) or writes to a buffer
 // uses pressure linear scaling
-float readPT(int8_t channelPT, int32_t* buffer, bool SERIAL_LOG_MODE=true, bool DEBUG_MODE=false) {
+float readPT(int8_t channelPT, int32_t* buffer, bool SERIAL_LOG_MODE=true) {
     if (channelPT < 0 || channelPT > 3) return -1.0; // guarded bounds for adc channels (4)
-    if (buffer == nullptr && !DEBUG_MODE) return -1.0; // buffer does not exist
-
-    float voltagePT; 
+    if (buffer == nullptr) return -1.0; // buffer does not exist
 
     // convert the raw PT ADC reading into a voltage
-    if (DEBUG_MODE) {
-        voltagePT = rawToVoltage(rawChannelSingle(channelPT)); // singular read for debug
-    } else {
-        voltagePT = rawToVoltage((buffer[channelPT])); // use passed down buffer from readall
-    }
+    float voltagePT = rawToVoltage((buffer[channelPT])); // use passed down buffer from readall
 
     float current = (voltagePT / shuntResistance) *  1000.0; // current in mA
     float PSI = (current - 4.0) * (maxPSI / (16.0)); // P = (I - I_min) * (P_max / (I_max - I_min)) | for 4-20 mA PT (16 = 20 - 4)
@@ -82,18 +76,12 @@ float readDeltaTemp(float voltage) {
 
 // returns and optionally logs temp reading from converted ADC reading voltage
 // optional DEBUG mode (single ADC read) or writes to a buffer
-float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool SERIAL_LOG_MODE=true, bool DEBUG_MODE=false) {
+float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool SERIAL_LOG_MODE=true) {
     if (channelTC < 0 || channelTC > 3) return -1.0; // guarded bounds for adc channels
-    if (buffer == nullptr && !DEBUG_MODE) return -1.0; // buffer does not exist
-
-    float voltageTC;
+    if (buffer == nullptr) return -1.0; // buffer does not exist
 
     // convert the raw ADC reading to a voltage
-    if (DEBUG_MODE) {
-        voltageTC = rawToVoltage(rawChannelSingle(channelTC)); // singular read for debug
-    } else {
-        voltageTC = rawToVoltage((buffer[channelTC])); // use passed down buffer from readall
-    }
+    float voltageTC = rawToVoltage((buffer[channelTC])); // use passed down buffer from readall
 
     float deltaTemp = readDeltaTemp(voltageTC); 
     float coldJunctionTemp = readColdJunction(thermistorPin); 
@@ -101,7 +89,7 @@ float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool SE
     float compensatedTemp = coldJunctionTemp + deltaTemp;
 
     if (SERIAL_LOG_MODE) {
-        Serial.printf("TC on CH%d: %.6f V | %7.2f °C (K-type TC, CJC: %.2f °C)", channelTC, voltageTC, compensatedTemp, coldJunctionTemp);
+        Serial.printf("TC CH%-1d | %8.6f V | %7.2f °C | CJC %6.2f °C\n", channelTC, voltageTC, compensatedTemp, coldJunctionTemp);
     }
 
     return compensatedTemp; 
@@ -115,24 +103,27 @@ void readAnalogSensors(ADS131M04& adc, int8_t channelPT1, int8_t channelPT2, int
     readAllADC(adc, readingBuffer);
 
     // in the future can store p1,p2,t1 in a AnalogResults struct or something
-    float p1 = readPT(channelPT1, readingBuffer, SERIAL_LOG_MODE, false); // call with DEBUG mode false to write to the buffer
-    float p2 = readPT(channelPT2, readingBuffer, SERIAL_LOG_MODE, false);
-    float t1 = readTC(channelTC, readingBuffer, thermistorPin, SERIAL_LOG_MODE, false);
+    float p1 = readPT(channelPT1, readingBuffer, SERIAL_LOG_MODE); 
+    float p2 = readPT(channelPT2, readingBuffer, SERIAL_LOG_MODE);
 
+    float t1 = NAN; 
+    if (channelTC != -1 && thermistorPin != -1) {
+        t1 = readTC(channelTC, readingBuffer, thermistorPin, SERIAL_LOG_MODE);
+    }
 }
 
 // HALL EFFECT SENSOR ===================
-// TODO
+// TODO (implementation will follow the creation of a lib)
 
 // VALVE CONTROL ===================
 // actuate a solenoid for a custom duration or two seconds (when not specified)
 // solID refers to the connector designator (on PCB), defaults to one
-void valveControl(const int valvePin, const int solID = 1, const int duration = 2000) {
-    digitalWrite(valvePin, HIGH);
+void valveControl(const int solENPin, const int solID = 1, const int duration = 2000) {
+    digitalWrite(solENPin, HIGH);
     Serial.printf("solenoid %d ON\n", solID);
     delay(duration); 
 
-    digitalWrite(valvePin, LOW);
+    digitalWrite(solENPin, LOW);
     Serial.printf("solenoid %d OFF\n", solID);
 }
 
