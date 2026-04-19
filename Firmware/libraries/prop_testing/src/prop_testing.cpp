@@ -12,6 +12,33 @@
 
 #include "prop_testing.h"
 
+// POWER ===================
+// controlled power delivery
+void enablePower(const int enablePin, bool state = true) {
+    digitalWrite(enablePin, state ? HIGH : LOW);
+}
+
+// voltage sensing
+// platform-specific ADC conversion (ESP32 vs STM32)
+float powerSense(const int vSensePin) {
+    float v_adc = 0.0f;
+
+    #if defined(ARDUINO_ARCH_ESP32)
+        v_adc = analogReadMilliVolts(vSensePin) / 1000.0f;
+
+    #elif defined(ARDUINO_ARCH_STM32)
+        int32_t raw = analogRead(vSensePin);
+        if (raw < 0) return NAN;
+
+        v_adc = (raw / 4095.0f) * 3.3f;
+
+    #else
+        #error "unsupported"
+    #endif
+
+    return v_adc * SENSE_24V_DIVIDER_SCALE;
+}
+
 // ADC ===================
 // configure an ADS131M04 ADC with SPI
 void adcSetup(ADS131M04& adc, const int ADC_MOSI, const int ADC_MISO, const int ADC_SCLK, const int ADC_CS = 0) {
@@ -55,8 +82,8 @@ float readColdJunction(const int TEMP_SENSE) {
     uint32_t raw = analogRead(TEMP_SENSE); // read from CJC Thermistor
 
     // Convert ADC count to thermistor resistance via voltage divider
-    float vOut = (raw / ESP32_ADC_RES) * ESP32_VREF;           // voltage at pin
-    float rTherm = THERM_R_SERIES * vOut / (ESP32_VREF - vOut); // NTC resistance (Ω)
+    float vOut = (raw / STM32_ADC_RES) * STM32_VREF;           // voltage at pin
+    float rTherm = THERM_R_SERIES * vOut / (STM32_VREF - vOut); // NTC resistance (Ω)
 
     // B-parameter equation -> temperature in Kelvin
     float tKelvin = 1.0 / (1.0 / THERM_T0 + (1.0 / THERM_B) * log(rTherm / THERM_R0));

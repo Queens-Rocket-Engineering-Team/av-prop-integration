@@ -62,15 +62,16 @@ void setup() {
     digitalWrite(SOL2_EN_PIN, LOW); 
 
     adcSetup(adc, ADC_MOSI_PIN, ADC_MISO_PIN, ADC_SCLK_PIN);
+    analogReadResolution(12); // forces it to use 0-4095
+
 
     Serial.println("start PEGASUS upper control module testing");
-    Serial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: LEDs | 5: WiFi");
+    Serial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: 24V sense | 5: LEDs | 6: WiFi");
 }
 
 void loop() {
     if (Serial.available() > 0) {
         char input = Serial.read(); 
-        int32_t adcResults[4] = {0, 0, 0, 0}; 
 
         switch (input) {
             case '1':
@@ -82,19 +83,27 @@ void loop() {
                 break;
 
             case '3':
-                readAnalogSensors(adc, 0, 1, -1, -1, true);
+                enablePower(VPT_EN_PIN);
+                delay(15);
+            
+                readAnalogSensors(adc, 0, 1, -1, -1, true); // consult schematics for ADC channels
+                enablePower(VPT_EN_PIN, false);
                 break;
 
-            case '4':
+            case '4': 
+                Serial.printf("24V Sense: %.3f V\n", powerSense(SENSE_24V_PIN));
+                break;
+
+            case '5':
                 flashLeds(ledArray, 3); 
                 break; 
 
-            case '5':
+            case '6':
                 wifiTest(ssid, pswd); 
                 break; 
             
             default:
-                Serial.println("------");
+                Serial.println("\n------\n");
                 break;
         }
 

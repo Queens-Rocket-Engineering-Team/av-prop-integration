@@ -2,7 +2,7 @@
 
 #define CAN_TX_PIN 1 
 #define CAN_RX_PIN 2 
-#define SENSE_24V__PIN 7 
+#define SENSE_24V_PIN 7 
 #define SOL1_EN_PIN 9
 #define SOL2_EN_PIN 10
 

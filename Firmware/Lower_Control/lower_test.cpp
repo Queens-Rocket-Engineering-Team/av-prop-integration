@@ -1,0 +1,94 @@
+/*
+ * Lower Prop. Control Module Testing FW
+ * Authors: Jeevan Sanchez, Tristan Alderson
+ * Hardware: Upper LC Board (PEGASUS)
+ * Env: PlatformIO (STM32)
+ * Created: Apr.19.2026
+ * Updated: 
+ * Purpose: SRAD firmware for peripheral testing of lower control module.
+ * 
+ * Avionics 2025-2026
+*/
+
+#include "pinouts.h"
+#include "prop_testing.h"
+
+const int ledArray[] = {CAN_LED_PIN, DB_LED_PIN};
+
+ADS131M04 adc(0, ADC_CLKIN_PIN, &SPI, 1);
+
+// WIFI testing 
+void setup() {
+    Serial.begin(115200); 
+
+    pinMode(VPT_EN_PIN, OUTPUT);
+    pinMode(VSOL_EN_PIN, OUTPUT);
+    pinMode(SOL1_EN_PIN, OUTPUT);
+    pinMode(SOL2_EN_PIN, OUTPUT);
+    pinMode(CAN_TX_PIN, INPUT);
+
+    for (int i = 0; i < 2; i++) {
+        pinMode(ledArray[i], OUTPUT);
+        digitalWrite(ledArray[i], LOW);
+    }
+
+    digitalWrite(VPT_EN_PIN, LOW); 
+    digitalWrite(VSOL_EN_PIN, LOW);
+    digitalWrite(SOL1_EN_PIN, LOW);
+    digitalWrite(SOL2_EN_PIN, LOW); 
+
+    adcSetup(adc, ADC_MOSI_PIN, ADC_MISO_PIN, ADC_SCLK_PIN);
+
+    Serial.println("start HYDRA lower control module testing");
+    Serial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: VSOL (24V) sense | 5: LEDs");
+}
+
+void loop() {
+    if (Serial.available() > 0) {
+        char input = Serial.read(); 
+
+        switch (input) {
+            case '1':
+                enablePower(VSOL_EN_PIN);
+                delay(15);
+
+                valveControl(SOL1_EN_PIN); 
+                enablePower(VSOL_EN_PIN, false);
+                break;
+            
+            case '2':
+                enablePower(SOL2_EN_PIN); 
+                delay(15);
+
+                valveControl(VSOL_EN_PIN, 2); 
+                enablePower(VSOL_EN_PIN, false);
+                break;
+
+            case '3':
+                enablePower(VPT_EN_PIN);
+                delay(15);
+
+                readAnalogSensors(adc, 0, 1, 2, CJC_SENSE_PIN, true); // consult schematics for ADC channels
+                enablePower(VPT_EN_PIN, false);
+                break;
+            
+            case '4':
+                enablePower(VSOL_EN_PIN); 
+                delay(15); 
+
+                Serial.printf("VSOL Sense: %.3f V\n", powerSense(VSOL_SENSE_PIN));
+                enablePower(VSOL_EN_PIN, false);
+                break;
+
+            case '5':
+                flashLeds(ledArray, 2); 
+                break; 
+            
+            default:
+                Serial.println("------");
+                break;
+        }
+
+    }
+
+}
