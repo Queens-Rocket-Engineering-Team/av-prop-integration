@@ -4,6 +4,8 @@
  * Constants for ADC config.
  * Constants for PT and TC processing.
  * Function prototypes
+ * 
+ * QRET Avionics 2025-2026
  */
 
 #ifndef PROP_TESTING_H

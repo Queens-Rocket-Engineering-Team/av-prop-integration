@@ -7,7 +7,7 @@
  * Updated: 
  * Purpose: SRAD firmware for peripheral testing of lower control module.
  * 
- * Avionics 2025-2026
+ * QRET Avionics 2025-2026
 */
 
 #include "pinouts.h"

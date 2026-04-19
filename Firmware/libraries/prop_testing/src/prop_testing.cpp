@@ -7,7 +7,7 @@
  * Updated: April.15.2026
  * Purpose: SRAD firmware for peripheral testing of prop. control boards.
  * 
- * Avionics 2025-2026
+ * QRET Avionics 2025-2026
 */
 
 #include "prop_testing.h"
