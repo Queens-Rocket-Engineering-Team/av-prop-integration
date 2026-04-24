@@ -65,7 +65,7 @@ void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, 
 // HALL SENSOR
 extern TMAG6273 hallSensor; 
 void hallSetup();
-void readHall(); 
+void readHall(int hallID); 
 
 
 // VALVE CONTROL

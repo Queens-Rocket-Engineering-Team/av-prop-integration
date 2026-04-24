@@ -16,6 +16,7 @@
 const int ledArray[] = {CAN_LED_PIN, WIFI_LED_PIN, DEBUG_LED_PIN};
 
 ADS131M04 adc(-1, ADC_DRDY_PIN, &SPI); // -1 for no CS pin (tied low)
+TMAG5273 hallSensor;
 
 // WIFI credentials (replace)
 const char* ssid = ""; 
@@ -38,7 +39,7 @@ void wifiTest(const char* ssid, const char* pswd) {
 
     if (WiFi.status() == WL_CONNECTED) {
         Serial.printf("\nconnected to: %s\n", ssid);
-        digitalWrite(wifiLed, HIGH);
+        digitalWrite(WIFI_LED_PIN, HIGH);
     } else {
         Serial.println("\nFailed to connect.");
     }
@@ -49,12 +50,13 @@ void setup() {
 
     // ADC clock setup
     ledcAttach(ADC_CLKIN_PIN, 8192000, 1); // 8.192MHz, 1-bit resolution
-    ledcAttach(ADC_CLKIN_PIN, 1);
+    ledcWrite(ADC_CLKIN_PIN, 1);
 
-    // SPI mapping
-    SPI.begin(ADC_SCLK_PIN, ADC_MISO_PIN, ADC_MOSI_PIN, -1); 
+    SPI.begin(ADC_SCLK_PIN, ADC_MISO_PIN, ADC_MOSI_PIN, -1);
+    Wire.begin(HALL_SDA_PIN, HALL_SCL_PIN);
 
     adcSetup(adc);
+    hallSetup();
 
     pinMode(VPT_EN_PIN, OUTPUT);
     pinMode(SOL1_EN_PIN, OUTPUT);
@@ -74,7 +76,7 @@ void setup() {
 
 
     Serial.println("start PEGASUS upper control module testing");
-    Serial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: 24V sense | 5: LEDs | 6: WiFi");
+    Serial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 5: 24V sense | 6: LEDs | 7: WiFi");
 }
 
 void loop() {
@@ -95,6 +97,7 @@ void loop() {
                 delay(20);
             
                 readAnalogSensors(adc, 0, 1, -1, -1, true); // consult schematics for ADC channels
+                readHall(1); 
                 enablePower(VPT_EN_PIN, false);
                 break;
 

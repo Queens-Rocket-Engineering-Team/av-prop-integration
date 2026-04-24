@@ -7,6 +7,10 @@
  * Updated: Apr.24.2026
  * Purpose: SRAD firmware for peripheral testing of lower control module.
  * 
+ * Note: Currently doesn't support HALL reads 
+        * No hall sensors are physically connected to the board currently. 
+        * Support will follow the development of an SRAD Hall Effect library
+ * 
  * QRET Avionics 2025-2026
 */
 

@@ -139,12 +139,12 @@ void hallSetup() {
     }
 }
 
-void readHall() {
+void readHall(int hallID) {
     float x = hallSensor.getXData();
     float y = hallSensor.getYData();
     float z = hallSensor.getZData(); 
 
-    Serial.printf("MAG [mT] X:%.2f Y:%.2f Z:%.2f\n", mag, y, z);
+    Serial.printf("HALL %d: MAG [mT] X:%.2f Y:%.2f Z:%.2f\n", hallID, x, y, z);
 }
 
 // VALVE CONTROL ===================
