@@ -4,7 +4,7 @@
  * Hardware: Lower LC Board (HYDRA), Upper LC Board (PEGASUS)
  * Env: PlatformIO (STM32 and ESP32)
  * Created: ~Feb.12.2026
- * Updated: April.15.2026
+ * Updated: April.24.2026
  * Purpose: SRAD firmware for peripheral testing of prop. control boards.
  * 
  * QRET Avionics 2025-2026
@@ -41,37 +41,36 @@ float powerSense(const int vSensePin) {
 
 // ADC ===================
 // configure an ADS131M04 ADC with SPI
-void adcSetup(ADS131M04& adc, const int ADC_MOSI, const int ADC_MISO, const int ADC_SCLK, const int ADC_CS = 0) {
-    SPI.begin(ADC_SCLK, ADC_MISO, ADC_MOSI, ADC_CS); 
-    adc.begin();
-    delay(100);
-    adc.setGain(0, 0, 0, 0); // defualt
+void adcSetup(ADS131M04& adc) {
+    // Clock setup is handled in board-specific files BEFORE this function is called 
+    
+    adc.init();
+    delay(100); 
 }
 
 // read all channels of ADC into a buffer
-void readAllADC(ADS131M04& adc, int32_t* outputBuffer) {
-    int8_t channels[] = {0, 1, 2, 3}; 
-    adc.rawChannels(channels, 4, outputBuffer); 
+bool readAllADC(ADS131M04& adc, int32_t* outputBuffer) {
+    bool success = adc.readChannels(outputBuffer); 
+
+    // zero-out buffer on failure
+    if (!success) {
+        for (int i= 0; i < 4; i++) outputBuffer[i] = 0;
+    }
+
+    return success; 
 }
 
 // PRESSURE TRANSDUCER ===================
 // returns and optionally logs PSI reading from converted ADC reading voltage
 // optional DEBUG mode (single ADC read) or writes to a buffer
 // uses pressure linear scaling
-float readPT(int8_t channelPT, int32_t* buffer, bool SERIAL_LOG_MODE=true) {
-    if (channelPT < 0 || channelPT > 3) return -1.0; // guarded bounds for adc channels (4)
-    if (buffer == nullptr) return -1.0; // buffer does not exist
-
-    // convert the raw PT ADC reading into a voltage
-    float voltagePT = rawToVoltage((buffer[channelPT])); // use passed down buffer from readall
-
+float processPT(uint8_t chID, float voltagePT bool SERIAL_LOG_MODE=true) {
     float current = (voltagePT / shuntResistance) *  1000.0; // current in mA
     float PSI = (current - 4.0) * (maxPSI / (16.0)); // P = (I - I_min) * (P_max / (I_max - I_min)) | for 4-20 mA PT (16 = 20 - 4)
 
     if (SERIAL_LOG_MODE) {
-        Serial.printf("PT on CH%d: %.4f V | %7.2f PSI\n", channelPT, voltagePT, PSI);
+        Serial.printf("PT on CH%d: %.4f V | %7.2f PSI\n", chID, voltagePT, PSI);
     }
-
     return PSI;
 } 
 
@@ -102,21 +101,13 @@ float readDeltaTemp(float voltage) {
 }
 
 // returns and optionally logs temp reading from converted ADC reading voltage
-// optional DEBUG mode (single ADC read) or writes to a buffer
-float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool SERIAL_LOG_MODE=true) {
-    if (channelTC < 0 || channelTC > 3) return -1.0; // guarded bounds for adc channels
-    if (buffer == nullptr) return -1.0; // buffer does not exist
-
-    // convert the raw ADC reading to a voltage
-    float voltageTC = rawToVoltage((buffer[channelTC])); // use passed down buffer from readall
-
+float processTC(uint8_t chID, float voltageTC, const int thermPin, bool SERIAL_LOG_MODE=true) {
     float deltaTemp = readDeltaTemp(voltageTC); 
-    float coldJunctionTemp = readColdJunction(thermistorPin); 
-
+    float coldJunctionTemp = readColdJunction(thermPin); 
     float compensatedTemp = coldJunctionTemp + deltaTemp;
 
     if (SERIAL_LOG_MODE) {
-        Serial.printf("TC CH%-1d | %8.6f V | %7.2f °C | CJC %6.2f °C\n", channelTC, voltageTC, compensatedTemp, coldJunctionTemp);
+        Serial.printf("TC CH%-1d | %8.6f V | %7.2f °C | CJC %6.2f °C\n", chID, voltageTC, compensatedTemp, coldJunctionTemp);
     }
 
     return compensatedTemp; 
@@ -124,19 +115,17 @@ float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool SE
 
 // ANALOG SENSOR BULK READ ===================
 // use for full tests to eliminate seperate ADC calls. 
-void readAnalogSensors(ADS131M04& adc, int8_t channelPT1, int8_t channelPT2, int8_t channelTC, const int thermistorPin, bool SERIAL_LOG_MODE=true) {
-    int32_t readingBuffer[4] = {0}; // 4 channel ADC
+void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, const int thermPin, bool SERIAL_LOG_MODE=true) {
+    int32_t raw[4]; // raw ADC readings
+    float volts[4]; // readings converted to voltages
 
-    readAllADC(adc, readingBuffer);
+    adc.readChannels(raw);
+    adc.computeVoltages(raw, volts); 
 
     // in the future can store p1,p2,t1 in a AnalogResults struct or something
-    float p1 = readPT(channelPT1, readingBuffer, SERIAL_LOG_MODE); 
-    float p2 = readPT(channelPT2, readingBuffer, SERIAL_LOG_MODE);
-
-    float t1 = NAN; 
-    if (channelTC != -1 && thermistorPin != -1) {
-        t1 = readTC(channelTC, readingBuffer, thermistorPin, SERIAL_LOG_MODE);
-    }
+    float p1 = processPT(chPT1, volts[chPT1], SERIAL_LOG_MODE); 
+    float p2 = processPT(chPT2, volts[chPT2], SERIAL_LOG_MODE);
+    float t1 = processTC(chTC, volts[chTC], thermPin, SERIAL_LOG_MODE);
 }
 
 // HALL EFFECT SENSOR ===================

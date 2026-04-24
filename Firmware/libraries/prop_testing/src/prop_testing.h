@@ -45,19 +45,20 @@ void enablePower(const int enablePin, bool state = true);
 float powerSense(const int vSensePin);
 
 // ADC
-void adcSetup(ADS131M04& adc, const int ADC_MOSI, const int ADC_MISO, const int ADC_SCLK, const int ADC_CS = 0);
+void adcSetup(ADS131M04& adc);
 void readAllADC(ADS131M04& adc, int32_t* outputBuffer);
 
 // PT
-float readPT(int8_t channelPT, int32_t* buffer, bool SERIAL_LOG_MODE=true);
+float processPT(uint8_t chID, float voltagePT, bool SERIAL_LOG_MODE=true);
 
 // TC
 float readColdJunction(const int TEMP_SENSE);
 float readDeltaTemp(float voltage);
-float readTC(int8_t channelTC, int32_t* buffer, const int thermistorPin, bool SERIAL_LOG_MODE=true);
+float processTC(uint8_t chID, float voltageTC, const int thermPin, bool SERIAL_LOG_MODE=true);
 
 // ANOLOG SENSOR BULK READ
-void readAnalogSensors(ADS131M04& adc, int8_t channelPT1, int8_t channelPT2, int8_t channelTC, const int thermistorPin, bool SERIAL_LOG_MODE=true);
+void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, const int thermPin, bool SERIAL_LOG_MODE=true);
+
 // VALVE CONTROL
 void valveControl(const int solENPin, const int solID = 1, const int duration = 2000);
 
