@@ -129,7 +129,23 @@ void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, 
 }
 
 // HALL EFFECT SENSOR ===================
-// TODO (implementation will follow the creation of a lib)
+// Temporary usage of the SparkFun TMAG5273 Library for immediate testing. 
+// An SRAD library is in development. 
+void hallSetup() {
+    if (hallSensor.begin(HALL_ADDR, Wire) == true) {
+        Serial.println("TMAG5273 online"); 
+    } else {
+        Serial.println("TMAG5263 failed to initialize"); 
+    }
+}
+
+void readHall() {
+    float x = hallSensor.getXData();
+    float y = hallSensor.getYData();
+    float z = hallSensor.getZData(); 
+
+    Serial.printf("MAG [mT] X:%.2f Y:%.2f Z:%.2f\n", mag, y, z);
+}
 
 // VALVE CONTROL ===================
 // actuate a solenoid for a custom duration or two seconds (when not specified)

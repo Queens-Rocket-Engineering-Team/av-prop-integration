@@ -33,7 +33,12 @@ void setup() {
 
     SPI.begin(); 
 
-    flash.begin(); 
+    if (flash.begin()) {
+        Serial.println("flash memory online"); 
+    } else {
+        Serial.println("flash memory failed to initialize");
+    }
+    
     adcSetup(adc);
 
     pinMode(VPT_EN_PIN, OUTPUT);
