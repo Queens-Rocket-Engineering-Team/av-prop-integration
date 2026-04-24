@@ -1,10 +1,10 @@
 /*
  * Lower Prop. Control Module Testing FW
  * Authors: Jeevan Sanchez, Tristan Alderson
- * Hardware: Upper LC Board (PEGASUS)
+ * Hardware: Lower LC Board (HYDRA)
  * Env: PlatformIO (STM32)
  * Created: Apr.19.2026
- * Updated: 
+ * Updated: Apr.24.2026
  * Purpose: SRAD firmware for peripheral testing of lower control module.
  * 
  * QRET Avionics 2025-2026
@@ -12,14 +12,29 @@
 
 #include "pinouts.h"
 #include "prop_testing.h"
+#include <SPIMemory.h>
 
 const int ledArray[] = {CAN_LED_PIN, DB_LED_PIN};
 
-ADS131M04 adc(0, ADC_CLKIN_PIN, &SPI, 1);
+ADS131M04 adc(ADC_CS_PIN, ADC_DRDY_PIN, &SPI);
+SPIFlash flash(FL_CS_PIN, &SPI);
 
-// WIFI testing 
 void setup() {
     Serial.begin(115200); 
+
+    pinMode(FL_CS_PIN, OUTPUT); 
+    digitalWrite(FL_CS_PIN, HIGH); 
+
+    // start master clock
+    HardwareTimer *adcCk = new HardwareTimer(TIM2); // timer 2 (PA0)
+    adcCk->setOverflow(8192000, HERTZ_FORMAT);
+    adcCk->setCaptureCompare(1, 50, PERCENT_COMPARE_FORMAT); // channel 1 (PA0)
+    adcCk->resume();
+
+    SPI.begin(); 
+
+    flash.begin(); 
+    adcSetup(adc);
 
     pinMode(VPT_EN_PIN, OUTPUT);
     pinMode(VSOL_EN_PIN, OUTPUT);
@@ -36,8 +51,6 @@ void setup() {
     digitalWrite(VSOL_EN_PIN, LOW);
     digitalWrite(SOL1_EN_PIN, LOW);
     digitalWrite(SOL2_EN_PIN, LOW); 
-
-    adcSetup(adc, ADC_MOSI_PIN, ADC_MISO_PIN, ADC_SCLK_PIN);
 
     Serial.println("start HYDRA lower control module testing");
     Serial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: VSOL (24V) sense | 5: LEDs");
@@ -57,10 +70,10 @@ void loop() {
                 break;
             
             case '2':
-                enablePower(SOL2_EN_PIN); 
+                enablePower(VSOL_EN_PIN); 
                 delay(15);
 
-                valveControl(VSOL_EN_PIN, 2); 
+                valveControl(SOL2_EN_PIN, 2); 
                 enablePower(VSOL_EN_PIN, false);
                 break;
 
@@ -85,7 +98,7 @@ void loop() {
                 break; 
             
             default:
-                Serial.println("------");
+                Serial.println("------ HYDRA IDLE ------ ");
                 break;
         }
 

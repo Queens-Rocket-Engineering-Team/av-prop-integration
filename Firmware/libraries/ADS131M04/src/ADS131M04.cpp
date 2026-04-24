@@ -93,7 +93,7 @@ uint32_t ADS131M04::spiTransfer(uint16_t cmd) {
     * 1 CRC
 */
 void ADS131M04::captureFrame(uint32_t *outputArr, uint16_t command) {
-    digitalWrite(csPin, LOW); // enable the ADC
+    if (csPin != -1) digitalWrite(csPin, LOW); // enable the ADC (if CS is connected)
     spi->beginTransaction(SPISettings(SPEED_SCLK, MSBFIRST, SPI_MODE1));
 
     outputArr[0] = spiTransfer(command); // store command response
@@ -105,7 +105,7 @@ void ADS131M04::captureFrame(uint32_t *outputArr, uint16_t command) {
     outputArr[5] = spiTransfer(0x0000); // store CRC reading
 
     spi->endTransaction();
-    digitalWrite(csPin, HIGH);
+    if (csPin != -1) digitalWrite(csPin, HIGH);
 }
 
 // decode 2's complement

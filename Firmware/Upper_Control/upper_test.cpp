@@ -4,7 +4,7 @@
  * Hardware: Upper LC Board (PEGASUS)
  * Env: PlatformIO (ESP32)
  * Created: Apr.19.2026
- * Updated: 
+ * Updated: Apr.24.2026
  * Purpose: SRAD firmware for peripheral testing of upper control module.
  * 
  * QRET Avionics 2025-2026
@@ -15,7 +15,7 @@
 
 const int ledArray[] = {CAN_LED_PIN, WIFI_LED_PIN, DEBUG_LED_PIN};
 
-ADS131M04 adc(0, ADC_CLKIN_PIN, &SPI, 1);
+ADS131M04 adc(-1, ADC_DRDY_PIN, &SPI); // -1 for no CS pin (tied low)
 
 // WIFI credentials (replace)
 const char* ssid = ""; 
@@ -47,6 +47,15 @@ void wifiTest(const char* ssid, const char* pswd) {
 void setup() {
     Serial.begin(115200); 
 
+    // ADC clock setup
+    ledcAttach(ADC_CLKIN_PIN, 8192000, 1); // 8.192MHz, 1-bit resolution
+    ledcAttach(ADC_CLKIN_PIN, 1);
+
+    // SPI mapping
+    SPI.begin(ADC_SCLK_PIN, ADC_MISO_PIN, ADC_MOSI_PIN, -1); 
+
+    adcSetup(adc);
+
     pinMode(VPT_EN_PIN, OUTPUT);
     pinMode(SOL1_EN_PIN, OUTPUT);
     pinMode(SOL2_EN_PIN, OUTPUT);
@@ -61,8 +70,7 @@ void setup() {
     digitalWrite(SOL1_EN_PIN, LOW);
     digitalWrite(SOL2_EN_PIN, LOW); 
 
-    adcSetup(adc, ADC_MOSI_PIN, ADC_MISO_PIN, ADC_SCLK_PIN);
-    analogReadResolution(12); // forces it to use 0-4095
+    analogReadResolution(12); // forces 0-4095
 
 
     Serial.println("start PEGASUS upper control module testing");
@@ -84,7 +92,7 @@ void loop() {
 
             case '3':
                 enablePower(VPT_EN_PIN);
-                delay(15);
+                delay(20);
             
                 readAnalogSensors(adc, 0, 1, -1, -1, true); // consult schematics for ADC channels
                 enablePower(VPT_EN_PIN, false);
@@ -103,7 +111,7 @@ void loop() {
                 break; 
             
             default:
-                Serial.println("\n------\n");
+                Serial.println("------ PEGASUS IDLE ------ ");
                 break;
         }
 
