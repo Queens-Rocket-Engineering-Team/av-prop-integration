@@ -16,10 +16,6 @@
 #include <SPI.h>
 #include <esp_adc_cal.h>
 
-// ADC constants
-const float ADCVRef = 1.2;
-const float ADCresFactor = 8388608.0; // 2^23
-
 // PT constants
 const float shuntResistance = 62.0;
 const float maxPSI = 100; // needs to be double-checked
@@ -66,7 +62,6 @@ void readAnalogSensors(ADS131M04& adc, int8_t channelPT1, int8_t channelPT2, int
 void valveControl(const int solENPin, const int solID = 1, const int duration = 2000);
 
 // UTILS
-float rawToVoltage(int32_t raw);
 void blinkLed(int ledPin, int delayMs = 800);
 void flashLeds(const int ledArray[], int ledCount);
 

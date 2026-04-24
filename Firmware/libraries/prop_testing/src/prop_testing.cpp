@@ -155,10 +155,6 @@ void valveControl(const int solENPin, const int solID = 1, const int duration = 
 }
 
 // UTILS ===================
-float rawToVoltage(int32_t raw) {
-    return ((float)raw / ADCresFactor) * ADCVRef;
-}
-
 // blink a single LED
 void blinkLed(int ledPin, int delayMs = 800) {
     digitalWrite(ledPin, HIGH);

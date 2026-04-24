@@ -5,6 +5,8 @@
  * Register definitions for the ADS131M04
  * Consult the datasheet for register contents: https://www.ti.com/lit/ds/symlink/ads131m04.pdf
  * 
+ * Not used in current implementation, will be used if library extends to ADC settings and configuration
+ * 
  * QRET Avionics 2025-2026
  */
 
@@ -32,7 +34,7 @@ namespace ADS131M04_REG {
     constexpr uint8_t CH1_OCAL_MSB = 0X0F;
     constexpr uint8_t CH1_OCAL_LSB = 0X10;
     constexpr uint8_t CH1_GCAL_MSB = 0X11;
-    constexpr uint8_t CH1_GCAL_LSB = 0X12;
+    constexpr uint8_t CH1_GCAL_LSB = 0X12; 
     constexpr uint8_t CH2_CFG = 0X13;
     constexpr uint8_t CH2_OCAL_MSB = 0X14;
     constexpr uint8_t CH2_OCAL_LSB = 0X15;
