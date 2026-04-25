@@ -11,7 +11,7 @@
 */
 
 #include "pinouts.h"
-#include "prop_testing.h"
+#include <prop_testing.h>
 
 const int ledArray[] = {CAN_LED_PIN, WIFI_LED_PIN, DEBUG_LED_PIN};
 

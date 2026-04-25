@@ -27,7 +27,7 @@ namespace ADS131M04_REG {
     // channel-specific setting
     constexpr uint8_t CH0_CFG = 0X09;
     constexpr uint8_t CH0_OCAL_MSB = 0X0A;
-    constexpr uint8_t CH0_OCAL_LSB = OX0B;
+    constexpr uint8_t CH0_OCAL_LSB = 0X0B;
     constexpr uint8_t CH0_GCAL_MSB = 0x0C;
     constexpr uint8_t CHO0_GCAL_LSB = 0X0D;
     constexpr uint8_t CH1_CFG = 0X0E;
@@ -48,7 +48,7 @@ namespace ADS131M04_REG {
 
     // reg map crc and reserved
     constexpr uint8_t REGMAP_CRC = 0X3E; 
-    constexpr uint8_t RESERVED = 0x3F
-}
+    constexpr uint8_t RESERVED = 0x3F;
+};
 
  #endif 

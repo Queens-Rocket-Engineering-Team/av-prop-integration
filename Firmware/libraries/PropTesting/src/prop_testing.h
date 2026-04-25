@@ -14,9 +14,13 @@
 #include <Arduino.h>
 #include <ADS131M04.h>
 #include <SPI.h>
-#include <esp_adc_cal.h>
 #include <SparkFun_TMAG5273_Arduino_Library.h>
 #include <Wire.h>
+#include <SoftwareSerial.h>
+
+#if defined(ESP32)
+#include <esp_adc_cal.h>
+#endif
 
 // PT constants
 const float shuntResistance = 62.0;
@@ -49,7 +53,7 @@ float powerSense(const int vSensePin);
 
 // ADC
 void adcSetup(ADS131M04& adc);
-void readAllADC(ADS131M04& adc, int32_t* outputBuffer);
+bool readAllADC(ADS131M04& adc, int32_t* outputBuffer);
 
 // PT
 float processPT(uint8_t chID, float voltagePT, bool SERIAL_LOG_MODE=true);
@@ -63,7 +67,7 @@ float processTC(uint8_t chID, float voltageTC, const int thermPin, bool SERIAL_L
 void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, const int thermPin, bool SERIAL_LOG_MODE=true);
 
 // HALL SENSOR
-extern TMAG6273 hallSensor; 
+extern TMAG5273 hallSensor; 
 void hallSetup();
 void readHall(int hallID); 
 
@@ -74,6 +78,14 @@ void valveControl(const int solENPin, const int solID = 1, const int duration = 
 // UTILS
 void blinkLed(int ledPin, int delayMs = 800);
 void flashLeds(const int ledArray[], int ledCount);
+
+// Debug output: define SoftwareSerial debugSerial(RX, TX) in user code to use,
+// otherwise defaults to standard Serial
+#if defined(debugSerial)
+    #define DEBUG_PORT debugSerial
+#else
+    #define DEBUG_PORT Serial
+#endif
 
 
 #endif

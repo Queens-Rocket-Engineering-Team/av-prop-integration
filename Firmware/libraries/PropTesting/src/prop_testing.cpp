@@ -9,12 +9,14 @@
  * 
  * QRET Avionics 2025-2026
 */
+#include <prop_testing.h>
 
-#include "prop_testing.h"
+// SoftwareSerial instance - must be defined by user in their sketch
+// e.g.: SoftwareSerial debugSerial(RX_PIN, TX_PIN);
 
 // POWER ===================
 // controlled power delivery
-void enablePower(const int enablePin, bool state = true) {
+void enablePower(const int enablePin, bool state) {
     digitalWrite(enablePin, state ? HIGH : LOW);
 }
 
@@ -64,12 +66,12 @@ bool readAllADC(ADS131M04& adc, int32_t* outputBuffer) {
 // returns and optionally logs PSI reading from converted ADC reading voltage
 // optional DEBUG mode (single ADC read) or writes to a buffer
 // uses pressure linear scaling
-float processPT(uint8_t chID, float voltagePT bool SERIAL_LOG_MODE=true) {
+float processPT(uint8_t chID, float voltagePT, bool SERIAL_LOG_MODE) {
     float current = (voltagePT / shuntResistance) *  1000.0; // current in mA
     float PSI = (current - 4.0) * (maxPSI / (16.0)); // P = (I - I_min) * (P_max / (I_max - I_min)) | for 4-20 mA PT (16 = 20 - 4)
 
     if (SERIAL_LOG_MODE) {
-        Serial.printf("PT on CH%d: %.4f V | %7.2f PSI\n", chID, voltagePT, PSI);
+        DEBUG_PORT.printf("PT on CH%d: %.4f V | %7.2f PSI\n", chID, voltagePT, PSI);
     }
     return PSI;
 } 
@@ -101,13 +103,13 @@ float readDeltaTemp(float voltage) {
 }
 
 // returns and optionally logs temp reading from converted ADC reading voltage
-float processTC(uint8_t chID, float voltageTC, const int thermPin, bool SERIAL_LOG_MODE=true) {
+float processTC(uint8_t chID, float voltageTC, const int thermPin, bool SERIAL_LOG_MODE) {
     float deltaTemp = readDeltaTemp(voltageTC); 
     float coldJunctionTemp = readColdJunction(thermPin); 
     float compensatedTemp = coldJunctionTemp + deltaTemp;
 
     if (SERIAL_LOG_MODE) {
-        Serial.printf("TC CH%-1d | %8.6f V | %7.2f °C | CJC %6.2f °C\n", chID, voltageTC, compensatedTemp, coldJunctionTemp);
+        DEBUG_PORT.printf("TC CH%-1d | %8.6f V | %7.2f °C | CJC %6.2f °C\n", chID, voltageTC, compensatedTemp, coldJunctionTemp);
     }
 
     return compensatedTemp; 
@@ -115,7 +117,7 @@ float processTC(uint8_t chID, float voltageTC, const int thermPin, bool SERIAL_L
 
 // ANALOG SENSOR BULK READ ===================
 // use for full tests to eliminate seperate ADC calls. 
-void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, const int thermPin, bool SERIAL_LOG_MODE=true) {
+void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, const int thermPin, bool SERIAL_LOG_MODE) {
     int32_t raw[4]; // raw ADC readings
     float volts[4]; // readings converted to voltages
 
@@ -133,9 +135,9 @@ void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, 
 // An SRAD library is in development. 
 void hallSetup() {
     if (hallSensor.begin(HALL_ADDR, Wire) == true) {
-        Serial.println("TMAG5273 online"); 
+        DEBUG_PORT.println("TMAG5273 online"); 
     } else {
-        Serial.println("TMAG5263 failed to initialize"); 
+        DEBUG_PORT.println("TMAG5263 failed to initialize"); 
     }
 }
 
@@ -144,24 +146,24 @@ void readHall(int hallID) {
     float y = hallSensor.getYData();
     float z = hallSensor.getZData(); 
 
-    Serial.printf("HALL %d: MAG [mT] X:%.2f Y:%.2f Z:%.2f\n", hallID, x, y, z);
+    DEBUG_PORT.printf("HALL %d: MAG [mT] X:%.2f Y:%.2f Z:%.2f\n", hallID, x, y, z);
 }
 
 // VALVE CONTROL ===================
 // actuate a solenoid for a custom duration or two seconds (when not specified)
 // solID refers to the connector designator (on PCB), defaults to one
-void valveControl(const int solENPin, const int solID = 1, const int duration = 2000) {
+void valveControl(const int solENPin, const int solID, const int duration) {
     digitalWrite(solENPin, HIGH);
-    Serial.printf("solenoid %d ON\n", solID);
+    DEBUG_PORT.printf("solenoid %d ON\n", solID);
     delay(duration); 
 
     digitalWrite(solENPin, LOW);
-    Serial.printf("solenoid %d OFF\n", solID);
+    DEBUG_PORT.printf("solenoid %d OFF\n", solID);
 }
 
 // UTILS ===================
 // blink a single LED
-void blinkLed(int ledPin, int delayMs = 800) {
+void blinkLed(int ledPin, int delayMs) {
     digitalWrite(ledPin, HIGH);
     delay(delayMs); 
     digitalWrite(ledPin, LOW);
@@ -171,7 +173,7 @@ void blinkLed(int ledPin, int delayMs = 800) {
 // blink several LEDs with an array of pins
 void flashLeds(const int ledArray[], int ledCount) {
     for (int i = 0; i < ledCount; i++) {
-        Serial.printf("flashing LED on GPIO %d\n", ledArray[i]);
+        DEBUG_PORT.printf("flashing LED on GPIO %d\n", ledArray[i]);
         digitalWrite(ledArray[i], HIGH);
         delay(800);
         digitalWrite(ledArray[i], LOW);

@@ -15,33 +15,37 @@
 */
 
 #include "pinouts.h"
-#include "prop_testing.h"
+#include <SoftwareSerial.h>
+
+SoftwareSerial debugSerial(USART_TX_PIN, USART_RX_PIN);
+
+#include <prop_testing.h>
 #include <SPIFlash.h>
 
-SoftwareSerial serial(PA10, PA9);
 const int ledArray[] = {CAN_LED_PIN, DB_LED_PIN};
 
 ADS131M04 adc(ADC_CS_PIN, ADC_DRDY_PIN, &SPI);
-SPIFlash flash(FL_CS_PIN, &SPI);
+SPIFlash flash(FL_CS_PIN);
 
 void setup() {
-    serial.begin(115200); 
+    debugSerial.begin(38400);
+    debugSerial.println("serial ready");
 
+    
     pinMode(FL_CS_PIN, OUTPUT); 
     digitalWrite(FL_CS_PIN, HIGH); 
 
-    // start master clock
-    HardwareTimer *adcCk = new HardwareTimer(TIM2); // timer 2 (PA0)
-    adcCk->setOverflow(8192000, HERTZ_FORMAT);
-    adcCk->setCaptureCompare(1, 50, PERCENT_COMPARE_FORMAT); // channel 1 (PA0)
-    adcCk->resume();
-
     SPI.begin(); 
 
+    HardwareTimer *adcCk = new HardwareTimer(TIM2);
+    adcCk->setOverflow(8192000, HERTZ_FORMAT);
+    adcCk->setCaptureCompare(1, 50, PERCENT_COMPARE_FORMAT);
+    adcCk->resume();
+
     if (flash.begin()) {
-        serial.println("flash memory online"); 
+        debugSerial.println("flash memory online"); 
     } else {
-        serial.println("flash memory failed to initialize");
+        debugSerial.println("flash memory failed to initialize");
     }
     
     adcSetup(adc);
@@ -61,15 +65,17 @@ void setup() {
     digitalWrite(VSOL_EN_PIN, LOW);
     digitalWrite(SOL1_EN_PIN, LOW);
     digitalWrite(SOL2_EN_PIN, LOW); 
-    digitalWrite(CAN_LED_PIN, LOW); // high on default
+    digitalWrite(CAN_LED_PIN, LOW);
 
-    serial.println("start HYDRA lower control module testing");
-    serial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: VSOL (24V) sense | 5: LEDs");
+    digitalWrite(DB_LED_PIN, HIGH);
+
+    debugSerial.println("start HYDRA lower control module testing");
+    debugSerial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: VSOL (24V) sense | 5: LEDs");
 }
 
 void loop() {
-    if (Serial.available() > 0) {
-        char input = Serial.read(); 
+    if (debugSerial.available() > 0) {
+        char input = debugSerial.read(); 
 
         switch (input) {
             case '1':
@@ -92,7 +98,7 @@ void loop() {
                 enablePower(VPT_EN_PIN);
                 delay(15);
 
-                readAnalogSensors(adc, 0, 1, 2, CJC_SENSE_PIN, true); // consult schematics for ADC channels
+                readAnalogSensors(adc, 0, 1, 2, CJC_SENSE_PIN, true);
                 enablePower(VPT_EN_PIN, false);
                 break;
             
@@ -100,16 +106,18 @@ void loop() {
                 enablePower(VSOL_EN_PIN); 
                 delay(15); 
 
-                serial.printf("VSOL Sense: %.3f V\n", powerSense(VSOL_SENSE_PIN));
+                debugSerial.print("VSOL Sense: ");
+                debugSerial.println(powerSense(VSOL_SENSE_PIN));
                 enablePower(VSOL_EN_PIN, false);
                 break;
 
             case '5':
+                debugSerial.print("flashing LEDs\n");
                 flashLeds(ledArray, 2); 
                 break; 
             
             default:
-                Serial.println("------ HYDRA IDLE ------ ");
+                debugSerial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: VSOL (24V) sense | 5: LEDs");
                 break;
         }
 
