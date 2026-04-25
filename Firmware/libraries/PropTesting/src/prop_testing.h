@@ -18,16 +18,9 @@
 #include <Wire.h>
 #include <SoftwareSerial.h>
 
-#if defined(ESP32)
-#include <esp_adc_cal.h>
-#endif
-
 // PT constants
 const float shuntResistance = 62.0;
 const float maxPSI = 100; // needs to be double-checked
-
-// 24V sense voltage divider resistance ratio
-#define SENSE_24V_DIVIDER_SCALE 11.0f
 
 // Thermistor (cold junction) constants 
 // Ohmite TX Series NTC thermistor on pin 10
@@ -39,53 +32,42 @@ const float THERM_T0        = 298.15;   // 25°C in Kelvin
 const float STM32_VREF      = 3.3;
 const float STM32_ADC_RES   = 4095.0;   // 12-bit
 
-// I2C address of TMAG5273 Hall Sensor (from temporary lib homepage:  https://docs.sparkfun.com/SparkFun_TMAG5273_Arduino_Library/)
-#define HALL_ADDR 0x22
-
 // --- K-type thermocouple constants ---
 // CH0 on the ADS131M04 is a K-type thermocouple
 // Seebeck coefficient for K-type: ~41.276 µV/°C (linear approx, valid -200 to +1372°C)
 const float K_TYPE_SEEBECK_UV_PER_C = 41.276; // µV / °C
 
 // POWER
-void enablePower(const int enablePin, bool state = true);
-float powerSense(const int vSensePin);
+void enablePower(const int enablePin);
+void disablePower(const int enablePin); 
 
 // ADC
 void adcSetup(ADS131M04& adc);
 bool readAllADC(ADS131M04& adc, int32_t* outputBuffer);
 
 // PT
-float processPT(uint8_t chID, float voltagePT, bool SERIAL_LOG_MODE=true);
+float processPT(float voltagePT);
 
 // TC
 float readColdJunction(const int TEMP_SENSE);
 float readDeltaTemp(float voltage);
-float processTC(uint8_t chID, float voltageTC, const int thermPin, bool SERIAL_LOG_MODE=true);
+float processTC(float voltageTC, const int thermPin);
 
 // ANOLOG SENSOR BULK READ
-void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, const int thermPin, bool SERIAL_LOG_MODE=true);
+void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, const int thermPin);
 
 // HALL SENSOR
-extern TMAG5273 hallSensor; 
-void hallSetup();
-void readHall(int hallID); 
+// extern TMAG5273 hallSensor; 
+// void hallSetup();
+// void readHall(int hallID); 
 
 
 // VALVE CONTROL
-void valveControl(const int solENPin, const int solID = 1, const int duration = 2000);
+void enableValve(const int solENPin);
+void disableValve(const int solENPin);
 
 // UTILS
 void blinkLed(int ledPin, int delayMs = 800);
 void flashLeds(const int ledArray[], int ledCount);
-
-// Debug output: define SoftwareSerial debugSerial(RX, TX) in user code to use,
-// otherwise defaults to standard Serial
-#if defined(debugSerial)
-    #define DEBUG_PORT debugSerial
-#else
-    #define DEBUG_PORT Serial
-#endif
-
 
 #endif

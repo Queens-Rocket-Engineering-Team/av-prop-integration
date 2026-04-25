@@ -1,8 +1,12 @@
 // Header file containing pinouts for this module 
+
+#ifndef PINOUT_H
+#define PINOUT_H
+
 #define FL_CS_PIN PB0
 #define VSOL_SENSE_PIN PB1
 #define CAN_LED_PIN PB4
-#define RGB_LED_PIN PB5
+#define RGB_DATA_PIN PB5
 
 // I2C-1 BUS
 #define HALL_SCL1_PIN PB6
@@ -41,4 +45,6 @@
 // SW DEBUG
 #define SWDIO_PIN PA13
 #define SWCLK_PIN PA14
+
+#endif
 

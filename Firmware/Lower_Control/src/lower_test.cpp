@@ -4,7 +4,7 @@
  * Hardware: Lower LC Board (HYDRA)
  * Env: PlatformIO (STM32)
  * Created: Apr.19.2026
- * Updated: Apr.24.2026
+ * Updated: Apr.25.2026
  * Purpose: SRAD firmware for peripheral testing of lower control module.
  * 
  * Note: Currently doesn't support HALL reads 
@@ -16,111 +16,120 @@
 
 #include "pinouts.h"
 #include <SoftwareSerial.h>
-
-SoftwareSerial debugSerial(USART_TX_PIN, USART_RX_PIN);
-
-#include <prop_testing.h>
+#include <ADS131M04.h> 
 #include <SPIFlash.h>
+#include <FastLED.h>
+#include <prop_testing.h>
+
+SoftwareSerial serial(USART_TX_PIN, USART_RX_PIN);
 
 const int ledArray[] = {CAN_LED_PIN, DB_LED_PIN};
 
 ADS131M04 adc(ADC_CS_PIN, ADC_DRDY_PIN, &SPI);
 SPIFlash flash(FL_CS_PIN);
 
-void setup() {
-    debugSerial.begin(38400);
-    debugSerial.println("serial ready");
+#define NUM_LEDS 1
+CRGB rgb_leds[NUM_LEDS];
 
-    
-    pinMode(FL_CS_PIN, OUTPUT); 
-    digitalWrite(FL_CS_PIN, HIGH); 
+bool isPolling = false;
+unsigned long lastPollTime = 0;
+const int pollInterval = 500;
 
-    SPI.begin(); 
+void pollData() {
+    if (isPolling && (millis() - lastPollTime >= pollInterval)) {
+        lastPollTime = millis();
+        int32_t rawData[4];
+        float volts[4];
 
-    HardwareTimer *adcCk = new HardwareTimer(TIM2);
-    adcCk->setOverflow(8192000, HERTZ_FORMAT);
-    adcCk->setCaptureCompare(1, 50, PERCENT_COMPARE_FORMAT);
-    adcCk->resume();
+if (adc.readChannels(rawData)) {
+            adc.computeVoltages(rawData, volts);
 
-    if (flash.begin()) {
-        debugSerial.println("flash memory online"); 
-    } else {
-        debugSerial.println("flash memory failed to initialize");
+            float psi = processPT(volts[0]);
+            float coldJunc = readColdJunction(CJC_SENSE_PIN);
+            float deltaT = readDeltaTemp(volts[2]);
+            float tempC = coldJunc + deltaT;
+
+            serial.print("PT1: "); 
+            serial.print(psi, 1);
+            serial.print(" PSI | V_PT: "); 
+            serial.print(volts[0], 4); 
+            
+            serial.print(" | TC: ");
+            serial.print(tempC, 1);
+            serial.print(" C | CJC: ");
+            serial.print(coldJunc, 1); 
+            
+            serial.print(" | V_TC: "); 
+            serial.println(volts[2], 6); 
+        }
     }
-    
-    adcSetup(adc);
+}
 
+void setup() {
+    serial.begin(9600);
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+    HardwareTimer *adcCk = new HardwareTimer(TIM2);
+    adcCk->setPWM(1, PA0, 8192000, 50); 
+    adcCk->resume();
+    SPI.begin();
+    pinMode(FL_CS_PIN, OUTPUT);
+    digitalWrite(FL_CS_PIN, HIGH);
+    flash.initialize();
+    adc.init();
     pinMode(VPT_EN_PIN, OUTPUT);
     pinMode(VSOL_EN_PIN, OUTPUT);
     pinMode(SOL1_EN_PIN, OUTPUT);
     pinMode(SOL2_EN_PIN, OUTPUT);
-    pinMode(CAN_TX_PIN, INPUT);
-
+    disablePower(VPT_EN_PIN);
+    disablePower(VSOL_EN_PIN);
     for (int i = 0; i < 2; i++) {
         pinMode(ledArray[i], OUTPUT);
         digitalWrite(ledArray[i], LOW);
     }
-
-    digitalWrite(VPT_EN_PIN, LOW); 
-    digitalWrite(VSOL_EN_PIN, LOW);
-    digitalWrite(SOL1_EN_PIN, LOW);
-    digitalWrite(SOL2_EN_PIN, LOW); 
-    digitalWrite(CAN_LED_PIN, LOW);
-
-    digitalWrite(DB_LED_PIN, HIGH);
-
-    debugSerial.println("start HYDRA lower control module testing");
-    debugSerial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: VSOL (24V) sense | 5: LEDs");
+    analogReadResolution(12);
+    FastLED.addLeds<WS2812B, RGB_DATA_PIN, GRB>(rgb_leds, NUM_LEDS);
+    rgb_leds[0] = CRGB::Black;
+    FastLED.show();
 }
 
 void loop() {
-    if (debugSerial.available() > 0) {
-        char input = debugSerial.read(); 
+    uint8_t fluidBrightness = beatsin8(35, 20, 90);
+    rgb_leds[0] = CHSV(135, 255, fluidBrightness);
+    FastLED.show();
+    
+    pollData();
 
+    if (serial.available() > 0) {
+        char input = serial.read();
         switch (input) {
             case '1':
                 enablePower(VSOL_EN_PIN);
-                delay(15);
-
-                valveControl(SOL1_EN_PIN); 
-                enablePower(VSOL_EN_PIN, false);
+                enableValve(SOL1_EN_PIN);
+                delay(5000); 
+                disableValve(SOL1_EN_PIN);
+                disablePower(VSOL_EN_PIN);
                 break;
-            
+                
             case '2':
-                enablePower(VSOL_EN_PIN); 
-                delay(15);
-
-                valveControl(SOL2_EN_PIN, 2); 
-                enablePower(VSOL_EN_PIN, false);
+                enablePower(VSOL_EN_PIN);
+                enableValve(SOL2_EN_PIN);
+                delay(5000); 
+                disableValve(SOL2_EN_PIN);
+                disablePower(VSOL_EN_PIN);
                 break;
 
             case '3':
-                enablePower(VPT_EN_PIN);
-                delay(15);
-
-                readAnalogSensors(adc, 0, 1, 2, CJC_SENSE_PIN, true);
-                enablePower(VPT_EN_PIN, false);
-                break;
-            
-            case '4':
-                enablePower(VSOL_EN_PIN); 
-                delay(15); 
-
-                debugSerial.print("VSOL Sense: ");
-                debugSerial.println(powerSense(VSOL_SENSE_PIN));
-                enablePower(VSOL_EN_PIN, false);
+                isPolling = !isPolling;
+                if (isPolling) {
+                    enablePower(VPT_EN_PIN);
+                } else {
+                    disablePower(VPT_EN_PIN);
+                }
                 break;
 
             case '5':
-                debugSerial.print("flashing LEDs\n");
-                flashLeds(ledArray, 2); 
-                break; 
-            
-            default:
-                debugSerial.println("1: solenoid 1 | 2: solenoid 2 | 3: sensing results | 4: VSOL (24V) sense | 5: LEDs");
+                flashLeds(ledArray, 2);
                 break;
         }
-
     }
-
 }

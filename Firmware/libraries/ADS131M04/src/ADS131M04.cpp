@@ -76,7 +76,7 @@ int32_t ADS131M04::getChannelData(uint8_t ch) {
 uint32_t ADS131M04::spiTransfer(uint16_t cmd) {
     uint32_t response = 0; 
 
-    response |= spi->transfer(cmd >> 8); // send command MSB to receive 1 byte from ADC 
+    response |= spi->transfer(cmd >> 8); // send command MSB to receive 1 byte from ` 
     response <<= 8; 
     response |= spi->transfer(cmd & 0XFF); // send command LSB
     response <<= 8;
