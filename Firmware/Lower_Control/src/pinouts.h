@@ -37,8 +37,8 @@
 #define DB_LED_PIN PA8
 
 // USART-1 (swapped cause of hardware issue)
-#define USART_TX_PIN PA10
-#define USART_RX_PIN PA9
+#define USART_TX_PIN PA9
+#define USART_RX_PIN PA10
 
 #define VSOL_EN_PIN PA11
 
