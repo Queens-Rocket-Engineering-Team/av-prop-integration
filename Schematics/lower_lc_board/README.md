@@ -4,7 +4,6 @@
 <details>
 <summary><strong>Table of Contents</strong></summary>
   
-- [Lower Control Board (HYDRA) Documentation](#lower-control-board-hydra-documentation)
   - [Overview](#overview)
     - [Key Features](#key-features)
   - [Circuit Design](#circuit-design)
