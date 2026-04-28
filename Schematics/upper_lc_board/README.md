@@ -4,7 +4,6 @@
 <details>
 <summary><strong>Table of Contents</strong></summary>
 
-- [Upper Control Board (PEGASUS) Documentation](#upper-control-board-pegasus-documentation)
   - [Overview](#overview)
     - [Key Features](#key-features)
   - [Circuit Design](#circuit-design)
