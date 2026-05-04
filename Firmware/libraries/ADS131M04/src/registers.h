@@ -3,7 +3,7 @@
 
 /*
  * Register definitions for the ADS131M04
- * Consult the datasheet for register contents: https://www.ti.com/lit/ds/symlink/ads131m04.pdf
+ * Consult the datasheet (Table 8-12) for register contents: https://www.ti.com/lit/ds/symlink/ads131m04.pdf
  * 
  * Not used in current implementation, will be used if library extends to ADC settings and configuration
  * 
