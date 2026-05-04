@@ -10,7 +10,6 @@
 
 ### Documentation
 - Boards and code are documented through `README` files in their respective directories. 
-- Additional documentation is also available on <a  href="https://www.notion.so/native/qret-ohyeah/Propulsion-Integration-Projects-261401792b9b805eae9ad54960dac8c4?deepLinkOpenNewTab=true">Notion</a> .
 
 ### Usage 
 - To add or update features and work on new projects, create a new branch. 
