@@ -4,6 +4,7 @@
 <details>
 <summary><strong>Table of Contents</strong></summary>
   
+- [Lower Control Board (HYDRA) Documentation](#lower-control-board-hydra-documentation)
   - [Overview](#overview)
     - [Key Features](#key-features)
   - [Circuit Design](#circuit-design)
@@ -36,9 +37,15 @@
 
 ## Overview
 
-<img src="../../Datasheets/images/lower_board_3D.png" width="500">
+<div style="display: flex; gap: 10px;">
+<p align="center">
+  <img src="../../Datasheets/images/HYDRA_Board_Front.png" width="26%">
+  <img src="../../Datasheets/images/HYDRA_Board_Back.png" width="26%">
+  <img src="../../Datasheets/images/lower_board_3D.png" width="40%">
+</p>
+</div>
 
-<em>Fig. 1: 3D-rendered view of the lower control board.</em>
+<em>Fig. 1: Hydra</em>
 
 The **Lower LC/Hydra** board is a control board designed for integration with the rocket's propulsion system.
 It operates in the **lower valve bay**, and drives solenoids to control the **dump** and **fill** valves.

@@ -4,6 +4,7 @@
 <details>
 <summary><strong>Table of Contents</strong></summary>
 
+- [Upper Control Board (PEGASUS) Documentation](#upper-control-board-pegasus-documentation)
   - [Overview](#overview)
     - [Key Features](#key-features)
   - [Circuit Design](#circuit-design)
@@ -33,9 +34,12 @@
 
 ## Overview
 
-<img src="../../Datasheets/images/upper_board_3D.png" width="500">
+<p align="center">
+  <img src="Datasheets/images/Stack_W26.png" width="42%">
+  <img src="Datasheets/images/Boards_W26.png" width="54%">
+</p>
 
-<em>Fig. 1: 3D-rendered view of the upper control board.</em>
+<em>Fig. 1: Pegasus</em>
 
 The **Upper LC/Pegasus** board is a control board designed for integration with the rocket's propulsion system.
 It operates in the **upper valve bay**, and drives a solenoid to control the rocket's vent valve.

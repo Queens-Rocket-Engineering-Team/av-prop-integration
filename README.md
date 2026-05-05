@@ -1,6 +1,11 @@
 # Propulsion Integration Systems
 > 2025-2026 Season - Propulsion Integration Projects
 
+<p align="center">
+  <img src="Datasheets/images/PEGASUS_Board_Front.png" width="38%">
+  <img src="Datasheets/images/upper_board_3D.png" width="58%">
+</p>
+
 - Repository contains Avionics schematics, PCBs, and firmware for integrating with the propulsion stack.
 
 ### Folder Structure
