@@ -35,8 +35,8 @@
 ## Overview
 
 <p align="center">
-  <img src="Datasheets/images/Stack_W26.png" width="42%">
-  <img src="Datasheets/images/Boards_W26.png" width="54%">
+  <img src="../../Datasheets/images/PEGASUS_Board_Front.png" width="38%">
+  <img src="../../Datasheets/images/upper_board_3D.png" width="58%">
 </p>
 
 <em>Fig. 1: Pegasus</em>
