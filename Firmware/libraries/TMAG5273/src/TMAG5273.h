@@ -26,13 +26,16 @@ class TMAG5273 {
         float getTemp();
         bool getAll(float* axes); 
 
+        // settings
+        bool setAveraging(uint8_t mode); 
+
     private: 
         uint8_t _addr; 
         uint8_t _range; 
         TwoWire* _i2c; 
 
-        uint8_t readRegister(uint8_t reg); 
-        void writeRegister(uint8_t reg, uint8_t data); 
+        bool readRegister(uint8_t reg, uint8 &out); 
+        bool writeRegister(uint8_t reg, uint8_t data); 
         void readRawAxis(uint8_t msbReg); 
 
 }

@@ -14,7 +14,9 @@ namespace TMAG5273_REG {
     constexpr uint8_t DEVICE_CONFIG_1 = 0X00;
     constexpr uint8_t DEVICE_CONFIG_2 = 0x01; 
     constexpr uint8_t SENSOR_CONFIG_1 = 0X02; 
-    constexpr uint8_t SENSOR_CONFIG_2 = 0X03; 
+    constexpr uint8_t SENSOR_CONFIG_2 = 0X03;
+    constexpr uint8_t T_CONFIG = 0x07; 
+     
 
     // identity 
     constexpr uint8_t DEVICE_ID = 0X0D; 
@@ -23,7 +25,7 @@ namespace TMAG5273_REG {
 
     // data 
     // only defined MSB (auto-increments to LSB)
-    cosntexpr uint8_t T_MSB_RESULT = 0X10; 
+    const uint8_t T_MSB_RESULT = 0X10; 
     constexpr uint8_t X_MSB_RESULT = 0X12; 
     constexpr uint8_t Y_MSB_RESULT = 0X14; 
     constexpr uint8_t Z_MSB_RESULT = 0X16; 
