@@ -23,6 +23,7 @@ namespace TMAG5273_REG {
 
     // data 
     // only defined MSB (auto-increments to LSB)
+    cosntexpr uint8_t T_MSB_RESULT = 0X10; 
     constexpr uint8_t X_MSB_RESULT = 0X12; 
     constexpr uint8_t Y_MSB_RESULT = 0X14; 
     constexpr uint8_t Z_MSB_RESULT = 0X16; 
