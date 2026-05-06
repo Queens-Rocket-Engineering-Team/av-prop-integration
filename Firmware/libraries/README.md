@@ -4,7 +4,9 @@
 - Directory contains firmware modules for use across programs. 
 
 Including:
-- Documentation will follow with development. 
+- ADS131m04 4-Channel ADC Library
+- TMAG5273 Hall-Effect Sensor Library
+- Board Testing Library
 --- 
 
 QRET Avionics 25/26

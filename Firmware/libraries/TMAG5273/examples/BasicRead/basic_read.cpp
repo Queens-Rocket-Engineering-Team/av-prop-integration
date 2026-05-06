@@ -2,16 +2,17 @@
  * Simple Read Example for TMAG5273
  * 
  * Example developed for ESP32
-           * For STM32, declare a SoftwareSerial instance for printing 
+           * For STM32, declare a SoftwareSerial instance for printing if needed
+ * 
  * QRET Avionics 2025-2026
 */
 
 #include <TMAG5273.h>
 
-// create a sensor instance 
+// create sensor object
 TMAG5273 sensor; 
 
-// REPLACE with board SCL/SDA pins
+// UPDATE with board SCL/SDA pins
 const int SCL_PIN = 0; 
 const int SDA_PIN = 0; 
 
