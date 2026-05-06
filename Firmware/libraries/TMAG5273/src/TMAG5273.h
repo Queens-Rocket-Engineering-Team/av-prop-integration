@@ -20,11 +20,11 @@ class TMAG5273 {
         bool init(uint8_t addr = 0x35, TwoWire &port = Wire); 
 
         // data
-        float getX(); 
-        float getY(); 
-        float getZ(); 
+        float getFluxX(); 
+        float getFluxY(); 
+        float getFluxZ(); 
         float getTemp();
-        bool getAll(float* axes); 
+        bool getAllFlux(float* axes); 
 
         // settings
         bool setAveraging(uint8_t mode); 
@@ -33,13 +33,21 @@ class TMAG5273 {
 
     private: 
         uint8_t _addr; 
-        uint8_t _range; 
-        TwoWire* _i2c; 
+        TwoWire* _i2c;
+        float _range; 
+ 
 
-        bool readRegister(uint8_t reg, uint8 &out); 
+        // temperature constants from datasheets (section 5.6)
+        const float TADC_T0 = 17508.0f;
+        const float TSENSE_T0 = 25.0f; 
+        const float TADC_RES = 58.0f; 
+
+        const float B16_SCALE = 32768.0f; // 32,768 (2^15) is the 16-bit scaling value
+
+        bool readRegister(uint8_t reg, uint8_t* buffer, uint8_t len = 1); 
         bool writeRegister(uint8_t reg, uint8_t data); 
         int16_t combineBytes(uint8_t msb, uint8_t lsb); 
-        float rawTomT(int16_t raw, float range = 80.0f);
-}
+        float rawTomT(int16_t raw, float range = 80.0f); // if range changes, change this to 40.0f
+}; 
 
 #endif 

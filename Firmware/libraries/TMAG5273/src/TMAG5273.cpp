@@ -4,7 +4,7 @@
  * Hardware: TI TMAG5273 https://www.ti.com/lit/ds/symlink/tmag5273.pdf
  * Env: Arduino Framework (PlatformIO - STM32 & ESP32)
  * Created: May.4.2026
- * Updated: 
+ * Updated: May.6.2026
  * Purpose: SRAD Library for use across control boards interfacing with TMAG5273 sensor(s)
  * 
  * QRET Avionics 2025-2026
@@ -21,9 +21,10 @@ bool TMAG5273::init(uint8_t addr, TwoWire &port) {
     _i2c = &port;  
 
     // confirm device (0X5449 | "TI" in ASCII)
-    uint8_t id_msb, id_lsb = 0;
-    if (!readRegister(TMAG5273_REG::MANUFACTURER_ID_MSB, id_msb)) return false; 
-    if (!readRegister(TMAG5273_REG::MANUFACTURER_ID_LSB, id_lsb)) return false; 
+    uint8_t id_msb =0;
+    uint8_t id_lsb = 0;
+    if (!readRegister(TMAG5273_REG::MANUFACTURER_ID_MSB, &id_msb)) return false; 
+    if (!readRegister(TMAG5273_REG::MANUFACTURER_ID_LSB, &id_lsb)) return false; 
 
     if (id_msb != 0x54 || id_lsb != 0x49) return false;
 
@@ -48,6 +49,7 @@ bool TMAG5273::init(uint8_t addr, TwoWire &port) {
     // bit 0: Z_RANGE = 1h (+- 80mT)
     // combined: 0000 0011 = 0x03 
     if (!writeRegister(TMAG5273_REG::SENSOR_CONFIG_2, 0x03)) return false; 
+    _range = 80.0f; 
 
     // activate 
     // bits 4: LP_LN = 0h (low active current mode)
@@ -61,15 +63,62 @@ bool TMAG5273::init(uint8_t addr, TwoWire &port) {
     return true;
 } 
 
-float TMAG5273::getX() {}
+/// @brief obtain flux values from sensor readings for all axes
+/// @param axes pointer to float array to store flux values in mT
+/// @return true on successful sensor read, false otherwise
+bool TMAG5273::getAllFlux(float* axes) {
+    uint8_t buffer[6]; // buffer for X_MSB through Z_LSB
 
-float TMAG5273::getY() {}
+    // obtain data; sensor auto-increments
+    if (!readRegister(TMAG5273_REG::X_MSB_RESULT, buffer, 6)) return false; 
 
-float TMAG5273::getZ() {}
+    // combine MSB & LSB, convert to mT, and copy to output aray
+    axes[0] = rawTomT(combineBytes(buffer[0], buffer[1])); 
+    axes[1] = rawTomT(combineBytes(buffer[2], buffer[3])); 
+    axes[2] = rawTomT(combineBytes(buffer[4], buffer[5])); 
 
-float TMAG5273::getTemp() {}
+    return true;
+}
 
-bool TMAG5273::getAll(float* axes) {}
+// Obtain flux values (mT) for a specific axis (X, Y, Z)
+
+float TMAG5273::getFluxX() {
+    float data[3]; 
+    if (!getAllFlux(data)) return NAN; // unsuccessful getAllFlux()
+
+    return data[0]; 
+}
+
+float TMAG5273::getFluxY() {
+    float data[3]; 
+    if (!getAllFlux(data)) return NAN; // unsuccessful getAllFlux()
+
+    return data[1]; 
+}
+
+float TMAG5273::getFluxZ() {
+    float data[3]; 
+    if (!getAllFlux(data)) return NAN; // unsuccessful getAllFlux()
+
+    return data[2]; 
+}
+
+/// @brief obtain temperature values from sensor
+/// @return float temperature value in celsius
+float TMAG5273::getTemp() {
+    uint8_t buffer[2]; 
+
+    // read MSB and LSB
+    if (!readRegister(TMAG5273_REG::T_MSB_RESULT, buffer, 2)) return NAN; // read error
+
+    // combine into unsigned 16-bit
+    uint16_t rawTemp = combineBytes(buffer[0], buffer[1]); 
+
+    // convert to celsius using Equation 12 from the datsheet using provided constants 
+    // T = TSENSE_T0 + ((rawTemp - TADC_T0) / (TADC_RES))
+    float temp = TSENSE_T0 + (((float)rawTemp - TADC_T0) / TADC_RES);
+    return temp; 
+}
 
 /// @brief set the averaging speed
 /// @param mode averaging mode speed; found on datasheet Table 8-3
@@ -91,7 +140,7 @@ bool TMAG5273::setAveraging(uint8_t mode) {
 /// @return the raw status byte; 0 means no errors. 
 uint8_t TMAG5273::getDeviceStatus() {
     uint8_t status = 0;
-    if (!readRegister(TMAG5273_REG::DEVICE_STATUS, status)) return 0XFF; // read error 
+    if (!readRegister(TMAG5273_REG::DEVICE_STATUS, &status)) return 0XFF; // read error 
 
     return (status & 0x0F); // only focus on bits 3-0
 }
@@ -114,20 +163,25 @@ bool TMAG5273::writeRegister(uint8_t reg, uint8_t data) {
     }
 }
 
-/// @brief read a single byte from a register
-/// @param reg register address to read from
-/// @param out reference to a byte where the read value will be stored
-/// @return true if the read succeeds (1 byte received), false otherwise
-bool TMAG5273::readRegister(uint8_t reg, uint8_t &out) {
-    if (!_i2c) return false;
+/// @brief reads one or more bytes from a specific register
+/// @param reg starting register address to read from
+/// @param buffer pointer to a byte array for stored data
+/// @param len number of bytes to read (defaults to 1)
+/// @return true if the I2C transaction was successful and requested number of bytes were received, false otherwise
+bool TMAG5273::readRegister(uint8_t reg, uint8_t* buffer, uint8_t len) {
+    if (!_i2c || len == 0) return false;
 
     _i2c->beginTransmission(_addr);
     _i2c->write(reg);
 
-    if(_i2c->endTransmission(false) != 0) return false;  // repeated start
+    if (_i2c->endTransmission(false) != 0) return false;  // send repeated start to keep bus active
 
-    if (_i2c->requestFrom(_addr, (uint8_t)1) == 1) { // request a single byte and copy to output buffer if a single byte is returned
-        out = _i2c->read(); 
+    // request "len" bytes from sensor
+    if (_i2c->requestFrom(_addr, len) == len) { 
+        for (uint8_t i = 0; i < len; i++) {
+            buffer[i] = _i2c->read(); // copy data into buffer
+        }
+        
         return true;
     }
 
@@ -147,7 +201,7 @@ int16_t TMAG5273::combineBytes(uint8_t msb, uint8_t lsb) {
  /// @param raw 16-bit data read from sensor
  /// @param range sensor range configured in init()
  /// @return milli-Tesla float value
- float rawTomT(int16_t raw, float range = 80.0f) {
-    return (float)raw * (range / 32768.0f); // 32,768 (2^15) is the 16-bit scaling value
+ float TMAG5273::rawTomT(int16_t raw, float range) {
+    return (float)raw * (range / B16_SCALE);
  }
 
