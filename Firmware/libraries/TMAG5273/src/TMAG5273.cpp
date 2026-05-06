@@ -55,6 +55,9 @@ bool TMAG5273::init(uint8_t addr, TwoWire &port) {
     // combined: 0000 0010 = 0x02
     if (!writeRegister(TMAG5273_REG::DEVICE_CONFIG_2, 0x02)) return false;
 
+    uint8_t deviceStatus = getDeviceStatus(); 
+    if (deviceStatus != 0) return false; 
+
     return true;
 } 
 
@@ -64,9 +67,8 @@ float TMAG5273::getY() {}
 
 float TMAG5273::getZ() {}
 
-float getTemp() {}
+float TMAG5273::getTemp() {}
 
-// read into a float array for each axis
 bool TMAG5273::getAll(float* axes) {}
 
 /// @brief set the averaging speed
@@ -78,6 +80,20 @@ bool TMAG5273::setAveraging(uint8_t mode) {
 
     uint8_t value = (mode & 0x07) << 2; // (mode & 0x07) ensures we only ever use the bottom 3 bits
     return writeRegister(TMAG5273_REG::DEVICE_CONFIG_1, value); 
+}
+
+/*  bit 3: OSC_ER (oscillator error) 
+ bit 2: INT_ER (interrupt pin error) 
+ bit 1: OTP_CRC_ER (optional CRC error)
+ bit 0: VCC_UV_ER (VCC undervoltage error) */
+
+/// @brief check device status for hardware erors
+/// @return the raw status byte; 0 means no errors. 
+uint8_t TMAG5273::getDeviceStatus() {
+    uint8_t status = 0;
+    if (!readRegister(TMAG5273_REG::DEVICE_STATUS, status)) return 0XFF; // read error 
+
+    return (status & 0x0F); // only focus on bits 3-0
 }
 
 /// @brief write a single byte of data into a register
@@ -118,5 +134,20 @@ bool TMAG5273::readRegister(uint8_t reg, uint8_t &out) {
     return false;
 }
 
-void TMAG5273::readRawAxis(uint8_t msbReg) {}
+/// @brief combine 8-bit data from msb and lsb registers
+/// @param msb data from msb register
+/// @param lsb data from lsb register
+/// @return combined 16-bit data
+int16_t TMAG5273::combineBytes(uint8_t msb, uint8_t lsb) {
+    // shift, add, cast
+    return (int16_t)((msb << 8) | lsb); 
+}
+
+ /// @brief convert raw 16-bit data to a milli-Tesla float value
+ /// @param raw 16-bit data read from sensor
+ /// @param range sensor range configured in init()
+ /// @return milli-Tesla float value
+ float rawTomT(int16_t raw, float range = 80.0f) {
+    return (float)raw * (range / 32768.0f); // 32,768 (2^15) is the 16-bit scaling value
+ }
 

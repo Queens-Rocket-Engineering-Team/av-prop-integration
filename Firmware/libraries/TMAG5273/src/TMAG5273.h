@@ -28,6 +28,8 @@ class TMAG5273 {
 
         // settings
         bool setAveraging(uint8_t mode); 
+        
+        uint8_t getDeviceStatus(); 
 
     private: 
         uint8_t _addr; 
@@ -36,8 +38,8 @@ class TMAG5273 {
 
         bool readRegister(uint8_t reg, uint8 &out); 
         bool writeRegister(uint8_t reg, uint8_t data); 
-        void readRawAxis(uint8_t msbReg); 
-
+        int16_t combineBytes(uint8_t msb, uint8_t lsb); 
+        float rawTomT(int16_t raw, float range = 80.0f);
 }
 
 #endif 

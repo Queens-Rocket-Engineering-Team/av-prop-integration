@@ -29,6 +29,9 @@ namespace TMAG5273_REG {
     constexpr uint8_t X_MSB_RESULT = 0X12; 
     constexpr uint8_t Y_MSB_RESULT = 0X14; 
     constexpr uint8_t Z_MSB_RESULT = 0X16; 
+
+    // status
+    constexpr uint8_t DEVICE_STATUS = 0x1C; 
     
 };
 
