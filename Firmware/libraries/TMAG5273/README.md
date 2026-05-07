@@ -8,7 +8,7 @@ A C++/Arduino library for interfacing with the TI TMAG5273A1.
 - **Internal Temperature Compensation:** Integrated temperature sensing for environmental control and reading offsets. 
 - **Platform Compatibility:** Designed for **ESP32** and **STM32** architectures via the `TwoWire` interface.
   
-<hr>
+---
 
 ## Installation
 #### PlatformIO 
@@ -22,7 +22,7 @@ lib_deps =
 1. Download this repository
 2. Place the folder into your project's `lib/` directory. 
 
-<hr>
+---
 
 ## Wiring Reference
 
@@ -35,7 +35,7 @@ lib_deps =
 
 **Note:** Ensure 2.2kΩ - 10kΩ pull-up resistors are present on the SDA and SCL lines. 
 
-<hr>
+---
 
 ## Quick Start 
 First, import libraries and create an instance of the `TMAG5273` class to the implementation. 
@@ -81,7 +81,7 @@ float axes[3]; // store the flux readings for each axis
     // obtain and log temperature data
     float temp = sensor.getTemp(); 
     if (!isnan(temp)) {
-        Serial.print("Temp: "); 
+        Serial.print(" | Temp: "); 
         Serial.print(temp, 2); 
         Serial.println(" C");
     }
@@ -91,7 +91,7 @@ float axes[3]; // store the flux readings for each axis
 ```
 Check out the [BasicRead](/Firmware/libraries/TMAG5273/examples/BasicRead/basic_read.cpp) example to run this. 
 
-<hr>
+---
 
 ## API Reference
 `bool init(uint8_t addr, TwoWire &port)`
@@ -99,19 +99,27 @@ Initializes the sensor, verifies the Manufacturer ID (TI), and configures the de
 - **Default Address**: `0x35` (A1 model). 
 - **Returns:** `true` if initialization and self-check (Device Status) succeed. 
 
+---
+
 `bool getAllFlux(float* axes)`
 Performs a burst read of the X, Y, and Z magnetic registers and writes result to a float array of size 3.
 - **Returns:** `true` if the I2C transaction succeeds. 
 - Results are in milli-Tesla (mT).
+
+---
 
 `float getFluxX()`, `float getFluxY()`, `float getFluxZ()`
 Returns the magnetic flux density for a specific axis in milli-Tesla (mT). 
 - **Returns:** The flux value as a `float`. Returns `NAN` if the sensor read fails. 
 - **Note:** These methods call `getAllFlux()` internally. 
 
+---
+
 `float getTemp()`
 Reads the internal temperature sensor. 
 - **Returns:** Die temperature in Celsius as a `float`. Returns `NAN` on communication failure. 
+
+---
 
 `uint8_t getDeviceStatus()`
 Reads the `DEVICE_STATUS` register (bits 3:0) to scan for hardware-level errors. 
@@ -123,6 +131,8 @@ Reads the `DEVICE_STATUS` register (bits 3:0) to scan for hardware-level errors.
   - `bit 0`: VCC undervoltage. 
   - `0xFF` I2C Read Failure.
 
+---
+
 `bool setAveraging(uint8_t mode)`
 Configures the internal digital averaging filter. 
 - **Modes:**
@@ -132,7 +142,7 @@ Configures the internal digital averaging filter.
   - Refer to Table 8-3 in [Datasheet](https://www.ti.com/lit/ds/symlink/tmag5273.pdf) for higher modes. 
 - **Returns:** `true` if the configuration write succeeds. 
 
-<hr>
+---
 
 QRET Avionics 25/26
 

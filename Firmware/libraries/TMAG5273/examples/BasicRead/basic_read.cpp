@@ -50,7 +50,7 @@ void loop() {
     // obtain and log temperature data
     float temp = sensor.getTemp(); 
     if (!isnan(temp)) {
-        Serial.print("Temp: "); 
+        Serial.print(" | Temp: "); 
         Serial.print(temp, 2); 
         Serial.println(" C");
     }
