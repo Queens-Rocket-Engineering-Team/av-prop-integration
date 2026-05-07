@@ -57,9 +57,7 @@ void pollADC()
             float psi1 = processPT(volts[0]);
             float psi2 = processPT(volts[1]);
 
-            float coldJunc = readColdJunction(CJC_SENSE_PIN);
-            float deltaT = readDeltaTemp(volts[2]);
-            float tempC = coldJunc + deltaT; // compensated temp
+            float tempC = processTC(volts[2], CJC_SENSE_PIN);
 
             serial.print("PT1: ");
             serial.print(psi1, 1);

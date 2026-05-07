@@ -53,15 +53,6 @@ float readColdJunction(const int TEMP_SENSE);
 float readDeltaTemp(float voltage);
 float processTC(float voltageTC, const int thermPin);
 
-// ANOLOG SENSOR BULK READ
-void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, const int thermPin);
-
-// HALL SENSOR
-// extern TMAG5273 hallSensor; 
-// void hallSetup();
-// void readHall(int hallID); 
-
-
 // VALVE CONTROL
 void enableValve(const int solENPin);
 void disableValve(const int solENPin);

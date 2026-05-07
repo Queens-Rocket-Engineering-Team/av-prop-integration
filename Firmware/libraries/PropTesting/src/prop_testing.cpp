@@ -4,7 +4,7 @@
  * Hardware: Lower LC Board (HYDRA), Upper LC Board (PEGASUS)
  * Env: PlatformIO (STM32 and ESP32)
  * Created: ~Feb.12.2026
- * Updated: April.25.2026
+ * Updated: May.7.2026
  * Purpose: SRAD firmware for peripheral testing of prop. control boards.
  * 
  * QRET Avionics 2025-2026
@@ -29,18 +29,6 @@ void adcSetup(ADS131M04& adc) {
     
     adc.init();
     delay(100); 
-}
-
-// read all channels of ADC into a buffer
-bool readAllADC(ADS131M04& adc, int32_t* outputBuffer) {
-    bool success = adc.readChannels(outputBuffer); 
-
-    // zero-out buffer on failure
-    if (!success) {
-        for (int i= 0; i < 4; i++) outputBuffer[i] = 0;
-    }
-
-    return success; 
 }
 
 // PRESSURE TRANSDUCER ===================
@@ -86,40 +74,6 @@ float processTC(float voltageTC, const int thermPin) {
     float compensatedTemp = coldJunctionTemp + deltaTemp;
     return compensatedTemp; 
 }
-
-// ANALOG SENSOR BULK READ ===================
-// use for full tests to eliminate seperate ADC calls. 
-// void readAnalogSensors(ADS131M04& adc, int8_t chPT1, int8_t chPT2, int8_t chTC, const int thermPin) {
-//     int32_t raw[4]; // raw ADC readings
-//     float volts[4]; // readings converted to voltages
-
-//     adc.readChannels(raw);
-//     adc.computeVoltages(raw, volts); 
-
-//     // in the future can store p1,p2,t1 in a AnalogResults struct or something
-//     float p1 = processPT(volts[chPT1]); 
-//     float p2 = processPT(volts[chPT2]);
-//     float t1 = processTC(volts[chTC], thermPin);
-// }
-
-// HALL EFFECT SENSOR ===================
-// Temporary usage of the SparkFun TMAG5273 Library for immediate testing. 
-// An SRAD library is in development. 
-// void hallSetup() {
-//     if (hallSensor.begin(HALL_ADDR, Wire) == true) {
-//         DEBUG_PORT.println("TMAG5273 online"); 
-//     } else {
-//         DEBUG_PORT.println("TMAG5263 failed to initialize"); 
-//     }
-// }
-
-// void readHall(int hallID) {
-//     float x = hallSensor.getXData();
-//     float y = hallSensor.getYData();
-//     float z = hallSensor.getZData(); 
-
-//     DEBUG_PORT.printf("HALL %d: MAG [mT] X:%.2f Y:%.2f Z:%.2f\n", hallID, x, y, z);
-// }
 
 // VALVE CONTROL ===================
 // actuate a solenoid for a custom duration or two seconds (when not specified)
