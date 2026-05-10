@@ -171,7 +171,16 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
+<<<<<<<< HEAD:Schematics/hall_effect_board/hall_effect_board.kicad_pro
       "track_widths": [],
+========
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5,
+        1.0
+      ],
+>>>>>>>> main:Schematics/dummy_24v_board/dummy_24v_board.kicad_pro
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -431,7 +440,11 @@
     "pinned_symbol_libs": []
   },
   "meta": {
+<<<<<<<< HEAD:Schematics/hall_effect_board/hall_effect_board.kicad_pro
     "filename": "hall_effect_board.kicad_pro",
+========
+    "filename": "dummy_24v_board.kicad_pro",
+>>>>>>>> main:Schematics/dummy_24v_board/dummy_24v_board.kicad_pro
     "version": 1
   },
   "net_settings": {
@@ -459,14 +472,19 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -576,7 +594,11 @@
   },
   "sheets": [
     [
+<<<<<<<< HEAD:Schematics/hall_effect_board/hall_effect_board.kicad_pro
       "cea352d5-1e3c-4af0-8669-14f849063771",
+========
+      "f0325854-a423-47be-953e-4a5cbde51c3f",
+>>>>>>>> main:Schematics/dummy_24v_board/dummy_24v_board.kicad_pro
       "Root"
     ]
   ],
