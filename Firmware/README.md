@@ -1,12 +1,11 @@
-# LC Board Firmware
+# Propulsion Integration Boards Firmware
 
-This directory contains the ESP32 firmware for the launch control (LC) board. 
+This directory contains the firmware for both prop. integration boards. 
 
 Including:
 
-- reading sensors. 
-- valve control.
-- CAN protocol communication.
+- board-specific firmware (testing, WiFi)
+- shared firmware
 
- Firmware is developed in Arduino C/C++ and will be flashed via USB. 
+ Firmware is developed in Arduino C/C++. 
 

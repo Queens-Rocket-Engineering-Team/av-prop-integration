@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EdgeConnectorV2")(type "KiCad")(uri "/home/tristan/development/qret/git/av-prop-integration/Schematics/shared_schematics/symbols/EdgeConnectorV2.kicad_sym")(options "")(descr ""))
+)
